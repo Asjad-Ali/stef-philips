@@ -8,7 +8,7 @@
 
         <div class="flex items-center gap-x-6">
           <div
-            class="h-8 w-8 rounded-full ring-1 ring-1 bg-blue-50 flex text-[#2B8CFB] items-center ring-[#2B8CFB] justify-center"
+            class="h-8 w-8 rounded-full ring-2 bg-blue-50 flex text-trisec items-center ring-trisec justify-center"
           >
             <span class="text-xl">
               <Icon icon="ic:round-search" />
@@ -17,7 +17,7 @@
           <Listbox as="div" v-model="selected">
             <div class="relative">
               <ListboxButton
-                class="relative w-full cursor-default rounded-full bg-white py-1 pl-3 pr-20 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 ring-[#2B8CFB] bg-blue-50 focus:outline-none focus:ring-2 focus:ring-sky-500 sm:text-sm sm:leading-6"
+                class="relative w-full cursor-default rounded-full bg-white py-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset   bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
               >
                 <span class="inline-flex w-full items-center truncate">
                   <span class="truncate">
@@ -78,7 +78,7 @@
         </div>
       </div>
     </div>
-    <div class="h-16 w-full bg-gradient-to-r from-[#1E3055] to-[#2B8CFB]">
+    <div class="h-16 w-full bg-gradient-to-r from-[#1E3055] to-trisec">
       <div class="max-w-5xl h-full mx-auto flex items-center justify-between px-8">
         <a class="text-white text-sm" href="#">About us</a>
         <a class="text-white text-sm" href="#">Your home</a>
@@ -107,9 +107,10 @@ import {
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
 
 const people = [
-  { name: "twemoji:flag-england", username: "English" },
-  { name: "twemoji:flag-france", username: "France" },
-  { name: "twemoji:flag-spain", username: "Spain" }
+  { name: "circle-flags:uk", username: "English" },
+  { name: "emojione:flag-for-france", username: "France" },
+  { name: "emojione:flag-for-spain", username: "Spain" },
+  { name: "emojione:flag-for-pakistan", username: "Urdu" }
 ];
 
 const selected = ref(people[0]);

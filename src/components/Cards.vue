@@ -9,7 +9,7 @@
           <img class="h-40 w-full object-cover" :src="person.imageUrl" alt />
           <div class="py-4 px-6">
             <h3
-              class="mt-0 text-base font-semibold leading-7 tracking-tight text-left text-primary"
+              class="mt-0 text-xl whitespace-nowrap font-semibold leading-7 tracking-tight text-left text-trisec"
             >{{ person.name }}</h3>
             <p class="text-sm leading-6 text-gray-700 text-left">{{ person.role }}</p>
             <div class="w-full h-full flex">

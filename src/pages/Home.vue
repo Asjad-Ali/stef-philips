@@ -20,16 +20,16 @@
     <div class="py-40">
       <div class="mx-auto max-w-5xl px-8 grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
-          <h1 class="text-4xl mt-12 text-primary leading-[50px] font-semibold">
+          <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
             <span class="font-light">Working towards a world</span>
-            <span>without homelessness</span>
+            <span> without homelessness</span>
           </h1>
           <p
             class="text-md mt-8 leading-loose tracking-wide"
           >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
           <button
             type="button"
-            class="bg-sky-600 py-4 px-12 text-sm font-semibold mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-trisec py-4 px-12 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >About us</button>
         </div>
         <div class="relative">
@@ -140,11 +140,11 @@
         <div class="flex items-center gap-6">
           <button
             type="button"
-            class="bg-sky-600 py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-sky-600 py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Quick report</button>
           <button
             type="button"
-            class="bg-second py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-trisec py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Report a repair or maintainance</button>
         </div>
       </div>
