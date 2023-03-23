@@ -44,11 +44,11 @@
     <div class="py-44">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
         <div class>
-          <img src="../assets/bg.png" class="z-50 h-full object-cover" alt />
+          <img src="../assets/bg.png" class="z-50 h-full w-full md:w-0 object-cover" alt />
         </div>
         <div class="flex items-center justify-center">
-          <div class="w-4/5 h-3/5">
-            <span class="text-2xl text-primary">
+          <div class="w-4/5 mt-6 md:mt-0 ">
+            <span class="text-2xl    text-primary">
               <Icon icon="ooui:quotes-ltr" />
             </span>
             <h1
@@ -68,7 +68,7 @@
       <div class="absolute top-0 w-full h-full flex items-center justify-center left-0 happyS">
         <div class="max-w-5xl w-full mx-auto grid md:grid-cols-2">
           <div class>
-            <div class="max-w-sm">
+            <div class="max-w-sm   mx-auto md:mx-0">
               <h1 class="text-4xl leading-snug text-white">
                 Striving to make the lives of vulnerable people
                 <span class="font-bold">safer</span> and
@@ -80,7 +80,7 @@
               >We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
 
-            <div class="flex items-center gap-8">
+            <div class="flex items-center justify-center md:justify-start   gap-8">
               <button
                 type="button"
                 class="bg-transparent whitespace-nowrap w-52 ring-2 ring-white py-3.5 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
@@ -96,7 +96,7 @@
     </div>
 
     <div class="bg-second py-48">
-      <div class="max-w-5xl mx-auto">
+      <div class="max-w-5xl mx-auto px-8">
         <h1 class="text-white text-4xl">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
@@ -127,7 +127,7 @@
     <!--  -->
     <!--  -->
 
-    <div class="max-w-5xl mx-auto py-28 bg-[#EC8B7E]/10 my-32">
+    <div class="max-w-5xl mx-auto px-8 py-28 bg-[#EC8B7E]/10 my-32">
       <div class="max-w-4xl mx-auto">
         <img src="../assets/pink.png" alt />
         <h1 class="block py-4 text-4xl text-second">

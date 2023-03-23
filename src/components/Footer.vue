@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-second" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-5xl px-6 pb-8 lg:px-8 lg:pt-16">
+    <div class="mx-auto max-w-5xl px-6 py-8 lg:px-8 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <img src="../assets/footer.png" alt="Company name" />
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
