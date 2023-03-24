@@ -1,24 +1,26 @@
 <template>
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
-      <div class="max-w-5xl px-8 h-full py-40 mx-auto flex items-center">
-        <div class="max-w-sm mr-6">
-          <h1 class="text-5xl text-white font-normal tracking-wide leading-snug">
+      <div class="w-full h-[600px] flex justify-center items-center">
+        <div class="w-[60%]">
+          <h1 class="text-5xl text-white font-normal tracking-wide w-[50%] leading-snug">
             <span>Foundations for</span>
             <br />
             <span class="font-semibold">better lives</span>
           </h1>
           <p
-            class="text-white mt-4 tracking-wide leading-snug font-semibold"
+            class="text-white mt-4 tracking-wide leading-snug font-semibold w-[50%]"
           >Safe, suitable homes and vital services for tenants, authorities and partners, backed by investors who care.</p>
         </div>
       </div>
     </div>
 
     <!-- Step 2 -->
-
-    <div class="py-40">
-      <div class="mx-auto max-w-5xl px-8 grid md:grid-cols-2 grid-cols-1 gap-12">
+    <div class="w-full flex justify-center">
+    <div class="w-[60%]">
+    
+      <div class="py-40">
+      <div class="max-w-5xl  grid md:grid-cols-2 grid-cols-1 h-[540px] gap-12">
         <div class>
           <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
             <span class="font-light">Working towards a world</span>
@@ -32,9 +34,10 @@
             class="bg-trisec py-4 px-12 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >About us</button>
         </div>
-        <div class="relative">
-          <img src="../assets/pic.png" class="absolute -z-10 -bottom-16 -right-16" alt />
-          <img src="../assets/card.png" class="z-50" alt />
+        <div class="flex justify-center ">
+          <!-- <img src="../assets/pic.png" class="absolute -z-10  -bottom-16 -right-16" alt />
+          <img src="../assets/card.png" class="z-50 " alt /> -->
+          <img src="../assets/HeroSection.png" alt >
         </div>
       </div>
     </div>
@@ -61,7 +64,10 @@
           </div>
         </div>
       </div>
+    </div>    
     </div>
+  </div>
+
 
     <!-- image -->
     <div class="happyG w-full h-[600px] relative overflow-hidden ">
