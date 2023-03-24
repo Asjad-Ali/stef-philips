@@ -1,16 +1,16 @@
 <template>
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
-      <div class="w-full h-[600px] flex justify-center items-center">
-        <div class="w-[60%]">
-          <h1 class="text-5xl text-white font-normal tracking-wide w-[50%] leading-snug">
+      <div class="max-w-5xl w-[60%] h-[600px] mx-auto flex items-center">
+        <div class=" max-w-sm">
+          <h1 class="text-5xl text-white font-normal tracking-wide  leading-snug">
             <span>Foundations for</span>
             <br />
             <span class="font-semibold">better lives</span>
           </h1>
           <p
-            class="text-white mt-4 tracking-wide leading-snug font-semibold w-[50%]"
-          >Safe, suitable homes and vital services for tenants, authorities and partners, backed by investors who care.</p>
+            class="text-white mt-4 tracking-wide leading-snug font-semibold "
+          >Safe, suitable homes and vital services for tenants,<br> authorities and partners, backed by investors who care.</p>
         </div>
       </div>
     </div>
@@ -18,9 +18,8 @@
     <!-- Step 2 -->
     <div class="w-full flex justify-center">
     <div class="w-[60%]">
-    
-      <div class="py-40">
-      <div class="max-w-5xl  grid md:grid-cols-2 grid-cols-1 h-[540px] gap-12">
+      <div class="py-20">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
           <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
             <span class="font-light">Working towards a world</span>
@@ -41,13 +40,17 @@
         </div>
       </div>
     </div>
+    </div>
+    </div>
     <Cards />
-
+    
+    
     <!--  -->
-    <div class="py-44">
+   
+    <div class="py-20 w-[60%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
         <div class>
-          <img src="../assets/bg.png" class="z-50 h-full w-full md:w-0 object-cover" alt />
+          <img src="../assets/bg.png" class="z-50 h-full w-full object-cover" alt />
         </div>
         <div class="flex items-center justify-center">
           <div class="w-4/5 mt-6 md:mt-0 ">
@@ -59,41 +62,37 @@
             >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
             <div class="my-5">
               <h1 class="text-xl text-white">Name here</h1>
-              <h1 class="text-xl text-white">Title here</h1>
+              <h1 class="text-xl text-white font-semibold">Title here</h1>
             </div>
           </div>
         </div>
       </div>
     </div>    
-    </div>
-  </div>
-
 
     <!-- image -->
-    <div class="happyG w-full h-[600px] relative overflow-hidden ">
+    <div class="happyG w-full h-[700px] relative overflow-hidden ">
       <div class="absolute top-0 w-full h-full flex items-center  justify-center left-0 happyS">
-        <div class="max-w-5xl w-full mx-auto grid grid-cols-1">
-          <div class="mx-4 max-w-sm">
+        <div class="max-w-5xl w-[60%] mx-auto grid grid-cols-1">
+          <div class="max-w-md">
             <div class="">
-              <h1 class="  xxs:text-3xl md:text-4xl leading-snug text-white ">
+              <h1 class="xxs:text-3xl md:text-4xl leading-snug text-white ">
                 Striving to make the lives of vulnerable people
                 <span class="font-bold">safer</span> and
                 <span class="font-bold">more secure</span>
               </h1>
-
               <p
-                class="mt-4  text-white md:font-semibold "
+                class="mt-4 text-white md:font-semibold "
               >We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
 
-            <div class="flex xxs:flex-wrap  xs:flex-nowrap items-center justify-center sm:justify-start gap-5">
+            <div class="flex xxs:flex-wrap xs:flex-nowrap items-center justify-center sm:justify-start gap-4">
               <button
                 type="button"
-                class="bg-transparent whitespace-nowrap w-52 ring-2 ring-white py-3.5 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                class="bg-transparent whitespace-nowrap w-52 ring-2 ring-white py-3.5 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >For housing parteners</button>
               <button
                 type="button"
-                class="bg-transparent w-52 ring-2 ring-white py-3.5 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                class="bg-transparent w-52 ring-2 ring-white py-3.5 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >For Investors</button>
             </div>
           </div>
@@ -101,8 +100,8 @@
       </div>
     </div>
 
-    <div class="bg-second py-48">
-      <div class="max-w-5xl mx-auto px-8">
+    <div class="bg-second py-40">
+      <div class="max-w-5xl mx-auto w-[60%]">
         <h1 class="text-white text-4xl">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
@@ -133,8 +132,8 @@
     <!--  -->
     <!--  -->
 
-    <div class="max-w-5xl mx-auto px-8 py-28 bg-[#EC8B7E]/10 my-32">
-      <div class="max-w-4xl mx-auto">
+    <div class="max-w-5xl w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
+      <div class="max-w-4xl mx-auto ">
         <img src="../assets/pink.png" alt />
         <h1 class="block py-4 text-4xl text-second">
           Need help
@@ -143,19 +142,18 @@
         <p
           class="pb-4"
         >Use our quick online form. The quickest way to report an issue and get it fixed.</p>
-        <div class="flex items-center gap-6">
+        <div class="flex flex-wrap items-center gap-6">
           <button
             type="button"
-            class="bg-sky-600 py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-sky-600 py-4 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Quick report</button>
           <button
             type="button"
-            class="bg-trisec py-4 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-trisec py-4 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Report a repair or maintainance</button>
         </div>
       </div>
     </div>
-
     <Cards />
 
   </div>
