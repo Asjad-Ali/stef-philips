@@ -10,7 +10,7 @@
           </h1>
           <p
             class="text-white mt-4 tracking-wide leading-snug font-semibold "
-          >Safe, suitable homes and vital services for tenants,<br> authorities and partners, backed by investors who care.</p>
+          >Safe, suitable homes and vital services for tenants, authorities and partners, backed by investors who care.</p>
         </div>
       </div>
     </div>
