@@ -4,6 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  font-family:'sans sarif'
+}
 .wrapper {
     position: relative;
     width: 100vw;
