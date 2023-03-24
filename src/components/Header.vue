@@ -1,7 +1,7 @@
 <template>
   <div>
-  <div class="w-full flex justify-center">
-    <div class="h-16 w-[60%] bg-white shadow nav">
+  <div class="w-full flex justify-center upper-nav">
+    <div class="h-16 w-[60%] bg-white    nav">
       <div class="max-w-5xl h-full mx-auto flex items-center justify-between gap-4 wrap">
         <a href="#">
           <img :src="logo" class="h-auto" alt />
@@ -83,13 +83,13 @@
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
       <div class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
-        <a class="text-white text-sm" href="#">About us</a>
-        <a class="text-white text-sm" href="#">Your home</a>
-        <a class="text-white text-sm" href="#">Help and Advice</a>
-        <a class="text-white text-sm" href="#">Housing Parteners</a>
-        <a class="text-white text-sm" href="#">Investors</a>
-        <a class="text-white text-sm" href="#">Careers</a>
-        <a class="text-white text-sm" href="#">Contact</a>
+        <router-link class="text-white text-sm" to="#">About us</router-link>
+        <router-link class="text-white text-sm" to="/home">Your home</router-link>
+        <router-link class="text-white text-sm" to="#">Help and Advice</router-link>
+        <router-link class="text-white text-sm" to="#">Housing Parteners</router-link>
+        <router-link class="text-white text-sm" to="#">Investors</router-link>
+        <router-link class="text-white text-sm" to="#">Careers</router-link>
+        <router-link class="text-white text-sm text-white" to="/contact">Contact</router-link>
       </div>
     
     </div>  
@@ -134,21 +134,22 @@ const selected = ref(people[0]);
   .wrap{
     flex-wrap: wrap;
   }
-.bl{
-  margin-top:50px;
+  .upper-nav{
+    height: 120px;
+  }
 }
-}
+
+
 @media(max-width:550px){
 .nav{
   width:100%;
-  padding:10px
+
 }
 
 }
 @media(max-width:500px){
 .nav{
   width:100%;
-  padding:5px
 }
 
 

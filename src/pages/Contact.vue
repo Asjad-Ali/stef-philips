@@ -1,7 +1,7 @@
 <template>
   <div class="w-full min-h-[600px] bg-red-400 bgImg">
-    <div class="max-w-5xl px-8 h-full py-40 mx-auto flex items-center">
-      <div class="max-w-sm mr-6">
+    <div class="w-full px-8 h-full py-40 mx-auto flex justify-center items-center">
+      <div class="w-[60%] mr-6">
         <h1 class="text-[42px] text-white font-normal tracking-wide leading-snug" >
           Contact
         </h1>
@@ -16,18 +16,20 @@
 <div class="m-3">
   
   <div class="w-full flex justify-center">
-    <div class="max-w-5xl mx-auto flex">
-      <div class="flex flex-col">
+    <div class="w-full mx-auto flex justify-center">
+      <div class="w-[60%] flex flex-col">
         <div class="flex">
           <h1 class="text-3xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">How can we help?</h1>
         </div>
-        <div class="flex flex-wrap gap-6 mt-2 justify-center">
+        <div class="flex flex-wrap gap-6 mt-2 ">
           <ContactCard :message="message" />
         </div>
       </div>
     </div>
   </div>
-  <div class="max-w-5xl mx-auto px-8 py-28 bg-[#EC8B7E]/10 my-32">
+  <div class="w-full flex justify-center">
+  
+  <div class="xs:w-[60%] mx-auto px-10 py-28 bg-[#EC8B7E]/10 my-32">
     <div class="max-w-4xl mx-auto">
       <img src="../assets/pink.png" alt />
       <h1 class="block py-4 text-4xl text-second">
@@ -40,18 +42,19 @@
       <div class="flex items-center gap-6 flex-wrap">
         <button
           type="button"
-          class="bg-sky-600 py-4 mt-32 px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          class="bg-sky-600 py-4 mt-32 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
           Quick report
         </button>
         <button
           type="button"
-          class="bg-trisec  py-4 mt-32 px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          class="bg-trisec  py-4 mt-32 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
           Report a repair or maintainance
         </button>
       </div>
     </div>
+  </div>
   </div>
 
 </div>
@@ -89,8 +92,8 @@
           </div>
       </div>
   </div>
-  <div class="max-w-5xl mx-auto my-10">
-  
+  <div class="w-full flex justify-center mx-auto my-10">
+  <div class="w-[60%]">
   <Accordion :activeIndex="0">
   <AccordionTab header="Header I">
       <p>
@@ -112,6 +115,8 @@
       </p>
   </AccordionTab>
 </Accordion>
+  </div>
+  
   </div>
 </template>
 <script setup>
