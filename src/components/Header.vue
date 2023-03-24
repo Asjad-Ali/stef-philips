@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="h-16 w-full bg-white shadow">
-      <div class="max-w-5xl h-full mx-auto flex items-center justify-between">
-        <a href="#">
+    <div class="h-auto w-full bg-white shadow">
+      <div class="max-w-5xl h-full mx-auto flex flex-wrap items-center justify-between">
+        <a href="#" class="ml-5 my-1">
           <img :src="logo" class="h-6" alt />
         </a>
 
-        <div class="flex items-center gap-x-6">
+        <div class="ml-5 my-2 flex items-center gap-x-6 flex-wrap">
           <div
             class="h-8 w-8 rounded-full ring-2 bg-blue-50 flex text-trisec items-center ring-trisec justify-center"
           >
@@ -73,20 +73,21 @@
           </Listbox>
           <button
             type="button"
-            class="bg-sky-600 py-2 px-8 text-sm font-normal text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="mr-5 my-2  bg-sky-600 py-2 px-8 text-sm font-normal text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Contact</button>
         </div>
       </div>
     </div>
-    <div class="h-16 w-full bg-gradient-to-r from-[#1E3055] to-trisec">
-      <div class="max-w-5xl h-full mx-auto flex items-center justify-between px-8">
-        <a class="text-white text-sm" href="#">About us</a>
-        <a class="text-white text-sm" href="#">Your home</a>
-        <a class="text-white text-sm" href="#">Help and Advice</a>
-        <a class="text-white text-sm" href="#">Housing Parteners</a>
-        <a class="text-white text-sm" href="#">Investors</a>
-        <a class="text-white text-sm" href="#">Careers</a>
-        <a class="text-white text-sm" href="#">Contact</a>
+    <div class=" w-full bg-gradient-to-r from-[#1E3055] to-trisec">
+      <div class="  gap-x-5 xxs:h-20  flex items-center  flex-wrap sm:justify-between px-8">
+        <router-link class="text-white text-sm" to="#">About us</router-link>
+        <router-link class="text-white text-sm" to="/home">Your home</router-link>
+        <router-link class="text-white text-sm" to="#">Help and Advice</router-link>
+        <router-link class="text-white text-sm" to="#">Housing Parteners</router-link>
+        <router-link class="text-white text-sm" to="#">Investors</router-link>
+        <router-link class="text-white text-sm" to="#">Careers</router-link>
+        <router-link class="text-white text-sm text-white" to="/contact">Contact</router-link>
+
       </div>
     </div>
   </div>

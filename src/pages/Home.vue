@@ -2,7 +2,7 @@
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
       <div class="max-w-5xl px-8 h-full py-40 mx-auto flex items-center">
-        <div class="max-w-sm">
+        <div class="max-w-sm mr-6">
           <h1 class="text-5xl text-white font-normal tracking-wide leading-snug">
             <span>Foundations for</span>
             <br />
@@ -64,23 +64,23 @@
     </div>
 
     <!-- image -->
-    <div class="happyG w-full h-[600px] relative overflow-hidden">
-      <div class="absolute top-0 w-full h-full flex items-center justify-center left-0 happyS">
-        <div class="max-w-5xl w-full mx-auto grid md:grid-cols-2">
-          <div class>
-            <div class="max-w-sm   mx-auto md:mx-0">
-              <h1 class="text-4xl leading-snug text-white">
+    <div class="happyG w-full h-[600px] relative overflow-hidden ">
+      <div class="absolute top-0 w-full h-full flex items-center  justify-center left-0 happyS">
+        <div class="max-w-5xl w-full mx-auto grid grid-cols-1">
+          <div class="mx-4 max-w-sm">
+            <div class="">
+              <h1 class="  xxs:text-3xl md:text-4xl leading-snug text-white ">
                 Striving to make the lives of vulnerable people
                 <span class="font-bold">safer</span> and
                 <span class="font-bold">more secure</span>
               </h1>
 
               <p
-                class="mt-4 text-white font-semibold"
+                class="mt-4  text-white md:font-semibold "
               >We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
 
-            <div class="flex items-center justify-center md:justify-start   gap-8">
+            <div class="flex xxs:flex-wrap  xs:flex-nowrap items-center justify-center sm:justify-start gap-5">
               <button
                 type="button"
                 class="bg-transparent whitespace-nowrap w-52 ring-2 ring-white py-3.5 mt-32 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
