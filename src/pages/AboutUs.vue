@@ -29,7 +29,7 @@
           >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
         </div>
         <div class="flex justify-center ">
-          <img src="../assets/HeroSection.png" alt >
+          <img src="../assets/HeroSection.png" alt="heroSection" >
         </div>
       </div>
     </div>
