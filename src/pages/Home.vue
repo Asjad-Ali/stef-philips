@@ -34,8 +34,6 @@
           >About us</button>
         </div>
         <div class="flex justify-center ">
-          <!-- <img src="../assets/pic.png" class="absolute -z-10  -bottom-16 -right-16" alt />
-          <img src="../assets/card.png" class="z-50 " alt /> -->
           <img src="../assets/HeroSection.png" alt >
         </div>
       </div>
@@ -50,7 +48,7 @@
     <div class="py-20 w-[60%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
         <div class>
-          <img src="../assets/bg.png" class="z-50 h-full w-full object-cover" alt />
+          <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
         </div>
         <div class="flex items-center justify-center">
           <div class="w-4/5 mt-6 md:mt-0 ">
@@ -58,7 +56,7 @@
               <Icon icon="ooui:quotes-ltr" />
             </span>
             <h1
-              class="text-xl text-white mt-5 leading-snug"
+              class="md:text-xl text-white mt-5 leading-snug"
             >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
             <div class="my-5">
               <h1 class="text-xl text-white">Name here</h1>

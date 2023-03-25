@@ -5,7 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  font-family:'sans sarif'
+  font-family: "aktiv-grotesk-std",sans-serif;
+  src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-Regular.ttf");
 }
 .wrapper {
     position: relative;

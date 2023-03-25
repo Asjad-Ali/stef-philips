@@ -17,7 +17,7 @@
   <div class="w-full flex justify-center">
     <div class="w-[60%]">
     
-      <div class="py-40">
+      <div class="py-40 ">
       <div class="max-w-5xl  grid md:grid-cols-2 grid-cols-1 h-[540px] gap-12">
         <div class>
           <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
@@ -33,31 +33,32 @@
         </div>
       </div>
     </div>
-    <Cards />
 
     <!-- step-2 -->
-    <div class=" py-22">
-      <div class="grid videoBg md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
-        <div class="flex items-center justify-center">
-          <div class="w-4/5 mt-3 md:mt-0 ">
-           <div class="relative">
-  <iframe class=" w-max  aspect-video lg:aspect-square   ml-48" src="https://www.youtube-nocookie.com/embed/FMrtSHAAPhM" ></iframe>
-</div>
-          </div>
-        </div>
+    
+      
+    <div class=" mt-[60px]">
+      <div class="videoBg h-[460px] flex items-center justify-center">
+    
+        <img src="../assets/video.png" class="w-[80%]" alt="video">
+
+        <!-- <div class="flex items-center justify-center">
+         
+        </div> -->
       </div>
     </div>    
     </div>
   </div>
+  
 <!-- image -->
-    <div class="happyG w-full h-[600px] relative overflow-hidden py-40 ">
+    <div class="happyG w-full h-[600px] relative overflow-hidden  ">
       <div class="absolute top-0 w-full h-full flex items-center  flex-wrap justify-center left-0 happyS">
         <div class="max-w-5xl w-full mx-auto grid grid-cols-1 ">
             <div class="flex">
               <div
-                class="mt-4 flex-auto px-8  text-white md:font-semibold "
+                class="mt-4 flex-auto px-8  text-white md:font-semibold xxxs:text-xs  text-lg"
               >Since first opening our doors in 2006, Stef & Philips has evolved from a traditional estate agency into a leading provider of accommodation services around the UK. We work closely with local authorities, housing associations, charitable organisations and investors to provide safe, suitable and secure accommodation to those who really need it..</div>
-              <div  class="mt-4  px-8 flex-auto  text-white md:font-semibold ">We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet. Our care reaches beyond bricks and mortar, to include specialised accommodation and services for mothers and babies, tenants with disabilities, and young adults living on their own for the first time.</div>
+              <div  class="mt-4  px-8 flex-auto  text-white md:font-semibold xxxs:text-xs text-lg ">We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet. Our care reaches beyond bricks and mortar, to include specialised accommodation and services for mothers and babies, tenants with disabilities, and young adults living on their own for the first time.</div>
 
             </div>
                 
@@ -76,10 +77,11 @@
   background-position: center;
 }
 .videoBg{
-  background-image: url("../assets/videoBg.png");
+  background-image: url("../assets/Background (2).png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  /* background: #000; */
 }
 .happyG {
   background-image: url("../assets/girlTeaBg.png");

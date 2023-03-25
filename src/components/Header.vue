@@ -82,15 +82,15 @@
   
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
-      <div class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
-        <router-link class="text-white text-sm" to="#">About us</router-link>
-        <router-link class="text-white text-sm" to="/home">Your home</router-link>
-        <router-link class="text-white text-sm" to="#">Help and Advice</router-link>
-        <router-link class="text-white text-sm" to="#">Housing Parteners</router-link>
-        <router-link class="text-white text-sm" to="#">Investors</router-link>
-        <router-link class="text-white text-sm" to="#">Careers</router-link>
-        <router-link class="text-white text-sm text-white" to="/contact">Contact</router-link>
-      </div>
+      <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
+        <router-link active-class="active" class="text-white text-sm" to="/about-us">About us</router-link>
+        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home">Your home</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/housing-parteners">Housing Parteners</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
+        <router-link active-class="active" class="text-white text-sm text-white" to="/contact">Contact</router-link>
+      </nav>
     
     </div>  
   </div>
@@ -121,6 +121,14 @@ const selected = ref(people[0]);
 </script>
 
 <style  scoped>
+.exact-active{
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 3px;
+}
+.active{
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 3px;
+}
 @media(max-width:800px){
 .nav{
   width:100%;

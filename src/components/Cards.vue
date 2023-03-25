@@ -15,7 +15,7 @@
             <div class="w-full h-full flex">
               <button
                 type="button"
-                class="bg-sky-600 py-4 px-8 text-sm font-semibold mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                class="bg-sky-600 xxs:py-2 md:py-4 xxs:px-2 md:px-8 text-sm font-semibold mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >Find out more</button>
             </div>
           </div>
