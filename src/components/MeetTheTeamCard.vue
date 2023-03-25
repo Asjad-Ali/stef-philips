@@ -9,7 +9,7 @@
 <script></script>
 <style scoped>
 .bgImg{
-    background-image: url("../assets/Card Background.png");
+    background-image: url("../assets/Meet-Team.png");
     /* background-image: url("../assets/bggray.png"); */
   background-repeat: no-repeat;
   background-size: cover;

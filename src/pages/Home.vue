@@ -1,6 +1,6 @@
 <template>
-  <div class="h-12 w-full bg-[#707070] bl ">
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+  <div class="h-12 w-full bcrumbs bl " v-if="state" >
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
           <div class="dropdown">
@@ -181,9 +181,19 @@
 <script setup>
 import Cards from "../components/Cards.vue";
 import { Icon } from "@iconify/vue";
+import {useAppStore} from "../store/index"
+import { computed } from "vue";
+
+const hover = useAppStore();
+const state = computed(() => {
+  return hover.hover;
+});
 </script>
 
 <style  scoped>
+.bcrumbs{
+  background-color: rgba(29, 29, 51, 0.5)
+}
 .bgImg {
   background-image: url("../assets/Background.png");
   background-repeat: no-repeat;

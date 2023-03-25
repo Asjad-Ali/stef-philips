@@ -1,4 +1,22 @@
 <template>
+    <div class="h-12 w-full  bcrumbs bl " v-if="state" >
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+          <div class="dropdown">
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About Us</router-link>
+            <div class="dropdown-content">
+              <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News Article</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
+            </div>
+          </div>
+        </nav>
+      </div> 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
       <div class="w-[60%]">
@@ -346,7 +364,13 @@
 import { ref, onMounted } from "vue";
 import { ProductService } from '../Service/ProductService'; 
 import { Icon } from "@iconify/vue";
+import {useAppStore} from "../store/index"
+import { computed } from "vue";
 
+const hover = useAppStore();
+const state = computed(() => {
+  return hover.hover;
+});
 
 onMounted(() => {
     ProductService.getProductsSmall().then((data) => (products.value = data.slice(0, 9)));
@@ -399,7 +423,9 @@ const getSeverity = (status) => {
   float: left;
   overflow: hidden;
 }
-
+.bcrumbs{
+  background-color: rgba(29, 29, 51, 0.5)
+}
 .dropdown-content {
   display: none;
   position: absolute;

@@ -1,5 +1,5 @@
 <template>
-  <div class="h-12 w-full bg-[#707070] bl ">
+  <div class="h-12 w-full bg-[#707070] bl " v-if="state">
         <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
@@ -144,6 +144,13 @@ import { ref } from "vue";
 import ContactCard from "../components/ContactCard.vue";
 import Accordion from 'primevue/accordion';
 import AccordionTab from 'primevue/accordiontab';
+import {useAppStore} from "../store/index"
+import { computed } from "vue";
+
+const hover = useAppStore();
+const state = computed(() => {
+  return hover.hover;
+});
 const message = ref([
 "Help for tenants",
 "Neighbors & the wider community",

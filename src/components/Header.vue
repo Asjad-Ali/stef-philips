@@ -83,13 +83,13 @@
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
       <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
-        <router-link active-class="active" class="text-white text-sm" to="/about-us">About us</router-link> 
-        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home">Your home</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/about-us"><span @mouseover="stateHandler">About us</span></router-link> 
+        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home" > <span @mouseover="stateHandler">Your home</span></router-link>
         <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/housing-parteners">Housing Parteners</router-link>
         <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
         <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
-        <router-link active-class="active" class="text-white text-sm" to="/contact">Contact</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/contact"><span @mouseover="stateHandler">Contact</span></router-link>
       </nav>
     </div> 
   </div>
@@ -108,6 +108,17 @@ import {
   ListboxOptions
 } from "@headlessui/vue";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
+import {useAppStore} from "../store/index"
+import { computed } from "vue";
+
+const hover = useAppStore();
+const state = computed(() => {
+  return hover.hover;
+});
+function stateHandler(){
+  console.log(state.value)
+hover.hover = !state.value;
+}
 
 const people = [
   { name: "circle-flags:uk", username: "English" },
