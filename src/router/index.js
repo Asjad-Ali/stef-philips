@@ -3,6 +3,7 @@ import HomeView from '../pages/Home.vue';
 import ContactView from '../pages/Contact.vue';
 import AboutUsView from '../pages/AboutUs.vue';
 import MeetTheTeam from "../pages/MeetTheTeam.vue"
+import CommunityView from "../pages/Community.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -31,6 +32,11 @@ const router = createRouter({
       path: "/meet-the-team",
       name: "Meet the Team",
       component: MeetTheTeam,
+    },
+      {
+      path: "/community",
+      name: "Community",
+      component: CommunityView,
     },
   ],
 });
