@@ -37,7 +37,7 @@
     <div class="card flex items-start justify-content-between gap-5 w-full ">
         <Card style="max-width: 24em; width:100%">
             <template #header>
-                <img alt="user header" src="../assets/Card Image 2.png" />
+                <img alt="user header" src="../assets/rock.png" />
             </template>
             <template #title  > <h1 class="text-[20px] text-[#20407c] font-[900]">  Bowling </h1> </template>
             
@@ -53,7 +53,7 @@
         </Card>
         <Card style="max-width: 24em; width:100%">
             <template #header>
-                <img alt="user header" src="../assets/Card Image.png" />
+                <img alt="user header" class="max-h-[175px]" src="../assets/Card Image.png" />
             </template>
             <template #title  > <h1 class="text-[20px] text-[#20407c] font-[900]"> Christmas Jumper Day </h1> </template>
             
