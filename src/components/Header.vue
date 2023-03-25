@@ -1,7 +1,7 @@
 <template>
   <div>
   <div class="w-full flex justify-center upper-nav">
-    <div class="h-16 w-[60%] bg-white    nav">
+    <div class="h-16 w-[60%]     nav">
       <div class="max-w-5xl h-full mx-auto flex items-center justify-between gap-4 wrap">
         <a href="#">
           <img :src="logo" class="h-auto" alt />
