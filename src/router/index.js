@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from '../pages/Home.vue'; 
 import ContactView from '../pages/Contact.vue';
 import AboutUsView from '../pages/AboutUs.vue';
+import NewsArticleView from '../pages/NewsArticle.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -25,6 +26,11 @@ const router = createRouter({
       path: "/contact",
       name: "Contact",
       component: ContactView,
+    },
+    {
+      path: "/news-article",
+      name: "newsArticle",
+      component: NewsArticleView,
     },
   ],
 });
