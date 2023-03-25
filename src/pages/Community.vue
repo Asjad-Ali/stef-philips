@@ -73,8 +73,8 @@
 </div>
 
 <!-- section 4  -->
-<div class="w-full min-h-[450px] bg-[#1d1d33] "> 
-<div  class="max-w-[1440px] w-[60%] h-[250px] mx-auto p-3">
+<div class="w-full min-h-[450px] h-auto bg-[#1d1d33] "> 
+<div  class="max-w-[1440px] w-[60%] min-h-[250px] mx-auto p-3">
 <h1  class="text-[36px] text-white font-[300] mt-16"> <span class="font-[900]">Community</span> ethos is what we all have in common</h1> 
 <p class="text-[18px] text-white font-[400]">Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 <div class="flex gap-4"><button class="w-40 p-2 my-3 border border-white text-[16px] font-[300] text-white ">Carriers</button>
@@ -82,6 +82,7 @@
 </div>
 </div>
 <!-- section 5 -->
+<div class="w-full min-h-[450px] h-auto "> 
 <div class="py-20 w-[60%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
         <div class>
@@ -102,7 +103,7 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div> </div>
 <!-- section 6 -->
 <div class="w-full min-h-[600px] "> 
 <div  class="max-w-[1440px] w-[60%]  mx-auto p-3">
