@@ -149,6 +149,14 @@
         <MeetTheTeamCard />
     </div>
   </div>
+  <div class="w-full min-h-[250px] h-auto bg-[#1d1d33] flex items-center"> 
+<div  class="max-w-[1440px] w-[60%] min-h-[315px] mx-auto p-3">
+<h1  class="text-[36px] text-white font-[300] mt-16"> <span class="font-[900]">Community</span> ethos is what we all have in common</h1> 
+<p class="text-[18px] text-white font-[400]">Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="flex gap-4"><button class="w-40 p-2 my-3 border border-white text-[16px] font-[300] text-white ">Carriers</button>
+<button class="w-40 p-2 my-3 border border-white text-[16px] font-[300] text-white ">Meet the team</button></div>
+</div>
+</div>
 </template>
 <script setup>
 import MeetTheTeamCard from "../components/MeetTheTeamCard.vue"

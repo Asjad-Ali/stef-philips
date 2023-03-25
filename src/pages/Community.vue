@@ -53,7 +53,7 @@
         </Card>
         <Card style="max-width: 24em; width:100%">
             <template #header>
-                <img alt="user header" class="max-h-[175px]" src="../assets/Card Image.png" />
+                <img alt="user header" class="max-h-[175px]" src="../assets/community-tab.png" />
             </template>
             <template #title  > <h1 class="text-[20px] text-[#20407c] font-[900]"> Christmas Jumper Day </h1> </template>
             
