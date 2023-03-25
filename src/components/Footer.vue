@@ -16,7 +16,7 @@
                 </li>
               </ul>
             </div>
-            <div class="mt-10 md:mt-0">
+            <div class=" md:mt-0">
               <ul role="list" class="space-y-2">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a
@@ -27,7 +27,7 @@
               </ul>
             </div>
 
-            <div class="mt-10 md:mt-0">
+            <div class=" md:mt-0">
               <ul role="list" class="space-y-2">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a

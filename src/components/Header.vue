@@ -1,13 +1,13 @@
 <template>
   <div>
-  <div class="w-full flex justify-center">
-    <div class="h-16 w-[60%] bg-white shadow">
-      <div class="max-w-5xl h-full mx-auto flex items-center justify-between">
+  <div class="w-full flex justify-center upper-nav">
+    <div class="h-16 w-[60%] bg-white    nav">
+      <div class="max-w-5xl h-full mx-auto flex items-center justify-between gap-4 wrap">
         <a href="#">
-          <img :src="logo" class="h-6" alt />
+          <img :src="logo" class="h-auto" alt />
         </a>
 
-        <div class="flex items-center gap-x-6">
+        <div class="flex items-center gap-x-6 search">
           <div
             class="h-8 w-8 rounded-full ring-2 bg-blue-50 flex text-trisec items-center ring-trisec justify-center"
           >
@@ -74,23 +74,23 @@
           </Listbox>
           <button
             type="button"
-            class="bg-sky-600 py-2 px-8 text-sm font-normal text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="btn bg-sky-600 py-2 px-8 text-sm font-normal text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Contact</button>
         </div>
       </div>
     </div>
   
   </div>
-  <div class="h-12 w-full  bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB]">
-      <div class="w-[60%] h-full mx-auto flex items-center justify-between ">
-        <a class="text-white text-sm" href="#">About us</a>
-        <a class="text-white text-sm" href="#">Your home</a>
-        <a class="text-white text-sm" href="#">Help and Advice</a>
-        <a class="text-white text-sm" href="#">Housing Parteners</a>
-        <a class="text-white text-sm" href="#">Investors</a>
-        <a class="text-white text-sm" href="#">Careers</a>
-        <a class="text-white text-sm" href="#">Contact</a>
-      </div>
+  <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
+      <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
+        <router-link active-class="active" class="text-white text-sm" to="/about-us">About us</router-link>
+        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home">Your home</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/housing-parteners">Housing Parteners</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
+        <router-link active-class="active" class="text-white text-sm text-white" to="/contact">Contact</router-link>
+      </nav>
     
     </div>  
   </div>
@@ -120,5 +120,66 @@ const people = [
 const selected = ref(people[0]);
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
+.exact-active{
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 3px;
+}
+.active{
+  border-bottom: 2px solid whitesmoke;
+  padding-bottom: 3px;
+}
+@media(max-width:800px){
+.nav{
+  width:100%;
+  padding:20px  
+}
+.inner{
+    width:100%;
+  }
+}
+@media (max-width:660px){
+  .wrap{
+    flex-wrap: wrap;
+  }
+  .upper-nav{
+    height: 120px;
+  }
+}
+
+
+@media(max-width:550px){
+.nav{
+  width:100%;
+
+}
+
+}
+@media(max-width:500px){
+.nav{
+  width:100%;
+}
+
+
+}
+@media(max-width:460px){
+.search{
+  gap:1rem;
+}
+
+}
+@media(max-width:435px){
+.search{
+  gap:0.4rem;
+}
+.inner a {
+  font-size:12px;
+}
+}
+@media(max-width:400px){
+
+.inner a {
+  font-size:10px;
+}
+}
 </style>
