@@ -1,4 +1,25 @@
 <template>
+  <div class="h-12 w-full bg-[#707070] bl ">
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+          <div class="dropdown">
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/home">Your home</router-link>
+            <div class="dropdown-content">
+              <router-link active-class="active" class="font-semibold text-sm" to="">Quick report</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Report an issue</router-link>
+              <!-- <router-link active-class="active" class="font-semibold text-sm" to="">Repairs $ maintenance</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Anti-social behaviour</router-link> 
+            <router-link active-class="active" class="font-semibold text-sm" to="">Other issues</router-link> -->
+            <router-link active-class="active" class="font-semibold text-sm" to="">Out of hours emergencies</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Tenant services</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
+            </div>
+          </div>
+        </nav>
+      </div> 
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
       <div class="max-w-5xl w-[60%] h-[600px] mx-auto flex items-center">
@@ -10,7 +31,7 @@
           </h1>
           <p
             class="text-white mt-4 tracking-wide leading-snug font-semibold "
-          >Safe, suitable homes and vital services for tenants,<br> authorities and partners, backed by investors who care.</p>
+          >Safe, suitable homes and vital services for tenants, authorities and partners, backed by investors who care.</p>
         </div>
       </div>
     </div>

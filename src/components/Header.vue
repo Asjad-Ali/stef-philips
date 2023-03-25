@@ -83,16 +83,15 @@
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
       <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
-        <router-link active-class="active" class="text-white text-sm" to="/about-us">About us</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/about-us">About us</router-link> 
         <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home">Your home</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/housing-parteners">Housing Parteners</router-link>
         <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
         <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
-        <router-link active-class="active" class="text-white text-sm text-white" to="/contact">Contact</router-link>
+        <router-link active-class="active" class="text-white text-sm" to="/contact">Contact</router-link>
       </nav>
-    
-    </div>  
+    </div> 
   </div>
 </template>
 
