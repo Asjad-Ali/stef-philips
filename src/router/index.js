@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from '../pages/Home.vue'; 
-import ContactView from '../pages/Contact.vue';
-import AboutUsView from '../pages/AboutUs.vue';
-
+import HomeView from "../pages/Home.vue";
+import ContactView from "../pages/Contact.vue";
+import AboutUsView from "../pages/AboutUs.vue";
+import CommunityView from "../pages/Community.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -25,6 +25,11 @@ const router = createRouter({
       path: "/contact",
       name: "Contact",
       component: ContactView,
+    },
+    {
+      path: "/community",
+      name: "Community",
+      component: CommunityView,
     },
   ],
 });
