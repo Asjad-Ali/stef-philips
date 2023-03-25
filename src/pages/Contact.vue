@@ -1,4 +1,24 @@
 <template>
+  <div class="h-12 w-full bg-[#707070] bl ">
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+          <div class="dropdown">
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/contact">Contact</router-link>
+            <div class="dropdown-content">
+              <router-link active-class="active" class="font-semibold text-sm" to="">FAQS</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Press & media</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Community</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Housing partners</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Investors</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Media</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Generral</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
+            </div>
+          </div>
+        </nav>
+      </div> 
   <div class="w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full px-8 h-full py-40 mx-auto flex justify-center items-center">
       <div class="w-[60%] mr-6">

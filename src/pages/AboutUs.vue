@@ -1,5 +1,19 @@
 <template>
-  
+    <div class="h-12 w-full bg-[#707070] bl ">
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+          <div class="dropdown">
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About us</router-link>
+            <div class="dropdown-content">
+              <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet the team</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News article</router-link>
+            </div>
+          </div>
+        </nav>
+    </div> 
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
       <div class="w-full h-[600px] flex justify-center items-center">
         <div class="w-[60%]">
@@ -247,6 +261,37 @@
 </template>
 
 <style >
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .bgImg {
   background-image: url("../assets/Background.png");
   background-repeat: no-repeat;
