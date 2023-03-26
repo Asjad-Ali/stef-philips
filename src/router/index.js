@@ -7,7 +7,6 @@ import CommunityView from "../pages/Community.vue";
 import NewsArticleView from '../pages/NewsArticle.vue';
 import YourHomeView from '../pages/YourHome.vue';
 import NewsView from '../pages/News.vue';
-import NewsArticleView from "../pages/NewsArticle.vue";
 import QuickReport from "../pages/QuickReport.vue";
 
 const router = createRouter({

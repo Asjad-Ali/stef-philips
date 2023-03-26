@@ -48,7 +48,7 @@
        <div class="flex flex-col gap-8">
         <div class="flex flex-wrap gap-5">
             <div>
-                <img class="pb-6" src="../assets/Card Image.png">
+                <img class="pb-6" src="../assets/Card-Image.png">
                 <button
                 type="button"
                 class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
@@ -59,31 +59,7 @@
                 </h1>
             </div>
             <div>
-                <img class="pb-6" src="../assets/Card Image.png">
-                <button
-                type="button"
-                class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
-                >Category</button>
-                <h2 class="pt-6 font-semibold text-2xl text-[#2A8CFB]">Media title here</h2>
-                <h1 class="pt-3 text-lg text-[#1D1D33]">
-                Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
-                </h1>
-            </div>
-        </div>
-        <div class="flex flex-wrap gap-5">
-            <div>
-                <img class="pb-6" src="../assets/Card Image.png">
-                <button
-                type="button"
-                class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
-                >Category</button>
-                <h2 class="pt-6 font-semibold text-2xl text-[#2A8CFB]">Media title here</h2>
-                <h1 class="pt-3 text-lg text-[#1D1D33]">
-                Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
-                </h1>
-            </div>
-            <div>
-                <img class="pb-6" src="../assets/Card Image.png">
+                <img class="pb-6" src="../assets/Card-Image.png">
                 <button
                 type="button"
                 class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
@@ -96,7 +72,7 @@
         </div>
         <div class="flex flex-wrap gap-5">
             <div>
-                <img class="pb-6" src="../assets/Card Image.png">
+                <img class="pb-6" src="../assets/Card-Image.png">
                 <button
                 type="button"
                 class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
@@ -107,7 +83,31 @@
                 </h1>
             </div>
             <div>
-                <img class="pb-6" src="../assets/Card Image.png">
+                <img class="pb-6" src="../assets/Card-Image.png">
+                <button
+                type="button"
+                class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+                >Category</button>
+                <h2 class="pt-6 font-semibold text-2xl text-[#2A8CFB]">Media title here</h2>
+                <h1 class="pt-3 text-lg text-[#1D1D33]">
+                Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
+                </h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-5">
+            <div>
+                <img class="pb-6" src="../assets/Card-Image.png">
+                <button
+                type="button"
+                class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+                >Category</button>
+                <h2 class="pt-6 font-semibold text-2xl text-[#2A8CFB]">Media title here</h2>
+                <h1 class="pt-3 text-lg text-[#1D1D33]">
+                Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
+                </h1>
+            </div>
+            <div>
+                <img class="pb-6" src="../assets/Card-Image.png">
                 <button
                 type="button"
                 class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-6 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
