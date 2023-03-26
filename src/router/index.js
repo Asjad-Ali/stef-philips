@@ -5,6 +5,7 @@ import AboutUsView from '../pages/AboutUs.vue';
 import MeetTheTeam from "../pages/MeetTheTeam.vue"
 import CommunityView from "../pages/Community.vue";
 import NewsArticleView from '../pages/NewsArticle.vue';
+import NewsView from '../pages/News.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -44,6 +45,11 @@ const router = createRouter({
       path: "/news-article",
       name: "newsArticle",
       component: NewsArticleView,
+    },
+    {
+      path: "/news",
+      name: "news",
+      component: NewsView,
     },
   ],
 });

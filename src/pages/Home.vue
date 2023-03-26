@@ -4,7 +4,7 @@
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
           <div class="dropdown">
-            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/home">Your home</router-link>
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/your-home">Your home</router-link>
             <div class="dropdown-content">
               <router-link active-class="active" class="font-semibold text-sm" to="">Quick report</router-link>
               <router-link active-class="active" class="font-semibold text-sm" to="">Report an issue</router-link>
@@ -23,8 +23,8 @@
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
       <div class="max-w-5xl w-[60%] h-[600px] mx-auto flex items-center">
-        <div class=" max-w-sm">
-          <h1 class="text-5xl text-white font-normal tracking-wide  leading-snug">
+        <div class="max-w-sm">
+          <h1 class="text-5xl text-white font-normal tracking-wide leading-snug">
             <span>Foundations for</span>
             <br />
             <span class="font-semibold">better lives</span>
