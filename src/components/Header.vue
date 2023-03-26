@@ -84,14 +84,15 @@
   
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
-      <div class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 dropdown">
-        <router-link active-class="active " class="text-white text-sm " to="/about-us"><span @mouseover="stateHandler">About us</span></router-link> 
-        <router-link exact-active-class="exact-active " class="text-white text-sm " to="/home" > <span @mouseover="stateHandler">Your home</span></router-link>
+      <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
+        <router-link active-class="active" class="text-white text-sm" to="/about-us"><span @mouseover="stateHandler">About us</span></router-link> 
+        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/your-home" > <span @mouseover="stateHandler">Your home</span></router-link>
         <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/housing-partners">Housing Partners</router-link>
         <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
         <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/contact"><span @mouseover="stateHandler">Contact</span></router-link>
+        </nav>
       </div>
       <!-- <div class="h-12 w-full  bcrumbs bl"  >
         <div class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
