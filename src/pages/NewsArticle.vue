@@ -19,11 +19,11 @@
       <div class="flex flex-wrap items-center gap-6">
         <button
           type="button"
-          class="bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
         >Category</button>
         <button
           type="button"
-          class="bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
         >Category</button>
       </div>
           <div class="flex mt-3 space-x-4 md:order-2">
