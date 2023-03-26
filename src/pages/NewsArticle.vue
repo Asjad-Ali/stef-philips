@@ -114,7 +114,7 @@
       <div class="w-full flex justify-center items-center">
        <div class="my-[60px]">
          <div class="videoBg flex items-center justify-center">
-          <img src="../assets/CompositeLayer (2).png" class="w-[80%]" alt="video">
+          <img src="../assets/Layered.png" class="w-[80%]" alt="video">
          </div>
        </div>
       </div>
@@ -141,7 +141,7 @@
         <div class="w-[60%] max-w-5xl">
           <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-10 py-10 mb-20 border-y-2">
             <div class="flex items-center gap-5">
-              <img src="../assets/Card Background.png" alt="">
+              <img src="../assets/Card-Background.png" alt="">
               <div class="text-1xl text-trisec">
                 <h6 class="font-light">Author</h6>
                 <h2 class="font-semibold">Name Here</h2>  

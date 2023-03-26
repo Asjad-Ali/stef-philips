@@ -108,7 +108,7 @@
               <button
                 type="button"
                 class="bg-transparent whitespace-nowrap w-52 ring-2 ring-white py-3.5 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-              >For housing parteners</button>
+              >For housing partners</button>
               <button
                 type="button"
                 class="bg-transparent w-52 ring-2 ring-white py-3.5 px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"

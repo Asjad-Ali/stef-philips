@@ -25,7 +25,7 @@
         </div>
 
         <div class="w-half flex items-center px-8">
-            <img class="lg:w-max-lg" src="../assets/Card Image2.png" alt="card-image">
+            <img class="lg:w-max-lg" src="../assets/Card-Image2.png" alt="card-image">
         </div>
       </div>
     </div>
