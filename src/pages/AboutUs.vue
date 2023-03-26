@@ -10,9 +10,6 @@
             <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
             <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
             <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News Article</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
             </div>
           </div>
         </nav>
