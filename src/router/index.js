@@ -5,6 +5,7 @@ import AboutUsView from '../pages/AboutUs.vue';
 import MeetTheTeam from "../pages/MeetTheTeam.vue"
 import CommunityView from "../pages/Community.vue";
 import NewsArticleView from '../pages/NewsArticle.vue';
+import YourHomeView from '../pages/YourHome.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -24,6 +25,11 @@ const router = createRouter({
       path: "/home",
       name: "home",
       component: HomeView,
+    },
+    {
+      path: "/your-home",
+      name: "yourHome",
+      component: YourHomeView,
     },
     {
       path: "/contact",

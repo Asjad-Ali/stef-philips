@@ -455,7 +455,6 @@ const getSeverity = (status) => {
 .bgImg {
   background-image: url("../assets/Background.png");
   background-repeat: no-repeat;
-  
   background-size: cover;
   background-position: center;
 }
