@@ -6,13 +6,10 @@
           <div class="dropdown">
             <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About Us</router-link>
             <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
             <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
             <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News Article</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
             </div>
           </div>
         </nav>
@@ -419,10 +416,10 @@ const getSeverity = (status) => {
 
 
 <style >
-.dropdown {
+/* .dropdown {
   float: left;
   overflow: hidden;
-}
+} */
 .bcrumbs{
   background-color: rgba(29, 29, 51, 0.5)
 }

@@ -1,4 +1,15 @@
 <template>
+  <div class="h-12 w-full bg-[#707070] bl ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+      <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+      <i class="pi pi-angle-right text-white"></i>
+        <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About us</router-link>
+        <i class="pi pi-angle-right text-white"></i>
+        <router-link active-class="active" class="text-white font-semibold text-sm" to="/meet-the-team">Meet the team</router-link>
+    </nav>
+  </div> 
+
+<!-- -->
   <div class="w-full flex justify-center">
     <div class="w-[60%]   py-28">
       <div class="lg:flex">
@@ -25,7 +36,7 @@
         </div>
 
         <div class="w-half flex items-center px-8">
-            <img class="lg:w-max-lg" src="../assets/Card Image2.png" alt="card-image">
+            <img class="lg:w-max-lg" src="../assets/Card-Image2.png" alt="card-image">
         </div>
       </div>
     </div>
