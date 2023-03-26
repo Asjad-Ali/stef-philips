@@ -1,4 +1,13 @@
 <template>
+    <div class="h-12 w-full bg-[#707070] bl ">
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About us</router-link>
+            <i class="pi pi-angle-right text-white"></i>
+            <router-link active-class="active" class="text-white font-semibold text-sm" to="/community">Community</router-link>
+        </nav>
+      </div> 
     <!-- section 1 -->
  <div class="w-full min-h-[250px] "> 
 <div  class="max-w-[1440px] w-[60%] h-[250px] mx-auto p-3">

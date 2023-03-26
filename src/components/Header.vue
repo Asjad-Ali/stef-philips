@@ -1,7 +1,7 @@
 <template>
   <div>
   <div class="w-full flex justify-center upper-nav">
-    <div class="h-16 w-[60%]     nav">
+    <div class="h-16 w-[60%] nav">
       <div class="max-w-5xl h-full mx-auto flex items-center justify-between gap-4 wrap">
         <a href="#">
           <img :src="logo" class="h-auto" alt />
@@ -18,7 +18,7 @@
           <Listbox as="div" v-model="selected">
             <div class="relative">
               <ListboxButton
-                class="relative w-full cursor-default rounded-full bg-white pt-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset   bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
+                class="relative w-full cursor-default rounded-full py-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
               >
                 <span class="inline-flex w-full items-center truncate">
                   <span class="truncate">

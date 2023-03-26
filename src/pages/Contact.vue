@@ -62,13 +62,13 @@
       <div class="flex items-center gap-6 flex-wrap">
         <button
           type="button"
-          class="bg-sky-600 py-4 mt-32 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          class="bg-sky-600 py-4 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
           Quick report
         </button>
         <button
           type="button"
-          class="bg-trisec  py-4 mt-32 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+          class="bg-trisec py-4 xxs:px-3 md:px-8 text-[16px] font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
           Report a repair or maintainance
         </button>
@@ -89,7 +89,7 @@
               <h6 class="text-[18px]">Address line four</h6>
               <button
               type="button"
-              class="text-[16px] bg-transparent whitespace-nowrap xxs:w-30 sm:w-52 ring-2 ring-white xxs:py-1 sm:py-3.5 mt-32 xxs:px-2 sm:px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+              class="text-[16px] bg-transparent whitespace-nowrap xxs:w-30 sm:w-52 ring-2 ring-white xxs:py-1 sm:py-3.5 xxs:px-2 sm:px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
             >View on Google Maps</button>
           </div>
       </div>
@@ -107,7 +107,7 @@
               <h6  class="text-[18px]">Address line four</h6>
               <button
               type="button"
-              class="  text-[16px] bg-transparent whitespace-nowrap xxs:w-30 sm:w-52 ring-2 ring-white xxs:py-1 sm:py-3.5 mt-32 xxs:px-2 sm:px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+              class="  text-[16px] bg-transparent whitespace-nowrap xxs:w-30 sm:w-52 ring-2 ring-white xxs:py-1 sm:py-3.5 xxs:px-2 sm:px-8 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
             >View on Google Maps</button>
           </div>
       </div>
