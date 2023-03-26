@@ -18,9 +18,9 @@
           <Listbox as="div" v-model="selected">
             <div class="relative">
               <ListboxButton
-                class="relative w-full cursor-default rounded-full py-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
+                class="relative w-full cursor-default rounded-full pt-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
               >
-                <span class="inline-flex w-full items-center truncate">
+                <span class="inline-flex w-full flex items-center justify-center truncate">
                   <span class="truncate">
                     <Icon :icon="selected.name" />
                   </span>
@@ -51,7 +51,7 @@
                     <li
                       :class="[active ? 'bg-sky-600 text-white' : 'text-gray-900', 'relative cursor-default select-none py-2 pl-3 pr-9']"
                     >
-                      <div class="flex">
+                      <div class="flex items-center">
                         <span :class="[selected ? 'font-semibold' : 'font-normal', 'truncate']">
                           <Icon :icon="person.name" />
                         </span>
@@ -84,15 +84,30 @@
   
   </div>
   <div class="h-12 w-full   bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl ">
-      <nav class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 ">
-        <router-link active-class="active" class="text-white text-sm" to="/about-us"><span @mouseover="stateHandler">About us</span></router-link> 
-        <router-link exact-active-class="exact-active" class="text-white text-sm" to="/home" > <span @mouseover="stateHandler">Your home</span></router-link>
+      <div class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner p-3 dropdown">
+        <router-link active-class="active " class="text-white text-sm " to="/about-us"><span @mouseover="stateHandler">About us</span></router-link> 
+        <router-link exact-active-class="exact-active " class="text-white text-sm " to="/home" > <span @mouseover="stateHandler">Your home</span></router-link>
         <router-link active-class="active" class="text-white text-sm" to="/help-and-advice">Help and Advice</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/housing-partners">Housing Partners</router-link>
         <router-link active-class="active" class="text-white text-sm" to="investors">Investors</router-link>
         <router-link active-class="active" class="text-white text-sm" to="careers">Careers</router-link>
         <router-link active-class="active" class="text-white text-sm" to="/contact"><span @mouseover="stateHandler">Contact</span></router-link>
-      </nav>
+      </div>
+      <!-- <div class="h-12 w-full  bcrumbs bl"  >
+        <div class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+          <i class="pi pi-angle-right text-white"></i>
+          <div class="dropdown">
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About Us</router-link>
+            <div class="dropdown-content">
+            <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News Article</router-link>
+            </div>
+          </div>
+        </div>
+      </div>  -->
     </div> 
   </div>
 </template>
@@ -133,6 +148,36 @@ const selected = ref(people[0]);
 </script>
 
 <style  scoped>
+
+/* .bcrumbs{
+  background-color: rgba(29, 29, 51, 0.5)
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
 .exact-active{
   border-bottom: 2px solid whitesmoke;
   padding-bottom: 3px;
