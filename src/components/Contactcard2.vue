@@ -1,6 +1,6 @@
 <template>
     <div class="contact-card h-[150px] p-5 w-[150px]" v-for="items in props.message">
-        <img :src="items.img" class="h-[40px] w-[40px]" alt="contact-home">
+        <img :src='items.img' class="h-[40px] w-[40px]" alt="contact-home">
         <p class="text-[13px] mt-4">{{ items.text }}</p>
     </div>
     </template>
