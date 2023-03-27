@@ -12,33 +12,8 @@
          <h1 class="text-3xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">What is an emergency repair?</h1>
        </div>
        <div class="flex justify-between gap-5 flex-wrap py-10">
-      <div class="max-w-[450px] mx-auto ">
-        <Accordion :activeIndex="2" >
- <AccordionTab header="Etectrical" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-   <p class="text-[18px] font-[400] text-[#1d1d33]">
-       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-     </p>
- </AccordionTab>
- <AccordionTab header="Water">
-   <p class="text-[18px] font-[400] text-[#1d1d33]">
-       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-     </p>
- </AccordionTab>
- <AccordionTab header="Locked out of property">
-     <p class="text-[18px] font-[400] text-[#1d1d33]">
-       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-     </p>
-     <p class="text-[18px] font-[900] text-[#2a8cfb]">Report an issue (if not urgent)</p>
- </AccordionTab>
- <AccordionTab header="Other">
-   <p class="text-[18px] font-[400] text-[#1d1d33]">
-       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-     </p></AccordionTab>
-     <AccordionTab header="Other">
-   <p class="text-[18px] font-[400] text-[#1d1d33]">
-       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-     </p></AccordionTab>
-</Accordion>
+      <div class="max-w-[450px] w-full mx-auto ">
+        <Accordion :message="message" />
        </div>
        <div class=" bg-[#ec254e] p-9  max-w-[300px]  mx-auto">
          <img src="../assets/Icon.png" alt="ariticle">
@@ -72,10 +47,31 @@
 
 </template>
 <script setup>
+import Accordion from '../components/Accordion.vue';
+const message = [
+  { index:0,
+    header:'Etectrical',
+    text:' Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.'
+  },
+  { index:1,
+    header:'Water',
+    text:' Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.'
+  },
+  { index:2,
+    header:'Locked out of property',
+    text:' Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.',
+    text2:'Report an issue (if not urgent)'
+  },
+  { index:3,
+    header:'Other',
+    text:' Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.'
+  },
+  { index:4,
+    header:'Other',
+    text:' Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.'
+  },
 
-import Accordion from 'primevue/accordion';
-import AccordionTab from 'primevue/accordiontab';
-
+]
 </script>
 <style >
 .p-accordion-header-text{
