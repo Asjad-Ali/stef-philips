@@ -5,40 +5,39 @@
           <i class="pi pi-angle-right text-white"></i>
           <div class="dropdown">
             <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/your-home">Your Home</router-link>
-            <!-- <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="">FAQS</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Press & media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Community</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Housing partners</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Investors</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Generral</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
-            </div> -->
-          </div>
+             <div class="dropdown-content">
+              <router-link active-class="active" class="font-semibold text-sm" to="/quick-report">Quick Report</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/repair-and-maintenance">Repairs & maintenance</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/anti-social-behaviour">Anti-social behaviour</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/other-issues">Other issues</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/tax-council">Council tax and utilities</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="/out-of-hours-emergencies">Out of hours emergencies</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Tenant services</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accommodation</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
+              <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
+
+            </div> 
+          </div> 
         </nav>
       </div> 
-    <div class="lg:w-full  bg-red-400 bgImg">
-   
-     <!-- <div
-      class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 manOverlayBg"
-    > -->
-    <div class="w-full h-[600px] flex justify-center items-center manOverlayBg ">
-      <div class="w-[60%]">
+    <div class="w-full min-h-[600px] bg-red-400 bgImg"> 
+     <div class="max-w-5xl w-[60%] h-[600px] mx-auto flex  items-center">
+       <div class="max-w-sm">
         <div
-          class="text-5xl text-white  w-[100%] leading-snug"
+          class="text-5xl text-white leading-snug"
         >
           <div>Your <span class="text-white font-bold" >Home</span> </div>
-        </div>
+        </div> 
         <p
-          class="text-white mt-4 tracking-wide leading-snug lg:w-[50%]"
+          class="text-white mt-4 tracking-wide leading-snug"
         >
           Short Introductory summary for the page<br>goes here like so
         </p>
       </div>
     </div>
-  </div>
+    </div>
+
     <!-- </div> -->
 <!-- step 2 -->
 <YourHomeCard />

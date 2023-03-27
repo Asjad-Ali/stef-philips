@@ -8,6 +8,9 @@ import NewsArticleView from '../pages/NewsArticle.vue';
 import YourHomeView from '../pages/YourHome.vue';
 import NewsView from '../pages/News.vue';
 import QuickReport from "../pages/QuickReport.vue";
+import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
+import OtherIssues from '../pages/OtherIssues.vue';
+import TaxCouncil from '../pages/TaxCouncil.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -32,6 +35,21 @@ const router = createRouter({
       path: "/your-home",
       name: "yourHome",
       component: YourHomeView,
+    },
+    {
+      path: "/anti-social-behaviour",
+      name: "AntiSocialBEhaviour",
+      component: AntiSocialBehaviour,
+    },
+    {
+      path: "/other-issues",
+      name: "OtherIssues",
+      component: OtherIssues,
+    },
+    {
+      path: "/tax-council",
+      name: "TaxCouncil",
+      component:TaxCouncil,
     },
     {
       path: "/contact",
