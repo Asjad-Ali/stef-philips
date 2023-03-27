@@ -1,21 +1,22 @@
 <template>
- <div class="h-12 w-full bg-[#707070] bl " v-if="state">
+ <div class="h-12 w-full bcrumbs bl " v-if="state">
         <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
           <div class="dropdown">
             <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/your-home">Your Home</router-link>
-            <!-- <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="">FAQS</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Press & media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Community</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Housing partners</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Investors</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Generral</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
-            </div> -->
+            <div class="dropdown-content">
+            <router-link active-class="active" class="font-semibold text-sm" to="/quick-report">Quick report</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Report an issue</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="/repair-and-maintenance">Repairs $ maintenance</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Anti-social behaviour</router-link> 
+            <router-link active-class="active" class="font-semibold text-sm" to="">Other issues</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Out of hours emergencies</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Tenant services</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
+            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
+            </div>
           </div>
         </nav>
       </div> 

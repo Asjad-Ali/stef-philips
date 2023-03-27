@@ -7,7 +7,8 @@ import CommunityView from "../pages/Community.vue";
 import NewsArticleView from '../pages/NewsArticle.vue';
 import YourHomeView from '../pages/YourHome.vue';
 import NewsView from '../pages/News.vue';
-import QuickReport from "../pages/QuickReport.vue";
+import QuickReportView from "../pages/QuickReport.vue";
+import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -61,7 +62,12 @@ const router = createRouter({
     {
       path: "/quick-report",
       name: "quickReport",
-      component: QuickReport,
+      component: QuickReportView,
+    },
+    {
+      path: "/repair-and-maintenance",
+      name: "repairAndMaintenance",
+      component: RepairAndMaintenanceView,
     },
   ],
 });
