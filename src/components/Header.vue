@@ -20,7 +20,7 @@
               <ListboxButton
                 class="relative w-full cursor-default rounded-full pt-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
               >
-                <span class="inline-flex w-full flex items-center justify-center truncate">
+                <span class="inline-flex w-full items-center justify-center truncate">
                   <span class="truncate">
                     <Icon :icon="selected.name" />
                   </span>

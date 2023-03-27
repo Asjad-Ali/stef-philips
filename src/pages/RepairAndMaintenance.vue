@@ -12,13 +12,15 @@
       </div> 
 
        <!-- -->
-       <div class="w-full"> 
-        <div  class="max-w-5xl w-[60%] min-h-[100px] mx-auto ">
-        <h1  class="text-4xl text-[#20407c] font-[900] mt-16">Repairs & maintenance</h1> 
-        <p class="pt-4 text-lg text-[#1d1d33] font-[300]">Short introductory summary for the page goes here like so</p>
-        </div>
+        <div class="w-full"> 
+          <div  class="max-w-5xl w-[60%] min-h-[100px] mx-auto ">
+            <h1  class="text-4xl text-[#20407c] font-[900] mt-16">Repairs & maintenance</h1> 
+            <p class="pt-4 text-lg text-[#1d1d33] font-[300]">Short introductory summary for the page goes here like so</p>
+          </div>
         </div>
         
+          <!-- -->
+
             <div class="w-full mx-auto flex justify-center">
               <div class="max-w-5xl w-[60%] flex flex-col">
                 <div class="flex">
@@ -38,10 +40,21 @@
               </div>
             </div>
 
+             <!-- -->
+            <MoreInfo />
+
+             <!-- -->
+            <YourDetails />
+
+             <!-- -->
+            <Accordion />
      
 </template>
 <script setup>
 import ContactCard from "../components/Contactcard2.vue";
+import MoreInfo from "../components/MoreInfo.vue";
+import YourDetails from "../components/YourDetails.vue";
+import Accordion from "../components/Accordion.vue";
 import InputText from 'primevue/inputtext';
 import { ref } from 'vue';
 
