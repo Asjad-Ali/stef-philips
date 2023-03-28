@@ -1,13 +1,13 @@
 <template>
     <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
     <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
-      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" >Home</div>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
       <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom" >Your home</div>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
         <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom" >Report an issue</div>
+            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Report an issue</div>
         <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom" >Other Issues</div>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Other Issues</div>
     </nav>
   </div> 
   <div

@@ -1,11 +1,11 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
     <nav class="w-[60%] mx-auto flex items-center justify-start gap-3 inner   ">
-      <div exact-active-class="exact-active" class="text-white text-sm font-bold-custom" >Home</div>
+      <div exact-active-class="exact-active" class="text-white text-sm font-bold-custom text-[14px]" >Home</div>
       <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white text-sm dropbtn font-bold-custom" >About us</div>
+        <div active-class="active" class="text-white text-sm dropbtn font-bold-custom text-[14px]" >About us</div>
         <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white text-sm font-bold-custom" >Meet the team</div>
+        <div active-class="active" class="text-white text-sm font-bold-custom text-[14px]" >Meet the team</div>
     </nav>
   </div> 
 
