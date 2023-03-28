@@ -156,7 +156,7 @@
 
 <script setup>
 import { ref } from "vue";
-import ContactCard from "../components/Contactcard2.vue";
+// import ContactCard from "../components/Contactcard2.vue";
 import Accordion from 'primevue/accordion';
 import AccordionTab from 'primevue/accordiontab';
 </script>
