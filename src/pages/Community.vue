@@ -1,11 +1,11 @@
 <template>
-    <div class="h-12 w-full bg-[#707070] bl ">
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner  ">
-          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
+    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
+        <nav class="w-[60%]  mx-auto flex items-center justify-start gap-3 inner  ">
+          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
-            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About us</router-link>
+            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn font-bold-custom" to="/about-us">About us</router-link>
             <i class="pi pi-angle-right text-white"></i>
-            <router-link active-class="active" class="text-white font-semibold text-sm" to="/community">Community</router-link>
+            <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/community">Community</router-link>
         </nav>
       </div> 
     <!-- section 1 -->
@@ -105,8 +105,17 @@ const card2=[{ heading:'Media title here', img:'src/assets/bgblue.png', subButto
 <style scoped> 
 .bl{
   background-color: rgba(29, 29, 51, 0.5);
-  height: 3rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+  font-family: "Bold-Custom";
+  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Bold.ttf");
+
+}
+.font-bold-custom{
+    font-family: "Bold-Custom";
+  font-size: 14px;
 }
 @media (max-width:650px){
 .bgImg{

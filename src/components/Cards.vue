@@ -1,6 +1,6 @@
 <template>
   <div class="py-20 w-[60%] mx-auto">
-    <div class="mx-auto max-w-5xl  text-center">
+    <div class=" text-center">
       <ul
         role="list"
         class="mx-auto grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
@@ -31,7 +31,7 @@ const people = [
     name: "Help in your home",
     role: "Senior Designer",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "src/assets/Card-Image-1.png",
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -39,7 +39,7 @@ const people = [
     name: "Quick report form",
     role: "Senior Designer",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    "src/assets/Card-Image-2.png",
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -47,7 +47,7 @@ const people = [
     name: "Report repair or maintainance",
     role: "Senior Designer",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    "src/assets/Card-Image-3.png",
     twitterUrl: "#",
     linkedinUrl: "#"
   }

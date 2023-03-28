@@ -1,10 +1,10 @@
 <template>
-<div class=" pt-11">
+<div class=" pt-11 w-[60%] mx-auto">
 <h1  class="lg:text-[30px]  xxxs:text-[25px] text-[#20407c] lg:font-[900] xxxs:font-[600]">More Information</h1> 
 <p class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] lg:font-[900] xxxs:font-[600]  mt-3">Select the option that best describes your issue</p>
 <p class="lg:text-[18px]  xxxs:text-[15px] text-[#1D1D33] lg:font-[400] lg:mt-3 lg:mb-3  xxxs:mt-1 xxxs:mb-1 ">Select on</p>
 </div>
-<form @submit="onSubmit">
+<form @submit="onSubmit" class="w-[60%] mx-auto">
     <Dropdown v-model="selectedOption" inputId="dd-city"    :options="cities" optionLabel="name" placeholder="select..." class="w-full lg:max-w-[632px]  min-h-[50px]" />
     <p class="lg:text-[18px]  xxxs:text-[16px] text-[#20407C] lg:font-[900]  xxxs:font-[500] mt-11">Please describe the issue</p>
     <p class="lg:text-[18px]  xxxs:text-[16px]  text-[#1D1D33] lg:font-[400]  xxxs:font-[100] mt-3">Be as detailed as possible</p>
@@ -88,7 +88,5 @@ const chooseFile=[
      border:  0.16rem solid #20407C;
      background:#E1EFFF;
 }
-.pi {
-    display: none;
-}
+
 </style>

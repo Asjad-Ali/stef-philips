@@ -1,4 +1,13 @@
 <template>
+  <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+      <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" to="/home">Home</router-link>
+      <i class="pi pi-angle-right text-white"></i>
+        <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/your-home">Your home</router-link>
+        <i class="pi pi-angle-right text-white"></i>
+        <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/hours-emergency">Out of Hours Emergencies</router-link>
+    </nav>
+  </div> 
     <div class="w-full min-h-[150px] "> 
 <div  class=" w-[60%] min-h-[100px] mx-auto ">
 <h1  class="text-[42px] text-[#20407c] font-[900] mt-16">Out of hours emergencies</h1> 
@@ -12,10 +21,10 @@
          <h1 class="text-3xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">What is an emergency repair?</h1>
        </div>
        <div class="flex justify-between gap-5 flex-wrap py-10">
-      <div class="max-w-[450px] w-full mx-auto ">
+      <div class="w-[60%] w-full mx-auto ">
         <Accordion :message="message" />
        </div>
-       <div class=" bg-[#ec254e] p-9  max-w-[300px]  mx-auto">
+       <div class=" bg-[#ec254e] p-9  mx-auto">
          <img src="../assets/Icon.png" alt="ariticle">
          <h1  class="text-[24px] font-[900] text-white">In case of emergencies</h1>
          <p   class="text-[18px] text-white font-[400]">If you or someone else is seriously injured, contact the emergency services on 999. <br> <br> If there is a fire at 

@@ -5,33 +5,138 @@
     >
       <div class="h-16 w-[60%] nav">
         <div
-          class=" h-full flex items-center justify-between gap-4 wrap"
+          class="h-full flex items-center justify-between gap-4 wrap"
         >
           <router-link to="/home">
-            <svg id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226.141" height="37.925" viewBox="0 0 226.141 37.925">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectangle_26" data-name="Rectangle 26" width="226.141" height="37.925" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Group_7" data-name="Group 7" clip-path="url(#clip-path)">
-    <path id="Path_58" data-name="Path 58" d="M336.436,32.079a12.937,12.937,0,0,1-5.711-1.219,9.525,9.525,0,0,1-3.954-3.465,9.352,9.352,0,0,1-1.423-5.109,10.221,10.221,0,0,1,1.874-5.839,12.456,12.456,0,0,1,3.8-3.609l.408-.251-.245-.411a16.31,16.31,0,0,1-.974-1.907,8.284,8.284,0,0,1-.682-3.277,6.3,6.3,0,0,1,1.078-3.6A7.522,7.522,0,0,1,333.45.911,8.657,8.657,0,0,1,337.439,0a7.848,7.848,0,0,1,3.7.852,6.719,6.719,0,0,1,2.578,2.371,6.337,6.337,0,0,1,.962,3.436,6.83,6.83,0,0,1-.718,3.039,5.814,5.814,0,0,1-1.921,2.29l-.519.353-2.2-2.722.434-.434a3.951,3.951,0,0,0,.723-1.106,3.254,3.254,0,0,0,.331-1.42,3.072,3.072,0,0,0-.9-2.313,3.344,3.344,0,0,0-2.467-.89,4.2,4.2,0,0,0-2.931,1.019A3.156,3.156,0,0,0,333.4,6.993a5.748,5.748,0,0,0,1.171,3.368c.845,1.2,1.789,2.421,2.806,3.631l7.343,8.26c.184.194.359.375.536.555l.486.493.3-.624a15.413,15.413,0,0,0,.9-2.393,17.341,17.341,0,0,0,.494-2.388l.079-.574-2.608.1-.031-3.586,9.005-.362.031,3.585-2.609.1-.041.421a20.318,20.318,0,0,1-.8,4.066,16.285,16.285,0,0,1-1.7,3.765l-.236.378.357.267a14.015,14.015,0,0,0,2.644,1.616,6.583,6.583,0,0,0,2.586.652c.154,0,.29-.006.418-.018a3.376,3.376,0,0,0,.368-.052l.8-.16.068,3.457-.487.154A6.216,6.216,0,0,1,353.4,32a8.9,8.9,0,0,1-3.982-1.012,20.062,20.062,0,0,1-3.164-2l-.3-.232-.3.242a13.333,13.333,0,0,1-3.71,2.125,15.476,15.476,0,0,1-5.507.963m-3.2-16.411a9.1,9.1,0,0,0-2.676,2.556,6.964,6.964,0,0,0-1.341,4.062,5.8,5.8,0,0,0,1.924,4.589,7.585,7.585,0,0,0,5.292,1.749,10.213,10.213,0,0,0,6.383-2l.44-.331-.383-.394c-.266-.274-.535-.561-.8-.855l-7.82-8.823-.662-.773Z" transform="translate(-248.159)" fill="#2a8cff"/>
-    <path id="Path_59" data-name="Path 59" d="M475.527,2.787h-11.4V32.961h6.33V22.031h5.574c6.33,0,10.086-3.84,10.086-9.537a9.66,9.66,0,0,0-2.7-6.879c-1.772-1.814-4.389-2.827-7.892-2.827m-.591,14.264h-4.477V8.1h4.561c3.038,0,4.811,1.6,4.811,4.431,0,2.743-1.688,4.516-4.9,4.516" transform="translate(-354.014 -2.126)" fill="#1d1d33"/>
-    <path id="Path_60" data-name="Path 60" d="M578.649,10.721c-2.954,0-4.525,1.14-6.086,3.418h-.127V2.787H566.7V32.961h5.739V20.68c0-2.954,1.655-4.98,4.187-4.98,2.406,0,3.756,1.646,3.756,3.967V32.961h5.739V18.824c0-4.726-3-8.1-7.47-8.1" transform="translate(-432.248 -2.126)" fill="#1d1d33"/>
-    <rect id="Rectangle_21" data-name="Rectangle 21" width="5.739" height="5.149" transform="translate(156.781 0.661)" fill="#1d1d33"/>
-    <rect id="Rectangle_22" data-name="Rectangle 22" width="5.739" height="21.649" transform="translate(156.781 9.186)" fill="#1d1d33"/>
-    <rect id="Rectangle_23" data-name="Rectangle 23" width="5.739" height="30.174" transform="translate(166.088 0.661)" fill="#1d1d33"/>
-    <rect id="Rectangle_24" data-name="Rectangle 24" width="5.739" height="5.149" transform="translate(175.625 0.661)" fill="#1d1d33"/>
-    <rect id="Rectangle_25" data-name="Rectangle 25" width="5.739" height="21.649" transform="translate(175.625 9.186)" fill="#1d1d33"/>
-    <path id="Path_61" data-name="Path 61" d="M789.992,36.228a7.566,7.566,0,0,0-6.372,3.292h-.126v-2.7h-5.528V65.558H783.7V56.02h.084a6.971,6.971,0,0,0,6.246,3.081c5.571,0,9.369-4.431,9.369-11.437,0-6.752-3.672-11.436-9.411-11.436m-1.182,18.1c-3.418,0-5.233-2.574-5.233-6.5,0-3.883,1.435-6.963,5.022-6.963,3.545,0,4.98,2.87,4.98,6.963s-1.857,6.5-4.769,6.5" transform="translate(-593.393 -27.633)" fill="#1d1d33"/>
-    <path id="Path_62" data-name="Path 62" d="M883.715,45.3c-3.081-.633-5.951-.8-5.951-2.659,0-1.561,1.477-2.405,3.714-2.405,2.447,0,3.923.843,4.177,3.163l5.174-.144c-.479-4.263-3.635-7.027-9.267-7.027-4.938,0-8.82,2.237-8.82,6.921,0,4.726,3.8,5.782,7.68,6.541,2.954.591,5.7.8,5.7,2.869,0,1.519-1.435,2.49-3.967,2.49-2.573,0-4.346-1.1-4.726-3.585l-5.3.148c.4,4.515,3.9,7.488,10.114,7.488,5.4,0,9.115-2.617,9.115-6.963,0-5.064-4.009-6.077-7.638-6.837" transform="translate(-665.213 -27.633)" fill="#1d1d33"/>
-    <path id="Path_63" data-name="Path 63" d="M119.077,32.257V21.248l3.714-.1V17.12l-3.714.1v-7h-5.613v7.153l-3,.084v4.024l3-.084V33.481c0,4.094,3.08,5.191,5.866,5.191,2.279,0,3.587-.084,3.587-.084v-4.22s-.971.042-1.688.042a1.9,1.9,0,0,1-2.152-2.152" transform="translate(-84.259 -7.801)" fill="#1d1d33"/>
-    <path id="Path_64" data-name="Path 64" d="M13.494,12.978c-4.473-.971-6.583-1.688-6.583-4.136C6.911,6.69,9.063,5.3,12.355,5.3c3.111,0,5.468,1.508,5.819,4.524l5.851-.163C23.481,3.707,19.117.444,12.4.444S.834,3.525.834,9.475c0,6.288,4.938,7.723,10.34,8.947,4.6,1.055,7.47,1.646,7.47,4.6,0,2.785-2.743,3.883-5.866,3.883-4.3,0-6.367-1.431-6.793-5.05L0,22.021c.293,6.259,4.922,9.821,13.03,9.821,6.794,0,11.732-3.419,11.732-9.538,0-6.5-5.064-7.976-11.268-9.327" transform="translate(0 -0.339)" fill="#1d1d33"/>
-    <path id="Path_65" data-name="Path 65" d="M180.581,36.2c-6.331,0-10.677,4.98-10.677,11.394,0,6.457,4.051,11.479,11.225,11.479,5.546,0,8.958-3.221,9.779-7.04l-5.731.16a4.041,4.041,0,0,1-4.09,2.449c-3.25,0-5.107-2.068-5.528-5.4h15.7c0-7.723-3.714-13.04-10.677-13.04m-4.938,9.073c.506-2.827,1.983-4.642,5.022-4.642,2.617,0,4.431,1.9,4.6,4.642Z" transform="translate(-129.594 -27.61)" fill="#1d1d33"/>
-    <path id="Path_66" data-name="Path 66" d="M276.636,7.027V2.6c-5.528-.591-9.622,1.266-9.622,6.541v2.082l-2.827.079v4.024l2.827-.079V32.728h5.739V15.083l3.756-.1V10.954l-3.756.1V9.475c0-2.237,1.182-2.574,3.883-2.447" transform="translate(-201.509 -1.9)" fill="#1d1d33"/>
-  </g>
-</svg>
-
+            <svg
+              id="Logo"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="226.141"
+              height="37.925"
+              viewBox="0 0 226.141 37.925"
+            >
+              <defs>
+                <clipPath id="clip-path">
+                  <rect
+                    id="Rectangle_26"
+                    data-name="Rectangle 26"
+                    width="226.141"
+                    height="37.925"
+                    fill="none"
+                  />
+                </clipPath>
+              </defs>
+              <g
+                id="Group_7"
+                data-name="Group 7"
+                clip-path="url(#clip-path)"
+              >
+                <path
+                  id="Path_58"
+                  data-name="Path 58"
+                  d="M336.436,32.079a12.937,12.937,0,0,1-5.711-1.219,9.525,9.525,0,0,1-3.954-3.465,9.352,9.352,0,0,1-1.423-5.109,10.221,10.221,0,0,1,1.874-5.839,12.456,12.456,0,0,1,3.8-3.609l.408-.251-.245-.411a16.31,16.31,0,0,1-.974-1.907,8.284,8.284,0,0,1-.682-3.277,6.3,6.3,0,0,1,1.078-3.6A7.522,7.522,0,0,1,333.45.911,8.657,8.657,0,0,1,337.439,0a7.848,7.848,0,0,1,3.7.852,6.719,6.719,0,0,1,2.578,2.371,6.337,6.337,0,0,1,.962,3.436,6.83,6.83,0,0,1-.718,3.039,5.814,5.814,0,0,1-1.921,2.29l-.519.353-2.2-2.722.434-.434a3.951,3.951,0,0,0,.723-1.106,3.254,3.254,0,0,0,.331-1.42,3.072,3.072,0,0,0-.9-2.313,3.344,3.344,0,0,0-2.467-.89,4.2,4.2,0,0,0-2.931,1.019A3.156,3.156,0,0,0,333.4,6.993a5.748,5.748,0,0,0,1.171,3.368c.845,1.2,1.789,2.421,2.806,3.631l7.343,8.26c.184.194.359.375.536.555l.486.493.3-.624a15.413,15.413,0,0,0,.9-2.393,17.341,17.341,0,0,0,.494-2.388l.079-.574-2.608.1-.031-3.586,9.005-.362.031,3.585-2.609.1-.041.421a20.318,20.318,0,0,1-.8,4.066,16.285,16.285,0,0,1-1.7,3.765l-.236.378.357.267a14.015,14.015,0,0,0,2.644,1.616,6.583,6.583,0,0,0,2.586.652c.154,0,.29-.006.418-.018a3.376,3.376,0,0,0,.368-.052l.8-.16.068,3.457-.487.154A6.216,6.216,0,0,1,353.4,32a8.9,8.9,0,0,1-3.982-1.012,20.062,20.062,0,0,1-3.164-2l-.3-.232-.3.242a13.333,13.333,0,0,1-3.71,2.125,15.476,15.476,0,0,1-5.507.963m-3.2-16.411a9.1,9.1,0,0,0-2.676,2.556,6.964,6.964,0,0,0-1.341,4.062,5.8,5.8,0,0,0,1.924,4.589,7.585,7.585,0,0,0,5.292,1.749,10.213,10.213,0,0,0,6.383-2l.44-.331-.383-.394c-.266-.274-.535-.561-.8-.855l-7.82-8.823-.662-.773Z"
+                  transform="translate(-248.159)"
+                  fill="#2a8cff"
+                />
+                <path
+                  id="Path_59"
+                  data-name="Path 59"
+                  d="M475.527,2.787h-11.4V32.961h6.33V22.031h5.574c6.33,0,10.086-3.84,10.086-9.537a9.66,9.66,0,0,0-2.7-6.879c-1.772-1.814-4.389-2.827-7.892-2.827m-.591,14.264h-4.477V8.1h4.561c3.038,0,4.811,1.6,4.811,4.431,0,2.743-1.688,4.516-4.9,4.516"
+                  transform="translate(-354.014 -2.126)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_60"
+                  data-name="Path 60"
+                  d="M578.649,10.721c-2.954,0-4.525,1.14-6.086,3.418h-.127V2.787H566.7V32.961h5.739V20.68c0-2.954,1.655-4.98,4.187-4.98,2.406,0,3.756,1.646,3.756,3.967V32.961h5.739V18.824c0-4.726-3-8.1-7.47-8.1"
+                  transform="translate(-432.248 -2.126)"
+                  fill="#1d1d33"
+                />
+                <rect
+                  id="Rectangle_21"
+                  data-name="Rectangle 21"
+                  width="5.739"
+                  height="5.149"
+                  transform="translate(156.781 0.661)"
+                  fill="#1d1d33"
+                />
+                <rect
+                  id="Rectangle_22"
+                  data-name="Rectangle 22"
+                  width="5.739"
+                  height="21.649"
+                  transform="translate(156.781 9.186)"
+                  fill="#1d1d33"
+                />
+                <rect
+                  id="Rectangle_23"
+                  data-name="Rectangle 23"
+                  width="5.739"
+                  height="30.174"
+                  transform="translate(166.088 0.661)"
+                  fill="#1d1d33"
+                />
+                <rect
+                  id="Rectangle_24"
+                  data-name="Rectangle 24"
+                  width="5.739"
+                  height="5.149"
+                  transform="translate(175.625 0.661)"
+                  fill="#1d1d33"
+                />
+                <rect
+                  id="Rectangle_25"
+                  data-name="Rectangle 25"
+                  width="5.739"
+                  height="21.649"
+                  transform="translate(175.625 9.186)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_61"
+                  data-name="Path 61"
+                  d="M789.992,36.228a7.566,7.566,0,0,0-6.372,3.292h-.126v-2.7h-5.528V65.558H783.7V56.02h.084a6.971,6.971,0,0,0,6.246,3.081c5.571,0,9.369-4.431,9.369-11.437,0-6.752-3.672-11.436-9.411-11.436m-1.182,18.1c-3.418,0-5.233-2.574-5.233-6.5,0-3.883,1.435-6.963,5.022-6.963,3.545,0,4.98,2.87,4.98,6.963s-1.857,6.5-4.769,6.5"
+                  transform="translate(-593.393 -27.633)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_62"
+                  data-name="Path 62"
+                  d="M883.715,45.3c-3.081-.633-5.951-.8-5.951-2.659,0-1.561,1.477-2.405,3.714-2.405,2.447,0,3.923.843,4.177,3.163l5.174-.144c-.479-4.263-3.635-7.027-9.267-7.027-4.938,0-8.82,2.237-8.82,6.921,0,4.726,3.8,5.782,7.68,6.541,2.954.591,5.7.8,5.7,2.869,0,1.519-1.435,2.49-3.967,2.49-2.573,0-4.346-1.1-4.726-3.585l-5.3.148c.4,4.515,3.9,7.488,10.114,7.488,5.4,0,9.115-2.617,9.115-6.963,0-5.064-4.009-6.077-7.638-6.837"
+                  transform="translate(-665.213 -27.633)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_63"
+                  data-name="Path 63"
+                  d="M119.077,32.257V21.248l3.714-.1V17.12l-3.714.1v-7h-5.613v7.153l-3,.084v4.024l3-.084V33.481c0,4.094,3.08,5.191,5.866,5.191,2.279,0,3.587-.084,3.587-.084v-4.22s-.971.042-1.688.042a1.9,1.9,0,0,1-2.152-2.152"
+                  transform="translate(-84.259 -7.801)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_64"
+                  data-name="Path 64"
+                  d="M13.494,12.978c-4.473-.971-6.583-1.688-6.583-4.136C6.911,6.69,9.063,5.3,12.355,5.3c3.111,0,5.468,1.508,5.819,4.524l5.851-.163C23.481,3.707,19.117.444,12.4.444S.834,3.525.834,9.475c0,6.288,4.938,7.723,10.34,8.947,4.6,1.055,7.47,1.646,7.47,4.6,0,2.785-2.743,3.883-5.866,3.883-4.3,0-6.367-1.431-6.793-5.05L0,22.021c.293,6.259,4.922,9.821,13.03,9.821,6.794,0,11.732-3.419,11.732-9.538,0-6.5-5.064-7.976-11.268-9.327"
+                  transform="translate(0 -0.339)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_65"
+                  data-name="Path 65"
+                  d="M180.581,36.2c-6.331,0-10.677,4.98-10.677,11.394,0,6.457,4.051,11.479,11.225,11.479,5.546,0,8.958-3.221,9.779-7.04l-5.731.16a4.041,4.041,0,0,1-4.09,2.449c-3.25,0-5.107-2.068-5.528-5.4h15.7c0-7.723-3.714-13.04-10.677-13.04m-4.938,9.073c.506-2.827,1.983-4.642,5.022-4.642,2.617,0,4.431,1.9,4.6,4.642Z"
+                  transform="translate(-129.594 -27.61)"
+                  fill="#1d1d33"
+                />
+                <path
+                  id="Path_66"
+                  data-name="Path 66"
+                  d="M276.636,7.027V2.6c-5.528-.591-9.622,1.266-9.622,6.541v2.082l-2.827.079v4.024l2.827-.079V32.728h5.739V15.083l3.756-.1V10.954l-3.756.1V9.475c0-2.237,1.182-2.574,3.883-2.447"
+                  transform="translate(-201.509 -1.9)"
+                  fill="#1d1d33"
+                />
+              </g>
+            </svg>
           </router-link>
 
           <div
@@ -163,146 +268,158 @@
       class="h-[5rem] w-full bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl"
     >
       <nav
-        class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner "
+        class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner"
       >
-      <div>
-      
-      
-        <router-link
-          active-class="active"
-          class="text-white text-sm dropdown"
-          to="/about-us"
-          ><span
-            >About us
-            <nav
-              class="w-[60%] h-full mx-auto flex gap-4 inner dropdown-content"
-            >
-              <div
-                class="flex items-center w-[53%] justify-center"
-              >
-                <router-link
-                  exact-active-class="exact-active"
-                  class="text-white font-semibold text-sm"
-                  to="/home"
-                  >Home</router-link
-                >
-                <i
-                  class="pi pi-angle-right text-white"
-                ></i>
-                <router-link
-                  active-class="active"
-                  class="text-white font-semibold text-sm dropdown-abt"
-                  to="/about-us"
-                  ><span>About Us              
-                  <nav class="about-dropdown">
-                  <router-link
-                    active-class="active"
-                    class="font-semibold text-sm"
-                    to="/community"
-                    >Community</router-link
-                  >
-                  <router-link
-                    active-class="active"
-                    class="font-semibold text-sm"
-                    to="/meet-the-team"
-                    >Meet The Team</router-link
-                  >
-                  <router-link
-                    active-class="active"
-                    class="font-semibold text-sm"
-                    to="/news"
-                    >News</router-link
-                  >
-                  <router-link
-                    active-class="active"
-                    class="font-semibold text-sm"
-                    to="/news-article"
-                    >News Article</router-link
-                  >
-                </nav>
-                  </span></router-link
-                >
-
-              </div>
-            </nav>
-          </span></router-link
-        >
-      </div>
+        <div>
+          <router-link
+            active-class="active"
+            class="text-white text-sm dropdown font-x-bold"
+            to="/about-us"
+            ><span
+              >About us
+              <nav class="about-dropdown">
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="/community"
+                          >Community</router-link
+                        >
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="/meet-the-team"
+                          >Meet The
+                          Team</router-link
+                        >
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="/news"
+                          >News</router-link
+                        >
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="/news-article"
+                          >News
+                          Article</router-link
+                        >
+                      </nav>
+            </span></router-link
+          >
+        </div>
 
         <router-link
           exact-active-class="exact-active"
-          class="text-white text-sm dropdown-h"
+          class="text-white text-sm dropdown-h font-x-bold"
           to="/your-home"
         >
           <span
             >Your home
-            <nav
-              class="w-[60%] h-full mx-auto flex gap-4 inner home-dropdown-content"
-            >
-              <div
-                class="flex items-center w-[53%] justify-center"
-              >
-                <router-link
-                  exact-active-class="exact-active"
-                  class="text-white font-semibold text-sm"
-                  to="/home"
-                  >Home</router-link
-                >
-                <i
-                  class="pi pi-angle-right text-white"
-                ></i>
-                <router-link
-                  active-class="active"
-                  class="text-white font-semibold text-sm dropdown-hm"
-                  to="/your-home"
-                  ><span>Your Home              
-                  <nav class="home-dropdown">
-                    <router-link active-class="active" class="font-semibold text-sm" to="/quick-report">Quick report</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="/report-an-issue">Report an issue</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="/repair-maintenance">Repair & maintenance</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="/anti-social-behaviour">Anti-social behaviour</router-link> 
-            <router-link active-class="active" class="font-semibold text-sm" to="/other-issues">Other issues</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="/out-of-hours-emergencies">Out of hours emergencies</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="tenant-services">Tenant services</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="/temporary-accomodation">Temporary accomodation</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="prs">PRS</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="repair-responsibilities">Repair responsibilities</router-link>
-                </nav>
-                  </span></router-link
-                >
-
-              </div>
-            </nav>
-            </span
-          ></router-link
+            <nav class="home-dropdown">
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/quick-report"
+                        >Quick report</router-link
+                      >
+                      <!-- <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/report-an-issue"
+                        >Report an
+                        issue</router-link
+                      > -->
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/repair-and-maintenance"
+                        >Repair &
+                        maintenance</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/anti-social-behaviour"
+                        >Anti-social
+                        behaviour</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/other-issues"
+                        >Other issues</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/tax-council"
+                        >Council tax and utilities</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/hours-emergency"
+                        >Out of hours
+                        emergencies</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="tenant-services"
+                        >Tenant
+                        services</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="/temporary-accomodation"
+                        >Temporary
+                        accomodation</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="prs"
+                        >PRS</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
+                        to="repair-responsibilities"
+                        >Repair
+                        responsibilities</router-link
+                      >
+                    </nav>
+          </span></router-link
         >
         <router-link
           active-class="active"
-          class="text-white text-sm"
+          class="text-white text-sm font-x-bold"
           to="/help-and-advice"
           >Help and Advice</router-link
         >
         <router-link
           active-class="active"
-          class="text-white text-sm"
+          class="text-white text-sm font-x-bold"
           to="/housing-partners"
           >Housing Partners</router-link
         >
         <router-link
           active-class="active"
-          class="text-white text-sm"
+          class="text-white text-sm font-x-bold"
           to="investors"
           >Investors</router-link
         >
         <router-link
           active-class="active"
-          class="text-white text-sm"
+          class="text-white text-sm font-x-bold"
           to="careers"
           >Careers</router-link
         >
         <router-link
           active-class="active"
-          class="text-white text-sm"
+          class="text-white text-sm font-x-bold"
           to="/contact"
           ><span @mouseover="stateHandler"
             >Contact</span
@@ -380,102 +497,56 @@ const selected = ref(people[0]);
 </script>
 
 <style scoped>
-.dropdown-h {
-  float: left;
-  overflow: hidden;
+.font-x-bold{
+  font-family: "aktiv-grotesk-std",sans-serif;
+  src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-XBold.ttf");
+  font-size: 18px;
 }
-.dropdown {
-  float: left;
-  overflow: hidden;
+.exact-active.dropdown-h:hover .home-dropdown{
+  display: block;
+  margin-top: 4px;
 }
 .home-dropdown {
   display: none;
   position: absolute;
-  top: 3rem;
-  right: 54.3rem;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-hm:hover .home-dropdown{
-display: block;
-}
-
-.home-dropdown-content {
-  display: none;
-  position: absolute;
-  top: 6.3rem;
-  left: 0;
-  background-color: rgba(29, 29, 51, 0.5);
-  height: 3rem;
-  min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  
-}
-.exact-active.dropdown-h:hover .home-dropdown-content{
-  display: block;
-
-}
-.home-dropdown-content a {
-  float: none;
+.home-dropdown a {
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
-}
-.home-dropdown-content a:hover {
-  background-color: lightgray;
-  color: black;
 }
 
-/* ///////////////////////////// */
+.home-dropdown a:hover {background-color: #f1f1f1}
+
+
+/* ////////////////////////////// */
+
+
+.active.dropdown:hover .about-dropdown{
+  display: block;
+  margin-top: 2px;
+}
 .about-dropdown {
   display: none;
   position: absolute;
-  top: 3rem;
-  right: 55.15rem;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown-abt:hover .about-dropdown{
-display: block;
-}
-
-/* //////////////////////// */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 6.3rem;
-  left: 0;
-  background-color: rgba(29, 29, 51, 0.5);
-  height: 3rem;
-  min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  
-}
-.active.dropdown:hover .dropdown-content{
-  display: block;
-
-}
-.dropdown-content a {
-  float: a;
+.about-dropdown a {
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
 }
-.dropdown-content a:hover {
-  background-color: lightgray;
-  color: black;
-}
-
-
-/* ////////////////////// */
+.about-dropdown a:hover {background-color: #f1f1f1}
+/* ///////////////////// */
 .exact-active {
   border-bottom: 2px solid whitesmoke;
   padding-bottom: 3px;
@@ -489,24 +560,31 @@ display: block;
     width: 100%;
     padding: 2px;
   }
+  /* .upper-nav {
+    padding: 2px;
+  } */
   .inner {
     width: 100%;
+    padding: 2px;
   }
 }
 @media (max-width: 660px) {
   .wrap {
     flex-wrap: wrap;
   }
-
+ 
 }
 
+@media (max-width: 565px) {
+  .upper-nav {
+    height: 100px;
+  }
+}
 @media (max-width: 550px) {
   .nav {
     width: 100%;
   }
-  .upper-nav {
-    height: 80px;
-  }
+
 }
 
 @media (max-width: 500px) {
