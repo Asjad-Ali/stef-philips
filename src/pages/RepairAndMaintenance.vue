@@ -45,14 +45,38 @@
             <YourDetails />
 
              <!-- -->
-            <Accordion />
+             <div class="w-full flex justify-center mx-auto py-20  bg-[#ededee]">
+              <div class="w-[60%]">
+              <h1   class="text-[30px] text-[#20407c] font-[900] pb-10">Other ways to report</h1>
+              <Accordion :activeIndex="2" >
+              <AccordionTab header="Call us" style="color:#20407c; font-size:18px; font-weight:900" color="white">
+                <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+                  </p>
+              </AccordionTab>
+              <AccordionTab header="Emergency out of hours repairs">
+                <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+                  </p>
+              </AccordionTab>
+              <AccordionTab header="Repair responsibilities">
+                  <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+                  </p>
+                  <p class="text-[18px] font-[900] text-[#2a8cfb]">Link call to action</p>
+              </AccordionTab>
+            </Accordion>
+              </div>
+              
+              </div>
      
 </template>
 <script setup>
 import ContactCard from "../components/Contactcard2.vue";
 import MoreInfo from "../components/MoreInfo.vue";
 import YourDetails from "../components/YourDetails.vue";
-import Accordion from "../components/Accordion.vue";
+import Accordion from 'primevue/accordion';
+import AccordionTab from 'primevue/accordiontab';
 import InputText from 'primevue/inputtext';
 import { ref } from 'vue';
 
@@ -117,5 +141,27 @@ const message = [
 }
 .pi {
     padding-right: 10px;
+}
+.p-accordion-header-text{
+  color:#20407c; font-size:18px; font-weight:900;
+}
+.p-accordion-toggle-icon{
+  position: absolute; right: 0%;  padding: 2px; color:#20407c;
+}
+.p-accordion-header-link{
+  background-color: white;
+}
+@media(max-width:500px){
+.emergency{
+  font-size: 26px;
+  
+}
+.number{
+  font-size:18px;
+}
+.btn{
+  font-size:12px;
+
+}
 }
 </style>
