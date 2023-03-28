@@ -1,5 +1,5 @@
 <template>
-  <div class="h-12 w-full bg-[#707070] bl ">
+  <div class="h-12 w-full bcrumbs bl ">
     <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
       <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
       <i class="pi pi-angle-right text-white"></i>
@@ -10,6 +10,9 @@
         <router-link active-class="active" class="text-white font-semibold text-sm" to="/news-article">News article</router-link>
     </nav>
   </div> 
+  
+   <!-- -->
+
   <div class="max-w-5xl w-[60%] mx-auto py-20">
       <h2 class="font-semibold text-2xl text-[#20407C]">6th March 2023</h2>
       <h1 class="pt-4 text-4xl text-[#20407C]">

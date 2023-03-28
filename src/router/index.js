@@ -11,6 +11,8 @@ import QuickReport from "../pages/QuickReport.vue";
 import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
 import OtherIssues from '../pages/OtherIssues.vue';
 import TaxCouncil from '../pages/TaxCouncil.vue';
+import QuickReportView from "../pages/QuickReport.vue";
+import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -79,7 +81,12 @@ const router = createRouter({
     {
       path: "/quick-report",
       name: "quickReport",
-      component: QuickReport,
+      component: QuickReportView,
+    },
+    {
+      path: "/repair-and-maintenance",
+      name: "repairAndMaintenance",
+      component: RepairAndMaintenanceView,
     },
   ],
 });
