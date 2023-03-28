@@ -22,7 +22,7 @@
     <div class="w-[60%]">
       <div class="lg:pt-40">
         <div
-          class="lg:max-w-5xl grid md:grid-cols-2 grid-cols-1 h-[540px] gap-12"
+          class="lg:max-w-5xl grid md:grid-cols-2 grid-cols-1 gap-12"
         >
           <div class>
             <h1

@@ -19,6 +19,13 @@
     font-family: "Bold-Custom";
   font-size: 14px;
 }
+@font-face {
+  font-family: "Black";
+  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Black.ttf");
+}
+.font-black-custom{
+  font-family: "Black";
+}
 .wrapper {
     position: relative;
     width: 100vw;
