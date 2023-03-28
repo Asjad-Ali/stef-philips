@@ -51,7 +51,7 @@
      
 </template>
 <script setup>
-import ContactCard from "../components/Contactcard2.vue";
+import ContactCard from "../components/Contactcard.vue";
 import MoreInfo from "../components/MoreInfo.vue";
 import YourDetails from "../components/YourDetails.vue";
 import Accordion from "../components/Accordion.vue";

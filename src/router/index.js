@@ -7,12 +7,13 @@ import CommunityView from "../pages/Community.vue";
 import NewsArticleView from "../pages/NewsArticle.vue";
 import YourHomeView from "../pages/YourHome.vue";
 import NewsView from "../pages/News.vue";
-import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
-import OtherIssues from '../pages/OtherIssues.vue';
-import TaxCouncil from '../pages/TaxCouncil.vue';
+import AntiSocialBehaviour from "../pages/AntiSocialBehaviour.vue";
+import OtherIssues from "../pages/OtherIssues.vue";
+import TaxCouncil from "../pages/TaxCouncil.vue";
 import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
+import TenantServices from "../pages/TenantServices.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -51,7 +52,7 @@ const router = createRouter({
     {
       path: "/tax-council",
       name: "TaxCouncil",
-      component:TaxCouncil,
+      component: TaxCouncil,
     },
     {
       path: "/contact",
@@ -92,6 +93,11 @@ const router = createRouter({
       path: "/ours-emergency",
       name: "oursEmergency",
       component: OursEmergency,
+    },
+    {
+      path: "/tenant-services",
+      name: "tenantServices",
+      component: TenantServices,
     },
   ],
 });

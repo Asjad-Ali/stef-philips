@@ -43,39 +43,8 @@
 <div  class="max-w-[1440px] w-[60%]  mx-auto p-3">
  <h1 class="text-[36px] font-[300] text-[#20407c] my-4">Past events</h1>
   
-    <div class="card flex items-start justify-content-between gap-5 w-full ">
-        <Card style="max-width: 24em; width:100%">
-            <template #header>
-                <img alt="user header" src="../assets/rock.png" />
-            </template>
-            <template #title  > <h1 class="text-[20px] text-[#20407c] font-[900]">  Bowling </h1> </template>
-            
-            <template #content>
-                <p  class="text-[18px] text-[#1d1d33] font-[400]">
-                    Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </template>
-            <template #footer>
-                <Button icon="pi pi-check" class="bg-[#2a8cfb] text-white w-40 p-2 text-[16px] font-[400]">Read more</Button>
-                
-            </template>
-        </Card>
-        <Card style="max-width: 24em; width:100%">
-            <template #header>
-                <img alt="user header" class="max-h-[175px]" src="../assets/community-tab.png" />
-            </template>
-            <template #title  > <h1 class="text-[20px] text-[#20407c] font-[900]"> Christmas Jumper Day </h1> </template>
-            
-            <template #content>
-                <p  class="text-[18px] text-[#1d1d33] font-[400]">
-                    Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </template>
-            <template #footer>
-                <Button icon="pi pi-check" class="bg-[#2a8cfb] text-white w-40 p-2 text-[16px] font-[400]">Read more</Button>
-                
-            </template>
-        </Card>
+    <div class="card flex items-start justify-content-between gap-5 w-full " >
+        <Card :message="card1" class="bg-[#ededee]" />
     </div>
 
 </div>
@@ -119,38 +88,7 @@
  <h1 class="text-[36px] font-[300] text-[#20407c] my-4">Latest community news</h1>
   
     <div class="card flex items-start justify-content-between gap-5 w-full ">
-        <Card style="max-width: 24em; width:100%">
-            <template #header>
-                <div class="min-h-[200px] w-full bg-[#20407c]"></div>
-            </template>
-            <template #title  > <h1 class="text-[20px] text-[#2a8cfb] font-[900]">  Media title here </h1> </template>
-            <template #subtitle> <button class="bg-[#896bff81] text-[12px] font-[900] p-1 text-[#886bff]">Community</button> </template>
-            <template #content>
-                <p  class="text-[18px] text-[#1d1d33] font-[400]">
-                    Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </template>
-            <template #footer>
-                <Button icon="pi pi-check" class="bg-[#2a8cfb] text-white w-40 p-2 text-[16px] font-[400]">Read more</Button>
-                
-            </template>
-        </Card>
-        <Card style="max-width: 24em; width:100%">
-            <template #header>
-                <div class="min-h-[200px] w-full bg-[#20407c]"></div>
-            </template>
-            <template #title  > <h1 class="text-[20px] text-[#2a8cfb] font-[900]">  Media title here </h1> </template>
-            <template #subtitle> <button class="bg-[#896bff81] text-[12px] font-[900] p-1 text-[#886bff]">Community</button> </template>
-            <template #content>
-                <p  class="text-[18px] text-[#1d1d33] font-[400]">
-                    Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </template>
-            <template #footer>
-                <Button icon="pi pi-check" class="bg-[#2a8cfb] text-white w-40 p-2 text-[16px] font-[400]">Read more</Button>
-                
-            </template>
-        </Card>
+        <Card :message="card2" style="background-color: white ;"/>
     </div>
 
 </div>
@@ -158,7 +96,11 @@
 </template>
 
 <script setup>
-import Card from 'primevue/card';
+// import Card from 'primevue/card';
+import Card from '../components/VerticalGreyCard.vue'
+const card1=[{ heading:'Bowling', img:'src/assets/rock.png'},{ heading:'Christmas Jumper Day', img:'src/assets/community-tab.png'}]
+const card2=[{ heading:'Media title here', img:'src/assets/bgblue.png', subButton:'Commmunity'},{ heading:'Media title here', img:'src/assets/bgblue.png',subButton:'Commmunity'}]
+
 </script>
 <style scoped> 
 .bl{
