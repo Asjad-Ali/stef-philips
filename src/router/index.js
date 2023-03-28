@@ -89,8 +89,8 @@ const router = createRouter({
       component: RepairAndMaintenanceView,
     },
     {
-      path: "/ours-emergency",
-      name: "oursEmergency",
+      path: "/hours-emergency",
+      name: "HoursEmergency",
       component: OursEmergency,
     },
   ],

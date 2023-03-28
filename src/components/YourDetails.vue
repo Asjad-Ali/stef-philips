@@ -1,5 +1,5 @@
 <template>
-  <div class=" pt-11  pb-24">
+  <div class=" pt-11  pb-24 w-[60%] mx-auto">
 <h1  class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-[900]">Your details</h1> 
    <div class="w-full">       
             <div class="pt-5">

@@ -1,5 +1,5 @@
 <template>
-<div class="  py-16">
+<div class=" w-[60%] mx-auto py-16">
 <h1  class="lg:text-[30px]  xxxs:text-[25px] text-[#20407c] lg:font-[800] xxxs:font-[600]">Please select one</h1> 
 <div>
 <p class="lg:text-[18px]  xxxs:text-[14px] text-[#20407C] font-[900] mt-11">Have you received comms from U/CT dept.?</p>

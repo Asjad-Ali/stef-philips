@@ -22,7 +22,7 @@
       </div>  -->
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
-      <div class="max-w-5xl w-[60%] h-[600px] mx-auto flex items-center">
+      <div class="w-[60%] h-[600px] mx-auto flex items-center">
         <div class="max-w-sm">
           <h1 class="text-5xl text-white font-normal tracking-wide leading-snug">
             <span>Foundations for</span>
@@ -40,7 +40,7 @@
     <div class="w-full flex justify-center">
     <div class="w-[60%]">
       <div class="py-20">
-      <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-12">
+      <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
           <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
             <span class="font-light">Working towards a world</span>
@@ -67,7 +67,7 @@
     <!--  -->
    
     <div class="py-20 w-[60%] mx-auto">
-      <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+      <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
         <div class>
           <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
         </div>
@@ -91,7 +91,7 @@
     <!-- image -->
     <div class="happyG w-full h-[700px] relative overflow-hidden ">
       <div class="absolute top-0 w-full h-full flex items-center  justify-center left-0 happyS">
-        <div class="max-w-5xl w-[60%] mx-auto grid grid-cols-1">
+        <div class=" w-[60%] mx-auto grid grid-cols-1">
           <div class="max-w-md">
             <div class="">
               <h1 class="xxs:text-3xl md:text-4xl leading-snug text-white ">
@@ -119,8 +119,8 @@
       </div>
     </div>
 
-    <div class="bg-second py-40">
-      <div class="max-w-5xl mx-auto w-[60%]">
+    <div class="flex justify-center bg-second py-40">
+      <div class=" w-[60%]">
         <h1 class="text-white text-4xl">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
@@ -151,7 +151,7 @@
     <!--  -->
     <!--  -->
 
-    <div class="max-w-5xl w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
+    <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
       <div class="max-w-4xl mx-auto ">
         <img src="../assets/pink.png" alt />
         <h1 class="block py-4 text-4xl text-second">

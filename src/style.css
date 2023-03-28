@@ -4,9 +4,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "myFont";
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Regular.ttf");
+}
 *{
-  font-family: "aktiv-grotesk-std",sans-serif;
-  src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-Regular.ttf");
+  font-family: "myFont",sans-serif;
+}
+@font-face {
+  font-family: "Bold-Custom";
+  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Bold.ttf");
+}
+.font-bold-custom{
+    font-family: "Bold-Custom";
+  font-size: 14px;
 }
 .wrapper {
     position: relative;
