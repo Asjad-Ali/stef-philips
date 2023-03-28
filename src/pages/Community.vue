@@ -113,7 +113,7 @@ const card2=[{ heading:'Media title here', img:'src/assets/bgblue.png', subButto
   src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Bold.ttf");
 
 }
-.font-bold-custom text-[14px]{
+.font-bold-custom{
     font-family: "Bold-Custom";
   font-size: 14px;
 }
