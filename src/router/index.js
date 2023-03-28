@@ -14,6 +14,7 @@ import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
 import TenantServices from "../pages/TenantServices.vue";
+import RepairResponsibilities from "../pages/RepairResponsibilities.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -97,7 +98,11 @@ const router = createRouter({
     {
       path: "/tenant-services",
       name: "tenantServices",
-      component: TenantServices,
+      component: TenantServices,}
+      ,{
+      path: "/repair-responsibilities",
+      name: "repairResponsibilities",
+      component: RepairResponsibilities,
     },
   ],
 });
