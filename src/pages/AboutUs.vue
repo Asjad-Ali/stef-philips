@@ -20,9 +20,9 @@
   <!-- Step 2 -->
   <div class="lg:w-full flex justify-center">
     <div class="w-[60%]">
-      <div class="lg:pt-40">
+      <div class="pt-40">
         <div
-          class="lg:max-w-5xl grid md:grid-cols-2 grid-cols-1 gap-12"
+          class="grid md:grid-cols-2 grid-cols-1 gap-12"
         >
           <div class>
             <h1
@@ -50,7 +50,7 @@
       </div>
 
       <!-- step-2 -->
-      <div class="pb-0 mt-[250px]">
+      <div class="lg:py-40 ">
         <div class="videoBg h-[300px] flex items-center justify-center">
           <img src="../assets/video.png" class="w-[80%]" alt="video" />
 
@@ -67,7 +67,7 @@
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 happyS"
     >
       <div class="w-full flex justify-center   py-10">
-        <div class="lg:w-[60%]">
+        <div class="w-[100%] xs:w-[60%]">
           <div class="max-w-4xl w-full mx-auto grid">
             <div class="lg:flex">
               <div class="mt-4 flex-auto px-8 text-white md:font-semibold">
@@ -96,7 +96,7 @@
 
   <!-- step 4 -->
   <div class="w-full flex justify-center">
-    <div class="lg:w-[60%]">
+    <div class="w-[60%]">
       <div class="py-44">
         <div class="lg:flex">
           <div class="flex-auto">
@@ -256,7 +256,7 @@
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 tiltBg"
     >
       <div class="w-full flex justify-center">
-        <div class="lg:w-[60%]">
+        <div class="w-[60%]">
           <h1 class="text-4xl px-8 text-white font-bold">
             <div>Life at Stef & Philips</div>
           </h1>
