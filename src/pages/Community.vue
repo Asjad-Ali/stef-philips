@@ -1,6 +1,6 @@
 <template>
     <div class="h-12 w-full bg-[#707070] bl ">
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
+        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner  ">
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
             <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About us</router-link>
@@ -159,9 +159,13 @@
 
 <script setup>
 import Card from 'primevue/card';
-
 </script>
 <style scoped> 
+.bl{
+  background-color: rgba(29, 29, 51, 0.5);
+  height: 3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
 @media (max-width:650px){
 .bgImg{
  display:none;

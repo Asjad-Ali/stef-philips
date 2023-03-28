@@ -1,19 +1,5 @@
 <template>
-    <div class="h-12 w-full  bcrumbs bl " v-if="state" >
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
-          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
-          <i class="pi pi-angle-right text-white"></i>
-          <div class="dropdown">
-            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/about-us">About Us</router-link>
-            <div class="dropdown-content">
-            <router-link active-class="active" class="font-semibold text-sm" to="/community">Community</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="/meet-the-team">Meet The Team</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="/news">News</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="/news-article">News Article</router-link>
-            </div>
-          </div>
-        </nav>
-      </div> 
+ 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
       <div class="w-[60%]">
@@ -415,26 +401,28 @@ const getSeverity = (status) => {
 
 
 
-<style >
-/* .dropdown {
+<style scoped>
+.dropdown {
   float: left;
   overflow: hidden;
-} */
-.bcrumbs{
+}
+/* .bcrumbs{
   background-color: rgba(29, 29, 51, 0.5)
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  top: 6.3rem ;
+  left:0;
+  background-color: rgba(29, 29, 51, 0.5);
+  height: 3rem;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -448,7 +436,8 @@ const getSeverity = (status) => {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
+
 .bgImg {
   background-image: url("../assets/Background.png");
   background-repeat: no-repeat;
