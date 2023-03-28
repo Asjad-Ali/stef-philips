@@ -4,15 +4,15 @@ import ContactView from "../pages/Contact.vue";
 import AboutUsView from "../pages/AboutUs.vue";
 import MeetTheTeam from "../pages/MeetTheTeam.vue";
 import CommunityView from "../pages/Community.vue";
-import NewsArticleView from '../pages/NewsArticle.vue';
-import YourHomeView from '../pages/YourHome.vue';
-import NewsView from '../pages/News.vue';
-import QuickReport from "../pages/QuickReport.vue";
+import NewsArticleView from "../pages/NewsArticle.vue";
+import YourHomeView from "../pages/YourHome.vue";
+import NewsView from "../pages/News.vue";
 import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
 import OtherIssues from '../pages/OtherIssues.vue';
 import TaxCouncil from '../pages/TaxCouncil.vue';
 import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
+import OursEmergency from "../pages/OursEmergency.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -87,6 +87,11 @@ const router = createRouter({
       path: "/repair-and-maintenance",
       name: "repairAndMaintenance",
       component: RepairAndMaintenanceView,
+    },
+    {
+      path: "/ours-emergency",
+      name: "oursEmergency",
+      component: OursEmergency,
     },
   ],
 });
