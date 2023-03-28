@@ -1,11 +1,11 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
     <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
-      <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" to="/home">Home</router-link>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom">Home</div>
       <i class="pi pi-angle-right text-white"></i>
-        <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/your-home">Your home</router-link>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom" >Your home</div>
         <i class="pi pi-angle-right text-white"></i>
-        <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/quick-report">Quick report</router-link>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom" >Quick report</div>
     </nav>
   </div> 
 

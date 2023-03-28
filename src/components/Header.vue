@@ -270,17 +270,17 @@
       <nav
         class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner"
       >
-        <div>
+        
           <router-link
             active-class="active"
-            class="text-white text-sm dropdown font-x-bold"
+            class="text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
             to="/about-us"
             ><span
               >About us
-              <nav class="about-dropdown">
+              <nav class="about-dropdown ">
                         <router-link
                           active-class="active"
-                          class="font-semibold text-sm"
+                          class="font-semibold text-sm text-[20px]"
                           to="/community"
                           >Community</router-link
                         >
@@ -307,11 +307,11 @@
                       </nav>
             </span></router-link
           >
-        </div>
+      
 
         <router-link
           exact-active-class="exact-active"
-          class="text-white text-sm dropdown-h font-x-bold"
+          class="text-white text-sm dropdown-h h-full flex justify-center items-center font-x-bold"
           to="/your-home"
         >
           <span
@@ -463,12 +463,8 @@ import {
   ChevronUpDownIcon,
 } from "@heroicons/vue/20/solid";
 import { useAppStore } from "../store/index";
-import { computed } from "vue";
 
-const hover = useAppStore();
-const state = computed(() => {
-  return hover.hover;
-});
+
 function stateHandler() {
   console.log(state.value);
   hover.hover = !state.value;
@@ -502,9 +498,9 @@ const selected = ref(people[0]);
   src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-XBold.ttf");
   font-size: 18px;
 }
-.exact-active.dropdown-h:hover .home-dropdown{
+.dropdown-h:hover .home-dropdown{
   display: block;
-  margin-top: 4px;
+  margin-top: 27px;
 }
 .home-dropdown {
   display: none;
@@ -527,9 +523,9 @@ const selected = ref(people[0]);
 /* ////////////////////////////// */
 
 
-.active.dropdown:hover .about-dropdown{
+.dropdown:hover .about-dropdown{
   display: block;
-  margin-top: 2px;
+  margin-top: 27px;
 }
 .about-dropdown {
   display: none;
@@ -549,11 +545,12 @@ const selected = ref(people[0]);
 /* ///////////////////// */
 .exact-active {
   border-bottom: 2px solid whitesmoke;
-  padding-bottom: 3px;
 }
-.active {
+.active  {
   border-bottom: 2px solid whitesmoke;
-  padding-bottom: 3px;
+}
+.upper-whole-div {
+  border-bottom: 2px solid whitesmoke;
 }
 @media (max-width: 800px) {
   .nav {
