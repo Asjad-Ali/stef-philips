@@ -16,7 +16,6 @@
 <p class="text-[18px] text-[#1d1d33] font-[400]">Short introductory summary for the page goes here like so</p>
 </div>
 </div>
-
    <div class="w-full mx-auto flex justify-center">
      <div class="  w-[60%] flex flex-col">
        <div class="flex">

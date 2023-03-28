@@ -7,9 +7,10 @@ import CommunityView from "../pages/Community.vue";
 import NewsArticleView from "../pages/NewsArticle.vue";
 import YourHomeView from "../pages/YourHome.vue";
 import NewsView from "../pages/News.vue";
-import AntiSocialBehaviour from "../pages/AntiSocialBehaviour.vue";
-import OtherIssues from "../pages/OtherIssues.vue";
-import TaxCouncil from "../pages/TaxCouncil.vue";
+import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
+import OtherIssues from '../pages/OtherIssues.vue';
+import TaxCouncil from '../pages/TaxCouncil.vue';
+import TemporaryAccomodation from '../pages/TemporaryAccomodation.vue';
 import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
@@ -54,6 +55,11 @@ const router = createRouter({
       path: "/tax-council",
       name: "TaxCouncil",
       component: TaxCouncil,
+    },
+    {
+      path: "/temporary-accomodation",
+      name: "TemporaryAccomodation",
+      component:TemporaryAccomodation,
     },
     {
       path: "/contact",

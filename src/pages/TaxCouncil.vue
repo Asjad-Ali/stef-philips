@@ -22,8 +22,6 @@
  <Accordion />
 </template>
 
-
-
 <script setup>
 import MoreInfo from '../components/MoreInfo.vue'
 import YourDetails from '../components/YourDetails.vue'

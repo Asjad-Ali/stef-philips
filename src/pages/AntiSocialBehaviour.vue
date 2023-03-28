@@ -18,7 +18,7 @@
 </div>
 </div>
 <MoreInfo />
- <YourDetails />
+<YourDetails />
  <Accordion />
 </template>
 
@@ -43,5 +43,6 @@
 <script setup>
 import MoreInfo from '../components/MoreInfo.vue'
 import YourDetails from '../components/YourDetails.vue'
+import Accordion from '../components/Accordion.vue';
 
 </script>
