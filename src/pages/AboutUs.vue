@@ -223,7 +223,7 @@
   </div>
 
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
       <div class>
         <img
           src="../assets/Background.png"
@@ -311,7 +311,7 @@
  </div>
  </div>
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
       <div class>
         <img
           src="../assets/Background.png"
