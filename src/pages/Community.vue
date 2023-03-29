@@ -82,8 +82,7 @@
         </div>
       </div>
     </div>
-  </div>
-</div>    
+  
     
 <!-- section 6 -->
 <div class="w-full min-h-[600px] "> 
