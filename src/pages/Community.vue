@@ -21,7 +21,7 @@
 
 
 <div class="w-full min-h-[600px] bg-[#1d1d33]    ">
-<div class="max-w-[1440px] w-full flex justify-center items-center mx-auto">
+<div class=" w-full flex justify-center items-center mx-auto">
 <div  class=" w-[50%] h-[600px] mx-auto p-3 relative text1" >
     <div  class="  w-[60%] min-h-[250px] p-3 absolute  right-0 my-40 text  ">
 <h1  class="text-[18px] text-white font-black-custom">Upcoming event</h1> 
@@ -62,21 +62,23 @@
 
 <!-- section 5 -->
 <div class="py-20 w-[60%] mx-auto">
-  <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
-    <div class>
-      <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
-    </div>
-    <div class="flex items-center justify-center py-10">
-      <div class="w-4/5 mt-6 md:mt-0 ">
-        <span class="text-2xl    text-primary">
-          <Icon icon="ooui:quotes-ltr" />
-        </span>
-        <h1
-          class="font-light-custom text-[20px] text-white mt-5"
-        >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
-        <div class="my-5">
-          <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
-          <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
+      <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
+        <div class>
+          <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="w-4/5 mt-6 md:mt-0 ">
+            <span class="text-2xl    text-primary">
+              <Icon icon="ooui:quotes-ltr" />
+            </span>
+            <h1
+              class="font-light-custom text-[20px] text-white mt-5"
+            >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
+            <div class="my-5">
+              <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
+              <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>

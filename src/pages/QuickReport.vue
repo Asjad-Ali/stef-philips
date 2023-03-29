@@ -39,7 +39,7 @@
       </div>
    
   </div>
-  <div class="w-full mx-auto max-w-[1440px] py-20">
+  <div class="w-full mx-auto  py-20">
   <div class="w-[60%]  mx-auto flex flex-col gap-8 bg-[#ec254d17] p-10">
   <h1 class="text-[36px] font-[400] text-[#ec254e] emergency">Out of hours <span class="font-[900]">emergencies</span> </h1>
   <div>

@@ -6,7 +6,6 @@
       </p> <p class="text-[18px] font-[900] text-[#2a8cfb]">{{ items.text2 }}</p></AccordionTab>
    </Accordion>
 </template>
-
 <script setup>
 import Accordion from 'primevue/accordion';
 import AccordionTab from 'primevue/accordiontab';
