@@ -20,23 +20,24 @@
     <div class="w-full flex justify-center">
     <div class="w-[60%]">
       <div class="py-20">
-      <div class=" grid md:grid-cols-2 grid-cols-1 gap-20">
-        <div >
-          <h1 class=" text-trisec">
+      <div class=" flex gap-20 md:flex-nowrap flex-wrap">
+        <div class="md:w-[45%] w-full">
+          <h1 class="leading-none text-trisec">
             <span class="font-light-custom lg:text-[36px] text-[25px]">Working towards a world</span>
             <br>
             <span class="font-black-custom lg:text-[36px] text-[25px]"> without homelessness</span>
           </h1>
           <p
-            class="mt-6 font-regular-custom lg:text-[18px] text-[15px]">
+            class="mt-6 font-regular-custom lg:text-[18px] text-[12px]">
           At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
           <button
             type="button"
             class="bg-trisec py-4 px-12 font-xbold-custom text-[16px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >About us</button>
         </div>
-        <div class="flex justify-center ">
+        <div class="flex justify-center md:w-[55%] w-full"> 
           <img src="../assets/HeroSection.png" alt >
+     
         </div>
       </div>
     </div>
@@ -165,7 +166,7 @@ import Cards from "../components/Cards.vue";
 import { Icon } from "@iconify/vue";
 import {useAppStore} from "../store/index"
 import { computed } from "vue";
-
+import BackgroundSVG from "../assets/Background-1.svg"
 const hover = useAppStore();
 const state = computed(() => {
   return hover.hover;
