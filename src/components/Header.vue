@@ -359,6 +359,12 @@
                       <router-link
                         active-class="active"
                         class="font-semibold text-sm"
+                        to="/submitted-issue"
+                        >Submitted</router-link
+                      >
+                      <router-link
+                        active-class="active"
+                        class="font-semibold text-sm"
                         to="/hours-emergency"
                         >Out of hours
                         emergencies</router-link
