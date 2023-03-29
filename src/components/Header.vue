@@ -3,7 +3,7 @@
     <div
       class="w-full flex justify-center upper-nav"
     >
-      <div class="h-16 w-[60%] nav">
+      <div class="h-[6.25rem] w-[60%] nav">
         <div
           class="h-full flex items-center justify-between gap-4 wrap"
         >
@@ -143,34 +143,35 @@
             class="flex items-center gap-x-6 search"
           >
             <div
-              class="h-8 w-8 rounded-full ring-2 bg-blue-50 flex text-trisec items-center ring-trisec justify-center"
+              class="h-[44px] w-[44px] rounded-full ring-2 bg-blue-50 flex text-trisec items-center ring-trisec justify-center"
             >
-              <span class="text-xl">
+              <span class="text-[28px] ">
                 <Icon icon="ic:round-search" />
               </span>
             </div>
             <Listbox as="div" v-model="selected">
-              <div class="relative">
+              <div class="relative ">
                 <ListboxButton
-                  class="relative w-full cursor-default rounded-full pt-1 ring-trisec pl-3 pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
+                  class="relative w-[222px] h-[44px] w-full cursor-default rounded-full pt-2 ring-trisec  pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-sm sm:leading-6"
                 >
                   <span
-                    class="inline-flex w-full flex items-center justify-center truncate"
+                    class="inline-flex w-full flex items-center pl-3 truncate"
                   >
                     <span class="truncate">
                       <Icon
+                      class="w-[25px] h-[25px]"
                         :icon="selected.name"
                       />
                     </span>
                     <span
-                      class="ml-2 truncate text-gray-500"
+                      class="ml-2 truncate font-xbold-custom text-[14px]"
                       >{{
                         selected.username
                       }}</span
                     >
                   </span>
                   <span
-                    class="pointer-events-none text-gray-500 text-xl absolute inset-y-0 right-0 flex items-center pr-2"
+                    class="text-[25px] pointer-events-none  absolute inset-y-0 right-0 flex items-center pr-2"
                   >
                     <Icon
                       icon="material-symbols:keyboard-arrow-down-rounded"
@@ -184,13 +185,14 @@
                   leave-to-class="opacity-0"
                 >
                   <ListboxOptions
-                    class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+                    class="absolute z-10 mt-1  w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
                   >
                     <ListboxOption
                       as="template"
                       v-for="person in people"
                       :key="person.username"
                       :value="person"
+                      class="w-[222px] h-[44px]"
                       v-slot="{
                         active,
                         selected,
@@ -255,7 +257,7 @@
             <router-link to="/contact">
               <button
                 type="button"
-                class="btn bg-sky-600 py-2 px-8 text-sm font-normal text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                class="btn w-[140px] h-[44px] bg-[#2A8CFB] py-2 px-8 font-xbold-custom text-[14px] text-white shadow-sm hover:bg-sky-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >
                 Contact
               </button>
@@ -419,7 +421,7 @@
         >
         <router-link
           active-class="active"
-          class="text-white text-sm font-x-bold"
+          class="text-white text-sm font-x-bold "
           to="/contact"
           ><span @mouseover="stateHandler"
             >Contact</span
@@ -594,6 +596,9 @@ const selected = ref(people[0]);
 @media (max-width: 660px) {
   .wrap {
     flex-wrap: wrap;
+  }
+  .upper-nav{
+    height: 110px;
   }
  
 }

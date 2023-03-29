@@ -83,7 +83,7 @@
 </template>
 <script setup>
 import { ref } from "vue";
-import ContactCard from "../components/Contactcard.vue";
+import ContactCard from "../components/ContactCard.vue";
 import Accordion from 'primevue/accordion';
 import AccordionTab from 'primevue/accordiontab';
 const message = [
