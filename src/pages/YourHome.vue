@@ -11,7 +11,7 @@
               <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
             </div> -->
 
-  <div class="lg:w-full bg-red-400 bgImg">
+  <div class="lg:w-full bg-red-400">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
       <div class="w-[60%]">
         <div class="text-5xl text-white leading-snug">

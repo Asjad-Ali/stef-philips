@@ -1,13 +1,13 @@
 <template>
   <footer class="bg-second flex justify-center" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="w-[60%] px-6 py-8 lg:px-8 lg:pt-16">
+    <div class="w-[60%] px-2 py-8 lg:px-4 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <img src="../assets/footer.png" alt="Company name" />
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
           <div class="grid grid-cols-3 gap-8">
             <div>
-              <ul role="list" class="space-y-2">
+              <ul role="list" class="space-y-2 text-[1px]">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
@@ -16,8 +16,8 @@
                 </li>
               </ul>
             </div>
-            <div class=" md:mt-0">
-              <ul role="list" class="space-y-2">
+            <div class=" md:mt-0 ">
+              <ul role="list" class="space-y-2 text-[15px] ">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
@@ -28,7 +28,7 @@
             </div>
 
             <div class=" md:mt-0">
-              <ul role="list" class="space-y-2">
+              <ul role="list" class="space-y-2 text-[15px] ">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
@@ -40,8 +40,8 @@
           </div>
         </div>
       </div>
-      <div class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-        <div class="flex space-x-4 md:order-2">
+      <div class="mt-3 border-t border-white/10 pt-4 md:flex md:items-center md:justify-between">
+        <div class="flex space-x-4 md:order-2 mt-6  ">
           <a
             v-for="item in navigation.social"
             :key="item.name"
@@ -49,21 +49,20 @@
             class="text-gray-500 hover:text-gray-400"
           >
             <span class="sr-only">{{ item.name }}</span>
-            <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+            <component :is="item.icon" class="h-6 w-6 " aria-hidden="true" />
           </a>
         </div>
-        <div class="flex items-center gap-4 flex-wrap md:top-0 mt-6">
-          <a href="#" class="text-xs text-white whitespace-nowrap">Privacy policy</a>
-          <a href="#" class="text-xs text-white whitespace-nowrap">Terms of use</a>
-          <a href="#" class="text-xs text-white whitespace-nowrap">Equal Pay policy</a>
-          <a href="#" class="text-xs text-white whitespace-nowrap">Modern Slavery policy</a>
-          <a href="#" class="text-xs text-white whitespace-nowrap">Privacy policy</a>
-          <a href="#" class="text-xs text-white whitespace-nowrap">Equality and Diversity Policy</a>
+        <div class="flex items-center gap-4 flex-wrap md:top-0 mt-6 text-[3px]">
+          <a href="#" class="text-[13px] text-white whitespace-nowrap">Privacy policy</a>
+          <a href="#" class="text-[13px] text-white whitespace-nowrap">Terms of use</a>
+          <a href="#" class="text-[13px] text-white whitespace-nowrap">Equal Pay policy</a>
+          <a href="#" class="text-[13px] text-white whitespace-nowrap">Modern Slavery policy</a>
+          <a href="#" class="text-[13px] text-white whitespace-nowrap">Equality & Diversity Policy</a>
         </div>
       </div>
       <p
-        class="mt-16 text-xs leading-5 text-gray-400 md:order-1 md:mt-0"
-      >&copy; © Stef & Philips 2023 | Company Number: 05752211</p>
+        class="mt-20  py-3 text-xs leading-5 text-gray-400 md:order-1 md:mt-0"
+      >&copy; Stef & Philips 2023 | Company Number: 05752211</p>
     </div>
   </footer>
 </template>
@@ -73,16 +72,20 @@ import { defineComponent, h } from "vue";
 
 const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" }
+    { name: "Getting in touch", href: "#" },
+    { name: "Report an issue", href: "#" },
+    { name: "Emergency contact", href: "#" },
+    { name: "Press & media", href: "#" },
+    { name: "News", href: "#" },
   ],
   support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" }
+    { name: "Helpful resources", href: "#" },
+    { name: "Useful vedios", href: "#" },
+    { name: "Downloads", href: "#" },
+    { name: "Glossary of terms", href: "#" },
+    { name: "FAQS", href: "#" },
+    { name: "Press & media", href: "#" }
+
   ],
   company: [
     { name: "About", href: "#" },
@@ -92,9 +95,14 @@ const navigation = {
     { name: "Partners", href: "#" }
   ],
   legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" }
+    { name: "Investors", href: "#" },
+    { name: "Overview", href: "#" },
+    { name: "Landlords", href: "#" },
+    { name: "Private investors", href: "#" },
+    { name: "Corporate investors", href: "#" },
+    { name: "Lettings valuation", href: "#" },
+
+
   ],
   social: [
     {
