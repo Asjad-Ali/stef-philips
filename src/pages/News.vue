@@ -82,7 +82,6 @@
                 Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
                 </h1>
             </div>
-            
             <div>
                 <img class="pb-6" src="../assets/Card-Image.png">
                 <button
@@ -94,7 +93,6 @@
                 Description goes in here like so lorem<br>ipsum dolor sit amet, consecte tur<br> adipiscing elit.
                 </h1>
             </div>
-            <!-- <Card :message="card"/> -->
         </div>
         <div class="flex flex-wrap gap-5">
             <div>
@@ -131,10 +129,5 @@
         </div>
     </div>
 </template>
-<script>
-import Card from '../components/VerticalGreyCard.vue'
-const card=[{ heading:'Media title here', img:'../assets/Card-Image.png', subButton:'Category'},{ heading:'Media title here', img:'../assets/Card-Image.png', subButton:'Category'}]
-
-
-</script>
+<script></script>
 <style></style>

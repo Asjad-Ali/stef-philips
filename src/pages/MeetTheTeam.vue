@@ -11,35 +11,9 @@
 
 <!-- -->
   <div class="w-full flex justify-center">
-    <div class="w-[60%]   py-28">
-      <div class="lg:flex">
-        <div
-          class="w-half  lg:flex items-cennter"
-        >
-          <div class="flex flex-col px-8 lg:pt-28 pb-8">
-            <h1
-              class="text-trisec text-start w-[100%]"
-            >
-              <span class="font-light-custom text-[42px]"
-                >Meet the</span
-              >
-              <span class="font-black-custom text-[42px]"> team</span>
-            </h1>
-            <p
-              class="font-regular-custom text-[18px] mt-2"
-            >
-              Find out how to report a repair, how
-              long it will take and whether it's
-              your resposibility or ours
-            </p>
-          </div>
-        </div>
+   
+    <HorizontalCardVue :message="card2"/>
 
-        <div class="w-half flex items-center px-8">
-            <img class="lg:w-max-lg" src="../assets/Card-Image2.png" alt="card-image">
-        </div>
-      </div>
-    </div>
   </div>
   <div class="w-full  flex justify-center">
     <div class="w-[60%] my-10 flex gap-5 flex-wrap">
@@ -171,6 +145,9 @@
 </template>
 <script setup>
 import MeetTheTeamCard from "../components/MeetTheTeamCard.vue"
+import HorizontalCardVue from '../components/HorizontalCard.vue';
+const card2= { header:'Meet the', boldheader:' team', img:'src/assets/Card-Image2.png', paragraph:'Find out how to report a repair, how long it will take and whether its your resposibility or ours'}
+
 </script>
 <style scoped>
 

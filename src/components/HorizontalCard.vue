@@ -1,5 +1,5 @@
 <template>
-      <div class="w-full flex justify-center flex-row-reverse" >
+    <div class="max-w-[1440px] w-[60%]  mx-auto py-14 flex flex-col justify-center">  <div class="w-full flex justify-center flex-row-reverse" >
       <div class="py-20" >
       <div class=" grid lg:grid-cols-2 grid-cols-1 gap-12 justify-center " :dir="props.message.direction" :class="props.message.bgclass">
         <div class="p-6">
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-   </div>
+   </div></div>
 </template>
 <script setup>
 

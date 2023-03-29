@@ -16,7 +16,9 @@
     </div>
 </div>
   <!-- component -->
-  <CardsFlex />
+ 
+  <HorizontalCardVue :message="card"/>
+  <HorizontalCardVue :message="card2"/>
   <!-- component -->
   <!-- step-3 -->
   <div class="min-h-[400px] w-full bg-[#1d1d33] lg:pt-72 xxxs:pt-40">
@@ -99,9 +101,9 @@
     </div>
   </div>
   <!-- step 8 -->
-   <div class="max-w-[1440px] w-[60%]  mx-auto py-14 flex flex-col justify-center">
+
     <HorizontalCardVue :message="card3"/>
-    </div>
+   
    
    <NeedHelp />
 
@@ -113,9 +115,11 @@
 
 <script setup>
 import Accordion from "../components/Accordion.vue";
-import CardsFlex from "../components/CardsFlex.vue";
+
 import HorizontalCardVue from '../components/HorizontalCard.vue';
 import NeedHelp from '../components/NeedHelp.vue';
+const card= { header:'What is', boldheader:' temporary / emergency accommodation', img:'src/assets/Card-Image2.png', paragraph:' Everyone deserves to have a safe place to call home. Yet, the UK’shousing crisis is getting worse: homelessness in England is forecast to continue to grow – and almost double – over the next 25 years.'}
+const card2= {direction:'rtl', header:'Moving in or out of', boldheader:' temporary accommodation', img:'src/assets/Card-Image2.png', paragraph:' Everyone deserves to have a safe place to call home. Yet, the UK’shousing crisis is getting worse: homelessness in England is forecast to continue to grow – and almost double – over the next 25 years.'}
 
 const card3={direction:'rtl', img:'src/assets/Background.png', header:'Was your tenancy', boldheader:' cancelled ?', bgclass:'bg-[#f0f7fe]',btn:['Find my concil'], paragraph:'(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.'}
 

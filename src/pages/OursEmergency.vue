@@ -21,11 +21,11 @@
        <div class="flex">
          <h1 class="text-3xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">What is an emergency repair?</h1>
        </div>
-       <div class="flex justify-between gap-5 flex-wrap py-10">
-      <div class="w-[60%] w-full mx-auto ">
+       <div class="flex justify-between gap-5 sm:flex-wrap py-10  lg:flex-nowrap  xs:flex-wrap xxs:flex-wrap ">
+      <div class="max-w-[500px] w-full ">
         <Accordion :message="message" />
        </div>
-       <div class=" bg-[#ec254e] p-9  mx-auto">
+       <div class=" bg-[#ec254e] p-9 max-w-[300px] max-h-[450px]  mx-auto">
          <img src="../assets/Icon.png" alt="ariticle">
          <h1  class="text-[24px] font-[900] text-white">In case of emergencies</h1>
          <p   class="text-[18px] text-white font-[400]">If you or someone else is seriously injured, contact the emergency services on 999. <br> <br> If there is a fire at 

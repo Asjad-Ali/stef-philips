@@ -7,12 +7,12 @@
 </div></div>
 
     <div class="  min-h-[600px]  w-full ">
-    <div class=" mx-auto w-[60%] ">
+  
     <HorizontalCardVue :message="card1"/>
     <HorizontalCardVue :message="card2" />
     <HorizontalCardVue :message="card3" />
 
-</div>
+
     <div class="w-full flex justify-center">
  
  <NeedHelp/>
