@@ -44,7 +44,7 @@
 <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Past events</h1>
   
     <div class="card flex items-start justify-content-between gap-5 w-full " >
-        <Card :message="card1" class="bg-[#ededee]" />
+        <Card :message="card1" />
     </div>
 
 </div>
@@ -81,6 +81,7 @@
           </div>
         </div>
       </div>
+  
     </div>
   
     
@@ -101,11 +102,14 @@
 // import Card from 'primevue/card';
 import { Icon } from "@iconify/vue";
 import Card from '../components/VerticalGreyCard.vue'
-const card1=[{ heading:'Bowling', img:'src/assets/rock.png'},{ heading:'Christmas Jumper Day', img:'src/assets/community-tab.png'}]
+
+
+const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img:'src/assets/rock.png'},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day', img:'src/assets/community-tab.png'}]
 const card2=[{ heading:'Media title here', img:'src/assets/bgblue.png', subButton:'Commmunity'},{ heading:'Media title here', img:'src/assets/bgblue.png',subButton:'Commmunity'}]
 
 </script>
 <style scoped> 
+
 .bl{
   background-color: rgba(29, 29, 51, 0.5);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);

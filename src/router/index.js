@@ -17,8 +17,7 @@ import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
 import TenantServices from "../pages/TenantServices.vue";
 import RepairResponsibilities from "../pages/RepairResponsibilities.vue";
-
-
+import HomeMeatTheTeam from "../pages/HomeMeatTheTeam.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -117,6 +116,11 @@ const router = createRouter({
       path: "/repair-responsibilities",
       name: "repairResponsibilities",
       component: RepairResponsibilities,
+    },
+    {
+      path: "/home-meatTheTeam",
+      name: "meatTheTeam",
+      component: HomeMeatTheTeam,
     },
   ],
 });
