@@ -1,4 +1,13 @@
 <template>
+    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
+        <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Tenant services</div>
+    </nav>
+  </div> 
     <!-- section 1 -->
 <div class="w-full min-h-[400px] bg-[url('src/assets/Image.png')]">
     <div class="max-w-[1440px] w-[60%]  mx-auto p-3  flex flex-col justify-center">

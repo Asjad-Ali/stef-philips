@@ -76,7 +76,7 @@
         <div class="w-[60%] mx-auto grid grid-cols-1">
           <div class="max-w-lg">
             <div class="">
-              <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white">
+              <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white leading-none">
                 Striving to make the lives of vulnerable people
                 <span class="font-black-custom sm:text-[36px] text-[30px]">safer</span> and
                 <span class="font-black-custom sm:text-[36px] text-[30px]">more secure</span>
@@ -101,7 +101,7 @@
       </div>
     </div>
 
-    <div class="flex justify-center bg-second py-40">
+    <div class="flex justify-center bg-second py-48">
       <div class="w-[60%]">
         <h1 class="text-white font-light-custom text-[36px]">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
@@ -133,7 +133,7 @@
     <!--  -->
     <!--  -->
 
-    <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
+    <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-28">
       <div class="max-w-4xl mx-auto ">
         <img src="../assets/pink.png" alt />
         <h1 class="font-light-custom text-[36px] py-4 text-[#20407C]">
