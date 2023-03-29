@@ -32,7 +32,7 @@
       
         </div>
         <div class="flex justify-center ">
-          <img src="../assets/HeroSection.png" alt >
+          <img src="../assets/Svg/HorizontalFlex.svg" alt >
         </div>
       </div>
     </div>
@@ -40,9 +40,9 @@
     </div>
     
    </div>
- <div class="pb-0 py-16 px-3">
-        <div class="videoBg lg:h-[200px] xxxs:[100px] flex items-center justify-center">
-          <img src="../assets/video.png" class="lg:max-w-xl    xxxs:max-w-xs" alt="video" />
+ <div class="max-w-5xl mx-auto w-[60%] ">
+  <div class="w-full flex justify-center">
+          <img src="../assets/Svg/Bluevedio.svg"  alt="video" />
         </div>
      </div>
   <!-- image -->
@@ -84,11 +84,11 @@
       <div class="lg:py-36  xxxs:py-20">
         <div class="lg:flex">
           <div class="lg:w-[50%]  flex-auto">
-            <img  src="../assets/cardImage.png" alt />
+            <img  src="../assets/Svg/HouseFlexM.svg" alt />
           </div>
           <div class="lg:w-[50%]   pt-20">
             <h1
-              class="lg:px-8 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]"
+              class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]"
             >
               <span class="font-light-custom text-[36px]">Why</span>
               <span class="font-black-custom text-[36px]"> social housing investment </span
@@ -102,7 +102,7 @@
             </p>
           </div>
         </div>
-        <div class="flex  xxxs:flex-wrap-reverse ">
+        <div class="flex py-10  xxxs:flex-wrap-reverse ">
           <div class=" lg:w-[50%] flex-auto max-w-2xl mx-auto grid">
             <p class="  lg:py-16 xxxs:py-10 lg:px-8 text-[18px] font-regular-custom  ">
               More and more accommodation is being deemed unsuitable for housing
@@ -116,8 +116,8 @@
               society need help
             </p>
           </div>
-           <div class="lg:w-[50%] flex-auto">
-            <img  src="../assets/ncardImage.png" alt />
+           <div class="lg:w-[50%] lg:py-16 xxxs:py-6">
+            <img  src="../assets/Svg/HouseFlexN.svg" alt />
           </div>
         </div>
       </div>
@@ -132,14 +132,14 @@
             <h1 class="py-4 text-white font-light-custom text-[36px]">Value</h1>
           </div>
           <div class>
-            <img class="w-20 " src="../assets/blockN.png" alt />
+            <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
           <div class>
-            <img   class="w-20" src="../assets/blockN.png" alt />
+            <img    src="../assets/Svg/GreenHouseN.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
@@ -151,21 +151,21 @@
    <div class=" mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
-            <img class="w-20" src="../assets/blockN.png" alt />
+            <img src="../assets/Svg/GreenHouseN.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
           <div class>
-            <img class="w-20" src="../assets/blockN.png" alt />
+            <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum short description goes here like</p>
           </div>
           <div class>
-            <img class="w-20" src="../assets/blockN.png" alt />
+            <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
@@ -181,7 +181,7 @@
     <div class="lg:w-[60%]">
       <div class="blueBg mt-24 py-11">
         <div class="grid justify-items-center">
-          <img src="../assets/blockO.png" alt />
+          <img src="../assets/Svg/GreenHouseO.svg" alt />
           <h1 class="py-4 px-10 font-light-custom text-[36px] text-[#20407C] text-center">
             Our Point Of
             <span class="font-black-custom text-[36px]">difference</span>
@@ -206,7 +206,7 @@
   <div class="py-20 w-[60%] mx-auto">
     <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
       <div class>
-        <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
+        <img src="../assets/Svg/Media.svg" class="z-50 h-full w-full object-cover" alt />
       </div>
       <div class="flex items-center justify-center py-10">
         <div class="w-4/5 mt-6 md:mt-0 ">
@@ -230,7 +230,7 @@
  
   <div class="tiltGirlBg relative overflow-hidden min-h-[600px]">
     <div
-      class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 tiltBg"
+      class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0"
     >
     <div class="max-w-5xl mx-auto w-[60%]  ">
       <div class="w-full">
@@ -292,7 +292,7 @@
     <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
       <div class>
         <img
-          src="../assets/Background.png"
+          src="../assets/Svg/Media.svg"
           class="z-50 h-full w-full object-cover"
           alt
         />
@@ -418,26 +418,13 @@ const getSeverity = (status) => {
 } */
 
 .bgImg {
-  background-image: url("../assets/Background.png");
+  background-image: url("../assets/Svg/HeaderBackground.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.videoBg {
-  background-image: url("../assets/Background (2).png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* background: #000; */
 }
 .happyG {
-  background-image: url("../assets/girlTeaBg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.happyS {
-  background-image: url("../assets/bggray.png");
+  background-image: url("../assets/Svg/LeftUpBg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -449,15 +436,10 @@ const getSeverity = (status) => {
   background-position: center;
 }
 .tiltGirlBg {
-  background-image: url("../assets/tiltgirlBg.png");
+  background-image: url("../assets/Svg/RightUpBg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.tiltBg {
-  background-image: url("../assets/tiltBg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 </style>

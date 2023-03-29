@@ -36,7 +36,7 @@
           >About us</button>
         </div>
         <div class="flex justify-center md:w-[55%] w-full"> 
-          <img src="../assets/HeroSection.png" alt >
+          <img src="../assets/Svg/HorizontalFlex.svg" alt >
      
         </div>
       </div>
@@ -51,9 +51,9 @@
     <div class="py-20 w-[60%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
         <div >
-          <img src="../assets/Background.png" class="z-50 h-full w-full" alt />
+          <img src="../assets/Svg/Media.svg"  alt />
         </div>
-        <div class="flex items-center justify-center py-10">
+        <div class="flex items-center justify-center py-6">
           <div class="w-4/5 mt-6 md:mt-0 ">
             <span class="text-2xl    text-primary">
               <Icon icon="ooui:quotes-ltr" />
@@ -106,21 +106,21 @@
         <h1 class="text-white font-light-custom text-[36px]">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
-            <img src="../assets/shapeg.png" alt />
+            <img src="../assets/Svg/WhiteHouseN.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">17 years experience</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
             >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div class>
-            <img src="../assets/shapef.png" alt />
+            <img src="../assets/Svg/WhiteHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Properties Managed</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
             >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div class>
-            <img src="../assets/shapei.png" alt />
+            <img src="../assets/Svg/WhiteHouseN.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Housing Experience</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
@@ -135,7 +135,7 @@
 
     <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
       <div class="max-w-4xl mx-auto ">
-        <img src="../assets/pink.png" alt />
+        <img src="../assets/Svg/PinkHouse.svg" alt />
         <h1 class="font-light-custom text-[36px] py-4 text-[#20407C]">
           Need help
           <span class="font-black-custom text-[36px]">with your home</span>
@@ -178,20 +178,20 @@ const state = computed(() => {
   background-color: rgba(29, 29, 51, 0.5)
 }
 .bgImg {
-  background-image: url("../assets/Background.png");
+  background-image: url("../assets/Svg/HeaderBackground.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .happyG {
-  background-image: url("../assets/girl.png");
+  background-image: url("../assets/Svg/MiddleBackground.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .happyS {
-  background-image: url("../assets/bggray.png");
+  background-image: url("../assets/Svg/MidBackground.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

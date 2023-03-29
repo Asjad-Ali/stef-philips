@@ -1,5 +1,6 @@
 <template>
-
+<div class="w-full min-h-[600px] ">
+<div class=" w-full flex justify-center items-center mx-auto">
      <div class="  min-h-[600px]  w-full ">
  <div class="max-w-5xl w-full mx-auto ">
   <Accordion :activeIndex="2" class="pb-2 "  v-for="items in props.message" :key="tabindex"  >
@@ -10,6 +11,8 @@
    </Accordion>
  </div>
  </div>
+</div>
+</div>
 </template>
 <script setup>
 import Accordion from 'primevue/accordion';

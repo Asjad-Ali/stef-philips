@@ -31,7 +31,7 @@
     name: "Help in your home",
     role: "Senior Designer",
     imageUrl:
-    new URL("../assets/Card-Image-1.png", import.meta.url).href,
+    new URL("../assets/Svg/ThreeCardFlexN.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -39,7 +39,7 @@
     name: "Quick report form",
     role: "Senior Designer",
     imageUrl:
-    new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    new URL("../assets/Svg/ThreeCardFlexM.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -47,7 +47,7 @@
     name: "Report repair or maintainance",
     role: "Senior Designer",
     imageUrl:
-    new URL("../assets/Card-Image-3.png", import.meta.url).href,
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   }
