@@ -14,10 +14,10 @@
   <div class="lg:w-full bg-red-400">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
       <div class="w-[60%]">
-        <div class="text-5xl text-white leading-snug">
-          <div>Your <span class="text-white font-bold">Home</span></div>
+        <div class="font-light-custom text-[42px] text-white leading-snug">
+          <div>Your <span class="text-white font-black-custom text-[42px]">Home</span></div>
         </div>
-        <p class="text-white mt-4 tracking-wide leading-snug">
+        <p class="text-white mt-4 font-regular-custom text-[18px] leading-snug">
           Short Introductory summary for the page<br />goes here like so
         </p>
       </div>
@@ -28,10 +28,10 @@
   <!-- step 3 -->
   <div class="bg-sky-50 py-28 min-h-[400px]">
     <div class="max-w-5xl mx-auto w-[60%]">
-      <div class="text-second text-4xl font-semibold">
+      <div class="text-[#20407C] text-[30px] font-black-custom">
         What happens in your home?
       </div>
-      <div class="py-6 text-lg">
+      <div class="py-6 text-[18px] font-regular-custom">
         Excerpt for the page goes in here like so lorem ipsum dolor sit amet,
         consectetur adipiscing elit.
       </div>
@@ -43,33 +43,32 @@
   <YourHomeCard />
   <!-- step 5 -->
   <div
-    class="max-w-5xl w-[60%] mx-auto py-20 xxs:py-10 bg-[#EC8B7E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
+    class="max-w-5xl w-[60%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
   >
     <div class="max-w-4xl mx-auto">
-      <h1 class="block py-4 text-4xl xxs:text-3xl text-third">
+      <h1 class="block py-4 font-light-custom md:text-[36px] xxs:text-[30px] text-third">
         Out of hours
-        <span class="font-bold">emergencies</span>
+        <span class="font-black-custom md:text-[36px] xxs:text-[28px]">emergencies</span>
       </h1>
-      <p class="">
+      <p class="font-regular-custom text-[18px]">
         Little into here, out of hours are Weekends, Bank Holidays and between
         6pm - 7am daily
-      </p>
-      <p class="pb-4">
+      <br>
         If it’s not urgent, the quickest way to report an issue and get it
-        fixed, is using <span class="text-primary">our online form </span> now
+        fixed, is using <span class="text-primary font-bold-custom text-[18px]">our online form </span> now
       </p>
-      <div class="flex gap-10 xxs:gap-2">
+      <div class="flex flex-wrap md:gap-5 xxs:gap-1 pt-4">
         <img class="lg:max-w-sm" src="../assets/phone.png" alt />
         <div
           class="mt-8 text-third font-semibold font lg:text-4xl sm:text-2xl xxxs:text-md"
         >
-          <pre>020 00000 000</pre>
+          <pre class="font-black-custom text-[24px]">020 00000 000</pre>
         </div>
       </div>
 
       <button
         type="button"
-        class="bg-trisec py-4 px-8 text-sm xxxs:px-5 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+        class="bg-trisec font-xbold-custom md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
       >
         What is an emergencey
       </button>

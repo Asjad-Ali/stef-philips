@@ -15,12 +15,12 @@
   >
     <div class="w-[60%] mx-auto">
       <div
-        class="text-[42px] text-[#20407c] xxxs:text-center lg:text-start lg:font-[900] xxxs:font-[500] w-[60%]"
+        class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom w-[60%]"
       >
         Other Issues
       </div>
       <p
-        class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-[400] xxxs:text-center lg:text-start mt-3"
+        class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3"
       >
         Short introductory summary for the page
         goes here like so

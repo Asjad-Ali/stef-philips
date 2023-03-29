@@ -23,8 +23,8 @@
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
-          <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
-            <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
+          <h1 class="mt-12 text-trisec leading-[50px]">
+            <span class="font-light-custom text-[36px]">Working towards a world</span>
             <span class="font-black-custom text-[36px]"> without homelessness</span>
           </h1>
           <p
@@ -47,11 +47,11 @@
         </div>
      </div>
   <!-- image -->
-  <div class="happyG w-full min-h-[700px] relative overflow-hidden pt-32  lg:mt-36">
+  <div class="happyG w-full min-h-[700px] relative overflow-hidden pt-32 lg:mt-36">
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 happyS"
     >
-      <div class="w-full flex justify-center   py-10">
+      <div class="w-full flex justify-center py-10">
         <div class="lg:w-[60%]">
           <div class=" w-full mx-auto grid">
             <div class="lg:flex font-regular-custom text-[18px] gap-5">

@@ -14,19 +14,19 @@
    <!-- -->
 
   <div class=" w-[60%] mx-auto py-20">
-      <h2 class="font-semibold text-2xl text-[#20407C]">6th March 2023</h2>
-      <h1 class="pt-4 text-4xl text-[#20407C]">
+      <h2 class="font-black-custom text-[18px] text-[#20407C]">6th March 2023</h2>
+      <h1 class="pt-4 font-light-custom text-[42px] text-[#20407C]">
        Title of the new articles here
       </h1>
      <div class="flex flex-wrap justify-between items-center py-6 gap-5">
       <div class="flex flex-wrap items-center gap-6">
         <button
           type="button"
-          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-[12px] font-black-custom text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
         >Category</button>
         <button
           type="button"
-          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-sm font-semibold text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-[12px] font-black-custom text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
         >Category</button>
       </div>
           <div class="flex mt-3 space-x-4 md:order-2">
@@ -50,19 +50,19 @@
   <div class=" mx-auto pb-20 w-[60%]">
     <div class="flex items-center justify-center">
       <div class="w-4/5">
-        <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+        <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
         <h3
-          class="md:text-md text-[#1D1D33] my-3 leading-snug"
-        >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut <a href="#" class="text-[#2A8CFB] underline hover:underline-offset-4" >hendrerit erat nec</a> maximus rutrum.
+          class="font-regular-custom text-[18px] text-[#1D1D33] my-3 leading-snug"
+        >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut <a href="#" class="text-[#2A8CFB] underline font-xbold-custom text-[18px] hover:underline-offset-4" >hendrerit erat nec</a> maximus rutrum.
         </h3>
-        <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+        <h4 class="font-black-custom text-[20px] text-[#20407C]">Sub titles here</h4>
         <h3
-          class="md:text-md text-[#1D1D33] my-3 leading-snug"
+          class="font-regular-custom text-[18px] text-[#1D1D33] my-3 leading-snug"
         >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut hendrerit erat nec maximus rutrum.
         </h3>
-        <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+        <h4 class="font-black-custom text-[18px] text-[#20407C]">Sub titles here</h4>
         <h3
-          class="md:text-md text-[#1D1D33] mt-3 leading-snug"
+          class="font-regular-custom text-[18px] text-[#1D1D33] mt-3 leading-snug"
         >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut hendrerit erat nec maximus rutrum.
         </h3>
       </div>
@@ -78,11 +78,11 @@
             <Icon icon="ooui:quotes-ltr" />
           </span>
           <h1
-            class="md:text-lg text-white mt-5 leading-snug"
+            class="font-light-custom text-[20px] text-white mt-5 leading-snug"
           >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
           <div class="my-5">
-            <h1 class="text-lg text-white">Name here</h1>
-            <h1 class="text-lg text-white font-semibold">Title here</h1>
+            <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
+            <h1 class="font-black-custom tsxt-[18px] text-lg text-white font-semibold">Title here</h1>
           </div>
         </div>
       </div>
@@ -93,19 +93,19 @@
     <div class=" mx-auto pb-10 w-[60%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
-          <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+          <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
           <h3
-            class="md:text-md text-[#1D1D33] my-3 leading-snug"
-          >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut  <a href="#" class="text-[#2A8CFB] underline hover:underline-offset-4" >hendrerit erat nec</a> maximus rutrum.
+            class="font-regular-custom text-[18px] text-[#1D1D33] my-3 leading-snug"
+          >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut  <a href="#" class="text-[#2A8CFB] underline font-xbold-custom text-[18px] hover:underline-offset-4" >hendrerit erat nec</a> maximus rutrum.
           </h3>
-          <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+          <h4 class="font-black-custom text-[20px] text-[#20407C]">Sub titles here</h4>
           <h3
-            class="md:text-md text-[#1D1D33] my-3 leading-snug"
+            class="font-regular-custom text-[18px] text-[#1D1D33] my-3 leading-snug"
           >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut hendrerit erat nec maximus rutrum.
           </h3>
-          <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
+          <h4 class="font-black-custom text-[18px] text-[#20407C]">Sub titles here</h4>
           <h3
-            class="md:text-md text-[#1D1D33] mt-3 leading-snug"
+            class="font-regular-custom text-[18px] text-[#1D1D33] mt-3 leading-snug"
           >Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. Sed sollicitudin sollicitudin diam at condimentum. Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. Duis eros ante, malesuada non risus vitae, dapibus sagittis neque. Mauris blandit ut justo nec molestie. Ut hendrerit erat nec maximus rutrum.
           </h3>
         </div>
@@ -128,8 +128,8 @@
     <div class=" mx-auto pb-20 w-[60%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
-          <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
-          <ul class="list-disc md:text-md text-[#1D1D33] my-3 leading-snug">
+          <h4 class="font-black-custom text-[18px] text-[#20407C]">Sub titles here</h4>
+          <ul class="font-regular-custom text-[18px] text-[#1D1D33] my-3 leading-snug">
             <li> Cras lacus sem, faucibus vel luctus iaculis, mattis vel ante. </li>
             <li>Sed sollicitudin sollicitudin diam at condimentum. </li>
             <li>Sed blandit mi sed urna consequat, molestie imperdiet libero vehicula. </li>
@@ -146,8 +146,8 @@
             <div class="flex items-center gap-5">
               <img src="../assets/Card-Background.png" alt="">
               <div class="text-1xl text-trisec">
-                <h6 class="font-light">Author</h6>
-                <h2 class="font-semibold">Name Here</h2>  
+                <h6 class="font-light-custom text-[18px]">Author</h6>
+                <h2 class="font-black-custom text-[18px]">Name Here</h2>  
               </div>           
             </div>
             <div class="flex justify-end items-center">

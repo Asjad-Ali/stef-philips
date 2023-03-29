@@ -42,9 +42,8 @@
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-20">
         <div >
-          <h1 class="text-5xl mt-12 text-trisec">
-            <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
-            <br>
+          <h1 class="mt-12 text-trisec">
+            <span class="font-light-custom text-[36px]">Working towards a world</span>
             <span class="font-black-custom text-[36px]"> without homelessness</span>
           </h1>
           <p
