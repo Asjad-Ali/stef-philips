@@ -10,6 +10,14 @@
               <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
               <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
             </div> -->
+            <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
+
+    </nav>
+  </div> 
   <div class="lg:w-full bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
       <div class="w-[60%]">

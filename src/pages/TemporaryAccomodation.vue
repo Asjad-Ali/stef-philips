@@ -1,4 +1,13 @@
 <template>
+  <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
+        <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Temporary accomodation</div>
+    </nav>
+  </div> 
 <div class="w-full min-h-[400px] bgImg">
     <div class="max-w-[1440px] w-[60%] py-20 mx-auto p-3  flex flex-col justify-center">
         <h1 class="text-[42px] text-white font-light mt-16 ">Tenant services</h1>
@@ -90,11 +99,12 @@
   </div>
   <!-- step 8 -->
    <div class="max-w-[1440px] w-[60%]  mx-auto py-14 flex flex-col justify-center">
-      <Card />
+     
+    <HorizontalCardVue :message="card3"/>
     </div>
-    <div class="max-w-[1440px] w-[60%] mx-auto px-10  py-28 bg-[#EC8B7E]/10 my-32">
+    
    <NeedHelp />
-  </div>
+ 
 </template>
 
 
@@ -104,8 +114,11 @@
 <script setup>
 import Accordion from "../components/Accordion.vue";
 import CardsFlex from "../components/CardsFlex.vue";
-import Card from '../components/Card.vue';
+// import Card from '../components/Card.vue';
+import HorizontalCardVue from '../components/HorizontalCard.vue';
+
 import NeedHelp from '../components/NeedHelp.vue';
+const card3={direction:'rtl', img:'src/assets/Background.png', header:'Was your tenancy', boldheader:' cancelled ?', bgclass:'bg-[#f0f7fe]',btn:['Find my concil'], paragraph:'(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.'}
 
 
 const message = [

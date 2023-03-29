@@ -91,7 +91,7 @@
  <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Latest community news</h1>
   
     <div class="card flex items-start justify-content-between gap-5 w-full ">
-        <Card :message="card2" style="background-color: white ;"/>
+        <Card :message="card2" />
     </div>
 
 </div>
