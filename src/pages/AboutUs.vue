@@ -4,7 +4,6 @@
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >About us</div>
-        
     </nav>
   </div> 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
@@ -50,7 +49,7 @@
    </div>
  <div class="max-w-5xl mx-auto w-[60%] ">
   <div class="w-full flex justify-center">
-          <img src="../assets/Svg/Bluevedio.svg"  alt="video" />
+          <img src="../assets/Svg/BlueVedio.svg"  alt="video" />
         </div>
      </div>
   <!-- image -->
@@ -147,7 +146,7 @@
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
           <div class>
-            <img    src="../assets/Svg/GreenHouseN.svg" alt />
+            <img    src="../assets/Svg/GreenHousen.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
@@ -159,7 +158,7 @@
    <div class=" mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
-            <img src="../assets/Svg/GreenHouseN.svg" alt />
+            <img src="../assets/Svg/GreenHousen.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"

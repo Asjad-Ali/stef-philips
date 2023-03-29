@@ -53,7 +53,7 @@
         <div >
           <img src="../assets/Svg/Media.svg"  alt />
         </div>
-        <div class="flex items-center justify-center py-6">
+        <div class="flex items-center justify-center ">
           <div class="w-4/5 mt-6 md:mt-0 ">
             <span class="text-2xl    text-primary">
               <Icon icon="ooui:quotes-ltr" />

@@ -85,51 +85,51 @@ const value1 = ref(null);
 const message = [
 {
   text:"Bathroom and toilet",
-  img:'src/assets/Group 13.png'
+  img:'src/assets/Group-13.png'
 },
 {
   text:"Kitchen",
-  img:'src/assets/Group 16.png'
+  img:'src/assets/Group-16.png'
 },
 {
   text:"Heating and boiler",
-  img:'src/assets/Group 17.png'
+  img:'src/assets/Group-17.png'
 },
 {
   text:"Water and leaks",
-  img:'src/assets/Group 18.png'
+  img:'src/assets/Group-18.png'
 },
 {
   text:"Doors, garages and locks",
-  img:'src/assets/Group 19.png'
+  img:'src/assets/Group-19.png'
 },
 {
   text:"Internal floors, walls and ceilings",
-  img:'src/assets/Group 20.png'
+  img:'src/assets/Group-20.png'
 },
 {
   text:"Lighting",
-  img:'src/assets/Group 21.png'
+  img:'src/assets/Group-21.png'
 },
 {
   text:"Window",
-  img:'src/assets/Group 22.png'
+  img:'src/assets/Group-22.png'
 },
 {
   text:"Exterior and garden",
-  img:'src/assets/Group 23.png'
+  img:'src/assets/Group-23.png'
 },
 {
   text:"Furniture",
-  img:'src/assets/Group 24.png'
+  img:'src/assets/Group-24.png'
 },
 {
   text:"Communal / shared facilities",
-  img:'src/assets/Group 25.png'
+  img:'src/assets/Group-25.png'
 },
 {
   text:"Other",
-  img:'src/assets/Group 26.png'
+  img:'src/assets/Group-26.png'
 },
 ]
 </script>
@@ -145,7 +145,7 @@ const message = [
 }
 .pi::before{
     padding-right: 8px;
-    color: #1D1D33;
+   
 }
 .p-accordion-header-text{
   color:#20407c; font-size:18px; font-weight:900;

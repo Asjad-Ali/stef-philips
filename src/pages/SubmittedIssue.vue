@@ -15,7 +15,7 @@
 
     <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
         <div class="max-w-4xl mx-auto ">
-          <img src="../assets/Group 14.png" />
+          <img src="../assets/Group-14.png" />
           <h1 class="font-black-custom text-[36px] py-4 text-[#20407C]">
             Report submitted
             <br>

@@ -571,7 +571,7 @@ const selected = ref(people[0]);
 @media (max-width: 800px) {
   .nav {
     width: 100%;
-    padding: 2px;
+    padding: 5px;
   }
   .dropdown:hover .about-dropdown{
   display: block;
@@ -586,7 +586,7 @@ const selected = ref(people[0]);
   } */
   .inner {
     width: 100%;
-    padding: 2px;
+    padding: 5px;
   }
 }
 @media (max-width: 723px) {
@@ -611,14 +611,16 @@ const selected = ref(people[0]);
 
 @media (max-width: 565px) {
   .upper-nav {
-    height: 100px;
+    height: 110px;
   }
 }
 @media (max-width: 550px) {
   .nav {
     width: 100%;
   }
-
+  .inner a {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -635,9 +637,7 @@ const selected = ref(people[0]);
   .search {
     gap: 0.4rem;
   }
-  .inner a {
-    font-size: 12px;
-  }
+
 }
 @media (max-width: 400px) {
   .inner a {
