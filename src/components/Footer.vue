@@ -62,7 +62,7 @@
         </div>
       </div>
       <p
-        class="mt-20 py-3 leading-5 text-gray-400 md:order-1 font-regular-custom text-[11px] md:mt-0"
+        class="mt-20 py-3 leading-5 text-white md:order-1 font-regular-custom text-[11px] md:mt-0"
       >&copy; Stef & Philips 2023 | Company Number: 05752211</p>
     </div>
   </footer>
