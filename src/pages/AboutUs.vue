@@ -2,7 +2,7 @@
 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class=" mx-auto w-[60%] ">
         <h1
           class="text-5xl text-white  w-[100%] leading-snug"
         >
@@ -18,7 +18,7 @@
   </div>
   <!-- Step 2 -->
    <div class="  min-h-[600px]  w-full ">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class=" mx-auto w-[60%] ">
   <div class="w-full flex justify-center">
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
@@ -41,9 +41,9 @@
     </div>
     
    </div>
- <div class="pb-0 py-16 px-3">
+ <div class="pb-0 py-16 px-3 ">
         <div class="videoBg lg:h-[200px] xxxs:[100px] flex items-center justify-center">
-          <img src="../assets/video.png" class="lg:max-w-xl    xxxs:max-w-xs" alt="video" />
+          <img src="../assets/video.png" class="lg:max-w-xl xxxs:max-w-xs" alt="video" />
         </div>
      </div>
   <!-- image -->
@@ -53,7 +53,7 @@
     >
       <div class="w-full flex justify-center   py-10">
         <div class="lg:w-[60%]">
-          <div class="max-w-4xl w-full mx-auto grid">
+          <div class=" w-full mx-auto grid">
             <div class="lg:flex">
               <div class="mt-4 flex-auto px-8 text-18 text-white ">
                 Since first opening our doors in 2006, Stef & Philips has
@@ -81,7 +81,7 @@
 
   <!-- step 4 -->
    <div class="  min-h-[600px]  w-full ">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class=" mx-auto w-[60%] ">
       <div class="lg:py-36  xxxs:py-20">
         <div class="lg:flex">
           <div class="lg:w-[50%]  flex-auto">
@@ -127,7 +127,7 @@
 
   <!-- step 5 -->
   <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class="max-w-5xl mx-auto w-[60%] lg:py-11">
+ <div class=" mx-auto w-[60%] lg:py-11">
         <div class="grid md:grid-cols-3 gap-4 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
             <h1 class="py-4 text-white font-bold text-4xl">Value</h1>
@@ -206,7 +206,7 @@
    </div>
 
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
       <div class>
         <img
           src="../assets/Background.png"
@@ -240,7 +240,7 @@
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 tiltBg"
     >
-    <div class="max-w-5xl mx-auto w-[60%]  ">
+    <div class=" mx-auto w-[60%]  ">
       <div class="w-full">
           <h1 class="text-4xl px-8 text-white font-bold">
             <div>Life at Stef & Philips</div>
@@ -263,7 +263,7 @@
 
 <!-- slider -->
  <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class="max-w-5xl mx-auto w-[60%]  lg:py-40">
+ <div class=" mx-auto w-[60%]  lg:py-40">
  <div class>
             <h1 class="py-4 text-white font-bold text-3xl">Our Senior Team</h1>
           </div>
@@ -297,7 +297,7 @@
  </div>
  </div>
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
       <div class>
         <img
           src="../assets/Background.png"

@@ -13,7 +13,7 @@
   
    <!-- -->
 
-  <div class="max-w-5xl w-[60%] mx-auto py-20">
+  <div class=" w-[60%] mx-auto py-20">
       <h2 class="font-semibold text-2xl text-[#20407C]">6th March 2023</h2>
       <h1 class="pt-4 text-4xl text-[#20407C]">
        Title of the new articles here
@@ -41,13 +41,13 @@
             </a>
           </div>
      </div>
-     <div class="pt-4">
+     <div class="pt-4 ">
       <img src="../assets/Background1.png">
      </div>
   </div>
 
   <!-- -->
-  <div class="max-w-5xl mx-auto pb-20 w-[60%]">
+  <div class=" mx-auto pb-20 w-[60%]">
     <div class="flex items-center justify-center">
       <div class="w-4/5">
         <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
@@ -71,7 +71,7 @@
 
    <!-- -->
  
-    <div class="max-w-5xl mx-auto py-28 mb-10 w-[60%] bgImg">
+    <div class=" mx-auto py-28 mb-10 w-[60%] bgImg">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <span class="text-2xl text-primary">
@@ -90,7 +90,7 @@
     
     <!-- -->
 
-    <div class="max-w-5xl mx-auto pb-10 w-[60%]">
+    <div class=" mx-auto pb-10 w-[60%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
@@ -113,7 +113,7 @@
     </div>
 
   <!-- -->
-    <div class="w-full max-w-5xl mx-auto mb-10">
+    <div class="w-full  mx-auto mb-10">
       <div class="w-full flex justify-center items-center">
        <div class="my-[60px]">
          <div class="videoBg flex items-center justify-center">
@@ -125,7 +125,7 @@
 
      <!-- --> 
 
-    <div class="max-w-5xl mx-auto pb-20 w-[60%]">
+    <div class=" mx-auto pb-20 w-[60%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-bold md:text-xl text-[#20407C]">Sub titles here</h4>
@@ -141,8 +141,8 @@
 
     <!-- --> 
       <div class="w-full mx-auto flex justify-center border-[#EDEDEE]">
-        <div class="w-[60%] max-w-5xl">
-          <div class="max-w-5xl mx-auto grid md:grid-cols-2 grid-cols-1 gap-10 py-10 mb-20 border-y-2">
+        <div class="w-[60%] ">
+          <div class=" mx-auto grid md:grid-cols-2 grid-cols-1 gap-10 py-10 mb-20 border-y-2">
             <div class="flex items-center gap-5">
               <img src="../assets/Card-Background.png" alt="">
               <div class="text-1xl text-trisec">

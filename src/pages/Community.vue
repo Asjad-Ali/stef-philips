@@ -21,7 +21,7 @@
 
 
 <div class="w-full min-h-[600px] bg-[#1d1d33]    ">
-<div class="max-w-[1440px] w-full flex justify-center items-center mx-auto">
+<div class=" w-full flex justify-center items-center mx-auto">
 <div  class=" w-[50%] h-[600px] mx-auto p-3 relative text1" >
     <div  class="  w-[60%] min-h-[250px] p-3 absolute  right-0 my-40 text  ">
 <h1  class="text-[18px] text-white font-[900]">Upcoming event</h1> 
@@ -62,7 +62,7 @@
 <!-- section 5 -->
 <div class="w-full min-h-[450px] h-auto "> 
 <div class="py-20 w-[60%] mx-auto">
-      <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+      <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
         <div class>
           <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
         </div>
