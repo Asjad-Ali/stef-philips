@@ -18,6 +18,8 @@ import OursEmergency from "../pages/OursEmergency.vue";
 import TenantServices from "../pages/TenantServices.vue";
 import RepairResponsibilities from "../pages/RepairResponsibilities.vue";
 import HomeMeatTheTeam from "../pages/HomeMeatTheTeam.vue";
+import SubmittedIssue from "../pages/SubmittedIssue.vue";
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -110,8 +112,8 @@ const router = createRouter({
     {
       path: "/tenant-services",
       name: "tenantServices",
-      component: TenantServices,
-    },
+      component: TenantServices,}
+      ,
     {
       path: "/repair-responsibilities",
       name: "repairResponsibilities",
@@ -120,7 +122,10 @@ const router = createRouter({
     {
       path: "/home-meatTheTeam",
       name: "meatTheTeam",
-      component: HomeMeatTheTeam,
+      component: HomeMeatTheTeam,},{
+      path: "/submitted-issue",
+      name: "submittedIssue",
+      component: SubmittedIssue,
     },
   ],
 });

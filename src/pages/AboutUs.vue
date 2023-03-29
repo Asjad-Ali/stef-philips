@@ -54,11 +54,11 @@
         </div>
      </div>
   <!-- image -->
-  <div class="happyG w-full min-h-[700px] relative overflow-hidden pt-32  lg:mt-36">
+  <div class="happyG w-full min-h-[700px] relative overflow-hidden pt-32 lg:mt-36">
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 happyS"
     >
-      <div class="w-full flex justify-center   py-10">
+      <div class="w-full flex justify-center py-10">
         <div class="lg:w-[60%]">
           <div class=" w-full mx-auto grid">
             <div class="lg:flex font-regular-custom text-[18px] gap-5">

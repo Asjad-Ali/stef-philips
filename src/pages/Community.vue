@@ -52,13 +52,14 @@
 
 <!-- section 4  -->
 <div class="w-full min-h-[450px] h-auto bg-[#1d1d33] flex items-center"> 
-<div  class="max-w-[1440px] w-[60%] min-h-[315px] mx-auto p-3">
-<h1  class="text-[36px] text-white font-light-custom mt-16"> <span class="font-black-custom">Community</span> ethos is what we all have in common</h1> 
-<p class="text-[18px] text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-<div class="flex gap-4"><button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Carriers</button>
-<button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Meet the team</button></div>
-</div>
-</div>
+  <div  class="max-w-[1440px] w-[60%] min-h-[315px] mx-auto p-3">
+  <h1  class="text-[36px] text-white font-light-custom mt-16"> <span class="font-black-custom">Community</span> ethos is what we all have in common</h1> 
+  <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <div class="flex flex-wrap gap-4">
+    <button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Careers</button>
+    <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Meet the team</button></div>
+  </div>
+  </div>
 
 <!-- section 5 -->
 <div class="py-20 w-[60%] mx-auto">

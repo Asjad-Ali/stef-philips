@@ -14,8 +14,8 @@
        <!-- -->
         <div class="w-full"> 
           <div  class="max-w-5xl w-[60%] min-h-[100px] mx-auto ">
-            <h1  class="text-4xl text-[#20407c] font-[900] mt-16">Repairs & maintenance</h1> 
-            <p class="pt-4 text-lg text-[#1d1d33] font-[300]">Short introductory summary for the page goes here like so</p>
+            <h1  class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom mt-16">Repairs & maintenance</h1> 
+            <p class="pt-4 text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
           </div>
         </div>
         
@@ -24,11 +24,11 @@
             <div class="w-full mx-auto flex justify-center">
               <div class="max-w-5xl w-[60%] flex flex-col">
                 <div class="flex">
-                  <h1 class="text-2xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">Please click on the relevant picture</h1>
+                  <h1 class="font-black-custom text-[30px] mt-12 text-trisec"  style="font-weight:900">Please click on the relevant picture</h1>
                 </div>
                 <div class="pt-2">
                 <span class="p-input-icon-right">
-                    <InputText class="p-inputtext" v-model="value1" placeholder="What is the issue?" />
+                    <InputText class="p-inputtext md:text-[18px] xxs:text-[16px] font-xbold-custom text-[#1D1D33]" v-model="value1" placeholder="What is the issue?" />
                     <i class="pi pi-search" />
                 </span>
                 </div>
@@ -47,29 +47,28 @@
             <YourDetails />
 
              <!-- -->
-             <div class="w-full flex justify-center mx-auto py-20  bg-[#ededee]">
+             <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
               <div class="w-[60%]">
-              <h1   class="text-[30px] text-[#20407c] font-[900] pb-10">Other ways to report</h1>
+              <h1   class="text-[30px] text-[#20407c] font-black-custom pb-10">Other ways to report</h1>
               <Accordion :activeIndex="2" >
-              <AccordionTab header="Call us" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                <p class="text-[18px] font-[400] text-[#1d1d33]">
+              <AccordionTab header="Call us" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                     Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                   </p>
               </AccordionTab>
-              <AccordionTab header="Emergency out of hours repairs">
-                <p class="text-[18px] font-[400] text-[#1d1d33]">
+              <AccordionTab header="Emergency out of hours repairs" class="font-black-custom text-[18px] text-[#20407c]">
+                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                     Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                   </p>
               </AccordionTab>
-              <AccordionTab header="Repair responsibilities">
-                  <p class="text-[18px] font-[400] text-[#1d1d33]">
+              <AccordionTab header="Repair responsibilities" class="font-black-custom text-[18px] text-[#20407c]">
+                  <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                     Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                   </p>
-                  <p class="text-[18px] font-[900] text-[#2a8cfb]">Link call to action</p>
+                  <p class="text-[18px] font-black-custom text-[#2a8cfb]">Link call to action</p>
               </AccordionTab>
             </Accordion>
               </div>
-              
               </div>
      
 </template>
@@ -138,11 +137,15 @@ const message = [
 .p-inputtext{
     background-color: #F0F7FE;
     border: 2px solid #4D6896;
-    border-radius: 20px;
-    padding-left: 15px;
+    border-radius: 25px;
+    padding-left: 10px;
 }
-.pi {
-    padding-right: 10px;
+.p-inputtext::placeholder{
+    color: #1D1D33;
+}
+.pi::before{
+    padding-right: 8px;
+    color: #1D1D33;
 }
 .p-accordion-header-text{
   color:#20407c; font-size:18px; font-weight:900;

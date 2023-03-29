@@ -7,21 +7,21 @@
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
           <div class="grid grid-cols-3 gap-8">
             <div>
-              <ul role="list" class="space-y-2 text-[1px]">
-                <li v-for="item in navigation.solutions" :key="item.name">
+              <ul role="list" class="space-y-2 text-[15px]">
+                <li class="font-light-custom" v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
                   >{{ item.name }}</a>
                 </li>
               </ul>
             </div>
             <div class=" md:mt-0 ">
-              <ul role="list" class="space-y-2 text-[15px] ">
-                <li v-for="item in navigation.support" :key="item.name">
+              <ul role="list" class="space-y-2 text-[15px]">
+                <li class="font-light-custom" v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -29,10 +29,10 @@
 
             <div class=" md:mt-0">
               <ul role="list" class="space-y-2 text-[15px] ">
-                <li v-for="item in navigation.legal" :key="item.name">
+                <li class="font-light-custom" v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -52,7 +52,7 @@
             <component :is="item.icon" class="h-6 w-6 " aria-hidden="true" />
           </a>
         </div>
-        <div class="flex items-center gap-4 flex-wrap md:top-0 mt-6 text-[3px]">
+        <div class="flex items-center gap-4 flex-wrap md:top-0 mt-6 font-regular-custom text-[13px]">
           <a href="#" class="text-[13px] text-white whitespace-nowrap">Privacy policy</a>
           <a href="#" class="text-[13px] text-white whitespace-nowrap">Terms of use</a>
           <a href="#" class="text-[13px] text-white whitespace-nowrap">Equal Pay policy</a>
@@ -61,7 +61,7 @@
         </div>
       </div>
       <p
-        class="mt-20  py-3 text-xs leading-5 text-gray-400 md:order-1 md:mt-0"
+        class="mt-20 py-3 leading-5 text-gray-400 md:order-1 font-regular-custom text-[11px] md:mt-0"
       >&copy; Stef & Philips 2023 | Company Number: 05752211</p>
     </div>
   </footer>

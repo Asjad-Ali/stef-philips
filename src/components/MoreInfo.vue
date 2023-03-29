@@ -1,19 +1,19 @@
 <template>
 <div class=" pt-11 w-[60%] mx-auto">
-<h1  class="lg:text-[30px]  xxxs:text-[25px] text-[#20407c] lg:font-[900] xxxs:font-[600]">More Information</h1> 
-<p class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] lg:font-[900] xxxs:font-[600]  mt-3">Select the option that best describes your issue</p>
-<p class="lg:text-[18px]  xxxs:text-[15px] text-[#1D1D33] lg:font-[400] lg:mt-3 lg:mb-3  xxxs:mt-1 xxxs:mb-1 ">Select on</p>
+<h1  class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom">More Information</h1> 
+<p class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] font-black-custom  mt-3">Select the option that best describes your issue</p>
+<p class="lg:text-[18px] xxxs:text-[15px] text-[#1D1D33] font-regular-custom lg:mt-3 lg:mb-3  xxxs:mt-1 xxxs:mb-1 ">Select on</p>
 </div>
 <form @submit="onSubmit" class="w-[60%] mx-auto">
-    <Dropdown v-model="selectedOption" inputId="dd-city"    :options="cities" optionLabel="name" placeholder="select..." class="w-full lg:max-w-[632px]  min-h-[50px]" />
-    <p class="lg:text-[18px]  xxxs:text-[16px] text-[#20407C] lg:font-[900]  xxxs:font-[500] mt-11">Please describe the issue</p>
-    <p class="lg:text-[18px]  xxxs:text-[16px]  text-[#1D1D33] lg:font-[400]  xxxs:font-[100] mt-3">Be as detailed as possible</p>
+    <Dropdown v-model="selectedOption" inputId="dd-city" :options="cities" optionLabel="name" placeholder="select..." class="w-full lg:max-w-[632px] min-h-[50px]" />
+    <p class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] font-black-custom mt-11">Please describe the issue</p>
+    <p class="lg:text-[18px] xxxs:text-[16px]  text-[#1D1D33] font-regular-custom mt-3">Be as detailed as possible</p>
     <Textarea v-model="value" rows="5" cols="30" class="lg:mt-8 xxxs:mt-4 w-full max-w-[632px] min-h-[180px]" />
-     <p class="lg:text-[18px]  xxxs:text-[14px] text-[#20407C] font-[900] mt-11">Upload any supporting images or documents that may be helpful</p>
-    <p class="lg:text-[18px]  xxxs:text-[16px] text-[#1D1D33] font-[400] mt-3">Maximum file size 3MB</p>
-    <div class="mt-3 flex justify-start" v-for="chooseFile in chooseFile" :key="chooseFile.name">
-        <FileUpload mode="basic" name="demo[]" url="./upload.php"  chooseLabel="Choose file" accept="image/*"  :maxFileSize="1000000" @upload="onUpload" class="lg:w-[140px] lg:h-[44px]" />
-        <div class=" ml-6 mt-3 ">{{chooseFile.name}}</div>
+     <p class="lg:text-[18px] xxxs:text-[14px] text-[#20407C] font-black-custom mt-11">Upload any supporting images or documents that may be helpful</p>
+    <p class="lg:text-[18px] xxxs:text-[16px] text-[#1D1D33] font-regular-custom mt-3">Maximum file size 3MB</p>
+    <div class="mt-3 flex flex-wrap justify-start" v-for="chooseFile in chooseFile" :key="chooseFile.name">
+        <FileUpload mode="basic" name="demo[]" url="./upload.php"  chooseLabel="Choose file" accept="image/*"  :maxFileSize="1000000" @upload="onUpload" class="lg:w-[140px] font-xbold-custom text-[14px] lg:h-[44px]" />
+        <div class="font-regular-custom text-[18px] ml-6 mt-3 ">{{chooseFile.name}}</div>
     </div>
 </form>
 
@@ -74,15 +74,16 @@ const chooseFile=[
   width: 50px;
   
 }
-.p-dropdown .pi{
+.p-dropdown .pi::before{
     display: inline;
+    color: white;
 }
 .p-dropdown .p-dropdown-label.p-placeholder {
-    color: #20407C;
-    font-size:22px;
-    font-weight: 600;
+    color: #20407C; 
     border-color:  #20407C;
-       background:#E1EFFF;
+    background:#E1EFFF;
+    font-size: 18px;
+    font-family: "Black",sans-serif;
 }
 .p-inputtext{
      border:  0.16rem solid #20407C;
