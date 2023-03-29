@@ -1,5 +1,5 @@
 <template>
-       <Card style="max-width: 28em; width:100%; " v-for="items in props.message">
+       <Card style="max-width: 28em; width:100%; " v-for="items in props.message" :class="items.bgclass">
             <template #header>
                 <img alt="user header" :src="items.img" />
             </template>

@@ -1,5 +1,5 @@
 <template>
-     <div class="max-w-4xl mx-auto">
+   <div class="xs:w-[60%] mx-auto px-10 py-28 bg-[#EC8B7E]/10 my-32">  <div class="max-w-4xl mx-auto">
       <img src="../assets/pink.png"  />
       <h1 class="block py-4 text-4xl text-second">
         Need help
@@ -21,7 +21,7 @@
         >
           Report a repair or maintainance
         </button>
-      </div>
+      </div></div> 
     </div>
 </template>
 
