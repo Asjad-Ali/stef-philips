@@ -19,11 +19,39 @@
 </div>
 <SelectOne />
 <YourDetails />
- <Accordion />
+<div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-72 xxxs:pt-40">
+    <div class="w-[60%] max-w-5xl mx-auto flex flex-wrap items-center">
+      <p class="text-[#20407C] text-[30px] font-light pb-6">
+        <span class="text-[30px] font-black">During your stay FAQs</span>
+       
+      </p>
+      <Accordion :message="message" />
+    </div>
+  </div>
 </template>
 
 <script setup>
 import MoreInfo from '../components/MoreInfo.vue'
 import YourDetails from '../components/YourDetails.vue'
 import SelectOne from '../components/SelectOne.vue'
+import Accordion from '../components/Accordion.vue';
+
+const message = [
+  {
+    index: 0,
+    header: "Call us",
+    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
+  },
+  {
+    index: 1,
+    header: "Emergency out of hours repairs",
+    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
+  },
+   {
+    index: 2,
+    header: "Repair responsibilities",
+    text: "Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
+  },
+
+];
 </script>

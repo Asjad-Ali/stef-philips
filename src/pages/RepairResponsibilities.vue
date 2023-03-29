@@ -28,7 +28,7 @@
               >Report a repair</button>
             </div>
             <div class="flex justify-center ">
-              <img src="../assets/Card Image.png">
+              <img src="../assets/Card-Image-man.png">
             </div>
           </div>
         </div>

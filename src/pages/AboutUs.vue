@@ -1,8 +1,7 @@
 <template>
-
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
- <div class=" mx-auto w-[60%] ">
+ <div class="max-w-5xl mx-auto w-[60%] ">
         <h1
           class="text-white w-[100%]"
         >
@@ -18,18 +17,18 @@
   </div>
   <!-- Step 2 -->
    <div class="  min-h-[600px]  w-full ">
- <div class=" mx-auto w-[60%] ">
+ <div class="max-w-5xl mx-auto w-[60%] ">
   <div class="w-full flex justify-center">
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
-          <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
-            <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
-            <span class="font-black-custom text-[36px]"> without homelessness</span>
+          <h1 class=" mt-12 text-trisec  ">
+            <span class="font-light-custom xl:text-[36px] text-[25px] ">Working towards a world</span>
+            <span class="font-black-custom xl:text-[36px] text-[25px]"> without homelessness</span>
           </h1>
           <p
-            class="mt-6 font-regular-custom text-[18px]"
-          >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
+            class="mt-6 font-regular-custom xl:text-[18px] text-[15px]">
+          At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
       
         </div>
         <div class="flex justify-center ">
@@ -41,9 +40,9 @@
     </div>
     
    </div>
- <div class="pb-0 py-16 px-3 ">
+ <div class="pb-0 py-16 px-3">
         <div class="videoBg lg:h-[200px] xxxs:[100px] flex items-center justify-center">
-          <img src="../assets/video.png" class="lg:max-w-xl xxxs:max-w-xs" alt="video" />
+          <img src="../assets/video.png" class="lg:max-w-xl    xxxs:max-w-xs" alt="video" />
         </div>
      </div>
   <!-- image -->
@@ -81,7 +80,7 @@
 
   <!-- step 4 -->
    <div class="  min-h-[600px]  w-full ">
- <div class=" mx-auto w-[60%] ">
+ <div class="max-w-5xl mx-auto w-[60%] ">
       <div class="lg:py-36  xxxs:py-20">
         <div class="lg:flex">
           <div class="lg:w-[50%]  flex-auto">
@@ -89,10 +88,10 @@
           </div>
           <div class="lg:w-[50%]   pt-20">
             <h1
-              class="lg:px-8 text-[32px]  lg:font-[400] xxxs:[200]  text-trisec text-ellipsis leading-[40px]"
+              class="lg:px-8 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]"
             >
               <span class="font-light-custom text-[36px]">Why</span>
-              <span class="font-black-custom text-[36px]">social housing investment </span
+              <span class="font-black-custom text-[36px]"> social housing investment </span
               ><span class="font-light-custom text-[36px]">matters to us</span>
             </h1>
             <p class="text-[18px] font-regular-custom mt-4 px-8">
@@ -127,7 +126,7 @@
 
   <!-- step 5 -->
   <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class=" mx-auto w-[60%] lg:py-11">
+ <div class="max-w-5xl mx-auto w-[60%] lg:py-11">
         <div class="grid md:grid-cols-3 gap-4 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
             <h1 class="py-4 text-white font-light-custom text-[36px]">Value</h1>
@@ -149,7 +148,7 @@
         </div>
         
       </div>
-   <div class="max-w-5xl mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
+   <div class=" mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
             <img class="w-20" src="../assets/blockN.png" alt />
@@ -205,7 +204,7 @@
 
 
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
       <div class>
         <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
       </div>
@@ -233,7 +232,7 @@
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 tiltBg"
     >
-    <div class=" mx-auto w-[60%]  ">
+    <div class="max-w-5xl mx-auto w-[60%]  ">
       <div class="w-full">
           <h1 class="text-4xl px-8 text-white font-bold">
             <div class="font-light-custom text-[36px]">Life at Stef & Philips</div>
@@ -256,7 +255,7 @@
 
 <!-- slider -->
  <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class=" mx-auto w-[60%]  lg:py-40">
+ <div class="max-w-5xl mx-auto w-[60%]  lg:py-40">
  <div class>
             <h1 class="py-4 text-white font-light-custom text-[36px]">Our Senior Team</h1>
           </div>
@@ -290,7 +289,7 @@
  </div>
  </div>
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1  mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
       <div class>
         <img
           src="../assets/Background.png"

@@ -74,7 +74,7 @@
      
 </template>
 <script setup>
-import ContactCard from "../components/Contactcard.vue";
+import ContactCard from "../components/ContactCard.vue";
 import MoreInfo from "../components/MoreInfo.vue";
 import YourDetails from "../components/YourDetails.vue";
 import Accordion from 'primevue/accordion';

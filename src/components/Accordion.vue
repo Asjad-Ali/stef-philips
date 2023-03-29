@@ -1,10 +1,15 @@
 <template>
-  <Accordion :activeIndex="2" v-for="items in props.message" :key="tabindex"  >
-    <AccordionTab :header="items.header"  style="color:#20407c; font-size:18px; font-weight:900" color="white">
-      <p class="text-[18px] font-[400] text-[#1d1d33]">
+
+     <div class="  min-h-[600px]  w-full ">
+ <div class="max-w-5xl w-full mx-auto ">
+  <Accordion :activeIndex="2" class="pb-2 "  v-for="items in props.message" :key="tabindex"  >
+    <AccordionTab :header="items.header" style="color:#20407c; font-size:18px; font-weight:900" color="white">
+      <p class="text-[18px] font-black   text-[#1d1d33]">
          {{ items.text }}
-      </p> <p class="text-[18px] font-[900] text-[#2a8cfb]">{{ items.text2 }}</p></AccordionTab>
+      </p> <p class="text-[18px] font-[black] text-[#2a8cfb]">{{ items.text2 }}</p></AccordionTab>
    </Accordion>
+ </div>
+ </div>
 </template>
 <script setup>
 import Accordion from 'primevue/accordion';
@@ -21,5 +26,7 @@ const props = defineProps(["message"]);
 }
 .p-accordion .p-accordion-header .p-accordion-header-link{
  background-color: white !important;
+ height:60px;
 }
+
 </style>

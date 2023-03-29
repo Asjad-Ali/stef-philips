@@ -11,7 +11,7 @@
             <h3
               class="h-20 mt-0 text-[20px] font-black-custom text-left text-trisec"
             >{{ person.name }}</h3>
-            <p class="text-[18px] font-regular-custom  text-gray-700 text-left">{{ person.role }}</p>
+            <p class="text-[18px] font-regular-custom  text-gray-700 text-left mt-5">{{ person.role }}</p>
             <div class="w-full h-full flex">
               <button
                 type="button"
@@ -26,12 +26,12 @@
 </template>
 
 <script setup>
-const people = [
+  const people = [
   {
     name: "Help in your home",
     role: "Senior Designer",
     imageUrl:
-      "src/assets/Card-Image-1.png",
+    new URL("../assets/Card-Image-1.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -39,7 +39,7 @@ const people = [
     name: "Quick report form",
     role: "Senior Designer",
     imageUrl:
-    "src/assets/Card-Image-2.png",
+    new URL("../assets/Card-Image-2.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -47,7 +47,7 @@ const people = [
     name: "Report repair or maintainance",
     role: "Senior Designer",
     imageUrl:
-    "src/assets/Card-Image-3.png",
+    new URL("../assets/Card-Image-3.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   }
