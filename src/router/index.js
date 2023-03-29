@@ -10,12 +10,14 @@ import NewsView from "../pages/News.vue";
 import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
 import OtherIssues from '../pages/OtherIssues.vue';
 import TaxCouncil from '../pages/TaxCouncil.vue';
+import PrivateRented from "../pages/PrivateRented.vue";
 import TemporaryAccomodation from '../pages/TemporaryAccomodation.vue';
 import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
 import TenantServices from "../pages/TenantServices.vue";
 import RepairResponsibilities from "../pages/RepairResponsibilities.vue";
+
 
 const router = createRouter({
   history: createWebHistory(),
@@ -57,9 +59,14 @@ const router = createRouter({
       component: TaxCouncil,
     },
     {
+      path: "/prs",
+      name: "PrivateRented",
+      component: PrivateRented,
+    },
+    {
       path: "/temporary-accomodation",
       name: "TemporaryAccomodation",
-      component:TemporaryAccomodation,
+      component: TemporaryAccomodation,
     },
     {
       path: "/contact",
@@ -104,8 +111,9 @@ const router = createRouter({
     {
       path: "/tenant-services",
       name: "tenantServices",
-      component: TenantServices,}
-      ,{
+      component: TenantServices,
+    },
+    {
       path: "/repair-responsibilities",
       name: "repairResponsibilities",
       component: RepairResponsibilities,
