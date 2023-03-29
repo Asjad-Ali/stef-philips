@@ -52,9 +52,9 @@
       </div>
     </div>
     <div class="w-full flex justify-center">
-      <div class="xs:w-[60%] mx-auto px-10 py-28 bg-[#EC8B7E]/10 my-32">
+     
         <NeedHelp />
-      </div>
+      
     </div>
   </div>
   <div class="grid grid-cols-2">
