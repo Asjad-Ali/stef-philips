@@ -1,30 +1,10 @@
 <template>
-  <!-- <div class="h-12 w-full bcrumbs bl "  >
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 " >
-          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
-          <i class="pi pi-angle-right text-white"></i>
-          <div class="dropdown">
-            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/your-home">Your home</router-link>
-            <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="">Quick report</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Report an issue</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Repairs $ maintenance</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Anti-social behaviour</router-link> 
-            <router-link active-class="active" class="font-semibold text-sm" to="">Other issues</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Out of hours emergencies</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Tenant services</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Temporary accomodation</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">PRS</router-link>
-            <router-link active-class="active" class="font-semibold text-sm" to="">Repair responsibilities</router-link>
-            </div>
-          </div>
-        </nav>
-      </div>  -->
+
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
       <div class="w-[60%] h-[600px] mx-auto flex items-center">
         <div class="max-w-sm">
-          <h1 class="font-light-custom text-[42px] text-white tracking-wide leading-snug">
+          <h1 class="font-light-custom text-[42px] text-white ">
             <span>Foundations for</span>
             <br />
             <span class="font-black-custom text-[42px]">better lives</span>
@@ -42,14 +22,14 @@
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-20">
         <div >
-          <h1 class="text-5xl mt-12 text-trisec">
-            <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
+          <h1 class=" text-trisec">
+            <span class="font-light-custom lg:text-[36px] text-[25px]">Working towards a world</span>
             <br>
-            <span class="font-black-custom text-[36px]"> without homelessness</span>
+            <span class="font-black-custom lg:text-[36px] text-[25px]"> without homelessness</span>
           </h1>
           <p
-            class="mt-6 font-regular-custom text-[18px]"
-          >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
+            class="mt-6 font-regular-custom lg:text-[18px] text-[15px]">
+          At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
           <button
             type="button"
             class="bg-trisec py-4 px-12 font-xbold-custom text-[16px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
@@ -69,8 +49,8 @@
    
     <div class="py-20 w-[60%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
-        <div class>
-          <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
+        <div >
+          <img src="../assets/Background.png" class="z-50 h-full w-full" alt />
         </div>
         <div class="flex items-center justify-center py-10">
           <div class="w-4/5 mt-6 md:mt-0 ">
@@ -95,13 +75,13 @@
         <div class="w-[60%] mx-auto grid grid-cols-1">
           <div class="max-w-lg">
             <div class="">
-              <h1 class="font-light-custom text-[36px] leading-snug text-white">
+              <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white">
                 Striving to make the lives of vulnerable people
-                <span class="font-black-custom text-[36px]">safer</span> and
-                <span class="font-black-custom text-[36px]">more secure</span>
+                <span class="font-black-custom sm:text-[36px] text-[30px]">safer</span> and
+                <span class="font-black-custom sm:text-[36px] text-[30px]">more secure</span>
               </h1>
               <p
-                class="mt-4 text-white font-regular-custom text-[18px]"
+                class="mt-4 text-white font-regular-custom sm:text-[18px] text-[12px]"
               >We construct and manage fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
 

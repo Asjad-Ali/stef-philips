@@ -549,14 +549,30 @@ const selected = ref(people[0]);
 .active  {
   border-bottom: 2px solid whitesmoke;
 }
-.upper-whole-div {
-  border-bottom: 2px solid whitesmoke;
+
+@media (max-width:1198px) {
+  .dropdown:hover .about-dropdown{
+  display: block;
+  margin-top: 19px;
+}
+.dropdown-h:hover .home-dropdown{
+  display: block;
+  margin-top: 19px;
+}
 }
 @media (max-width: 800px) {
   .nav {
     width: 100%;
     padding: 2px;
   }
+  .dropdown:hover .about-dropdown{
+  display: block;
+  margin-top: 27px;
+}
+.dropdown-h:hover .home-dropdown{
+  display: block;
+  margin-top: 27px;
+}
   /* .upper-nav {
     padding: 2px;
   } */
@@ -564,6 +580,16 @@ const selected = ref(people[0]);
     width: 100%;
     padding: 2px;
   }
+}
+@media (max-width: 723px) {
+  .dropdown:hover .about-dropdown{
+  display: block;
+  margin-top: 18px;
+}
+.dropdown-h:hover .home-dropdown{
+  display: block;
+  margin-top: 18px;
+}
 }
 @media (max-width: 660px) {
   .wrap {

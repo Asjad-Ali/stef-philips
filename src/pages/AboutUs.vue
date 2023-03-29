@@ -23,13 +23,13 @@
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
-          <h1 class="text-4xl mt-12 text-trisec leading-[50px] font-semibold">
-            <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
-            <span class="font-black-custom text-[36px]"> without homelessness</span>
+          <h1 class=" mt-12 text-trisec  ">
+            <span class="font-light-custom xl:text-[36px] text-[25px] ">Working towards a world</span>
+            <span class="font-black-custom xl:text-[36px] text-[25px]"> without homelessness</span>
           </h1>
           <p
-            class="mt-6 font-regular-custom text-[18px]"
-          >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
+            class="mt-6 font-regular-custom xl:text-[18px] text-[15px]">
+          At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
       
         </div>
         <div class="flex justify-center ">
@@ -89,10 +89,10 @@
           </div>
           <div class="lg:w-[50%]   pt-20">
             <h1
-              class="lg:px-8 text-[32px]  lg:font-[400] xxxs:[200]  text-trisec text-ellipsis leading-[40px]"
+              class="lg:px-8 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]"
             >
               <span class="font-light-custom text-[36px]">Why</span>
-              <span class="font-black-custom text-[36px]">social housing investment </span
+              <span class="font-black-custom text-[36px]"> social housing investment </span
               ><span class="font-light-custom text-[36px]">matters to us</span>
             </h1>
             <p class="text-[18px] font-regular-custom mt-4 px-8">
@@ -149,7 +149,7 @@
         </div>
         
       </div>
-   <div class="max-w-5xl mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
+   <div class=" mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
             <img class="w-20" src="../assets/blockN.png" alt />
