@@ -16,17 +16,17 @@
         <div
           class="w-half  lg:flex items-cennter"
         >
-          <div class="flex flex-col px-8  lg:pt-28   pb-8">
+          <div class="flex flex-col px-8 lg:pt-28 pb-8">
             <h1
-              class="lg:text-5xl text-trisec xxs:text-[20px] leading-[50px] text-start font-semibold w-[100%]"
+              class="text-trisec text-start w-[100%]"
             >
-              <span class="font-light"
+              <span class="font-light-custom text-[42px]"
                 >Meet the</span
               >
-              <span> team</span>
+              <span class="font-black-custom text-[42px]"> team</span>
             </h1>
             <p
-              class=" lg:py-8  font-normal mt-2 leading-loose tracking-wide"
+              class="font-regular-custom text-[18px] mt-2"
             >
               Find out how to report a repair, how
               long it will take and whether it's

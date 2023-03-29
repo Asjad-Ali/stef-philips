@@ -16,21 +16,21 @@
 }
 @font-face {
   font-family: "Black";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Black.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Black.ttf");
 }
 .font-black-custom{
   font-family: "Black",sans-serif;
 }
 @font-face {
   font-family: "Black-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-BlackItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-BlackItalic.ttf");
 }
 .font-black-italic-custom{
   font-family: "Black-Italic",sans-serif;
 }
 @font-face {
   font-family: "Bold";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Bold.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Bold.ttf");
 }
 .font-bold-custom{
     font-family: "Bold",sans-serif;
@@ -38,84 +38,84 @@
 
 @font-face {
   font-family: "Bold-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-BoldItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-BoldItalic.ttf");
 }
 .font-bold-italic-custom{
     font-family: "Bold-Italic",sans-serif;
 }
 @font-face {
   font-family: "Hairline";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Hairline.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Hairline.ttf");
 }
 .font-hairline-custom{
     font-family: "Hairline",sans-serif;
 }
 @font-face {
   font-family: "Hairline-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-HairlineItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-HairlineItalic.ttf");
 }
 .font-hairline-italic-custom{
     font-family: "Hairline-Italic",sans-serif;
 }
 @font-face {
   font-family: "Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Italic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Italic.ttf");
 }
 .font-italic-custom{
     font-family: "Italic",sans-serif;
 }
 @font-face {
   font-family: "Light";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Light.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Light.ttf");
 }
 .font-light-custom{
     font-family: "Light",sans-serif;
 }
 @font-face {
   font-family: "Light-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-LightItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-LightItalic.ttf");
 }
 .font-light-italic-custom{
     font-family: "Light",sans-serif;
 }
 @font-face {
   font-family: "Medium";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Medium.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Medium.ttf");
 }
 .font-Medium-custom{
     font-family: "Medium",sans-serif;
 }
 @font-face {
   font-family: "Medium-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-MediumItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-MediumItalic.ttf");
 }
 .font-Medium-Italic-custom{
     font-family: "Medium-Italic",sans-serif;
 }
 @font-face {
   font-family: "Thin";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-Thin.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-Thin.ttf");
 }
 .font-thin-custom{
     font-family: "Thin",sans-serif;
 }
 @font-face {
   font-family: "Thin-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-ThinItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-ThinItalic.ttf");
 }
 .font-thin-italic-custom{
     font-family: "Thin-Italic",sans-serif;
 }
 @font-face {
   font-family: "XBold";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-XBold.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-XBold.ttf");
 }
 .font-xbold-custom{
     font-family: "XBold",sans-serif;
 }
 @font-face {
   font-family: "XBold-Italic";
-  src: url("../assets/Aktiv-Grotesk/TTF/AktivGrotesk-XBoldItalic.ttf");
+  src: url("./assets/Aktiv-Grotesk/TTF/AktivGrotesk-XBoldItalic.ttf");
 }
 .font-xbold-italic-custom{
     font-family: "XBold-Italic",sans-serif;

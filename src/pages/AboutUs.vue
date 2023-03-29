@@ -4,12 +4,12 @@
     <div class="w-full h-[600px] flex justify-center items-center">
       <div class="w-[60%]">
         <h1
-          class="text-5xl text-white  w-[100%] leading-snug"
+          class="text-white w-[100%]"
         >
-          <div>Our Story</div>
+          <div class="font-light-custom text-[42px]">Our Story</div>
         </h1>
         <p
-          class="text-white mt-4 tracking-wide leading-snug font-semibold lg:w-[50%]"
+          class="text-white mt-4 font-regular-custom text-[18px] lg:w-[50%]"
         >
           Short Introductory summary for the page<br />goes here lilke so
         </p>
@@ -20,57 +20,45 @@
   <!-- Step 2 -->
   <div class="lg:w-full flex justify-center">
     <div class="w-[60%]">
-      <div class="lg:pt-40">
-        <div
-          class="lg:max-w-5xl grid md:grid-cols-2 grid-cols-1 gap-12"
-        >
-          <div class>
-            <h1
-              class="lg:text-4xl   mt-12 text-trisec leading-[50px] font-semibold"
-            >
-              <span class="font-light">Working towards a world</span>
-              <span> without homelessness</span>
-            </h1>
-            <p class="text-md mt-8 leading-loose tracking-wide lg:py-8">
-              At Stef & Philips, we strive to make the lives of vulnerable
-              people safer and more secure. We do this by delivering safe,
-              suitable homes and vital services for tenants, authorities and
-              partners, while providing secure investments for private and
-              corporate investors.
-            </p>
-          </div>
-          <div class="flex justify-center">
-            <img
-              class="lg:max-w-sm"
-              src="../assets/HeroSection.png"
-              alt="heroSection"
-            />
+      <div class="w-full flex justify-center">
+          <div class="py-20">
+          <div class=" grid md:grid-cols-2 grid-cols-1 gap-20">
+            <div>
+              <h1 class="text-5xl mt-12 text-trisec">
+                <span class="font-light-custom text-[36px] lg:text-4xl">Working towards a world</span>
+                <br>
+                <span class="font-black-custom text-[36px]"> without homelessness</span>
+              </h1>
+              <p
+                class="mt-6 font-regular-custom text-[18px]"
+              >At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
+            </div>
+            <div class="flex justify-center ">
+              <img src="../assets/HeroSection.png" alt >
+            </div>
           </div>
         </div>
-      </div>
+        
+        </div>
 
       <!-- step-2 -->
-      <div class="pb-0 mt-[250px]">
-        <div class="videoBg h-[300px] flex items-center justify-center">
+      <div class="py-20">
+        <div class="videoBg flex items-center justify-center">
           <img src="../assets/video.png" class="w-[80%]" alt="video" />
-
-          <!-- <div class="flex items-center justify-center">
-         
-        </div> -->
         </div>
       </div>
     </div>
   </div>
   <!-- image -->
-  <div class="happyG w-full min-h-[600px] relative overflow-hidden pt-32  lg:mt-36">
+  <div class="happyG w-full min-h-[700px] relative overflow-hidden pt-32  lg:mt-36">
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 happyS"
     >
       <div class="w-full flex justify-center   py-10">
         <div class="lg:w-[60%]">
           <div class="max-w-4xl w-full mx-auto grid">
-            <div class="lg:flex">
-              <div class="mt-4 flex-auto px-8 text-white md:font-semibold">
+            <div class="lg:flex font-regular-custom text-[18px] gap-5">
+              <div class="mt-4 flex-auto px-8 text-white">
                 Since first opening our doors in 2006, Stef & Philips has
                 evolved from a traditional estate agency into a leading provider
                 of accommodation services around the UK. We work closely with
@@ -78,7 +66,7 @@
                 organisations and investors to provide safe, suitable and secure
                 accommodation to those who really need it..
               </div>
-              <div class="mt-4 px-8 flex-auto text-white md:font-semibold">
+              <div class="mt-4 px-8 flex-auto text-white">
                 We construct and manage fit-for-purpose properties in areas of
                 high demand, providing tangible solutions to the current housing
                 crisis and giving vulnerable people a lifeline and an
@@ -104,13 +92,13 @@
           </div>
           <div class="flex-auto">
             <h1
-              class="text-4xl mt-10 px-8 text-trisec text-ellipsis leading-[40px] font-semibold"
+              class="text-4xl mt-10 px-8 text-trisec text-ellipsis leading-[40px]"
             >
-              <span class="font-light">Why </span>
-              <span>social housing investment </span
-              ><span class="font-light">matters to us</span>
+              <span class="font-light-custom text-[36px]">Why </span>
+              <span class="font-black-custom text-[36px]">social housing investment </span
+              ><span class="font-light-custom text-[36px]">matters to us</span>
             </h1>
-            <p class="text-sm mt-4 px-8">
+            <p class="text-[18px] font-regular-custom mt-4 px-8">
               Everyone deserves to have a safe place to call home. Yet, the UK’s
               housing crisis is getting worse: homelessness in England is
               forecast to continue to grow – and almost double – over the next
@@ -120,7 +108,7 @@
         </div>
         <div class="lg:flex">
           <div class="flex-auto max-w-2xl w-full mx-auto grid">
-            <p class="text-sm mt-20 px-8">
+            <p class="text-[18px] font-regular-custom mt-20 px-8">
               More and more accommodation is being deemed unsuitable for housing
               the homeless and vulnerable.The National Housing Federation says,
               “England alone needs 340,000 new homes built a year, including
@@ -149,20 +137,20 @@
  <div class="max-w-5xl mx-auto w-[60%] lg:py-11">
         <div class="grid md:grid-cols-3 gap-4 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
-            <h1 class="py-4 text-white font-bold text-4xl">Value</h1>
+            <h1 class="py-4 text-white font-light-custom text-[36px]">Value</h1>
           </div>
           <div class>
             <img class="w-20 " src="../assets/blockN.png" alt />
-            <h1 class="py-4 text-white font-bold text-2xl">value</h1>
+            <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
-              class="text-white  text-md"
+              class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
           <div class>
             <img   class="w-20" src="../assets/blockN.png" alt />
-            <h1 class="py-4 text-white font-bold text-2xl">Value</h1>
+            <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
-              class="text-white  text-md"
+              class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
         </div>
@@ -172,23 +160,23 @@
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
             <img class="w-20" src="../assets/blockN.png" alt />
-            <h1 class="py-4 text-white font-bold text-2xl">value</h1>
+            <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
-              class="text-white  text-md"
+              class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
           <div class>
             <img class="w-20" src="../assets/blockN.png" alt />
-            <h1 class="py-4 text-white font-bold text-2xl">value</h1>
+            <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
-              class="text-white  text-md"
+              class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum short description goes here like</p>
           </div>
           <div class>
             <img class="w-20" src="../assets/blockN.png" alt />
-            <h1 class="py-4 text-white font-bold text-2xl">Value</h1>
+            <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
-              class="text-white  text-md"
+              class="text-white font-regular-custom text-[18px]"
             >Short description goes here like so in this featured icon element lore ipsum.</p>
           </div>
         </div>
@@ -197,16 +185,16 @@
 
 
   <!-- step 6 -->
-  <div class="w-full flex justify-center  px-12">
+  <div class="w-full flex justify-center px-12">
     <div class="lg:w-[60%]">
       <div class="blueBg mt-24 py-11">
         <div class="grid justify-items-center">
           <img src="../assets/blockO.png" alt />
-          <h1 class="block py-4 px-10 text-3xl text-second text-center">
+          <h1 class="py-4 px-10 font-light-custom text-[36px] text-[#20407C] text-center">
             Our Point Of
-            <span class="font-bold">Difference</span>
+            <span class="font-black-custom text-[36px]">difference</span>
           </h1>
-          <p class="pb-4 px-8 text-second text-center">
+          <p class="pb-4 px-8 font-regular-custom text-[18px] text-second text-center">
             We are the only company that has a truly full-service offering:
             building relationships with private and corporate investors;
             sourcing and purchasing suitable properties; construction and
@@ -223,51 +211,46 @@
   </div>
 
   <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
       <div class>
-        <img
-          src="../assets/Background.png"
-          class="z-50 h-full w-full object-cover"
-          alt
-        />
+        <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
       </div>
-      <div class="flex items-center justify-center">
-        <div class="w-4/5 mt-6 md:mt-0">
-          <span class="text-2xl text-primary">
+      <div class="flex items-center justify-center py-10">
+        <div class="w-4/5 mt-6 md:mt-0 ">
+          <span class="text-2xl    text-primary">
             <Icon icon="ooui:quotes-ltr" />
           </span>
-          <h1 class="md:text-xl text-white mt-5 leading-snug">
-            Stef & Philips have been short quote goes here like so in this
-            featured element element lore ipsum short quote goes here like so in
-            this featured element element lore ipsum short quote goes here like
-            so in this.
-          </h1>
+          <h1
+            class="font-light-custom text-[20px] text-white mt-5"
+          >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
           <div class="my-5">
-            <h1 class="text-xl text-white">Name here</h1>
-            <h1 class="text-xl text-white font-semibold">Title here</h1>
+            <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
+            <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div>   
+
   <!-- image-2 -->
+
   <div class="tiltGirlBg relative overflow-hidden lg:w-full min-h-[600px]">
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 tiltBg"
     >
       <div class="w-full flex justify-center">
         <div class="lg:w-[60%]">
-          <h1 class="text-4xl px-8 text-white font-bold">
-            <div>Life at Stef & Philips</div>
+          <h1 class="px-8 text-white ">
+            <div class="font-light-custom text-[36px]">Life at Stef & Philips</div>
           </h1>
-          <p class="text-white mt-4 px-8 lg:w-[50%]">
+          <p class="text-white font-regular-custom text-[18px] mt-2 px-8 lg:w-[70%]">
             Paragraph that leads into careers fusce laoreet lorem id consequat
             rhoncus. Curabitur ultrices condimentum enim, id fringilla libero
             rutrum vel. Sed efficitur risus eu imperdiet auctor.
           </p>
           <button
             type="button"
-            class="bg-transparent w-32 ring-2 ring-white py-3.5 text-sm font-semibold mt-8  ml-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-transparent xxs:py-2 md:py-3 xxs:px-4 md:px-8 ring-2 ring-white py-3.5 font-xbold-custom text-[16px] mt-8  ml-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >
             Careers
           </button>
@@ -279,7 +262,7 @@
  <div class=" bg-second  min-h-[600px] text-white w-full ">
  <div class="max-w-5xl mx-auto w-[60%]  lg:py-40">
  <div class>
-            <h1 class="py-4 text-white font-bold text-3xl">Our Senior Team</h1>
+            <h1 class="py-4 text-white font-light-custom text-[36px]">Our Senior Team</h1>
           </div>
     <div class="card ">
         <Carousel :value="products" :numVisible="6" :numScroll="6" :responsiveOptions="responsiveOptions">
@@ -296,48 +279,43 @@
                         </div> -->
                     </div>
                 </div>
-                <div class=" text-lg">First Name Last Name</div>
-                <div  class="text-md">Job title goes here</div>
+                <div class="font-black-custom text-[20px]">First Name Last Name</div>
+                <div class="font-regular-custom text-[18px]">Job title goes here</div>
             </template>
         </Carousel>
 
     </div>    
         <button
             type="button"
-            class="bg-transparent lg:flex justify-center justify-items-center  w-40 ring-2 ring-white py-3.5 text-sm font-semibold mt-4  ml-10 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-transparent lg:flex justify-center justify-items-center xxs:py-3 md:py-4 xxs:px-4 md:px-8 ring-2 ring-white font-xbold-custom text-[16px] mt-4  ml-10 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >
             Meet the full team
           </button>   
  </div>
  </div>
-  <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
-      <div class>
-        <img
-          src="../assets/Background.png"
-          class="z-50 h-full w-full object-cover"
-          alt
-        />
-      </div>
-      <div class="flex items-center justify-center">
-        <div class="w-4/5 mt-6 md:mt-0">
-          <span class="text-2xl text-primary">
-            <Icon icon="ooui:quotes-ltr" />
-          </span>
-          <h1 class="md:text-xl text-white mt-5 leading-snug">
-            Stef & Philips have been short quote goes here like so in this
-            featured element element lore ipsum short quote goes here like so in
-            this featured element element lore ipsum short quote goes here like
-            so in this.
-          </h1>
-          <div class="my-5">
-            <h1 class="text-xl text-white">Name here</h1>
-            <h1 class="text-xl text-white font-semibold">Title here</h1>
-          </div>
+
+
+ <div class="py-20 w-[60%] mx-auto">
+  <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
+    <div class>
+      <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
+    </div>
+    <div class="flex items-center justify-center py-10">
+      <div class="w-4/5 mt-6 md:mt-0 ">
+        <span class="text-2xl    text-primary">
+          <Icon icon="ooui:quotes-ltr" />
+        </span>
+        <h1
+          class="font-light-custom text-[20px] text-white mt-5"
+        >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
+        <div class="my-5">
+          <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
+          <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
         </div>
       </div>
     </div>
   </div>
+</div>    
 </template>
 
 
