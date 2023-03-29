@@ -1,4 +1,12 @@
 <template>
+<div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >About us</div>
+        
+    </nav>
+  </div> 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
  <div class="max-w-5xl mx-auto w-[60%] ">
@@ -328,6 +336,7 @@ import { ProductService } from '../Service/ProductService';
 import { Icon } from "@iconify/vue";
 import {useAppStore} from "../store/index"
 import { computed } from "vue";
+
 
 const hover = useAppStore();
 const state = computed(() => {
