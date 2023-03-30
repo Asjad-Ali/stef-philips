@@ -133,50 +133,51 @@
 
   <!-- step 5 -->
   <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class="mx-auto w-[70%] lg:py-11">
-        <div class="grid md:grid-cols-3 gap-4 grid-cols-1 sm:grid-cols-2 mt-16">
-          <div class>
-            <h1 class="py-4 text-white font-light-custom text-[36px]">Value</h1>
+ <div class="mx-auto w-[70%] lg:py-11 flex  lg:flex-nowrap xxxs:flex-wrap ">
+  <div class>
+            <h1 class="py-4 text-white font-light-custom text-[36px]  pr-28 pt-16">Value</h1>
           </div>
-          <div class>
+        <div class="grid md:grid-cols-2  grid-cols-1 sm:grid-cols-2 mt-10 ml-3">
+         
+          <div class="w-[300px]">
             <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Short description goes here like so in this featured icon element lore ipsum.</p>
+            >Short description goes here<br> like so in this featured icon<br>element lore ipsum.</p>
           </div>
           <div class>
             <img    src="../assets/Svg/GreenHousen.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.</p>
+            >Short description goes here<br> like so in this featured icon<br>element lore ipsum short<br>description goes here like so<br>in this featured icon element<br>lore ipsum.</p>
           </div>
         </div>
         
       </div>
-   <div class=" mx-auto w-[70%]   lg:mr-1.5  pb-20 flex justify-center">
-        <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
-          <div class>
+   <div class=" mx-auto w-[70%]   lg:mr-1.5  pb-20 flex justify-start">
+        <div class="grid md:grid-cols-3   grid-cols-1 sm:grid-cols-2 mt-10">
+          <div class="w-[300px] ">
             <img src="../assets/Svg/GreenHousen.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Short description goes here like so in this featured icon element lore ipsum.</p>
+            >Short description goes here<br>like so in this featured icon<br> element lore ipsum.</p>
           </div>
           <div class>
             <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Short description goes here like so in this featured icon element lore ipsum short description goes here like</p>
+            >Short description goes here<br>like so in this featured icon<br>element lore ipsum short<br>description goes here like</p>
           </div>
           <div class>
             <img  src="../assets/Svg/GreenHouseM.svg" alt />
             <h1 class="py-4 text-white font-black-custom text-[20px]">Value</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Short description goes here like so in this featured icon element lore ipsum.</p>
+            >Short description goes here<br>like so in this featured icon<br>element lore ipsum.</p>
           </div>
         </div>
       </div>
