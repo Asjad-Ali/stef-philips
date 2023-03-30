@@ -20,7 +20,7 @@
 <!-- section 2 -->
 
 
-<div class="w-full min-h-[600px] bg-[#1d1d33]">
+<div class="w-full min-h-[760px] bg-[#1d1d33]">
 <div class=" w-full flex justify-center items-center mx-auto">
 <div  class=" w-[50%] h-[600px] mx-auto p-3 relative text1" >
     <div  class="  w-[70%] min-h-[250px] p-3 absolute  right-0 my-40 text  ">
@@ -31,8 +31,8 @@
 <button class="w-40 p-2 my-3 border border-white font-xbold-custom text-[16px] text-white ">Read more</button>
 </div>
 </div>
-<div  class=" w-[50%] h-[600px] mx-auto  bgImg" >
- <!-- <img class="w-full h-full" src="../assets/Background.png" alt=""> -->
+<div  class=" w-[50%] h-[760px] mx-auto  bgImg" >
+ <img class="w-full h-full" src="../assets/Background.png" alt="">
  </div>
  </div>
 </div>
