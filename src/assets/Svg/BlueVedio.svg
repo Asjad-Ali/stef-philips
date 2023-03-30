@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <g id="Media_Container" data-name="Media Container" transform="translate(-180 -13157.82)">
+    <g id="Background" transform="translate(98.38 13167.738)">
+      <path id="Background-2" data-name="Background" d="M0,0H960V340H0Z" transform="translate(81.62 50.082)" fill="#ededee"/>
+    </g>
+    <g id="Media" transform="translate(180.432 13107.82)">
+      <rect id="Background-3" data-name="Background" width="796" height="460" transform="translate(81.568 50)" fill="#1d1d33"/>
+    </g>
+    <g id="Play" transform="translate(-54 4666.82)">
+      <g id="Play-2" data-name="Play" transform="translate(674 8681)" fill="rgba(29,29,51,0.5)" stroke="rgba(255,255,255,0.5)" stroke-width="3">
+        <circle cx="40" cy="40" r="40" stroke="none"/>
+        <circle cx="40" cy="40" r="41.5" fill="none"/>
+      </g>
+      <path id="Play-3" data-name="Play" d="M11.5,0,23,20H0Z" transform="translate(727.5 8709.5) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
