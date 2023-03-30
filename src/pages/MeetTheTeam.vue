@@ -11,10 +11,9 @@
 
 <!-- -->
   <div class="w-full flex justify-center">
-   
     <HorizontalCardVue :message="card2"/>
-
   </div>
+  <!-- -->
   <div class="w-full flex justify-around align-center">
     <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
