@@ -1,6 +1,6 @@
 <template>
 <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >About us</div>
@@ -8,7 +8,7 @@
   </div> 
   <div class="lg:w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full h-[600px] flex justify-center items-center">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class="mx-auto w-[70%] ">
         <h1
           class="text-white w-[100%]"
         >
@@ -24,14 +24,14 @@
   </div>
   <!-- Step 2 -->
    <div class="  min-h-[600px]  w-full ">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class="mx-auto w-[70%] ">
   <div class="w-full flex justify-center">
       <div class="py-20">
       <div class=" grid md:grid-cols-2 grid-cols-1 gap-12">
         <div class>
-          <h1 class=" mt-12 text-trisec  ">
-            <span class="font-light-custom xl:text-[36px] text-[25px] ">Working towards a world</span>
-            <span class="font-black-custom xl:text-[36px] text-[25px]"> without homelessness</span>
+          <h1 class=" mt-12 text-trisec leading-none ">
+            <span class="font-light-custom xl:text-[36px] text-[25px] ">Working towards a world<br></span>
+            <span class="font-black-custom xl:text-[36px] text-[25px]"> without<br> homelessness</span>
           </h1>
           <p
             class="mt-6 font-regular-custom xl:text-[18px] text-[15px]">
@@ -47,7 +47,7 @@
     </div>
     
    </div>
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class="mx-auto w-[70%] ">
   <div class="w-full flex justify-center">
           <img src="../assets/Svg/BlueVedio.svg"  alt="video" />
         </div>
@@ -58,7 +58,7 @@
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0 happyS"
     >
       <div class="w-full flex justify-center py-10">
-        <div class="lg:w-[60%]">
+        <div class="lg:w-[70%]">
           <div class=" w-full mx-auto grid">
             <div class="lg:flex font-regular-custom text-[18px] gap-5">
               <div class="mt-4 flex-auto px-8 text-white ">
@@ -87,7 +87,7 @@
 
   <!-- step 4 -->
    <div class="  min-h-[600px]  w-full ">
- <div class="max-w-5xl mx-auto w-[60%] ">
+ <div class="mx-auto w-[70%] ">
       <div class="lg:py-36  xxxs:py-20">
         <div class="lg:flex">
           <div class="lg:w-[50%]  flex-auto">
@@ -133,7 +133,7 @@
 
   <!-- step 5 -->
   <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class="max-w-5xl mx-auto w-[60%] lg:py-11">
+ <div class="mx-auto w-[70%] lg:py-11">
         <div class="grid md:grid-cols-3 gap-4 grid-cols-1 sm:grid-cols-2 mt-16">
           <div class>
             <h1 class="py-4 text-white font-light-custom text-[36px]">Value</h1>
@@ -155,7 +155,7 @@
         </div>
         
       </div>
-   <div class=" mx-auto w-[60%]   lg:mr-1.5  pb-20 flex justify-center">
+   <div class=" mx-auto w-[70%]   lg:mr-1.5  pb-20 flex justify-center">
         <div class="grid md:grid-cols-3 gap-8 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
             <img src="../assets/Svg/GreenHousen.svg" alt />
@@ -184,25 +184,28 @@
 
 
   <!-- step 6 -->
-  <div class="w-full flex justify-center px-12">
-    <div class="lg:w-[60%]">
+  <div class="w-full flex justify-center ">
+    <div class="w-[70%]">
       <div class="blueBg mt-24 py-11">
         <div class="grid justify-items-center">
           <img src="../assets/Svg/GreenHouseO.svg" alt />
           <h1 class="py-4 px-10 font-light-custom text-[36px] text-[#20407C] text-center">
-            Our Point Of
+            Our point of
             <span class="font-black-custom text-[36px]">difference</span>
           </h1>
           <p class="pb-4 px-8 font-regular-custom text-[18px] text-second text-center">
             We are the only company that has a truly full-service offering:
-            building relationships with private and corporate investors;
-            sourcing and purchasing suitable properties; construction and
+            building relationships with<br> private and corporate investors;
+            sourcing and purchasing suitable properties; construction and <br>
             renovation to ensure all accommodation is fit-for-purpose; the
-            entire lettings process; and ongoing management, service and
-            maintenance duties. To date, we have built relationships with more
-            than 60 local authorities and housing associations – and we work
-            closely with them to ensure tenants’ needs are always at the heart
-            of everything we do.
+            entire lettings process; and <br>ongoing management, service and
+            maintenance duties. 
+          </p>
+          <p class="pb-4 px-8 font-regular-custom text-[18px] text-second text-center">
+            To date, we have built relationships with more
+            than 60 local authorities and housing<br> associations – and we work
+            closely with them to ensure tenants’ needs are always at the heart<br>
+            of everything we do. 
           </p>
         </div>
       </div>
@@ -210,8 +213,8 @@
   </div>
 
 
-  <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
       <div class>
         <img src="../assets/Svg/Media.svg" class="z-50 h-full w-full object-cover" alt />
       </div>
@@ -239,7 +242,7 @@
     <div
       class="absolute top-0 w-full h-full flex items-center flex-wrap justify-center left-0"
     >
-    <div class="max-w-5xl mx-auto w-[60%]  ">
+    <div class="mx-auto w-[70%]  ">
       <div class="w-full">
           <h1 class="text-4xl px-8 text-white font-bold">
             <div class="font-light-custom text-[36px]">Life at Stef & Philips</div>
@@ -262,7 +265,7 @@
 
 <!-- slider -->
  <div class=" bg-second  min-h-[600px] text-white w-full ">
- <div class="max-w-5xl mx-auto w-[60%]  lg:py-40">
+ <div class="mx-auto w-[70%]  lg:py-40">
  <div class>
             <h1 class="py-4 text-white font-light-custom text-[36px]">Our Senior Team</h1>
           </div>
@@ -295,8 +298,8 @@
           </button>   
  </div>
  </div>
-  <div class="py-20 w-[60%] mx-auto">
-    <div class="grid bg-second md:grid-cols-2 grid-cols-1 max-w-5xl mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
+    <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
       <div class>
         <img
           src="../assets/Svg/Media.svg"
