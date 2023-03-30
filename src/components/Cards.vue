@@ -1,26 +1,30 @@
 <template>
   <div class="py-20 w-[70%] mx-auto">
     <div class=" text-center">
-      <ul
+      <div
         role="list"
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+        class="mx-auto   flex gap-4"
       >
-        <li v-for="person in people" :key="person.name" class="bg-sky-50 ">
+        <div v-for="person in people" :key="person.name" class="h-[460px] w-[304px] bg-sky-50 ">
           <img class="h-40 w-full object-cover" :src="person.imageUrl" alt />
-          <div class="py-4 px-6">
+       <div class="flex flex-col justify-between h-[288px]">
+          <div class="py-4 px-6 ">
             <h3
-              class="h-20 mt-0 text-[20px] font-black-custom text-left text-trisec"
+              class=" mt-0 text-[20px] font-black-custom text-left text-trisec"
             >{{ person.name }}</h3>
-            <p class="text-[18px] font-regular-custom  text-gray-700 text-left mt-5">{{ person.role }}</p>
-            <div class="w-full h-full flex">
+            <p class="text-[18px] font-regular-custom  text-[#1D1D33] text-left mt-2">{{ person.role }}</p>
+           
+          </div>
+          <div class=" text-left py-4 px-6">
               <button
                 type="button"
-                class="bg-[#2A8CFB] xxs:py-3 md:py-3 xxs:px-4 md:px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-              >Find out more</button>
-            </div>
-          </div>
-        </li>
-      </ul>
+                class="bg-[#2A8CFB] h-[50px] w-[164px]   font-xbold-custom text-[16px]  text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+              >{{person.btnName}}</button>
+        </div>
+      </div>
+        </div>
+   
+      </div>
     </div>
   </div>
 </template>
@@ -29,27 +33,31 @@
   const people = [
   {
     name: "Help in your home",
-    role: "Senior Designer",
+    role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/ThreeCardFlexN.svg", import.meta.url).href,
     twitterUrl: "#",
-    linkedinUrl: "#"
+    linkedinUrl: "#",
+    btnName: "Find out more"
   },
   {
     name: "Quick report form",
-    role: "Senior Designer",
+    role: "Use our quick online form. The quickest way to report an issue and get it fixed.",
     imageUrl:
     new URL("../assets/Svg/ThreeCardFlexM.svg", import.meta.url).href,
     twitterUrl: "#",
-    linkedinUrl: "#"
+    linkedinUrl: "#",
+    btnName: "Report an issue"
+
   },
   {
     name: "Report repair or maintainance",
-    role: "Senior Designer",
+    role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
     twitterUrl: "#",
-    linkedinUrl: "#"
+    linkedinUrl: "#",
+    btnName:"Report now"
   }
   // More people...
 ];

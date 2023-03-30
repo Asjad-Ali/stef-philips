@@ -31,7 +31,7 @@ const people = [
     name: "Report a repair or maintenance",
     role: "Short description excerpt here",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    new URL("../assets/Svg/ThreeCardFlexN.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -39,7 +39,7 @@ const people = [
     name: "Report Anti-social Behavior",
     role: "Short description excerpt here",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    new URL("../assets/Svg/ThreeCardFlexM.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   },
@@ -47,7 +47,7 @@ const people = [
     name: "Concil text or utilitie",
     role: "Short description excerpt here",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#"
   }
