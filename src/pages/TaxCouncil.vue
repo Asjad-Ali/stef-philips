@@ -19,11 +19,10 @@
 </div>
 <SelectOne />
 <YourDetails />
-<div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-72 xxxs:pt-40">
-    <div class="w-[60%] max-w-5xl mx-auto flex flex-wrap items-center">
-      <p class="text-[#20407C] text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">During your stay FAQs</span>
-       
+<div class="min-h-[710px] w-full bg-[#EDEDEE] flex justify-center  items-center">
+    <div class="w-[70%] mx-auto flex flex-wrap items-center">
+      <p class="text-[#20407C] pb-6">
+        <span class="text-[30px] font-black-custom">Other ways to report</span>
       </p>
       <Accordion :message="message" />
     </div>
@@ -51,7 +50,7 @@ const message = [
     index: 2,
     header: "Repair responsibilities",
     text: "Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
+    text2: "Link call to action"
   },
-
 ];
 </script>

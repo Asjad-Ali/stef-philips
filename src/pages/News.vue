@@ -1,6 +1,6 @@
 <template>
     <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-        <nav class="w-[60%] mx-auto flex items-center justify-start gap-3 inner  ">
+        <nav class="w-[70%] mx-auto flex items-center justify-start gap-3 inner  ">
           <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
           <i class="pi pi-angle-right text-white"></i>
             <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px] dropbtn">About us</div>
@@ -12,12 +12,12 @@
     <!-- -->
 
       <div class="w-full mx-auto py-20">
-        <div class="w-[60%] mx-auto">
+        <div class="w-[70%] mx-auto">
             <h2 class="font-light-custom text-[42px] text-[#20407C]">News</h2>
         <h1 class="pt-4 font-regular-custom text-[18px] text-[#1D1D33]">
             Short introductory summary for the page goes here like so
         </h1>
-       <div class="flex flex-row flex-wrap justify-between items-start py-20 gap-8">
+      <div class="flex flex-row lg:no-wrap md:flex-wrap justify-between items-start py-20 gap-8">
         <div class="flex flex-col flex-wrap items-start gap-4">
          <div class="flex gap-2"> 
             <button

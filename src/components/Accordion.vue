@@ -1,18 +1,18 @@
 <template>
-<div class="w-full min-h-[600px] ">
-<div class=" w-full flex justify-center items-center mx-auto">
-     <div class="  min-h-[600px]  w-full ">
- <div class="max-w-5xl w-full mx-auto ">
-  <Accordion :activeIndex="2" class="pb-2 "  v-for="items in props.message" :key="tabindex"  >
-    <AccordionTab :header="items.header" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-      <p class="text-[18px] font-black   text-[#1d1d33]">
+ 
+<div class="w-full flex justify-center items-center mx-auto">
+ <div class="w-full mx-auto">
+  <Accordion :activeIndex="2" class="pb-2" v-for="items in props.message" :key="tabindex"  >
+    <AccordionTab :header="items.header" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+      <p class="text-[18px] font-regular-custom text-[#1d1d33]">
          {{ items.text }}
-      </p> <p class="text-[18px] font-[black] text-[#2a8cfb]">{{ items.text2 }}</p></AccordionTab>
+      </p> <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">{{ items.text2 }}</p>
+    </AccordionTab>
    </Accordion>
  </div>
- </div>
+ 
 </div>
-</div>
+ 
 </template>
 <script setup>
 import Accordion from 'primevue/accordion';
