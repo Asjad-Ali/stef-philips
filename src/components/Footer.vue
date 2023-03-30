@@ -1,38 +1,43 @@
 <template>
   <footer class="bg-second flex justify-center" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="w-[60%] px-2 py-8 lg:px-4 lg:pt-16">
+    <div class="w-[70%] px-2 py-8 lg:px-4 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <img src="../assets/Svg/Logo.svg"  />
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
           <div class="grid grid-cols-3 gap-8">
             <div>
-              <ul role="list" class="space-y-2 text-[15px]">
-                <li class="font-light-custom" v-for="item in navigation.solutions" :key="item.name">
+
+              <ul role="list" class="space-y-2 sm:text-[15px] text-[10px]">
+            <li class="font-light-custom text-[#EDEDEE]">Get in touch</li>
+                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-5  "
                   >{{ item.name }}</a>
                 </li>
               </ul>
             </div>
             <div class=" md:mt-0 ">
-              <ul role="list" class="space-y-2 text-[15px]">
-                <li class="font-light-custom" v-for="item in navigation.support" :key="item.name">
+              <ul role="list" class="space-y-2 sm:text-[15px] text-[10px]">
+                
+                <li class="font-light-custom text-[#EDEDEE]">Helpful resources</li>
+                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-5"
                   >{{ item.name }}</a>
                 </li>
               </ul>
             </div>
 
             <div class=" md:mt-0">
-              <ul role="list" class="space-y-2 text-[15px] ">
-                <li class="font-light-custom" v-for="item in navigation.legal" :key="item.name">
+              <ul role="list" class="space-y-2 sm:text-[15px] text-[10px] ">
+                <li class="font-light-custom text-[#EDEDEE]">Investors</li>
+                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-6 text-gray-300 hover:text-white"
+                    class="font-xbold-custom leading-5"
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -73,18 +78,19 @@ import { defineComponent, h } from "vue";
 
 const navigation = {
   solutions: [
-    { name: "Getting in touch", href: "#" },
+    // { name: "Getting in touch", href: "#" },
     { name: "Report an issue", href: "#" },
     { name: "Emergency contact", href: "#" },
+    { name: "Contact", href: "#" },
     { name: "Press & media", href: "#" },
     { name: "News", href: "#" },
   ],
   support: [
-    { name: "Helpful resources", href: "#" },
-    { name: "Useful vedios", href: "#" },
+    // { name: "Helpful resources", href: "#" },
+    { name: "Useful videos", href: "#" },
     { name: "Downloads", href: "#" },
     { name: "Glossary of terms", href: "#" },
-    { name: "FAQS", href: "#" },
+    { name: "FAQs", href: "#" },
     { name: "Press & media", href: "#" }
 
   ],
@@ -96,7 +102,7 @@ const navigation = {
     { name: "Partners", href: "#" }
   ],
   legal: [
-    { name: "Investors", href: "#" },
+    // { name: "Investors", href: "#" },
     { name: "Overview", href: "#" },
     { name: "Landlords", href: "#" },
     { name: "Private investors", href: "#" },

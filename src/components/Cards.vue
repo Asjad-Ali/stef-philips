@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 w-[60%] mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
     <div class=" text-center">
       <ul
         role="list"

@@ -3,7 +3,7 @@
     <div
       class="w-full flex justify-center upper-nav"
     >
-      <div class="h-[6.25rem] w-[60%] nav">
+      <div class="h-[6.25rem] w-[70%] nav">
         <div
           class="h-full flex items-center justify-between gap-4 wrap"
         >
@@ -270,9 +270,9 @@
       class="h-[5rem] w-full bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl"
     >
       <nav
-        class="w-[60%] h-full mx-auto flex items-center justify-between gap-4 inner"
+        class="w-[70%] h-full mx-auto flex items-center justify-between gap-4 inner"
       >
-        
+        <div class="w-[92%] flex items-center justify-between">
           <router-link
             active-class="active"
             class="text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
@@ -433,6 +433,7 @@
             >Contact</span
           ></router-link
         >
+      </div>
       </nav>
     </div>
     <!-- <div class="h-12 w-full  bl"  >

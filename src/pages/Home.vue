@@ -2,9 +2,9 @@
 
   <div class>
     <div class="w-full min-h-[600px] bg-red-400 bgImg">
-      <div class="w-[60%] h-[600px] mx-auto flex items-center">
+      <div class="w-[70%] h-[600px] mx-auto flex items-center">
         <div class="max-w-sm">
-          <h1 class="font-light-custom text-[42px] text-white ">
+          <h1 class="font-light-custom text-[42px] leading-none text-white ">
             <span>Foundations for</span>
             <br />
             <span class="font-black-custom text-[42px]">better lives</span>
@@ -18,21 +18,20 @@
 
     <!-- Step 2 -->
     <div class="w-full flex justify-center">
-    <div class="w-[60%]">
+    <div class="w-[70%]">
       <div class="py-20">
-      <div class=" flex gap-20 md:flex-nowrap flex-wrap">
-        <div class="md:w-[45%] w-full">
+      <div class=" flex gap-20 md:flex-nowrap flex-wrap items-center justify-center">
+        <div class="md:w-[45%] w-full ">
           <h1 class="leading-none text-trisec">
-            <span class="font-light-custom lg:text-[36px] text-[25px]">Working towards a world</span>
-            <br>
-            <span class="font-black-custom lg:text-[36px] text-[25px]"> without homelessness</span>
+            <span class="font-light-custom lg:text-[36px] text-[25px]">Working towards a world<br><span class="font-black-custom lg:text-[36px] text-[25px]">without<br>homelessness</span></span>
+            
           </h1>
           <p
-            class="mt-6 font-regular-custom lg:text-[18px] text-[12px]">
+            class="mt-3 font-regular-custom lg:text-[18px] text-[12px]">
           At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
           <button
             type="button"
-            class="bg-trisec py-4 px-12 font-xbold-custom text-[16px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-[#20407C] h-[50x] w-[164px] py-4 px-12 font-xbold-custom text-[16px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >About us</button>
         </div>
         <div class="flex justify-center md:w-[55%] w-full"> 
@@ -48,7 +47,7 @@
     
     <!--  -->
    
-    <div class="py-20 w-[60%] mx-auto">
+    <div class="py-20 w-[70%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
         <div >
           <img src="../assets/Svg/Media.svg"  alt />
@@ -73,7 +72,7 @@
     <!-- image -->
     <div class="happyG w-full min-h-[700px] relative overflow-hidden ">
       <div class="absolute top-0 w-full h-full flex items-center justify-center left-0 happyS">
-        <div class="w-[60%] mx-auto grid grid-cols-1">
+        <div class="w-[70%] mx-auto grid grid-cols-1">
           <div class="max-w-lg">
             <div class="">
               <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white leading-none">
@@ -102,7 +101,7 @@
     </div>
 
     <div class="flex justify-center bg-second py-48">
-      <div class="w-[60%]">
+      <div class="w-[70%]">
         <h1 class="text-white font-light-custom text-[36px]">Key S&P stats e.g. broad</h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
@@ -133,7 +132,7 @@
     <!--  -->
     <!--  -->
 
-    <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-28">
+    <div class=" w-[70%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-28">
       <div class="max-w-4xl mx-auto ">
         <img src="../assets/Svg/PinkHouse.svg" alt />
         <h1 class="font-light-custom text-[36px] py-4 text-[#20407C]">
