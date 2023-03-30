@@ -12,8 +12,8 @@
   </div> 
     <div class="w-full min-h-[150px] "> 
 <div  class=" w-[70%] min-h-[100px] mx-auto ">
-<h1  class="text-[42px] text-[#20407c] font-[900] mt-16">Out of hours emergencies</h1> 
-<p class="text-[18px] text-[#1d1d33] font-[400]">Short introductory summary for the page goes here like so</p>
+<h1  class="text-[42px] text-[#20407c] font-black-custom mt-16">Out of hours emergencies</h1> 
+<p class="text-[18px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
 </div>
 </div>
    <div class="w-full mx-auto flex justify-center">
