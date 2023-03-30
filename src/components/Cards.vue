@@ -3,7 +3,7 @@
     <div class=" text-center">
       <div
         role="list"
-        class="mx-auto   flex gap-4"
+        class="mx-auto  flex justify-between lg:flex-nowrap flex-wrap gap-4"
       >
         <div v-for="person in people" :key="person.name" class="h-[460px] w-[304px] bg-sky-50 ">
           <img class="h-40 w-full object-cover" :src="person.imageUrl" alt />

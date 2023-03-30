@@ -272,7 +272,7 @@
       <nav
         class="w-[70%] h-full mx-auto flex items-center justify-between gap-4 inner"
       >
-        <div class="w-[92%] flex items-center justify-between">
+        <div class="md:w-[92%] w-full flex items-center justify-between">
           <router-link
             active-class="active"
             class="text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
