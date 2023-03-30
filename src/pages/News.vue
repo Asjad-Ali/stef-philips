@@ -1,6 +1,6 @@
 <template>
     <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-        <nav class="w-[60%] mx-auto flex items-center justify-start gap-3 inner  ">
+        <nav class="w-[70%] mx-auto flex items-center justify-start gap-3 inner  ">
           <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
           <i class="pi pi-angle-right text-white"></i>
             <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px] dropbtn">About us</div>
@@ -12,7 +12,7 @@
     <!-- -->
 
       <div class="w-full mx-auto py-20">
-        <div class="w-[60%] mx-auto">
+        <div class="w-[70%] mx-auto">
             <h2 class="font-light-custom text-[42px] text-[#20407C]">News</h2>
         <h1 class="pt-4 font-regular-custom text-[18px] text-[#1D1D33]">
             Short introductory summary for the page goes here like so
@@ -22,26 +22,26 @@
          <div class="flex gap-2"> 
             <button
             type="button"
-            class="bg-[#2A8CFB] hover:bg-[#71aff5] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full text-[14px] font-xbold-custom text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+            class="bg-[#2A8CFB] hover:bg-[#71aff5] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-xbold-custom text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
           >Show all</button>
           <button
             type="button"
-            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full text-[14px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
           >Tag here</button>
         </div>
           <div class="flex gap-2">
             <button
             type="button"
-            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full text-[14px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
           >Tag roll</button>
           <button 
             type="button"
-            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full text-[14px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
           >Tag live</button>
           </div>
           <button
             type="button"
-            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full text-[14px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+            class="bg-[#E1EFFE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full tlg:text-[14px] xxs:text-[12px] font-xbold-custom text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
           >Tag here</button>
     
         </div>
@@ -121,7 +121,7 @@
         <div class="pt-10">
             <button
         type="button"
-        class="bg-[#20407C] hover:bg-[#4172ce] py-4 border-1 border-[#151927] px-10 font-xbold-custom text-[16px] text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
+        class="bg-[#20407C] hover:bg-[#4172ce] py-4 border-1 border-[#151927] px-10 font-xbold-custom lg:text-[16px] xxs:text-[12px] text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
         >Show more</button>
         </div>
        </div>

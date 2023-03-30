@@ -1,6 +1,6 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/home">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/your-home">Your home</div>
@@ -11,13 +11,13 @@
     </nav>
   </div> 
     <div class="w-full min-h-[150px] "> 
-<div  class=" w-[60%] min-h-[100px] mx-auto ">
-<h1  class="text-[42px] text-[#20407c] font-[900] mt-16">Out of hours emergencies</h1> 
-<p class="text-[18px] text-[#1d1d33] font-[400]">Short introductory summary for the page goes here like so</p>
+<div  class=" w-[70%] min-h-[100px] mx-auto ">
+<h1  class="text-[42px] text-[#20407c] font-black-custom mt-16">Out of hours emergencies</h1> 
+<p class="text-[18px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
 </div>
 </div>
    <div class="w-full mx-auto flex justify-center">
-     <div class="  w-[60%] flex flex-col">
+     <div class="  w-[70%] flex flex-col">
        <div class="flex">
          <h1 class="text-3xl mt-12 text-trisec leading-[50px]"  style="font-weight:900">What is an emergency repair?</h1>
        </div>
@@ -37,8 +37,8 @@
      </div>
   
  </div>
- <div class="w-full mx-auto max-w-[1440px] py-20">
- <div class="w-[60%]  mx-auto flex flex-col gap-8 bg-[#ec254d17] p-10">
+ <div class="w-full mx-auto py-20">
+ <div class="w-[70%] mx-auto flex flex-col gap-8 bg-[#ec254d17] p-10">
  <h1 class="text-[36px] font-[400] text-[#ec254e] emergency">Out of hours <span class="font-[900]">emergencies</span> </h1>
  <div>
    <p  class="text-[#1d1d33] text-[18px] font-[400]">Little into here, out of hours are Weekends, Bank Holidays and between 6pm - 7am daily</p>

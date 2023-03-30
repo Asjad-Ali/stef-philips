@@ -20,9 +20,9 @@
 <!-- section 2 -->
 
 
-<div class="w-full min-h-[600px] bg-[#1d1d33]">
-<div class=" w-full flex justify-center items-center mx-auto">
-<div  class=" w-[50%] h-[600px] mx-auto p-3 relative text1" >
+<div class="w-full  bg-[#1d1d33]">
+<div class=" w-full flex justify-center items-center min-h-[760px] mx-auto">
+<div  class=" w-[50%] mx-auto flex  items-center p-3 relative text1" >
     <div  class="  w-[70%] min-h-[250px] p-3 absolute  right-0 my-40 text  ">
 <h1  class="text-[18px] text-white font-black-custom">Upcoming event</h1> 
 <h1 class="text-[42px] text-white font-light-custom leading-1">Tough Mudder</h1>
@@ -31,8 +31,8 @@
 <button class="w-40 p-2 my-3 border border-white font-xbold-custom text-[16px] text-white ">Read more</button>
 </div>
 </div>
-<div  class=" w-[50%] h-[600px] mx-auto  bgImg" >
- <!-- <img class="w-full h-full" src="../assets/Background.png" alt=""> -->
+<div  class=" w-[50%] min-h-[760px] mx-auto  bg-[url('src/assets/Svg/Background.svg')] bg-no-repeat bg-cover bg-center" >
+ <!-- <img class="w-full h-[full]" src="..\assets\Svg\Background.svg" alt=""> -->
  </div>
  </div>
 </div>
@@ -65,7 +65,7 @@
 <div class="py-20 w-[70%] mx-auto">
       <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
         <div class>
-          <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
+          <img src="..\assets\Svg\Background2.svg" class="z-50 h-full w-full object-cover" alt />
         </div>
         <div class="flex items-center justify-center">
           <div class="w-4/5 mt-6 md:mt-0 ">
@@ -105,8 +105,8 @@ import { Icon } from "@iconify/vue";
 import Card from '../components/VerticalGreyCard.vue'
 
 
-const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img:'src/assets/rock.png'},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day', img:'src/assets/community-tab.png'}]
-const card2=[{ heading:'Media title here', img:'src/assets/bgblue.png', subButton:'Commmunity'},{ heading:'Media title here', img:'src/assets/bgblue.png',subButton:'Commmunity'}]
+const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img:'src/assets/Svg/Card Image.svg'},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day',img:'src/assets/Svg/CardImage2.svg'}]
+const card2=[{ heading:'Media title here', img:'src/assets/Svg/Background3.svg', subButton:'Commmunity'},{ heading:'Media title here', img:'src/assets/Svg/Background3.svg',subButton:'Commmunity'}]
 
 </script>
 <style scoped> 
