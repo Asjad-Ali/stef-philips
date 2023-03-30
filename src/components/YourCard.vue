@@ -1,18 +1,18 @@
 <template>
-  <div class="py-20 w-[60%] mx-auto">
-    <div class="mx-auto max-w-5xl text-center">
+  <div class="py-20 w-[70%] mx-auto">
+    <div class="mx-auto  text-center  h-full">
       <ul
         role="list"
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none  lg:gap-8"
+        class="mx-auto grid l grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none justify-items-center lg:gap-8"
       >
         <li v-for="person in people" :key="person.name" class="bg-white ">
-          <img class="h-40 w-full object-cover" :src="person.imageUrl" alt />
+          <img class=" w-full object-cover" :src="person.imageUrl" alt />
           <div class="py-4 px-6">
             <h3
-              class="h-20 mt-0 text-[20px] font-black-custom leading-7 tracking-tight text-left text-trisec"
+              class=" mt-0 text-[20px] font-black-custom leading-7 tracking-tight text-left text-trisec"
             >{{ person.name }}</h3>
-            <p class="text-[18px] font-regular-custom leading-6 text-[#20407C] text-left">{{ person.role }}</p>
-            <div class="w-full h-full flex">
+            <p class="pt-3 text-[18px] font-regular-custom leading-6 text-[#20407C] text-left">{{ person.role }}</p>
+            <div class="w-full pt-6 flex">
               <button
                 type="button"
                 class="bg-[#2A8CFB] xxs:py-3 md:py-3 xxs:px-4 md:px-8 text-[16px] font-xbold-custom mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
@@ -31,17 +31,15 @@ const people = [
     name: "Temporary accommodation",
     role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#"
+      new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+  
   },
   {
     name: "Private rented sector",
     role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#"
+       new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+   
   },
   // More people...
 ];

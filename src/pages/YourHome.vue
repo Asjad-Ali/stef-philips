@@ -11,16 +11,16 @@
               <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
             </div> -->
             <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
 
     </nav>
   </div> 
-  <div class="lg:w-full bg-red-400 bgImg">
+  <div class="lg:w-full bg-red-400 Bg">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
-      <div class="w-[60%]">
+      <div class="w-[70%]">
         <div class="font-light-custom text-[42px] text-white leading-snug">
           <div>Your <span class="text-white font-black-custom text-[42px]">Home</span></div>
         </div>
@@ -31,15 +31,15 @@
     </div>
   </div>
   <!-- step 2 -->
-  <YourHomeCard />
+  <YourHomeCard  :message="message" />
   <!-- step 3 -->
   <div class="bg-sky-50 py-28 min-h-[400px]">
-    <div class="max-w-5xl mx-auto w-[60%]">
+    <div class=" mx-auto w-[70%]">
       <div class="text-[#20407C] text-[30px] font-black-custom">
         What happens in your home?
       </div>
       <div class="py-6 text-[18px] font-regular-custom">
-        Excerpt for the page goes in here like so lorem ipsum dolor sit amet,
+        Excerpt for the page goes in here like so lorem ipsum<br>dolor sit amet,
         consectetur adipiscing elit.
       </div>
     </div>
@@ -47,12 +47,12 @@
   </div>
 
   <!-- step 4 -->
-  <YourHomeCard />
+  <YourHomeCard :message="people"/>
   <!-- step 5 -->
   <div
-    class="max-w-5xl w-[60%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
+    class=" w-[70%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
   >
-    <div class="max-w-4xl mx-auto">
+    <div class=" mx-auto">
       <h1 class="block py-4 font-light-custom md:text-[36px] xxs:text-[30px] text-third">
         Out of hours
         <span class="font-black-custom md:text-[36px] xxs:text-[28px]">emergencies</span>
@@ -94,17 +94,65 @@ const hover = useAppStore();
 const state = computed(() => {
   return hover.hover;
 });
+const message = [
+  {
+    name: "Report a repair or maintenance",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+   
+  },
+  {
+    name: "Report Anti-social Behavior",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+    
+  },
+  {
+    name: "Council tax or utilities",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+   
+  }
+  // More people...
+];
+const people = [
+  {
+    name: "Meet your team",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+    
+  },
+  {
+    name: "Report a repair or maintenance",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+   
+  },
+  {
+    name: "Useful videos",
+    role: "Short description excerpt here",
+    imageUrl:
+    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+   
+  }
+  // More people...
+];
 </script>
 
 <style scoped>
 .Bg {
-  background-image: url("../assets/manBg");
+  background-image: url("../assets/Svg/ManBg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .manOverlayBg {
-  background-image: url("../assets/Overlay");
+  background-image: url("../assets/Svg/ManOverlay.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -116,3 +164,4 @@ const state = computed(() => {
   background-position: center;
 }
 </style>
+
