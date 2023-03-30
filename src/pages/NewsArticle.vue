@@ -13,7 +13,7 @@
   
    <!-- -->
 
-  <div class=" w-[60%] mx-auto py-20">
+  <div class=" w-[70%] mx-auto py-20">
       <h2 class="font-black-custom text-[18px] text-[#20407C]">6th March 2023</h2>
       <h1 class="pt-4 font-light-custom text-[42px] text-[#20407C]">
        Title of the new articles here
@@ -30,7 +30,7 @@
         >Category</button>
       </div>
           <div class="flex mt-3 space-x-4 md:order-2">
-            <a
+            <!-- <a
               v-for="item in navigation.social"
               :key="item.name"
               :href="item.href"
@@ -38,16 +38,21 @@
             >
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-            </a>
+            </a> -->
+            <!-- <img src="..\assets\Svg\Iconawesome-linkedin.svg" alt="">
+            <img src="..\assets\Svg\Iconawesome-facebook-square.svg" alt="">
+            <img src="..\assets\Svg\Iconawesome-twitter-square.svg" alt="">
+            <img src="src\assets\Svg\Icon awesome-twitter-square.svg" alt=""> -->
+            <img src="src\assets\Svg\Share.svg" alt="">
           </div>
      </div>
      <div class="pt-4 ">
-      <img src="../assets/Background1.png">
+      <img class="h-[360px] mx-auto" src="../assets/Svg/CardImage2.svg">
      </div>
   </div>
 
   <!-- -->
-  <div class=" mx-auto pb-20 w-[60%]">
+  <div class=" mx-auto pb-20 w-[70%]">
     <div class="flex items-center justify-center">
       <div class="w-4/5">
         <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
@@ -71,7 +76,7 @@
 
    <!-- -->
  
-    <div class=" mx-auto py-28 mb-10 w-[60%] bgImg">
+    <div class=" mx-auto py-28 mb-10 w-[70%] bgImg">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <span class="text-2xl text-primary">
@@ -90,7 +95,7 @@
     
     <!-- -->
 
-    <div class=" mx-auto pb-10 w-[60%]">
+    <div class=" mx-auto pb-10 w-[70%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
@@ -116,8 +121,8 @@
     <div class="w-full  mx-auto mb-10">
       <div class="w-full flex justify-center items-center">
        <div class="my-[60px]">
-         <div class="videoBg flex items-center justify-center">
-          <img src="../assets/Layered.png" class="w-[80%]" alt="video">
+         <div class="flex items-center justify-center">
+          <img src="../assets/Svg/MediaContainer.svg" class="w-[80%]" alt="video">
          </div>
        </div>
       </div>
@@ -125,7 +130,7 @@
 
      <!-- --> 
 
-    <div class=" mx-auto pb-20 w-[60%]">
+    <div class=" mx-auto pb-20 w-[70%]">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-black-custom text-[18px] text-[#20407C]">Sub titles here</h4>
@@ -141,10 +146,10 @@
 
     <!-- --> 
       <div class="w-full mx-auto flex justify-center border-[#EDEDEE]">
-        <div class="w-[60%] ">
+        <div class="w-[70%] ">
           <div class=" mx-auto grid md:grid-cols-2 grid-cols-1 gap-10 py-10 mb-20 border-y-2">
             <div class="flex items-center gap-5">
-              <img src="../assets/Card-Background.png" alt="">
+              <img src="../assets/Svg/CardBackground.svg" alt="">
               <div class="text-1xl text-trisec">
                 <h6 class="font-light-custom text-[18px]">Author</h6>
                 <h2 class="font-black-custom text-[18px]">Name Here</h2>  
@@ -152,7 +157,7 @@
             </div>
             <div class="flex justify-end items-center">
               <div class="flex space-x-4 md:order-2">
-                <a
+                <!-- <a
                   v-for="item in navigation.social"
                   :key="item.name"
                   :href="item.href"
@@ -160,7 +165,13 @@
                 >
                   <span class="sr-only">{{ item.name }}</span>
                   <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-                </a>
+                </a> -->
+                <!-- <img src="..\assets\Svg\Iconawesome-linkedin.svg" alt="">
+            <img src="..\assets\Svg\Iconawesome-facebook-square.svg" alt="">
+            <img src="..\assets\Svg\Iconawesome-twitter-square.svg" alt="">
+            <img src="src\assets\Svg\Iconawesome-share-square.svg" alt=""> -->
+            <img src="src\assets\Svg\Share.svg" alt=""> 
+            
               </div>
             </div>
           </div>
@@ -280,16 +291,10 @@ const navigation = {
 
 <style  scoped>
 .bgImg {
-  background-image: url("../assets/Background2.png");
+  background-image: url("../assets/Svg/Background4.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.videoBg{
-  background-image: url("../assets/Background (2).png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* background: #000; */
-}
+
 </style>
