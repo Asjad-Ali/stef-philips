@@ -135,8 +135,8 @@
   </div>
   
 <!--  -->
-<div class="w-full min-h-[450px] h-auto bg-[#1d1d33] flex items-center"> 
-  <div  class=" w-[70%] min-h-[315px] mx-auto p-3">
+<div class="w-full  h-auto bg-[#1d1d33] flex items-center"> 
+  <div  class=" w-[70%] h-[315px] mx-auto p-3">
   <h1  class="text-[36px] text-white font-light-custom mt-16"> <span class="font-black-custom">Community</span> ethos is what we all have in common</h1> 
   <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor<br> sit amet, consectetur adipiscing elit.</p>
   <div class="flex flex-wrap gap-4">
