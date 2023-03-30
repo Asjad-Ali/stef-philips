@@ -28,7 +28,7 @@
           </h1>
           <p
             class="mt-3 font-regular-custom lg:text-[18px] text-[12px]">
-            At Stef & Philips, we strive to make the lives of <br> vulnerable people safer and more secure.<br>We do this by delivering safe, suitable homes <br>and vital services for tenants, authorities and<br> partners, while providing secure investments for<br> private and corporate investors.</p>
+            At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
           <button
             type="button"
             class="bg-[#20407C] h-[50x] w-[164px] py-4 px-12 font-xbold-custom text-[16px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
@@ -133,7 +133,7 @@
     <!--  -->
 
     <div class=" w-[70%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-28">
-      <div class="max-w-4xl mx-auto ">
+      <div class="lg:ml-20 mx-auto">
         <img src="../assets/Svg/PinkHouse.svg" alt />
         <h1 class="font-light-custom text-[36px] py-4 text-[#20407C]">
           Need help
@@ -143,14 +143,14 @@
           class="pb-4 font-regular-custom text-[18px]"
         >Use our quick online form.</span>
         <span class="font-bold-custom text-[18px]">The quickest way to report an issue and get it fixed.</span>
-        <div class="flex flex-wrap items-center gap-6">
+        <div class="flex flex-wrap items-center gap-5">
           <button
             type="button"
-            class="bg-[#2A8CFB] py-4 px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-[#2A8CFB] py-4 px-8 font-xbold-custom lg:text-[16px] xxs:text-[14px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Quick report</button>
           <button
             type="button"
-            class="bg-trisec py-4 px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+            class="bg-trisec py-4 px-8 font-xbold-custom lg:text-[16px] xxs:text-[14px] mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >Report a repair or maintainance</button>
         </div>
       </div>

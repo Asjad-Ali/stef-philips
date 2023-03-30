@@ -12,23 +12,23 @@
       </div> 
 
        <!-- -->
-        <div class="w-full"> 
-          <div  class="max-w-5xl w-[60%] min-h-[100px] mx-auto ">
-            <h1  class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom mt-16">Repairs & maintenance</h1> 
-            <p class="pt-4 text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
+        <div class="w-full leading-snug"> 
+          <div  class="w-[70%] min-h-[100px] mx-auto ">
+            <h1  class="lg:text-[42px] xxs:text-[33px] text-[#20407c] font-black-custom mt-16">Repairs & maintenance</h1> 
+            <p class="pt-4 lg:text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
           </div>
         </div>
         
           <!-- -->
 
             <div class="w-full mx-auto flex justify-center">
-              <div class="max-w-5xl w-[60%] flex flex-col">
+              <div class="w-[70%] flex flex-col">
                 <div class="flex">
-                  <h1 class="font-black-custom text-[30px] mt-12 text-trisec"  style="font-weight:900">Please click on the relevant picture</h1>
+                  <h1 class="font-black-custom lg:text-[30px] xxs:text-[24px] mt-12 text-trisec">Please click on the relevant picture</h1>
                 </div>
                 <div class="pt-2">
                 <span class="p-input-icon-right">
-                    <InputText class="p-inputtext md:text-[18px] xxs:text-[16px] font-xbold-custom text-[#1D1D33]" v-model="value1" placeholder="What is the issue?" />
+                    <InputText class="p-inputtext lg:text-[18px] xxs:text-[14px] font-xbold-custom text-[#1D1D33]" v-model="value1" placeholder="What is the issue?" />
                     <i class="pi pi-search" />
                 </span>
                 </div>
@@ -48,7 +48,7 @@
 
              <!-- -->
              <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-              <div class="w-[60%]">
+              <div class="w-[70%]">
               <h1   class="text-[30px] text-[#20407c] font-black-custom pb-10">Other ways to report</h1>
               <Accordion :activeIndex="2" >
               <AccordionTab header="Call us" class="font-black-custom text-[18px] text-[#20407c]" color="white">
@@ -65,7 +65,7 @@
                   <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                     Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                   </p>
-                  <p class="text-[18px] font-black-custom text-[#2a8cfb]">Link call to action</p>
+                  <p class="text-[18px] font-black-custom text-[#2a8cfb] py-8">Link call to action</p>
               </AccordionTab>
             </Accordion>
               </div>

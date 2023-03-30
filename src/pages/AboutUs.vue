@@ -98,8 +98,8 @@
               class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]"
             >
               <span class="font-light-custom text-[36px]">Why</span>
-              <span class="font-black-custom text-[36px]"> social housing investment </span
-              ><span class="font-light-custom text-[36px]">matters to us</span>
+              <span class="font-black-custom text-[36px]"> social housing <br> investment </span
+              ><span class="font-light-custom text-[36px]">matters to <br> us</span>
             </h1>
             <p class="text-[18px] font-regular-custom mt-4 px-8">
               Everyone deserves to have a safe place to call home. Yet, the UK’s
