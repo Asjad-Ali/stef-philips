@@ -3,7 +3,7 @@
     <div class="mx-auto  text-center">
       <ul
         role="list"
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 justify-items-center lg:max-w-none lg:grid-cols-3 lg:gap-8"
+        class="mx-auto  flex  lg:flex-nowrap flex-wrap gap-8"
       >
         <li v-for="person in props.message" :key="person.name" class="bg-sky-50 ">
           <img class=" w-full object-cover" :src="person.imageUrl" alt />

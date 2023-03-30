@@ -3,7 +3,7 @@
     <div class="mx-auto  text-center  h-full">
       <ul
         role="list"
-        class="mx-auto grid l grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none justify-items-center lg:gap-8"
+        class="mx-auto  flex  lg:flex-nowrap flex-wrap gap-8"
       >
         <li v-for="person in people" :key="person.name" class="bg-white ">
           <img class=" w-full object-cover" :src="person.imageUrl" alt />
