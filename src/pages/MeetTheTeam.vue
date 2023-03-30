@@ -1,6 +1,6 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
-    <nav class="w-[60%] mx-auto flex items-center justify-start gap-3 inner   ">
+    <nav class="w-[70%] mx-auto flex items-center justify-start gap-3 inner   ">
       <div exact-active-class="exact-active" class="text-white text-sm font-bold-custom text-[14px]" >Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white text-sm dropbtn font-bold-custom text-[14px]" >About us</div>
@@ -16,13 +16,13 @@
 
   </div>
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
-  <div class="py-20 w-[60%] mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
     <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
       <div class>
         <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
@@ -44,20 +44,20 @@
     </div>
   </div>    
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
-  <div class="py-20 w-[60%] mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
     <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
       <div class>
         <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
@@ -79,27 +79,27 @@
     </div>
   </div>  
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
-  <div class="py-20 w-[60%] mx-auto">
+  <div class="py-20 w-[70%] mx-auto">
     <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
       <div class>
         <img src="../assets/Background.png" class="z-50 h-full w-full object-cover" alt />
@@ -121,14 +121,14 @@
     </div>
   </div>  
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
     </div>
   </div>
   <div class="w-full flex justify-around align-center">
-    <div class="w-[60%] my-10 flex justify-between gap-5 flex-wrap">
+    <div class="w-[70%] my-10 flex  gap-5 flex-wrap">
         <MeetTheTeamCard />
         <MeetTheTeamCard />
         <MeetTheTeamCard />
@@ -137,9 +137,9 @@
   
 <!--  -->
 <div class="w-full min-h-[450px] h-auto bg-[#1d1d33] flex items-center"> 
-  <div  class="max-w-[1440px] w-[60%] min-h-[315px] mx-auto p-3">
+  <div  class=" w-[70%] min-h-[315px] mx-auto p-3">
   <h1  class="text-[36px] text-white font-light-custom mt-16"> <span class="font-black-custom">Community</span> ethos is what we all have in common</h1> 
-  <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor<br> sit amet, consectetur adipiscing elit.</p>
   <div class="flex flex-wrap gap-4">
     <button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Careers</button>
     <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-xbold-custom text-[16px] text-white ">Meet the team</button></div>
@@ -150,7 +150,7 @@
 import MeetTheTeamCard from "../components/MeetTheTeamCard.vue"
 import { Icon } from "@iconify/vue";
 import HorizontalCardVue from '../components/HorizontalCard.vue';
-const card2= { header:'Meet the', boldheader:' team', img:'src/assets/Card-Image2.png', paragraph:'Find out how to report a repair, how long it will take and whether its your resposibility or ours'}
+const card2= { header:'Meet the', boldheader:' team', img:'src/assets/Card-Image2.png', paragraph:`Find out how to report a repair, how long it will`,paragraph2:"take and whether its your resposibility or ours"}
 
 </script>
 <style scoped>

@@ -35,7 +35,7 @@
           </h1>
           <p
             class="mt-6 font-regular-custom xl:text-[18px] text-[15px]">
-          At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
+          At Stef & Philips, we strive to make the lives of <br> vulnerable people safer and more secure.<br>We do this by delivering safe, suitable homes <br>and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.</p>
       
         </div>
         <div class="flex justify-center ">

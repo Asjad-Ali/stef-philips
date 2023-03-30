@@ -3,14 +3,14 @@
     <div class=" text-center">
       <div
         role="list"
-        class="mx-auto  flex justify-between lg:flex-nowrap flex-wrap gap-4"
+        class="mx-auto  flex  lg:flex-nowrap flex-wrap gap-8"
       >
         <div v-for="person in people" :key="person.name" class="h-[460px] w-[304px] bg-sky-50 ">
           <img class="h-40 w-full object-cover" :src="person.imageUrl" alt />
        <div class="flex flex-col justify-between h-[288px]">
           <div class="py-4 px-6 ">
             <h3
-              class=" mt-0 text-[20px] font-black-custom text-left text-trisec"
+              class=" mt-0 text-[20px] font-black-custom text-left text-[#20407C]"
             >{{ person.name }}</h3>
             <p class="text-[18px] font-regular-custom  text-[#1D1D33] text-left mt-2">{{ person.role }}</p>
            
