@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="flex py-10  xxxs:flex-wrap-reverse ">
-          <div class=" lg:w-[50%] flex-auto max-w-2xl mx-auto grid">
+          <div class=" lg:w-[50%] flex-auto  mx-auto grid">
             <p class="  lg:py-16 xxxs:py-10 lg:px-8 text-[18px] font-regular-custom  ">
               More and more accommodation is being deemed unsuitable for housing
               the homeless and vulnerable.The National Housing Federation says,
@@ -123,7 +123,7 @@
               society need help
             </p>
           </div>
-           <div class="lg:w-[50%] lg:py-16 xxxs:py-6">
+           <div class="lg:w-[50%] lg:py-16 xxxs:py-6 w-full lg:flex items-center justify-end">
             <img  src="../assets/Svg/HouseFlexN.svg" alt />
           </div>
         </div>
