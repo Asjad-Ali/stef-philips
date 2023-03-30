@@ -129,10 +129,5 @@
         </div>
     </div>
 </template>
-<script>
-import Card from '../components/VerticalGreyCard.vue'
-const card=[{ heading:'Media title here', img:'../assets/Card-Image.png', subButton:'Category'},{ heading:'Media title here', img:'../assets/Card-Image.png', subButton:'Category'}]
-
-
-</script>
+<script></script>
 <style></style>

@@ -12,27 +12,8 @@
     <!-- -->
 
     <div class="w-full flex justify-center">
-        <div class="w-[60%]">
-          <div class="py-20">
-          <div class=" grid md:grid-cols-2 grid-cols-1 gap-20">
-            <div class>
-              <h1 class="text-4xl mt-16 text-[#20407C]">
-                <span class="font-light">Repair and maintenance responsibilities</span>
-              </h1>
-              <p
-                class="text-md mt-2 leading-loose tracking-wide"
-              >Find out how to report a repair, how long it will take and whether it’s your responsibility or ours</p>
-              <button
-                type="button"
-                class="bg-[#2A8CFB] py-4 px-12 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-              >Report a repair</button>
-            </div>
-            <div class="flex justify-center ">
-              <img src="../assets/Card-Image-man.png">
-            </div>
-          </div>
-        </div>
-        </div>
+      
+        <HorizontalCardVue :message="card"/>
         </div>
 
          <!-- -->
@@ -156,9 +137,13 @@
 
 <script setup>
 import { ref } from "vue";
-// import ContactCard from "../components/Contactcard2.vue";
-import Accordion from 'primevue/accordion';
+import HorizontalCardVue from '../components/HorizontalCard.vue';
 import AccordionTab from 'primevue/accordiontab';
+import Accordion from 'primevue/accordion';
+
+const card= { header:'Repair and maintenance responsibilities', img:'src/assets/Card-Image-man.png', paragraph:'Find out how to report a repair, how long it will take and whether it’s your responsibility or ours', btn:['Report a repair']}
+
+
 </script>
 
 <style >

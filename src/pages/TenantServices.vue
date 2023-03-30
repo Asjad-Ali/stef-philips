@@ -27,11 +27,11 @@
           <TenantCard :message="card2"/>
         </div>
      </div>
-    <div class="max-w-[1440px] w-[60%]  mx-auto py-14 flex flex-col justify-center">
+  
 
      <HorizontalCardVue :message="card3"/>
 
-    </div>
+    
 
    <NeedHelp />
   
