@@ -105,8 +105,8 @@ import { Icon } from "@iconify/vue";
 import Card from '../components/VerticalGreyCard.vue'
 
 
-const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img:'src/assets/Svg/CardImage.svg'},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day',img:'src/assets/Svg/CardImage2.svg'}]
-const card2=[{ heading:'Media title here', img:'src/assets/Svg/Background3.svg', subButton:'Commmunity'},{ heading:'Media title here', img:'src/assets/Svg/Background3.svg',subButton:'Commmunity'}]
+const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img: new URL("../assets/Svg/CardImage.svg", import.meta.url).href},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day',img:new URL("../assets/Svg/CardImage2.svg", import.meta.url).href}]
+const card2=[{ heading:'Media title here', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href, subButton:'Commmunity'},{ heading:'Media title here', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href,subButton:'Commmunity'}]
 
 </script>
 <style scoped> 

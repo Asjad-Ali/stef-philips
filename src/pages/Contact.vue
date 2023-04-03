@@ -1,27 +1,15 @@
 <template>
-  <!-- <div class="h-12 w-full bg-[#707070] bl " v-if="state">
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-4 inner p-3 ">
-          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm" to="/home">Home</router-link>
-          <i class="pi pi-angle-right text-white"></i>
-          <div class="dropdown">
-            <router-link active-class="active" class="text-white font-semibold text-sm dropbtn" to="/contact">Contact</router-link>
-            <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="">FAQS</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Press & media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Community</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Housing partners</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Investors</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Generral</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
-            </div>
-          </div>
-        </nav>
-      </div>  -->
+  <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
+    <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner  ">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <i class="pi pi-angle-right text-white"></i>
+        <div active-class="active" class="text-white font-semibold text-sm dropbtn font-bold-custom text-[14px]">Contact</div>
+    </nav>
+  </div>  
+            
   <div class="w-full min-h-[600px] bg-red-400 bgImg">
     <div class="w-full px-8 h-full py-40 mx-auto flex justify-center items-center">
-      <div class="w-[60%] mr-6">
+      <div class="w-[70%] mr-6">
         <h1 class="text-[42px] text-white font-normal tracking-wide leading-snug">
           Contact
         </h1>
@@ -36,7 +24,7 @@
   <div class="m-3">
     <div class="w-full flex justify-center">
       <div class="w-full mx-auto flex justify-center">
-        <div class="w-[60%] flex flex-col">
+        <div class="w-[70%] flex flex-col">
           <div class="flex">
             <h1
               class="text-3xl mt-12 text-trisec leading-[50px]"
@@ -45,9 +33,11 @@
               How can we help?
             </h1>
           </div>
-          <div class="flex flex-wrap gap-6 mt-2">
+          
+          <div class="flex gap-4 flex-wrap mt-2 ">
             <ContactCard :message="message" />
           </div>
+         
         </div>
       </div>
     </div>
@@ -57,9 +47,9 @@
       
     </div>
   </div>
-  <div class="grid grid-cols-2">
-    <div class="blue-cards h-[350px]">
-      <div class="relative top-5 md:left-28 xxs:left-5">
+  <div class="sm:grid sm:grid-cols-2 xxs:grid-cols-1  h-auto">
+    <div class="blue-cards h-[760px] flex items-center">
+      <div class="relative top-5 md:left-28 xxs:left-5 w-[70%] m-auto">
         <h6 class="text-[18px]">
           <b>Head Office</b>
         </h6>
@@ -76,12 +66,12 @@
         </button>
       </div>
     </div>
-    <div class="black-cards"></div>
+    <div class="black-cards h-[760px]"></div>
   </div>
-  <div class="grid grid-cols-2">
-    <div class="black-cards"></div>
-    <div class="blue-cards h-[350px]">
-      <div class="relative top-5 md:left-28 xxs:left-5">
+  <div class="sm:grid sm:grid-cols-2 xxs:grid-cols-1 h-auto " >
+    <div class="black-cards h-[760px] sm:flex xxs:hidden"></div>
+    <div class="blue-cards h-[760px] flex items-center">
+      <div class="relative top-5 md:left-28 xxs:left-5 w-[70%] m-auto" >
         <h6 class="text-[18px]">
           <b>Essex Office</b>
         </h6>
@@ -98,41 +88,29 @@
         </button>
       </div>
     </div>
+    <div class="black-cards h-[760px] sm:hidden xxs:flex"></div>
+
   </div>
-  <div class="w-full flex justify-center mx-auto my-10">
-    <div class="w-[60%]">
-      <Accordion :activeIndex="0">
-        <AccordionTab header="Header I">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-            in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </AccordionTab>
-        <AccordionTab header="Header II">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-            Consectetur, adipisci velit, sed quia non numquam eius modi.
-          </p>
-        </AccordionTab>
-        <AccordionTab header="Header III">
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-            excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-            officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
-            quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-            soluta nobis est eligendi optio cumque nihil impedit quo minus.
-          </p>
-        </AccordionTab>
-      </Accordion>
+  <div class="w-full flex justify-center mx-auto py-10 bg-[#ededee]">
+    <div class="w-[70%]">
+      <Accordion :activeIndex="2" class="pb-2 "  >
+  <AccordionTab header="Call us" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+        Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+      </p>
+  </AccordionTab> 
+  <AccordionTab header="Emergency out of hours repairs" class="font-black-custom text-[18px] text-[#20407c]">
+    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+        Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+      </p>
+  </AccordionTab>
+  <AccordionTab header="Repair responsibilities" class="font-black-custom text-[18px] text-[#20407c]">
+      <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+        Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+      </p>
+      <p class="text-[18px] font-black-custom text-[#2a8cfb]">Link call to action</p>
+  </AccordionTab>
+</Accordion>
     </div>
   </div>
 </template>
@@ -151,31 +129,36 @@ const state = computed(() => {
 const message = ref([
   {
     text: "Help for tenants",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
+    
   },
   {
     text: "Neighbors & the wider community",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
+    
   },
   {
     text: "Housing partners",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
+    
   },
   {
     text: "Investors and landlords",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
+    
   },
   {
     text: "Media enquiries",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
+    
   },
   {
     text: "General enquiries",
-    img: "src/assets/CompositeLayer.png",
+    img: new URL('../assets/CompositeLayer.png', import.meta.url).href,
   },
 ]);
 </script>
-<style scoped>
+<style >
 .blue-cards {
   background-image: url("../assets/CompositeLayer (1).png");
   background-repeat: no-repeat;
@@ -184,7 +167,7 @@ const message = ref([
   color: aliceblue;
 }
 .bgImg {
-  background-image: url("../assets/Background.png");
+  background-image: url("../assets/Svg/Image.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,4 +178,19 @@ const message = ref([
   background-size: cover;
   background-position: center;
 }
+
+.p-accordion-header-text{
+ color:#20407c; font-size:18px; font-weight:900;
+}
+.p-accordion-toggle-icon{
+ position: absolute; right: 0%;  padding: 2px; color:#20407c;
+}
+.p-accordion .p-accordion-header .p-accordion-header-link{
+ background-color: white !important; 
+ height:70px; border: none;
+}
+.p-accordion .p-accordion-tab{
+margin-bottom: 12px; 
+}
+
 </style>

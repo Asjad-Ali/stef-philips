@@ -2,8 +2,8 @@
  
 <div class="w-full flex justify-center items-center mx-auto">
  <div class="w-full mx-auto">
-  <Accordion :activeIndex="2" class="pb-2" v-for="items in props.message" :key="tabindex"  >
-    <AccordionTab :header="items.header" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+  <Accordion :activeIndex="2"  v-for="items in props.message" :key="tabindex"  >
+    <AccordionTab :header="items.header" class="font-black-custom lg:text-[18px]  text-[#20407c]" color="white">
       <p class="text-[18px] font-regular-custom text-[#1d1d33]">
          {{ items.text }}
       </p> <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">{{ items.text2 }}</p>
@@ -30,6 +30,9 @@ const props = defineProps(["message"]);
 .p-accordion .p-accordion-header .p-accordion-header-link{
  background-color: white !important;
  height:60px;
+}
+.p-accordion .pi{
+  color:#2A8CFB;
 }
 
 </style>

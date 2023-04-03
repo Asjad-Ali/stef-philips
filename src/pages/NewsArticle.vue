@@ -1,6 +1,6 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[60%]  mx-auto flex items-center justify-start gap-3 inner ">
+    <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px] dropbtn">About us</div>
@@ -43,11 +43,11 @@
             <img src="..\assets\Svg\Iconawesome-facebook-square.svg" alt="">
             <img src="..\assets\Svg\Iconawesome-twitter-square.svg" alt="">
             <img src="src\assets\Svg\Icon awesome-twitter-square.svg" alt=""> -->
-            <img src="src\assets\Svg\Share.svg" alt="">
+            <img src="../assets/Svg/Share.svg" alt>
           </div>
      </div>
      <div class="pt-4 ">
-      <img class="h-[360px] mx-auto" src="../assets/Svg/CardImage2.svg">
+      <img class="h-[360px] mx-auto" src="../assets/Svg/Featured.svg">
      </div>
   </div>
 
@@ -118,11 +118,11 @@
     </div>
 
   <!-- -->
-    <div class="w-full  mx-auto mb-10">
-      <div class="w-full flex justify-center items-center">
+    <div class="  mx-auto mb-10">
+      <div class=" flex justify-center items-center ">
        <div class="my-[60px]">
-         <div class="flex items-center justify-center">
-          <img src="../assets/Svg/MediaContainer.svg" class="w-[80%]" alt="video">
+         <div class="flex items-center justify-center ">
+          <img src="../assets/Svg/Media-Container.svg"  alt="video">
          </div>
        </div>
       </div>
@@ -170,7 +170,7 @@
             <img src="..\assets\Svg\Iconawesome-facebook-square.svg" alt="">
             <img src="..\assets\Svg\Iconawesome-twitter-square.svg" alt="">
             <img src="src\assets\Svg\Iconawesome-share-square.svg" alt=""> -->
-            <img src="src\assets\Svg\Share.svg" alt=""> 
+            <img src="../assets/Svg/Share.svg" alt> 
             
               </div>
             </div>

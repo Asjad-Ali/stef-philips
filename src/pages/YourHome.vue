@@ -18,7 +18,7 @@
 
     </nav>
   </div> 
-  <div class="lg:w-full bg-red-400 Bg">
+  <div class="lg:w-full min-h-[600px] bg-red-400 Bg">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
       <div class="w-[70%]">
         <div class="font-light-custom text-[42px] text-white leading-snug">
@@ -31,7 +31,7 @@
     </div>
   </div>
   <!-- step 2 -->
-  <YourHomeCard  :message="message" />
+  <Cards  :message="message" />
   <!-- step 3 -->
   <div class="bg-sky-50 py-28 min-h-[400px]">
     <div class=" mx-auto w-[70%]">
@@ -47,7 +47,7 @@
   </div>
 
   <!-- step 4 -->
-  <YourHomeCard :message="people"/>
+  <Cards :message="people"/>
   <!-- step 5 -->
   <div
     class=" w-[70%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
@@ -65,7 +65,7 @@
         fixed, is using <span class="text-primary font-bold-custom text-[18px]">our online form </span> now
       </p>
       <div class="flex flex-wrap md:gap-5 xxs:gap-1 pt-4">
-        <img class="lg:max-w-sm" src="../assets/phone.png" alt />
+        <img class="lg:max-w-sm" src="../assets/Svg/PhoneIcon.svg" alt />
         <div
           class="mt-8 text-third font-semibold font lg:text-4xl sm:text-2xl xxxs:text-md"
         >
@@ -85,7 +85,8 @@
 
 <script setup>
 import YourHomeCard from "../components/YourHomeCards.vue";
-import YourCard from "../components/YourCard.vue";
+import YourCard from "../components/YourCard.vue"
+import Cards from "../components/Cards.vue";
 import { Icon } from "@iconify/vue";
 import { useAppStore } from "../store/index";
 import { computed } from "vue";
@@ -100,21 +101,21 @@ const message = [
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   
+   btnName: "Report now"
   },
   {
     name: "Report Anti-social Behavior",
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-    
+    btnName: "Report now"
   },
   {
     name: "Council tax or utilities",
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   
+   btnName: "Report now"
   }
   // More people...
 ];
@@ -124,21 +125,21 @@ const people = [
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-    
+    btnName: "Find out more"
   },
   {
     name: "Report a repair or maintenance",
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   
+   btnName: "Find out more"
   },
   {
     name: "Useful videos",
     role: "Short description excerpt here",
     imageUrl:
     new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   
+   btnName: "Explore now"
   }
   // More people...
 ];

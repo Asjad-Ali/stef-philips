@@ -330,9 +330,6 @@
     
 </template>
 
-
-
-
 <script setup>
 import { ref, onMounted } from "vue";
 import { ProductService } from '../Service/ProductService'; 
@@ -386,11 +383,6 @@ const getSeverity = (status) => {
     }
 };
 </script>
-
-
-
-
-
 
 <style scoped>
 .dropdown {

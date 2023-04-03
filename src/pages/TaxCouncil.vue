@@ -1,6 +1,6 @@
 <template>
     <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
+    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/home">Home</div>
       <i class="pi pi-angle-right text-white"></i>
         <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/your-home">Your home</div>
@@ -11,16 +11,16 @@
     </nav>
   </div> 
 <div class="w-full  flex justify-center items-center mt-20">
-<div  class=" w-[60%]  mx-auto ">
-<div  class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom">Tax council and Utilities</div> 
+<div  class=" w-[70%]  mx-auto ">
+<div  class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom">Council tax and utilities</div> 
 <p class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3">Short introductory summary for the page goes here like so</p>
 
 </div>
 </div>
 <SelectOne />
 <YourDetails />
-<div class="min-h-[710px] w-full bg-[#EDEDEE] flex justify-center  items-center">
-    <div class="w-[70%] mx-auto flex flex-wrap items-center">
+ <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
+       <div class="w-[70%]">
       <p class="text-[#20407C] pb-6">
         <span class="text-[30px] font-black-custom">Other ways to report</span>
       </p>

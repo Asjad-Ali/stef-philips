@@ -10,7 +10,7 @@
   </div> 
 
 <!-- -->
-  <div class="w-full flex justify-center">
+  <div class="w-full flex justify-start items-center">
     <HorizontalCardVue :message="card2"/>
   </div>
   <!-- -->

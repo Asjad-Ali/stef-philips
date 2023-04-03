@@ -1,6 +1,6 @@
 <template>
     <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
-        <nav class="md:w-[60%] xxxs:w-[100%] h-full mx-auto flex items-center justify-start gap-3 inner ">
+        <nav class="md:w-[70%] xxxs:w-[100%] h-full mx-auto flex items-center justify-start gap-3 inner ">
           <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
           <i class="pi pi-angle-right text-white"></i>
             <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
@@ -10,7 +10,6 @@
             <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Repairs & maintenance</div>
         </nav>
       </div> 
-
        <!-- -->
         <div class="w-full leading-snug"> 
           <div  class="w-[70%] min-h-[100px] mx-auto ">
@@ -41,7 +40,7 @@
             </div>
 
              <!-- -->
-            <MoreInfo />
+            <MoreInfo  />
 
              <!-- -->
             <YourDetails />
@@ -80,56 +79,61 @@ import Accordion from 'primevue/accordion';
 import AccordionTab from 'primevue/accordiontab';
 import InputText from 'primevue/inputtext';
 import { ref } from 'vue';
-
 const value1 = ref(null);
 const message = [
 {
   text:"Bathroom and toilet",
-  img:'src/assets/Group-13.png'
+  img:new URL('../assets/Svg/ToiletIcon.svg', import.meta.url).href
 },
 {
   text:"Kitchen",
-  img:'src/assets/Group-16.png'
+  img:new URL('../assets/Svg/KitchenIcon.svg', import.meta.url).href
 },
 {
   text:"Heating and boiler",
-  img:'src/assets/Group-17.png'
+  img:new URL('../assets/Svg/HeatingIcon.svg', import.meta.url).href
 },
 {
   text:"Water and leaks",
-  img:'src/assets/Group-18.png'
+  img:new URL('../assets/Svg/WaterIcon.svg', import.meta.url).href
 },
 {
   text:"Doors, garages and locks",
-  img:'src/assets/Group-19.png'
+  img:new URL('../assets/Svg/DoorsIcon.svg', import.meta.url).href
 },
 {
   text:"Internal floors, walls and ceilings",
-  img:'src/assets/Group-20.png'
+  img:new URL('../assets/Svg/InternalFloorIcon.svg', import.meta.url).href
 },
 {
   text:"Lighting",
-  img:'src/assets/Group-21.png'
+  img:new URL('../assets/Svg/LightingIcon.svg', import.meta.url).href
+  
 },
 {
   text:"Window",
-  img:'src/assets/Group-22.png'
+  img:new URL('../assets/Svg/WindowIcon.svg', import.meta.url).href
+
 },
 {
   text:"Exterior and garden",
-  img:'src/assets/Group-23.png'
+  img:new URL('../assets/Svg/ExteriorIcon.svg', import.meta.url).href
+
 },
 {
   text:"Furniture",
-  img:'src/assets/Group-24.png'
+  img:new URL('../assets/Svg/SofaIcon.svg', import.meta.url).href
+
 },
 {
   text:"Communal / shared facilities",
-  img:'src/assets/Group-25.png'
+  img:new URL('../assets/Svg/ComunelIcon.svg', import.meta.url).href
+
 },
 {
   text:"Other",
-  img:'src/assets/Group-26.png'
+  img:new URL('../assets/Svg/OtherIcon.svg', import.meta.url).href
+
 },
 ]
 </script>
@@ -155,6 +159,9 @@ const message = [
 }
 .p-accordion-header-link{
   background-color: white;
+}
+.p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link{
+  margin-top: 8px;
 }
 @media(max-width:500px){
 .emergency{

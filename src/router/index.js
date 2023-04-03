@@ -7,19 +7,24 @@ import CommunityView from "../pages/Community.vue";
 import NewsArticleView from "../pages/NewsArticle.vue";
 import YourHomeView from "../pages/YourHome.vue";
 import NewsView from "../pages/News.vue";
-import AntiSocialBehaviour from '../pages/AntiSocialBehaviour.vue';
-import OtherIssues from '../pages/OtherIssues.vue';
-import TaxCouncil from '../pages/TaxCouncil.vue';
+import AntiSocialBehaviour from "../pages/AntiSocialBehaviour.vue";
+import OtherIssues from "../pages/OtherIssues.vue";
+import TaxCouncil from "../pages/TaxCouncil.vue";
 import PrivateRented from "../pages/PrivateRented.vue";
-import TemporaryAccomodation from '../pages/TemporaryAccomodation.vue';
+import TemporaryAccomodation from "../pages/TemporaryAccomodation.vue";
 import QuickReportView from "../pages/QuickReport.vue";
 import RepairAndMaintenanceView from "../pages/RepairAndMaintenance.vue";
 import OursEmergency from "../pages/OursEmergency.vue";
 import TenantServices from "../pages/TenantServices.vue";
 import RepairResponsibilities from "../pages/RepairResponsibilities.vue";
-import HomeMeatTheTeam from "../pages/HomeMeatTheTeam.vue";
+import HomeMeetTheTeam from "../pages/HomeMeetTheTeam.vue";
 import SubmittedIssue from "../pages/SubmittedIssue.vue";
-
+import HousingPartners from "../pages/HousingPartners.vue";
+import usefulVideos from "../pages/UsefulVideos.vue";
+import HelpAndAdvice from "../pages/HelpAndAdvice.vue";
+import HousingOfficer from "../pages/HousingOfficer.vue";
+import FieldWorker from "../pages/FieldWorker.vue";
+import MaintenanceWorker from "../pages/MaintenanceWorker.vue"
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -70,6 +75,22 @@ const router = createRouter({
       component: TemporaryAccomodation,
     },
     {
+      path: "/housing-officer",
+      name: "HousingOfficer",
+      component: HousingOfficer,
+    },
+    {
+      path: "/field-worker",
+      name: "FieldWorker",
+      component: FieldWorker,
+    },
+    {
+      path: "/maintenance-worker",
+      name: "MaintenanceWorker",
+      component: MaintenanceWorker,
+    },
+
+    {
       path: "/contact",
       name: "Contact",
       component: ContactView,
@@ -112,20 +133,37 @@ const router = createRouter({
     {
       path: "/tenant-services",
       name: "tenantServices",
-      component: TenantServices,}
-      ,
+      component: TenantServices,
+    },
     {
       path: "/repair-responsibilities",
       name: "repairResponsibilities",
       component: RepairResponsibilities,
     },
     {
-      path: "/home-meatTheTeam",
-      name: "meatTheTeam",
-      component: HomeMeatTheTeam,},{
+      path: "/home-meetTheTeam",
+      name: "meetTheTeam",
+      component: HomeMeetTheTeam,
+    },
+    {
       path: "/submitted-issue",
       name: "submittedIssue",
       component: SubmittedIssue,
+    },
+    {
+      path: "/housing-partners",
+      name: "HousingPartners",
+      component: HousingPartners,
+    },
+    {
+      path: "/useful-videos",
+      name: "usefulVideos",
+      component: usefulVideos,
+    },
+    {
+      path: "/help-and-advice",
+      name: "HelpAndAdvice",
+      component: HelpAndAdvice,
     },
   ],
 });

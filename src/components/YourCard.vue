@@ -5,7 +5,7 @@
         role="list"
         class="mx-auto  flex  lg:flex-nowrap flex-wrap gap-8"
       >
-        <li v-for="person in people" :key="person.name" class="bg-white ">
+        <li v-for="person in  props.message" :key="person.name" class="bg-white ">
           <img class=" w-full object-cover" :src="person.imageUrl" alt />
           <div class="py-4 px-6">
             <h3
@@ -16,7 +16,7 @@
               <button
                 type="button"
                 class="bg-[#2A8CFB] xxs:py-3 md:py-3 xxs:px-4 md:px-8 text-[16px] font-xbold-custom mt-8 text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-              >Report Now</button>
+              >{{person.btn}}</button>
             </div>
           </div>
         </li>
@@ -26,21 +26,5 @@
 </template>
 
 <script setup>
-const people = [
-  {
-    name: "Temporary accommodation",
-    role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:
-      new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-  
-  },
-  {
-    name: "Private rented sector",
-    role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:
-       new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   
-  },
-  // More people...
-];
+const props = defineProps(["message"]);
 </script>

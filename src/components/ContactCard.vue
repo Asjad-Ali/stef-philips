@@ -1,7 +1,7 @@
 <template>
-    <div class="contact-card h-[170px] p-5 w-[150px]" v-for="items in props.message">
-        <img :src='items.img' class="h-[50px] w-[50px]" alt="contact-home">
-        <p class="lg:text-[18px] xxs:text-[14px] font-xbold-custom mt-4">{{ items.text }}</p>
+    <div class="contact-card h-[270px] p-6 w-full max-w-[230px] text-[#22427A]" v-for="items in props.message">
+        <img :src='items.img' alt="contact-home">
+        <p class="lg:text-[18px] xxs:text-[14px] font-xbold-custom mt-6">{{ items.text }}</p>
     </div>
     </template>
     <script setup>

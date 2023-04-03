@@ -1,5 +1,5 @@
 <template>
-  <div class=" pt-11  pb-24 w-[60%] mx-auto">
+  <div class=" pt-11  pb-24 w-[70%] mx-auto">
 <h1  class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom">Your details</h1> 
    <div class="w-full">       
             <div class="pt-5">
@@ -45,7 +45,7 @@
      </div>
          <InputText type="number" v-model="value" class="my-4 w-full max-w-[632px] min-h-[50px]" />
        </div>
-      <button class="w-full font-xbold-custom text-[16px] max-w-[632px] bg-primary min-h-[50px] mt-7 rounded-md text-white">Submit</button>
+      <button class="w-full font-xbold-custom text-[16px] max-w-[632px] bg-[#2A8CFB] min-h-[50px] mt-7 rounded-xs text-white">Submit</button>
 </div>
 </template>
 

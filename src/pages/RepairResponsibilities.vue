@@ -1,6 +1,6 @@
 <template>
-    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
-        <nav class="w-[60%] h-full mx-auto flex items-center justify-start gap-3 inner ">
+    <div class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center">
+        <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner ">
           <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" to="/home">Home</router-link>
           <i class="pi pi-angle-right text-white"></i>
             <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/your-home">Your home</router-link>
@@ -19,27 +19,27 @@
          <!-- -->
 
         <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-            <div class="w-[60%]">
+            <div class="w-[70%]">
             <h1   class="text-[30px] text-[#20407c] font-[900] pb-10">Your responsibilities</h1>
             <Accordion :activeIndex="2" >
-            <AccordionTab header="Keeping your property clean" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-              <p class="text-[18px] font-[400] text-[#1d1d33]">
+            <AccordionTab header="Keeping your property clean" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+              <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                   Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                 </p>
             </AccordionTab>
-            <AccordionTab header="Preventing mould">
-              <p class="text-[18px] font-[400] text-[#1d1d33]">
+            <AccordionTab header="Preventing mould"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+              <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                   Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                 </p>
             </AccordionTab>
-            <AccordionTab header="Another example">
-                <p class="text-[18px] font-[400] text-[#1d1d33]">
+            <AccordionTab header="Another example"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                   Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                 </p>
-                <p class="text-[18px] font-[900] text-[#2a8cfb]">Link call to action</p>
+                <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">Link call to action</p>
             </AccordionTab>
-            <AccordionTab header="Another example" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                <p class="text-[18px] font-[400] text-[#1d1d33]">
+            <AccordionTab header="Another example"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                     Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                   </p>
               </AccordionTab>
@@ -50,27 +50,27 @@
              <!-- -->
 
             <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-                <div class="w-[60%]">
+                <div class="w-[70%]">
                 <h1   class="text-[30px] text-[#20407c] font-[900] pb-10">Repair process</h1>
-                <Accordion :activeIndex="2" >
-                <AccordionTab header="Repair priorities" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                  <p class="text-[18px] font-[400] text-[#1d1d33]">
+                <Accordion :activeIndex="2" class="h-[488px]" >
+                <AccordionTab header="Repair priorities"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                  <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                     </p>
                 </AccordionTab>
-                <AccordionTab header="Repair appointments">
-                  <p class="text-[18px] font-[400] text-[#1d1d33]">
+                <AccordionTab header="Repair appointments"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                  <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                     </p>
                 </AccordionTab>
-                <AccordionTab header="Timeslots">
-                    <p class="text-[18px] font-[400] text-[#1d1d33]">
+                <AccordionTab header="Timeslots"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                       Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                     </p>
-                    <p class="text-[18px] font-[900] text-[#2a8cfb]">Link call to action</p>
+                    <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">Link call to action</p>
                 </AccordionTab>
-                <AccordionTab header="People who may enter your home" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                    <p class="text-[18px] font-[400] text-[#1d1d33]">
+                <AccordionTab header="People who may enter your home"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                         Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                       </p>
                   </AccordionTab>
@@ -81,27 +81,27 @@
                  <!-- -->
 
                 <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-                    <div class="w-[60%]">
+                    <div class="w-[70%]">
                     <h1   class="text-[30px] text-[#20407c] font-[900] pb-10">Stef & Philips’ responsibilities</h1>
                     <Accordion :activeIndex="2" >
-                    <AccordionTab header="Communal areas" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                      <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    <AccordionTab header="Communal areas" class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                      <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                           Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                         </p>
                     </AccordionTab>
-                    <AccordionTab header="Water and electricity safety">
-                      <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    <AccordionTab header="Water and electricity safety"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                      <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                           Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                         </p>
                     </AccordionTab>
-                    <AccordionTab header="Appliances">
-                        <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    <AccordionTab header="Appliances"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                        <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                           Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                         </p>
-                        <p class="text-[18px] font-[900] text-[#2a8cfb]">Link call to action</p>
+                        <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">Link call to action</p>
                     </AccordionTab>
-                    <AccordionTab header="Another example" style="color:#20407c; font-size:18px; font-weight:900" color="white">
-                        <p class="text-[18px] font-[400] text-[#1d1d33]">
+                    <AccordionTab header="Another example"  class="font-black-custom text-[18px] text-[#20407c]" color="white">
+                        <p class="text-[18px] font-regular-custom text-[#1d1d33]">
                             Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
                           </p>
                       </AccordionTab>
@@ -111,28 +111,7 @@
 
                      <!-- -->
 
-            <div class=" w-[60%] mx-auto px-8 py-20 bg-[#EC8B7E]/10 my-20">
-                <div class="max-w-4xl mx-auto ">
-                  <img src="../assets/pink.png"/>
-                  <h1 class="block py-4 text-4xl text-second">
-                    Need help
-                    <span class="font-bold">with your home</span>
-                  </h1>
-                  <p
-                    class="pb-4"
-                  >Use our quick online form. The quickest way to report an issue and get it fixed.</p>
-                  <div class="flex flex-wrap items-center gap-6">
-                    <button
-                      type="button"
-                      class="bg-sky-600 py-4 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-                    >Quick report</button>
-                    <button
-                      type="button"
-                      class="bg-trisec py-4 px-8 text-sm font-semibold mt-8 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-                    >Report a repair or maintainance</button>
-                  </div>
-                </div>
-              </div>
+                     <NeedHelp/>
 </template>
 
 <script setup>
@@ -140,8 +119,8 @@ import { ref } from "vue";
 import HorizontalCardVue from '../components/HorizontalCard.vue';
 import AccordionTab from 'primevue/accordiontab';
 import Accordion from 'primevue/accordion';
-
-const card= { header:'Repair and maintenance responsibilities', img:'src/assets/Card-Image-man.png', paragraph:'Find out how to report a repair, how long it will take and whether it’s your responsibility or ours', btn:['Report a repair']}
+import NeedHelp from "../components/NeedHelp.vue";
+const card= { header:'Repair and maintenance responsibilities', img:'src/assets/Svg/CardImage6.svg', paragraph:'Find out how to report a repair, how long it will take and whether it’s your responsibility or ours', btn:['Report a repair']}
 
 
 </script>
