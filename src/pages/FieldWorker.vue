@@ -66,7 +66,7 @@
     <div class="mx-auto mb-10">
       <div class=" flex justify-center items-center ">
          <div class="flex items-center justify-center ">
-          <img src="../assets/Svg/HouseVedio.svg"  alt="video">
+          <img src=""  alt="video">
          </div>
        </div>
       </div>

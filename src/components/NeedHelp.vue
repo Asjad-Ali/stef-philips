@@ -1,6 +1,6 @@
 <template>
    <div class="w-[70%] mx-auto lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7 py-28 bg-[]/10 my-32 min-h-[447px]">  
-      <img src="../assets/Svg/Shape G.svg"  />
+      <img src="../assets/Svg/ShapeG.svg"  />
       <h1 class="block py-4 font-light-custom lg:text-[36px] xxxs:text-[30px] font-light text-[#ff671e]">
         Need help
         <span class="font-black-custom lg:text-[36px] xxs:text-[30px]">with your home</span>

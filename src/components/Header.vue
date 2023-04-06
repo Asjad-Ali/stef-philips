@@ -153,7 +153,7 @@
       </div>
     </div>
     <div
-      class="h-[5rem] w-full bg-gradient-to-r from-[#1D1D33] to-[#2A8CFB] bl"
+      class="h-[5rem] w-full bg-gradient-to-r from-[#20407c] to-[#20407c] bl"
     >
       <nav
         class="w-[70%] h-full mx-auto flex items-center justify-between gap-4 pr-20 inner"

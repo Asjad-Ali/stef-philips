@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
-  <g id="Media_Container" data-name="Media Container" transform="translate(-180 -13157.82)">
-    <g id="Background" transform="translate(98.38 13167.738)">
-      <path id="Background-2" data-name="Background" d="M0,0H960V340H0Z" transform="translate(81.62 50.082)" fill="#ededee"/>
-    </g>
-    <g id="Media" transform="translate(180.432 13107.82)">
-      <rect id="Background-3" data-name="Background" width="796" height="460" transform="translate(81.568 50)" fill="#1d1d33"/>
-    </g>
-    <g id="Play" transform="translate(-54 4666.82)">
-      <g id="Play-2" data-name="Play" transform="translate(674 8681)" fill="rgba(29,29,51,0.5)" stroke="rgba(255,255,255,0.5)" stroke-width="3">
-        <circle cx="40" cy="40" r="40" stroke="none"/>
-        <circle cx="40" cy="40" r="41.5" fill="none"/>
-      </g>
-      <path id="Play-3" data-name="Play" d="M11.5,0,23,20H0Z" transform="translate(727.5 8709.5) rotate(90)" fill="#fff"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="480 2119 960 460"><g data-name="Media Container"><path d="M480 2179h960v340H480v-340Z" fill="#ededee" fill-rule="evenodd" data-name="Background"/><g data-name="Media"><path d="M562 2119h796v460H562v-460z" fill="#20407c" fill-rule="evenodd" data-name="Background"/></g><g data-name="Play"><g data-name="Play"><path d="M920 2348.9a40 40 0 1 1 0 .1z" fill="rgba(29,29,51,0.5 )" fill-rule="evenodd"/><path d="M918.5 2348.898a41.5 41.5 0 1 1 0 .104z" stroke-linejoin="round" stroke-linecap="round" stroke-width="3.1125000000000003" stroke="rgba(255,255,255,0.5 )" fill="transparent"/></g><path d="m973.5 2349-20 11.5v-23z" fill="#fff" fill-rule="evenodd" data-name="Play"/></g></g></svg>

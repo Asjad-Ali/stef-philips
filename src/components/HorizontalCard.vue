@@ -12,9 +12,9 @@
         >{{ props.message.paragraph }}<br>{{ props.message.paragraph2 }}</p>
           <button v-if=" props.message.btn" class="float-left w-[180px] h-[50px] p-2 my-6 bg-[#2a8cfb] text-white  text-[16px] font-[400] flex justify-evenly items-center flex-row-reverse" v-for="items in props.message.btn"><img :src="props.message.btnimg"  alt="">{{items}}</button>   
       </div>
-      <div class="flex justify-end " >
+      <!-- <div class="flex justify-end " >
         <img class="w-full h-full object-cover" :src="props.message.img">
-      </div>
+      </div> -->
     </div>
   </div>
  </div></div>
