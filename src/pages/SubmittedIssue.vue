@@ -19,6 +19,8 @@
           <h1 class="font-black-custom text-[36px] py-4 text-[#20407C]">
             Report submitted
           </h1>
+          <p class="mb-8 font-black-custom lg:text-[18px] text-[12px] text-[#20407C]">
+            Ref: [S-FORCE ID].</p>
           <span class="font-bold-custom text-[18px] text-[#1D1D33]">Thank you for submitting your report.</span>
           <span
             class="pb-4 font-regular-custom text-[18px] text-[#1D1D33]"

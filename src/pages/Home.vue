@@ -46,64 +46,68 @@
 
     <!--  -->
 
+    <div class="bg-third min-h-[600px]  w-full ">
+    <div class="mx-auto w-[70%] position ">
+      <div class="w-full flex justify-center">
+        <div class="py-20 mt-8">
+          <div class=" grid md:grid-cols-2 grid-cols-1 gap-12 margin">
+            <div class="flex justify-center ">
+              <img src="../assets/copy1.png" alt />
+            <div class="houseflex-n">
+            <img src="../assets/copy2.png" alt />
+          </div>
+            </div>
+            <div class="top-margin">
+              <!-- <h1 class=" mt-12 text-trisec leading-none ">
+                <span class="font-light-custom xl:text-[36px] text-[25px] ">Creating impact on<br>multiple levels,
+                  <strong>every</strong></span>
+                <span class="font-light-custom xl:text-[36px] text-[25px]"><br><strong>single day</strong></span>
+              </h1> -->
+              <h1 class="leading-none text-white top-margin ">
+                <span class="font-light-custom lg:text-[40px] text-[30px]">[Copy section -<br><span
+                    class="font-light-custom lg:text-[40px] text-[30px]"> what we do!]</span></span>
 
-    <div class="flex justify-center bg-third py-48">
-      <div class="">
-        <img src="../assets/copy.png" alt="">
-        <!-- <h1 class="text-white font-light-custom text-[36px]">Key S&P stats e.g. broad</h1>
-        <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
-          <div class>
-            <img src="../assets/Svg/WhiteHouseN.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">17 years experience</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </h1>
+              <p class="mt-4 font-regular-custom xl:text-[18px] text-[15px] text-white left">
+                Really clear, you’re in the right place. </p>
+            </div>
+            
           </div>
-          <div class>
-            <img src="../assets/Svg/WhiteHouseM.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">Properties Managed</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div class>
-            <img src="../assets/Svg/WhiteHouseN.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">Housing Experience</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div> -->
+        </div>
       </div>
     </div>
 
+  </div>
+    
+
     <div class="flex justify-center bg-third py-48">
       <div class="">
-        <img src="../assets/Features_Icons.png" alt="">
-        <!-- <h1 class="text-white font-light-custom text-[36px]">Key S&P stats e.g. broad</h1>
-        <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
+        <div class="grid md:grid-cols-4 gap-12 grid-cols-1 sm:grid-cols-2 ">
           <div class>
-            <img src="../assets/Svg/WhiteHouseN.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">17 years experience</h1>
+            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">00 years</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            ><strong>Experience</strong> lorem ipsum <br> dolor sit amet, consectetur <br> adipiscing elit.</p>
           </div>
-          <div class>
-            <img src="../assets/Svg/WhiteHouseM.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">Properties Managed</h1>
+          <div class="top1">
+            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">000+</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            ><strong>Properties managed</strong> <br> lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
           </div>
           <div class>
-            <img src="../assets/Svg/WhiteHouseN.svg" alt />
-            <h1 class="py-4 text-white font-black-custom text-[20px]">Housing Experience</h1>
+            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">60</h1>
             <p
               class="text-white font-regular-custom text-[18px]"
-            >Description goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            ><strong>Local authorities</strong> lorem <br> ipsum dolor sit amet, <br> consectetur adipiscing <br>elitconsectetur adipisc.</p>
           </div>
-        </div> -->
+          <div class="top2">
+            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">00,000+</h1>
+            <p
+              class="text-white font-regular-custom text-[18px]"
+            ><strong>People housed</strong> lorem <br> ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -253,6 +257,9 @@ const peopleM = [
   background-color: rgba(29, 29, 51, 0.5)
 }
 
+.left{
+  margin-left: 10%;
+}
 .bgImg {
   background-image: url("../assets/overlay-image-s.jpg");
   background-repeat: no-repeat;
@@ -262,6 +269,35 @@ const peopleM = [
 /* height: 600px; */
 }
 
+.top-margin{
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.top1{
+  top: 10%;
+}
+
+.h3-margin{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.margin{
+  margin-right: 95px;
+}
+
+.houseflex-n{
+  position: absolute;
+width: 430.9px;
+height: 480px;
+margin-left: 5%;
+    /* margin-bottom: 38%; */
+    top: 70px
+}
+
+.position{
+  position: relative;
+}
 .contentImg {
   background-image: url("../assets/sliderlogo.png");
   background-repeat: no-repeat;

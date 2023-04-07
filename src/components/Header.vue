@@ -231,12 +231,12 @@
           <span
             >Your home
             <nav class="home-dropdown">
-                      <router-link
+                      <!-- <router-link
                         active-class="active"
                         class="font-semibold text-sm"
                         to="/quick-report"
                         >Quick report</router-link
-                      >
+                      > -->
                       <div class="dropdown-1 p-splitbutton cutom">
                           <router-link class="p-button-label font-semibold text-sm" to="">Report an
                             issue</router-link>

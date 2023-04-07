@@ -13,7 +13,7 @@
                 <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-5  "
+                    class="sm:text-[15px] text-[10px]  "
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -25,7 +25,7 @@
                 <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-5"
+                    class="sm:text-[15px] text-[10px]"
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -37,7 +37,7 @@
                 <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.legal" :key="item.name">
                   <a
                     :href="item.href"
-                    class="font-xbold-custom leading-5"
+                    class="sm:text-[15px] text-[10px]"
                   >{{ item.name }}</a>
                 </li>
               </ul>
@@ -79,7 +79,7 @@ import { defineComponent, h } from "vue";
 const navigation = {
   solutions: [
     // { name: "Getting in touch", href: "#" },
-    { name: "Report an issue", href: "#" },
+    // { name: "Report an issue", href: "#" },
     { name: "Emergency contact", href: "#" },
     { name: "Contact", href: "#" },
     { name: "Press & media", href: "#" },
@@ -200,3 +200,7 @@ const navigation = {
   ]
 };
 </script>
+<style>
+.font-xbold-custom {
+    font-family: aktiv grotesk;
+}</style>

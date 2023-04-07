@@ -20,37 +20,54 @@
   </div> 
   <div class="lg:w-full min-h-[600px] bg-red-400 Bg">
     <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
-      <div class="w-[70%]">
-        <div class="font-light-custom text-[42px] text-white leading-snug">
-          <div>Your <span class="text-white font-black-custom text-[42px]">Home</span></div>
+      <div class="contentImg">
+      <div class="w-full h-[600px] flex justify-center items-center">
+        <div class="mx-auto w-[70%] ">
+          <h1 class="text-white w-[100%]">
+            <div class="font-light-custom text-[42px]">Your <strong>Home</strong></div>
+          </h1>
+          <p class="text-white font-regular-custom text-[18px] ">
+            “We are really proud to have become a leading provider of safe, secure accommodation for those who need it the
+            most.” <br> <strong>- Philip Philippou, Chairman</strong>
+          </p>
         </div>
-        <p class="text-white mt-4 font-regular-custom text-[18px] leading-snug">
-          Short Introductory summary for the page<br />goes here like so
-        </p>
       </div>
+    </div>
     </div>
   </div>
   <!-- step 2 -->
-  <Cards  :message="message" />
-  <!-- step 3 -->
-  <div class="bg-sky-50 py-28 min-h-[400px]">
+  <div class=" py-28 min-h-[400px]">
     <div class=" mx-auto w-[70%]">
       <div class="text-[#20407C] text-[30px] font-black-custom">
-        What happens in your home?
+        About Your Home
       </div>
       <div class="py-6 text-[18px] font-regular-custom">
-        Excerpt for the page goes in here like so lorem ipsum<br>dolor sit amet,
-        consectetur adipiscing elit.
+        Introduction around the types of accommodation, to get more detail, please click on whether you’re on temporary or PRS.. Copy to include: we care about your well-being, comfort etc. Find out everything from check-in to check out, how to manage your home, utilities etc.
       </div>
     </div>
-    <YourCard />
+    <div class="card flex items-start justify-content-between gap-5 w-full " >
+        <Card :message="card1" style="background-color:white;"/>
+    </div>
+  </div>
+  <Cards  :message="message" />
+  <!-- step 3 -->
+  <div class="bg-sky-50 py-28 min-h-[400px] bgImg1">
+    <div class=" mx-auto w-[70%]">
+      <div class="text-white text-[30px] font-black-custom">
+        You’re always fully supported
+      </div>
+      <p class="text-white font-regular-custom text-[18px] ">
+        Different areas of the business <br> Colloborative etc
+      </p>
+    </div>
+    <Cards :message="people"/>
   </div>
 
   <!-- step 4 -->
-  <Cards :message="people"/>
+ 
   <!-- step 5 -->
   <div
-    class=" w-[70%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
+    class=" w-[70%] mx-auto py-20 xxs:py-10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
   >
     <div class=" mx-auto">
       <h1 class="block py-4 font-light-custom md:text-[36px] xxs:text-[30px] text-third">
@@ -85,6 +102,7 @@
 
 <script setup>
 import YourHomeCard from "../components/YourHomeCards.vue";
+import Card from '../components/VerticalGreyCard.vue'
 import YourCard from "../components/YourCard.vue"
 import Cards from "../components/Cards.vue";
 import { Icon } from "@iconify/vue";
@@ -124,22 +142,22 @@ const people = [
     name: "Meet your team",
     role: "Short description excerpt here",
     imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+    new URL("../assets/RectangularFlex.png", import.meta.url).href,
     btnName: "Find out more"
   },
   {
-    name: "Report a repair or maintenance",
+    name: "FAQs",
     role: "Short description excerpt here",
     imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
+    new URL("../assets/faqs1.png", import.meta.url).href,
    btnName: "Find out more"
   },
   {
-    name: "Useful videos",
+    name: "Help in your home",
     role: "Short description excerpt here",
     imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   btnName: "Explore now"
+    new URL("../assets/home4.png", import.meta.url).href,
+   btnName: "Find out more"
   }
   // More people...
 ];
@@ -147,7 +165,7 @@ const people = [
 
 <style scoped>
 .Bg {
-  background-image: url("../assets/Svg/ManBg.svg");
+  background-image: url("../assets/ManBg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -158,6 +176,31 @@ const people = [
   background-size: cover;
   background-position: center;
 }
+.bgImg1
+ {
+  background-image: url("../assets/homebackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 1920px; */
+/* height: 600px; */
+}
+.contentImg {
+  background-image: url("../assets/outline-house@4.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  /* background-position: center; */
+  /* Path 543 */
+
+  /* position: absolute; */
+  width: 434px;
+  height: 452px;
+  margin-left: -40%;
+  /* margin-top: 5%; */
+  opacity: 90%;
+}
+
 .bgImg {
   background-image: url("../assets/Background.png");
   background-repeat: no-repeat;

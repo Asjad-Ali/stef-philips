@@ -4,8 +4,8 @@
     <div class=" grid lg:grid-cols-2 grid-cols-1 gap-12  min-h-[441px] " :dir="props.message.direction" :class="props.message.bgclass">
       <div class="p-8 flex flex-col justify-center " :class="props.message.flex">
         <h1 class=" mt-12 text-trisec leading-[50px] font-semibold text-left" v-if="props.message.header">
-          <span class="font-light-custom text-[42px]  ">{{props.message.header}}</span> <br v-if="props.message.b==true">
-          <span class="font-black-custom text-[42px] ">{{props.message.boldheader}}</span>
+          <span class="font-light-custom text-[32px]  ">{{props.message.header}}</span> <br v-if="props.message.b==true">
+          <span class="font-black-custom text-[32px] ">{{props.message.boldheader}}</span>
         </h1>
         <p
           class="mt-6 font-regular-custom text-[18px] text-left"

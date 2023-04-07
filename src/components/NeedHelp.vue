@@ -1,12 +1,12 @@
 <template>
    <div class="w-[70%] mx-auto lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7 py-28 bg-[]/10 my-32 min-h-[447px]">  
-      <img src="../assets/Svg/ShapeG.svg"  />
-      <h1 class="block py-4 font-light-custom lg:text-[36px] xxxs:text-[30px] font-light text-[#ff671e]">
+      <img src="../assets/help.png"  />
+      <h1 class="block py-4 font-light-custom lg:text-[40px] xxxs:text-[40px] font-light text-[#ff671e]">
         Need help
-        <span class="font-black-custom lg:text-[36px] xxs:text-[30px]">with your home</span>
+        <span class="font-black-custom lg:text-[40px] xxs:text-[40px]">with your home</span>
       </h1>
-      <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom ">
-        Use our quick online form.<span class="font-bold-custom "> The quickest way to report an issue and get it fixed.</span>
+      <p class="pb-4 lg:text-[20px] xxxs:text-[20px] font-regular-custom text[#1D1D33]">
+        Simply click the link below and fill in the online form –<span class="font-bold-custom "> this is the fastest way to get things sorted.</span>
       </p>
       <div class="flex items-center gap-6 flex-wrap">
         <button
