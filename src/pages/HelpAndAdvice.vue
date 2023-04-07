@@ -11,8 +11,8 @@
       <!-- Step 2 --> 
       <div class="w-full min-h-[500px] bg-red-400 bgImg">
         <div class="w-[60%] h-[500px] mx-auto flex items-center">
-          <div class="contentImg"></div>
-          <div class="max-w-sm groupImg">
+          <div class="w-[365px] h-[380px] contentImg lg:ml-14"></div>
+          <div class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-20">
             <h1 class="font-light-custom text-[40px] leading-none text-white content">
               <span class="font-black-custom text-[40px]">Help </span>
               <span>and advice</span>
@@ -117,11 +117,8 @@ const people = [
   background-repeat: no-repeat;
   
   background-size: cover;
-  background-position: center; 
-  width: 365px;
-  height: 380px;
+  background-position: center;  
   opacity: 100%;
-  margin-left: 53px;
 }
 
 .groupImg {
@@ -129,9 +126,6 @@ const people = [
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
-  width: 409px;
-  height: 45px;
-  margin-left: 85px;
+  position: absolute; 
 }
 </style>
