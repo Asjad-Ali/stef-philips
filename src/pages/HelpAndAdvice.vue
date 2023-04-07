@@ -30,7 +30,7 @@
       <!-- Step 3 -->
       <NeedHelp />
       <!-- Step 4 -->
-      <div class="w-[70%] mx-auto py-20 xxs:py-10 my-20 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7">
+      <div class="w-[70%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7">
         <div class="mx-auto">
           <h1 class="block py-4  font-weight-medium md:text-[36px] xxs:text-[30px] text-third">
             Out of hours
