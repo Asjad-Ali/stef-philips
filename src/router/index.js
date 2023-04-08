@@ -22,6 +22,7 @@ import SubmittedIssue from "../pages/SubmittedIssue.vue";
 import HousingPartners from "../pages/HousingPartners.vue";
 import usefulVideos from "../pages/UsefulVideos.vue";
 import HelpAndAdvice from "../pages/HelpAndAdvice.vue";
+import NationalHelplines from "../pages/NationalHelplines.vue";
 import HousingOfficer from "../pages/HousingOfficer.vue";
 import FieldWorker from "../pages/FieldWorker.vue";
 import MaintenanceWorker from "../pages/MaintenanceWorker.vue"
@@ -164,6 +165,11 @@ const router = createRouter({
       path: "/help-and-advice",
       name: "HelpAndAdvice",
       component: HelpAndAdvice,
+    },
+    {
+      path: "/national-helplines",
+      name: "NationalHelplines",
+      component: NationalHelplines,
     },
   ],
 });
