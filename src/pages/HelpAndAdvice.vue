@@ -12,7 +12,7 @@
       <div class="w-full min-h-[500px] bg-red-400 bgImg">
         <div class="w-[60%] h-[500px] mx-auto flex items-center">
           <div class="w-[365px] h-[380px] contentImg lg:ml-14"></div>
-          <div class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-20">
+          <div class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-[6rem]">
             <h1 class="font-light-custom text-[40px] leading-none text-white content">
               <span class="font-black-custom text-[40px]">Help </span>
               <span>and advice</span>
