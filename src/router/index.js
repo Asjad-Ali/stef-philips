@@ -22,6 +22,10 @@ import SubmittedIssue from "../pages/SubmittedIssue.vue";
 import HousingPartners from "../pages/HousingPartners.vue";
 import usefulVideos from "../pages/UsefulVideos.vue";
 import HelpAndAdvice from "../pages/HelpAndAdvice.vue";
+import NationalHelplines from "../pages/NationalHelplines.vue";
+import TemporaryAccommodation from "../pages/TemporaryAccommodation.vue";
+import PRS from "../pages/PRS.vue";
+import AccommodationTypes from "../pages/AccommodationTypes.vue";
 import HousingOfficer from "../pages/HousingOfficer.vue";
 import FieldWorker from "../pages/FieldWorker.vue";
 import MaintenanceWorker from "../pages/MaintenanceWorker.vue"
@@ -164,6 +168,26 @@ const router = createRouter({
       path: "/help-and-advice",
       name: "HelpAndAdvice",
       component: HelpAndAdvice,
+    },
+    {
+      path: "/national-helplines",
+      name: "NationalHelplines",
+      component: NationalHelplines,
+    },
+    {
+      path: "/temporary-accommodation",
+      name: "TemporaryAccommodation",
+      component: TemporaryAccommodation,
+    },
+    {
+      path: "/housing-partners-prs",
+      name: "PRS",
+      component: PRS,
+    },
+    {
+      path: "/accommodation-types",
+      name: "AccommodationTypes",
+      component: AccommodationTypes,
     },
   ],
 });
