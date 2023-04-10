@@ -273,6 +273,7 @@
     background-size: cover;
     background-position: center;  
     opacity: 100%;
+    margin-left: 1%;
   }
   .groupImg {
     background-image: url("../assets/Group\ 96.png");

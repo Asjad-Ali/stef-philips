@@ -345,6 +345,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;  
 opacity: 100%;
+margin-left: 1%;
 }
 
 .groupImg {
