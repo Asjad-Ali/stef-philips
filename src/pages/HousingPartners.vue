@@ -73,54 +73,6 @@
       <Cards :message="people"/>
     </div>
     
-
-  <!-- <div class="bgColor my-10 flex justify-center">
-    <div class="py-20 w-[70%]">
-      <div class="">
-        <h2 class="text-white text-[36px] font-light-custom leading-none">
-          The Stef & Philips difference
-          <br />
-          <span class="font-black-custom text-[36px]">Our full-service solution</span>
-        </h2>
-        <p class="text-white max-w-2xl text-[18px] mt-4 font-regular-custom">
-          End-to-end service that sets S&P apart - accountability, trust and
-          control over the entires process , making their life easier. Paragraph
-          style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices
-          condimentum enim, id fringilla libero rutrum vel.
-        </p>
-      </div>
-
-      <div class="lg:flex flex-wrap md:flex-nowrap">
- 
-        <div class="text-white my-10">
-          <img src="../assets/Svg/YellowHomeIcon.svg" alt="" />
-          <h4 class="font-black-custom text-[20px] my-2">Investment</h4>
-          <p class="max-w-xs font-regular-custom text-[18px]">
-            Short description goes here like so in this featured icon element
-            lore ipsum.
-          </p>
-        </div>
-
-        <div class="text-white my-10 lg:mx-10">
-          <img src="../assets/Svg/YellowHomeIcon.svg" alt="" />
-          <h4 class="font-black-custom text-[20px] my-2">Sourcing</h4>
-          <p class="max-w-xs font-regular-custom text-[18px]">
-            Short description goes here like so in this featured icon element
-            lore ipsum.
-          </p>
-        </div>
-
-        <div class="text-white my-10">
-          <img src="../assets/Svg/YellowHomeIcon.svg" alt="" />
-          <h4 class="font-black-custom text-[20px] my-2">Construction</h4>
-          <p class="max-w-xs font-regular-custom text-[18px]">
-            Short description goes here like so in this featured icon element
-            lore ipsum.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <div class=" bg-second  min-h-[600px] text-white w-full ">
     <div class="mx-auto w-[70%]  lg:py-10">
       <div class>
