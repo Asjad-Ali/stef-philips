@@ -176,13 +176,16 @@ const card2 = { header: 'Meet the', boldheader: ' team', img: 'src/assets/Card-I
   right: 16%;
     /* background-image: url(/src/assets/footimage.png); */
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: right;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     height: 434.7px;
     /* margin-left: 40%; */
     /* margin-top: 5%; */
     opacity: 90%;
     top: -33%;
-}</style>
+}
+
+
+</style>

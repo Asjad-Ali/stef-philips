@@ -310,6 +310,7 @@ margin-left: 5%;
   width: 419.3px;
   height: 437.9px;
   opacity: 40%;
+  margin-left: 1%;
 }
 .groupImg {
   background-image: url("../assets/Group\ 96.png");
