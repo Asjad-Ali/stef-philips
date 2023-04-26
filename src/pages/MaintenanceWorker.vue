@@ -32,7 +32,7 @@
         <h1 class="text-[#20407C] font-light-custom text-[36px]">Reason they may  need to <span class="font-black-custom">enter your home</span></h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
-            <img src="../assets/Svg/pinkHouseM.svg" alt />
+            <!-- <img src="../assets/Svg/pinkHouseM.svg" alt /> -->
             <h1 class="py-4 text-[#20407C] font-black-custom text-[20px]">Icon feature</h1>
             <p
               class="text-[#1D1D33] font-regular-custom text-[18px]"
@@ -40,7 +40,7 @@
             lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
           </div>
           <div class>
-            <img src="../assets/Svg/PinkHouseN.svg" alt />
+            <!-- <img src="../assets/Svg/PinkHouseN.svg" alt /> -->
             <h1 class="py-4 text-[#20407C] font-black-custom text-[20px]">Icon feature</h1>
              <p
               class="text-[#1D1D33] font-regular-custom text-[18px]"
@@ -49,7 +49,7 @@
          
           </div>
           <div class>
-            <img src="../assets/Svg/PinkHouseM.svg" alt />
+            <!-- <img src="../assets/Svg/PinkHouseM.svg" alt /> -->
             <h1 class="py-4 text-[#20407C] font-black-custom text-[20px]">Icon feature</h1>
              <p
               class="text-[#1D1D33] font-regular-custom text-[18px]"

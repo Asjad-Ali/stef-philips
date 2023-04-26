@@ -1217,4 +1217,284 @@ export const ProductService = {
   getProductsWithOrders() {
     return Promise.resolve(this.getProductsWithOrdersData());
   },
+
+
+  getfullservice() {
+    return Promise.resolve(this.getfullservices());
+  },
+
+  getfullservices() {
+    return [
+      {
+        id: "1000",
+        code: "f230fh0g3",
+        name: "Investment",
+        description: "Our investors are private individuals and corporate entities who are looking for secure investments that have a guaranteed return and a positive impact on society. With a number of entry points, the scale of each investment is matched to the appropriate scheme, thereby suiting all interested parties.",
+        image: "../src/assets/S&P-Icons-1.png",
+      },
+      {
+        id: "1001",
+        code: "f230fhddd0g3",
+        name: "Sourcing",
+        description: "We source the property and handle all aspects of the purchase negotiation. We then oversee the purchase process, working hand-in-hand with the seller and the investor’s solicitor.",
+        image: "../src/assets/S&P-Icons-2.png",
+      },
+      {
+        id: "10201",
+        code: "dddddd",
+        name: "Construction",
+        description: "Our highly-experienced and dedicated team designs, remodels and constructs each property to the highest standard, ensuring any and all permits, building regulations, environmental impact and other details are carefully considered.",
+        image: "../src/assets/S&P-Icons-3.png",
+      },
+      {
+        id: "14201",
+        code: "ssss",
+        name: "Lettings",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-4.png",
+      },
+      {
+        id: "12201",
+        code: "fff",
+        name: "Service & Maintenance",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-5.png",
+      },{
+        id: "14201",
+        code: "ssss",
+        name: "Lettings",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-4.png",
+      },
+      {
+        id: "12201",
+        code: "fff",
+        name: "Service & Maintenance",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-5.png",
+      },
+      {
+        id: "14201",
+        code: "ssss",
+        name: "Lettings",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-4.png",
+      },
+      {
+        id: "12201",
+        code: "fff",
+        name: "Service & Maintenance",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-Icons-5.png",
+      }
+    ];
+  },
+
+  gethousingscheme() {
+    return Promise.resolve(this.gethousingschemes());
+  },
+
+  gethousingschemes() {
+    return [
+      {
+        name: "Temporary and Emergency Accomodation",
+        description: "Stef & Philips is a well-established provider of temporary and emergency accommodation to housing partners across the country. We cover a wide range of schemes for singles and families, including HMOs, flats (studios, 1+-bed), houses, hotels, care homes, hostels and sites.",
+        image: "../src/assets/hs-Icon-1.png",
+      },
+      {
+        name: "PRS",
+        description: "Our Private Rented Sector (PRS) service offers a sound, sustainable way to provide long-term tenancies and help vulnerable individuals move out of homelessness. Housing types include HMOs, flats (studios, 1+-bed) and houses.",
+        image: "../src/assets/hs-Icon-2.png",
+      },
+      {
+        name: "PSL",
+        description: "With our in-house expertise, we can source and develop properties, and manage compliance, to meet Private Sector Leasing (PSL) partners’ specific requirements.",
+        image: "../src/assets/hs-Icon-1.png",
+      },
+      { 
+        name: "Schemes",
+        description: "Our schemes cover all accommodation types and cater to the needs of specific communities: families, young adults/leavers, mothers and babies, sofa surfing homelessness, rough sleepers, wheelchair users, those escaping domestic abuse, LGBTQ and transitional homelessness.",
+        image: "../src/assets/hs-Icon-2.png",
+      },
+      {
+        name: "PSL",
+        description: "With our in-house expertise, we can source and develop properties, and manage compliance, to meet Private Sector Leasing (PSL) partners’ specific requirements.",
+        image: "../src/assets/hs-Icon-1.png",
+      },
+      { 
+        name: "Schemes",
+        description: "Our schemes cover all accommodation types and cater to the needs of specific communities: families, young adults/leavers, mothers and babies, sofa surfing homelessness, rough sleepers, wheelchair users, those escaping domestic abuse, LGBTQ and transitional homelessness.",
+        image: "../src/assets/hs-Icon-2.png",
+      },
+      {
+        name: "PSL",
+        description: "With our in-house expertise, we can source and develop properties, and manage compliance, to meet Private Sector Leasing (PSL) partners’ specific requirements.",
+        image: "../src/assets/hs-Icon-1.png",
+      },
+      { 
+        name: "Schemes",
+        description: "Our schemes cover all accommodation types and cater to the needs of specific communities: families, young adults/leavers, mothers and babies, sofa surfing homelessness, rough sleepers, wheelchair users, those escaping domestic abuse, LGBTQ and transitional homelessness.",
+        image: "../src/assets/hs-Icon-2.png",
+      },
+      {
+        name: "PSL",
+        description: "With our in-house expertise, we can source and develop properties, and manage compliance, to meet Private Sector Leasing (PSL) partners’ specific requirements.",
+        image: "../src/assets/hs-Icon-1.png",
+      },
+      { 
+        name: "Schemes",
+        description: "Our schemes cover all accommodation types and cater to the needs of specific communities: families, young adults/leavers, mothers and babies, sofa surfing homelessness, rough sleepers, wheelchair users, those escaping domestic abuse, LGBTQ and transitional homelessness.",
+        image: "../src/assets/hs-Icon-2.png",
+      },
+      {
+        name: "PSL",
+        description: "With our in-house expertise, we can source and develop properties, and manage compliance, to meet Private Sector Leasing (PSL) partners’ specific requirements.",
+        image: "../src/assets/hs-Icon-1.png",
+      } 
+    ];
+  },
+
+  getcorporateInvestor() {
+    return Promise.resolve(this.getcorporateInvestors());
+  },
+
+  getcorporateInvestors() {
+    return [
+      {
+        name: "Washing Dryer",
+        description: "Lorem",
+        image: "../src/assets/app_facility_1.png",
+      },
+      {
+        name: "Electric Heating",
+        description: "Lorem",
+        image: "../src/assets/app_facility_2.png",
+      },
+      {
+        name: "Energy efficient Lighting",
+        description: "Lorem",
+        image: "../src/assets/app_facility_3.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      },
+      {
+        name: "Firstname lastname",
+        description: "Job title goes here",
+        image: "../src/assets/app_facility_5.png",
+      }
+    ];
+  },
+
+
+  getsevenstepprocess() {
+    return Promise.resolve(this.getsevenstepprocesss());
+  },
+
+  getsevenstepprocesss() {
+    return [
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-1.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-2.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-3.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-4.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-5.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-6.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-7.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P-priveate-7.png",
+      }
+    ];
+  },
 };

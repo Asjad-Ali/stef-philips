@@ -1,11 +1,17 @@
 <template>
-    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center">
-        <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner  ">
-          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
+    <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
+        <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner">
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="home">Home</router-link>
+          </div>
           <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm dropbtn font-bold-custom text-[14px]" >About us</div>
-            <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Community</div>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="about-us">About us</router-link>
+          </div>
+          <i class="pi pi-angle-right text-white"></i>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="community">Community</router-link>
+          </div>
         </nav>
       </div> 
     <!-- section 1 -->
@@ -116,6 +122,14 @@ const card2=[{ heading:'Media title here', img:new URL("../assets/Svg/Background
   background-color: rgba(29, 29, 51, 0.5);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+.nav-bar-tranparent{
+  position: absolute;
+  opacity: 0.50;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
 @media (max-width:650px){
 .bgImg{
  display:none;
@@ -140,14 +154,14 @@ const card2=[{ heading:'Media title here', img:new URL("../assets/Svg/Background
   right: 16%;
     /* background-image: url(/src/assets/footimage.png); */
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: right;
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
     height: 434.7px;
     /* margin-left: 40%; */
     /* margin-top: 5%; */
     opacity: 90%;
-    top: -33%;
+    top: -38%;
 }
 </style>

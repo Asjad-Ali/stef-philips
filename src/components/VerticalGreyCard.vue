@@ -11,7 +11,7 @@
              </p>
          </template>
          <template #footer>
-             <Button icon="pi pi-check" class="bg-[#2A8CFB] h-[50px] text-white xxs:py-3 md:py-3 xxs:px-6 md:px-8 text-[14px] font-xbold-custom">Find out more</Button>
+             <Button icon="pi pi-check" class="bg-[#2A8CFB] h-[50px] text-white xxs:py-3 md:py-3 xxs:px-6 md:px-8 text-[14px] font-xbold-custom">Read more</Button>
              
          </template>
      </Card>

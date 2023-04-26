@@ -26,6 +26,13 @@ import NationalHelplines from "../pages/NationalHelplines.vue";
 import TemporaryAccommodation from "../pages/TemporaryAccommodation.vue";
 import PRS from "../pages/PRS.vue";
 import AccommodationTypes from "../pages/AccommodationTypes.vue";
+import OurProjects from "../pages/OurProjects.vue";
+import ProjectTemplate from "../pages/ProjectTemplate.vue";
+import WhereWeOperate from "../pages/WhereWeOperate.vue";
+import Investors from "../pages/Investors.vue";
+import CorporateInvestors from "../pages/CorporateInvestors.vue";
+import PrivateInvestors from "../pages/PrivateInvestors.vue";
+import Landlords from "../pages/Landlords.vue";
 import HousingOfficer from "../pages/HousingOfficer.vue";
 import FieldWorker from "../pages/FieldWorker.vue";
 import MaintenanceWorker from "../pages/MaintenanceWorker.vue"
@@ -188,6 +195,41 @@ const router = createRouter({
       path: "/accommodation-types",
       name: "AccommodationTypes",
       component: AccommodationTypes,
+    },
+    {
+      path: "/our-projects",
+      name: "OurProjects",
+      component: OurProjects,
+    },
+    {
+      path: "/project-template",
+      name: "ProjectTemplate",
+      component: ProjectTemplate,
+    },
+    {
+      path: "/where-we-operate",
+      name: "WhereWeOperate",
+      component: WhereWeOperate,
+    },
+    {
+      path: "/investors",
+      name: "Investors",
+      component: Investors,
+    },
+    {
+      path: "/corporate-investors",
+      name: "CorporateInvestors",
+      component: CorporateInvestors,
+    },
+    {
+      path: "/private-investors",
+      name: "PrivateInvestors",
+      component: PrivateInvestors,
+    },
+    {
+      path: "/landlords",
+      name: "Landlords",
+      component: Landlords,
     },
   ],
 });

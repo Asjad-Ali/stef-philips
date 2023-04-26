@@ -1,13 +1,20 @@
 <template>
-    <div class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center">
-        <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner ">
-          <router-link exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom" to="/home">Home</router-link>
+    <div class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center nav-bar-tranparent">
+      <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner ">
+        <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="home">Home</router-link>
+          </div>
+        <i class="pi pi-angle-right text-white"></i>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="your-home">Your home</router-link>
+          </div>
+
           <i class="pi pi-angle-right text-white"></i>
-            <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/your-home">Your home</router-link>
-            <i class="pi pi-angle-right text-white"></i>
-            <router-link active-class="active" class="text-white font-semibold text-sm font-bold-custom" to="/repair-responsibilities">Repairs responsibilities</router-link>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="repair-responsibilities">Repairs responsibilities</router-link>
+          </div>
         </nav>
-      </div> 
+    </div> 
 
     <!-- -->
 
@@ -126,6 +133,16 @@ const card= { header:'Repair and maintenance responsibilities', img:'src/assets/
 </script>
 
 <style >
+
+.nav-bar-tranparent{
+  position: absolute;
+  opacity: 0.50;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
 .p-accordion-header-text{
   color:#20407c; font-size:18px; font-weight:900;
 }

@@ -5,7 +5,9 @@
         role="list"
         class="mx-auto  flex  lg:flex-nowrap flex-wrap gap-8"
       >
+      <!-- <p>fareeed{{props.message}}</p> -->
         <li v-for="person in  props.message" :key="person.name" class="bg-white ">
+          <!-- <p>image Url{{person.imageUrl}}</p> -->
           <img class=" w-full object-cover" :src="person.imageUrl" alt />
           <div class="py-4 px-6">
             <h3

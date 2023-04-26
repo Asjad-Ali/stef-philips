@@ -1,52 +1,66 @@
 <template>
-  <footer class="bg-second flex justify-center" aria-labelledby="footer-heading">
+  <footer
+    class="bg-second flex justify-center"
+    aria-labelledby="footer-heading"
+  >
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="w-[70%] px-2 py-8 lg:px-4 lg:pt-16">
+    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] px-2 py-8 lg:px-4 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <img src="../assets/Svg/Logo.svg"  />
+        <img src="../assets/Svg/Logo.svg" />
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
           <div class="grid grid-cols-3 gap-8">
             <div>
-
               <ul role="list" class="space-y-2 sm:text-[15px] text-[10px]">
-            <li class="font-light-custom text-[#EDEDEE]">Get in touch</li>
-                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.solutions" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="sm:text-[15px] text-[10px]  "
-                  >{{ item.name }}</a>
+                <li class="font-light-custom text-[#EDEDEE]">Get in touch</li>
+                <li
+                  class="font-light-custom text-[#ffffff]"
+                  v-for="item in navigation.solutions"
+                  :key="item.name"
+                >
+                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                    item.name
+                  }}</a>
                 </li>
               </ul>
             </div>
-            <div class=" md:mt-0 ">
+            <div class="md:mt-0">
               <ul role="list" class="space-y-2 sm:text-[15px] text-[10px]">
-                
-                <li class="font-light-custom text-[#EDEDEE]">Helpful resources</li>
-                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.support" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="sm:text-[15px] text-[10px]"
-                  >{{ item.name }}</a>
+                <li class="font-light-custom text-[#EDEDEE]">
+                  Helpful resources
+                </li>
+                <li
+                  class="font-light-custom text-[#ffffff]"
+                  v-for="item in navigation.support"
+                  :key="item.name"
+                >
+                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                    item.name
+                  }}</a>
                 </li>
               </ul>
             </div>
 
-            <div class=" md:mt-0">
-              <ul role="list" class="space-y-2 sm:text-[15px] text-[10px] ">
+            <div class="md:mt-0">
+              <ul role="list" class="space-y-2 sm:text-[15px] text-[10px]">
                 <li class="font-light-custom text-[#EDEDEE]">Investors</li>
-                <li class="font-light-custom text-[#ffffff]" v-for="item in navigation.legal" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="sm:text-[15px] text-[10px]"
-                  >{{ item.name }}</a>
+                <li
+                  class="font-light-custom text-[#ffffff]"
+                  v-for="item in navigation.legal"
+                  :key="item.name"
+                >
+                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                    item.name
+                  }}</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-3 border-t border-white/10 pt-4 md:flex md:items-center md:justify-between">
-        <div class="flex space-x-4 md:order-2 mt-6  ">
+      <div
+        class="mt-3 border-t border-white/10 pt-4 md:flex md:items-center md:justify-between"
+      >
+        <div class="flex space-x-4 md:order-2 mt-6">
           <a
             v-for="item in navigation.social"
             :key="item.name"
@@ -55,20 +69,34 @@
           >
             <span class="sr-only">{{ item.name }}</span>
             <!-- <component :is="item.icon" class="h-6 w-6 " aria-hidden="true" /> -->
-             <img class=" " :src="item.imageUrl" alt />
+            <img class=" " :src="item.imageUrl" alt />
           </a>
         </div>
-        <div class="flex items-center gap-4 flex-wrap md:top-0 mt-6 font-regular-custom text-[13px]">
-          <a href="#" class="text-[13px] text-white whitespace-nowrap">Privacy policy</a>
-          <a href="#" class="text-[13px] text-white whitespace-nowrap">Terms of use</a>
-          <a href="#" class="text-[13px] text-white whitespace-nowrap">Equal Pay policy</a>
-          <a href="#" class="text-[13px] text-white whitespace-nowrap">Modern Slavery policy</a>
-          <a href="#" class="text-[13px] text-white whitespace-nowrap">Equality & Diversity Policy</a>
+        <div
+          class="flex items-center gap-4 flex-wrap md:top-0 mt-6 font-regular-custom text-[13px]"
+        >
+          <a href="#" class="text-[13px] text-white whitespace-nowrap"
+            >Privacy policy</a
+          >
+          <a href="#" class="text-[13px] text-white whitespace-nowrap"
+            >Terms of use</a
+          >
+          <a href="#" class="text-[13px] text-white whitespace-nowrap"
+            >Equal Pay policy</a
+          >
+          <a href="#" class="text-[13px] text-white whitespace-nowrap"
+            >Modern Slavery policy</a
+          >
+          <a href="#" class="text-[13px] text-white whitespace-nowrap"
+            >Equality & Diversity Policy</a
+          >
         </div>
       </div>
       <p
         class="mt-20 py-3 leading-5 text-white md:order-1 font-regular-custom text-[11px] md:mt-0"
-      >&copy; Stef & Philips 2023 | Company Number: 05752211</p>
+      >
+        &copy; Stef & Philips 2023 | Company Number: 05752211
+      </p>
     </div>
   </footer>
 </template>
@@ -79,7 +107,7 @@ import { defineComponent, h } from "vue";
 const navigation = {
   solutions: [
     // { name: "Getting in touch", href: "#" },
-    // { name: "Report an issue", href: "#" },
+    { name: "Report an issue", href: "#" },
     { name: "Emergency contact", href: "#" },
     { name: "Contact", href: "#" },
     { name: "Press & media", href: "#" },
@@ -91,15 +119,14 @@ const navigation = {
     { name: "Downloads", href: "#" },
     { name: "Glossary of terms", href: "#" },
     { name: "FAQs", href: "#" },
-    { name: "Press & media", href: "#" }
-
+    { name: "Press & media", href: "#" },
   ],
   company: [
     { name: "About", href: "#" },
     { name: "Blog", href: "#" },
     { name: "Jobs", href: "#" },
     { name: "Press", href: "#" },
-    { name: "Partners", href: "#" }
+    { name: "Partners", href: "#" },
   ],
   legal: [
     // { name: "Investors", href: "#" },
@@ -108,15 +135,12 @@ const navigation = {
     { name: "Private investors", href: "#" },
     { name: "Corporate investors", href: "#" },
     { name: "Lettings valuation", href: "#" },
-
-
   ],
   social: [
     {
       name: "LinkedIn",
       href: "#",
-      imageUrl:
-    new URL("../assets/Svg/Linkedin.svg", import.meta.url).href,
+      imageUrl: new URL("../assets/Svg/Linkedin.svg", import.meta.url).href,
       // icon: defineComponent({
       //   render: () =>
       //     h("svg", { fill: "currentColor", viewBox: "0 0 24 24" }, [
@@ -132,8 +156,7 @@ const navigation = {
     {
       name: "Facebook",
       href: "#",
-       imageUrl:
-    new URL("../assets/Svg/Facebook.svg", import.meta.url).href,
+      imageUrl: new URL("../assets/Svg/Facebook.svg", import.meta.url).href,
       // icon: defineComponent({
       //   render: () =>
       //     h("svg", { fill: "currentColor", viewBox: "0 0 24 24" }, [
@@ -166,8 +189,7 @@ const navigation = {
     {
       name: "YouTube",
       href: "#",
-      imageUrl:
-      new URL("../assets/Svg/YouTube.svg", import.meta.url).href,
+      imageUrl: new URL("../assets/Svg/YouTube.svg", import.meta.url).href,
       // icon: defineComponent({
       //   render: () =>
       //     h("svg", { fill: "currentColor", viewBox: "0 0 24 24" }, [
@@ -183,8 +205,7 @@ const navigation = {
     {
       name: "Twitter",
       href: "#",
-      imageUrl:
-    new URL("../assets/Svg/Twitter.svg", import.meta.url).href,
+      imageUrl: new URL("../assets/Svg/Twitter.svg", import.meta.url).href,
       // icon: defineComponent({
       //   render: () =>
       //     h("svg", { fill: "currentColor", viewBox: "0 0 24 24" }, [
@@ -195,12 +216,6 @@ const navigation = {
       //     ])
       // })
     },
-    
-    
-  ]
+  ],
 };
 </script>
-<style>
-.font-xbold-custom {
-    font-family: aktiv grotesk;
-}</style>

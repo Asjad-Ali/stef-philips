@@ -1,12 +1,18 @@
 <template>
     <!-- Step 1 -->
-    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-      <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
-        <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+    <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
+      <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner">
+        <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+          <router-link to="home">Home</router-link>
+        </div>
         <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Help & advice</div>
+        <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+          <router-link to="help-and-advice">Help & advice</router-link>
+        </div>
         <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >National Helplines</div>
+        <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+          <router-link to="national-helplines">National Helplines</router-link>
+        </div>
       </nav>
     </div>
     <!-- Step 1 -->
@@ -167,7 +173,6 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;  
 opacity: 100%;
-margin-left: 1%;
 }
 
 .groupImg {
@@ -176,5 +181,14 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 position: absolute; 
+}
+
+.nav-bar-tranparent{
+  position: absolute;
+  opacity: 0.50;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
 }
 </style>

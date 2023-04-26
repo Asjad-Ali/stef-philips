@@ -1,111 +1,135 @@
 <template>
-  <!-- <div class="dropdown-content">
-              <router-link active-class="active" class="font-semibold text-sm" to="">FAQS</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Press & media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Community</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Housing partners</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Investors</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Media</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Generral</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Lettings valuation</router-link>
-              <router-link active-class="active" class="font-semibold text-sm" to="">Submitted</router-link>
-            </div> -->
-            <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
-    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
-      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+  <!-- Step 1 -->
+  <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
+    <nav
+      class="lg:w-[70%] xxxs:w-[75%] sm:w-[92%] mx-auto flex items-center justify-start gap-3 inner"
+    >
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="home">Home</router-link>
+      </div>
       <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Your home</div>
-
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="your-home">Your Home</router-link>
+      </div>
     </nav>
-  </div> 
-  <div class="lg:w-full min-h-[600px] bg-red-400 Bg">
-    <div class="w-full h-[600px] flex justify-center items-center manOverlayBg">
-      <div class="contentImg">
-      <div class="w-full h-[600px] flex justify-center items-center">
-        <div class="mx-auto w-[70%] ">
-          <h1 class="text-white w-[100%]">
-            <div class="font-light-custom text-[42px]">Your <strong>Home</strong></div>
+  </div>
+  <!-- Step 1 -->
+  <!-- Step 2 -->
+  <!-- 360 breakpoint last working check less than -->
+  <div class="w-full min-h-[500px] bg-red-400 bgImg">
+    <!-- class="w-full h-[460px] flex justify-center items-center"  -->
+    <div
+      class="lg:w-[70%] xxxs:w-[95%] sm:w-[75%] md:w-[93%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
+    >
+      <div
+        class="lg:w-[365px] xxs:w-[300px] sm:w-[400px] h-[auto] lg:ml-14px xxs:ml-[35px] sm:ml-[7px] p-10 contentImg"
+      >
+        <!-- <h1 class="text-white">
+          <div class="font-light-custom lg:text-[36px] xxs:text-[18px]">
+            Meet your Team
+          </div>
+        </h1> -->
+        <h1
+          class="font-light-custom lg:text-[36px] xxs:text-[18px] leading-none text-white content"
+        >
+          <span>Your </span>
+          <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
+            >home</span
+          >
+        </h1>
+        <p class="text-white mt-4 font-regular-custom text-[18px]">
+          Short Introductory summary for the page<br />goes here lilke so
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Step 2 -->
+
+  <!-- Step 3 -->
+  <div class="lg:pt-8 sm:pt-8 ml-[0.5rem] bg-[#F6F6F6]">
+    <div class="pb-10 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto">
+      <div class="text-center">
+        <div class="min-h-[230px] w-full px-1 text-left text-[#20407C]">
+          <h1
+            class="pt-4 lg:text-[36px] xxs:text-[18px] font-black-custom text-[#20407C]"
+          >
+            About your home
           </h1>
-          <p class="text-white font-regular-custom text-[18px] ">
-            “We are really proud to have become a leading provider of safe, secure accommodation for those who need it the
-            most.” <br> <strong>- Philip Philippou, Chairman</strong>
+          <p
+            class="xxxs:text-[12px] md:text-[18px] lg:text-[18px] font-regular-custom text-[#20407C] mt-4 mb-4"
+          >
+            Introduction around the types of accommodation, to get more detail,
+            please click<br />on whether you’re on temporary or PRS.. Copy to
+            include: we care about your<br />well-being, comfort etc. Find out
+            everything from check-in to check out, how to<br />manage your home,
+            utilities etc.
           </p>
         </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  <!-- step 2 -->
-  <div class=" py-28 min-h-[400px]">
-    <div class=" mx-auto w-[70%]">
-      <div class="text-[#20407C] text-[30px] font-black-custom">
-        About Your Home
-      </div>
-      <div class="py-6 text-[18px] font-regular-custom">
-        Introduction around the types of accommodation, to get more detail, please click on whether you’re on temporary or PRS.. Copy to include: we care about your well-being, comfort etc. Find out everything from check-in to check out, how to manage your home, utilities etc.
-      </div>
-    </div>
-    <div class="card flex items-start justify-content-between gap-5 w-full " >
-        <Card :message="card1" style="background-color:white;"/>
-    </div>
-  </div>
-  <Cards  :message="message" />
-  <!-- step 3 -->
-  <div class="bg-sky-50 py-28 min-h-[400px] bgImg1">
-    <div class=" mx-auto w-[70%]">
-      <div class="text-white text-[30px] font-black-custom">
-        You’re always fully supported
-      </div>
-      <p class="text-white font-regular-custom text-[18px] ">
-        Different areas of the business <br> Colloborative etc
-      </p>
-    </div>
-    <Cards :message="people"/>
-  </div>
-
-  <!-- step 4 -->
- 
-  <!-- step 5 -->
-  <div
-    class=" w-[70%] mx-auto py-20 xxs:py-10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
-  >
-    <div class=" mx-auto">
-      <h1 class="block py-4 font-light-custom md:text-[36px] xxs:text-[30px] text-third">
-        Out of hours
-        <span class="font-black-custom md:text-[36px] xxs:text-[28px]">emergencies</span>
-      </h1>
-      <p class="font-regular-custom text-[18px]">
-        Little into here, out of hours are Weekends, Bank Holidays and between
-        6pm - 7am daily
-      <br>
-        If it’s not urgent, the quickest way to report an issue and get it
-        fixed, is using <span class="text-primary font-bold-custom text-[18px]">our online form </span> now
-      </p>
-      <div class="flex flex-wrap md:gap-5 xxs:gap-1 pt-4">
-        <img class="lg:max-w-sm" src="../assets/Svg/PhoneIcon.svg" alt />
         <div
-          class="mt-8 text-third font-semibold font lg:text-4xl sm:text-2xl xxxs:text-md"
+          class="grid md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 xxs:grid-cols-1 gap-6"
         >
-          <pre class="font-black-custom text-[24px]">020 00000 000</pre>
+          <Yourhome :message="people" />
         </div>
       </div>
-
-      <button
-        type="button"
-        class="bg-trisec font-xbold-custom md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-      >
-        What is an emergencey
-      </button>
     </div>
   </div>
+
+  <!-- Step 3 end -->
+  <div class="pb-20 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto mt-20">
+    <div class="justify-center">
+      <div
+        class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
+      >
+        <Yourhome :message="peoplecards" />
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-image-update min-h-[450px] w-full">
+    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+      <div class="lg:py-20 xxxs:py-10">
+        <div class="lg:w-full">
+          <h1
+            class="lg:text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]"
+          >
+            <span class="font-black-custom lg:text-[32px] xxxs:text-[18px]"
+              >You’re always fully supported
+            </span>
+          </h1>
+          <!-- checck font-regular-custom is tailwind? -->
+          <p
+            class="text-[18px] text-white font-regular-custom mt-4pr-[8rem] mb-[18px]"
+          >
+            Different areas of the business<br />Colloborative etc
+          </p>
+        </div>
+        <div class="min-h-[300px] text-white w-full">
+          <div class="mx-auto w-full lg:py-10">
+            <div
+              class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
+            >
+              <Yourhome :message="yourValueCards" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 4 -->
+  <HourEmergencies />
+  <!-- Step 4 -->
 </template>
 
 <script setup>
-import YourHomeCard from "../components/YourHomeCards.vue";
-import Card from '../components/VerticalGreyCard.vue'
-import YourCard from "../components/YourCard.vue"
-import Cards from "../components/Cards.vue";
-import { Icon } from "@iconify/vue";
+import Yourhome from "../components/YourHomeCards.vue";
+import HourEmergencies from "../components/HourEmergencies.vue";
 import { useAppStore } from "../store/index";
 import { computed } from "vue";
 
@@ -113,99 +137,150 @@ const hover = useAppStore();
 const state = computed(() => {
   return hover.hover;
 });
-const message = [
+const people = [
+  {
+    name: "Temporary accommodation",
+    role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl: new URL("../assets/temp-card-1.png", import.meta.url).href,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    color: "bg-white",
+    buttonPadding: "pb-[2rem]",
+  },
+  {
+    name: "Private rented sector",
+    role: "Excerpt for the page goes in here like so loren ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    color: "bg-white",
+    buttonPadding: "pb-[2rem]",
+  },
+  // More people...
+];
+
+const peoplecards = [
   {
     name: "Report a repair or maintenance",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   btnName: "Report now"
+    imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340]",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding: "pb-[2rem]",
   },
   {
-    name: "Report Anti-social Behavior",
+    name: "Report anti-social behaviour",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-    btnName: "Report now"
+    imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340]",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding: "pb-[2rem]",
   },
   {
-    name: "Council tax or utilities",
+    name: "Need support with anything else",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/Svg/RectangularFlex.svg", import.meta.url).href,
-   btnName: "Report now"
-  }
+    imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340]",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding: "pb-[2rem]",
+  },
   // More people...
 ];
-const people = [
+
+const yourValueCards = [
   {
     name: "Meet your team",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/RectangularFlex.png", import.meta.url).href,
-    btnName: "Find out more"
+    imageUrl: new URL("../assets/temp-card-1.png", import.meta.url).href,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    button_url: "",
+    color: "bg-[#F0F7FE]",
+    buttonPadding: "pb-[2rem]",
   },
   {
     name: "FAQs",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/faqs1.png", import.meta.url).href,
-   btnName: "Find out more"
+    imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    button_url: "",
+    color: "bg-[#F0F7FE]",
+    buttonPadding: "pb-[2rem]",
   },
   {
     name: "Help in your home",
     role: "Short description excerpt here",
-    imageUrl:
-    new URL("../assets/home4.png", import.meta.url).href,
-   btnName: "Find out more"
-  }
+    imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    button_url: "",
+    color: "bg-[#F0F7FE]",
+    buttonPadding: "pb-[2rem]",
+  },
   // More people...
 ];
 </script>
 
 <style scoped>
-.Bg {
-  background-image: url("../assets/ManBg.png");
+.bgImg {
+  background-image: url("../assets/overlay-image-l.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.manOverlayBg {
-  background-image: url("../assets/Svg/ManOverlay.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.bgImg1
- {
-  background-image: url("../assets/homebackground.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* width: 1920px; */
-/* height: 600px; */
 }
 .contentImg {
-  background-image: url("../assets/outline-house@4.png");
+  /* background-image: url("../assets/outline-house@4.png"); */
   background-repeat: no-repeat;
-
   background-size: cover;
-  /* background-position: center; */
-  /* Path 543 */
-
-  /* position: absolute; */
-  width: 434px;
-  height: 452px;
-  margin-left: -40%;
-  /* margin-top: 5%; */
-  opacity: 90%;
+  background-position: center;
+  opacity: 100%;
+  /* height: 40%; */
+  background-color: #000126;
+  background-image: linear-gradient(-48deg, #000000 20%, #422418 55%);
 }
 
-.bgImg {
-  background-image: url("../assets/Background.png");
+.groupImg {
+  background-image: url("../assets/Group\ 96.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.nav-bar-tranparent {
+  position: absolute;
+  opacity: 1.5;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.bg-image-update {
+  background-image: url("../assets/you-always-Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 </style>
-

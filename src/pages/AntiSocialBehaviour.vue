@@ -1,82 +1,107 @@
 <template>
-<div class="h-[40px] w-full bg-[#707070]  flex justify-center ">
-    <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
-      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/home">Home</div>
+  <div
+    class="h-[40px] w-full bg-[#707070] flex justify-center nav-bar-tranparent"
+  >
+    <nav
+      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+    >
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="home">Home</router-link>
+      </div>
       <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/your-home">Your home</div>
-        <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Report an issue</div>
-        <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" to="/anti-social-behaviour">Anti-Social Behaviour</div>
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="your-home">Your Home</router-link>
+      </div>
+      <i class="pi pi-angle-right text-white"></i>
+
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="anti-social-behaviour"
+          >Anti-Social Behaviour</router-link
+        >
+      </div>
     </nav>
-  </div> 
-     <div class="mx-auto w-full  flex justify-center items-center mt-20 pb-10">
-<div  class=" w-[70%] mx-auto ">
-     
-<div  class="text-[42px] xxxs:text-[38px] text-[#20407c] font-black-custom">Anti-social behaviour</div> 
-<p class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3">Short introductory summary for the page goes here like so</p>
-</div>
-</div>
-<MoreInfo  />
-<YourDetails />
- <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-       <div class="w-[70%]">
+  </div>
+  <div class="mx-auto w-full flex justify-center items-center mt-20 pb-10">
+    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+      <div
+        class="lg:text-[42px] xxs:text-[20px] xxxs:text-[38px] text-[#20407c] font-black-custom"
+      >
+        Anti-social behaviour
+      </div>
+      <p
+        class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3"
+      >
+        Short introductory summary for the page goes here like so
+      </p>
+    </div>
+  </div>
+  <MoreInfo />
+  <YourDetails />
+  <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
+    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
       <p class="text-[#20407C] text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">Other way to report</span>   
+        <span class="text-[30px] font-black">Other way to report</span>
       </p>
       <Accordion :message="message" />
     </div>
   </div>
-
-
 </template>
 
-<style >
-.p-dropdown.p-component.p-inputwrapper.w-full{
-     border-radius: 6px;
+<style>
+.p-dropdown.p-component.p-inputwrapper.w-full {
+  border-radius: 6px;
 }
-.p-dropdown-label.p-inputtext.p-placeholder{
-     border-radius: 0;
+.p-dropdown-label.p-inputtext.p-placeholder {
+  border-radius: 0;
 }
-.p-inputtextarea.p-inputtext.p-component.w-full{
-     border-radius: 0;
+.p-inputtextarea.p-inputtext.p-component.w-full {
+  border-radius: 0;
 }
-.p-inputtext.p-component.my-4.w-full{
-     border-radius: 0;
+.p-inputtext.p-component.my-4.w-full {
+  border-radius: 0;
+}
+.nav-bar-tranparent {
+  position: absolute;
+  opacity: 1.5;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
 }
 </style>
 
-
-
-
 <script setup>
-import MoreInfo from '../components/MoreInfo.vue'
-import YourDetails from '../components/YourDetails.vue'
-import Accordion from '../components/Accordion.vue';
-
-
+import MoreInfo from "../components/MoreInfo.vue";
+import YourDetails from "../components/YourDetails.vue";
+import Accordion from "../components/Accordion.vue";
 
 const message = [
   {
     index: 0,
     header: "Call us",
     text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2:"Link call to action",
+    text2: "Link call to action",
   },
   {
     index: 1,
     header: "Emergency out of hours repairs",
     text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2:"Link call to action",
+    text2: "Link call to action",
   },
-   {
+  {
     index: 2,
     header: "Repair responsibilities",
     text: "Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2:"Link call to action",
+    text2: "Link call to action",
   },
-
 ];
-
-
 </script>

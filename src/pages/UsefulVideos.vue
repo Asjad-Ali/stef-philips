@@ -1,11 +1,17 @@
 <template>
     <div class="h-[40px] w-full bg-[#1D1D33] bl flex justify-center">
         <nav class="w-[70%] mx-auto flex items-center justify-start gap-3 inner  ">
-          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >Home</div>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="home">Home</router-link>
+          </div>
           <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px] dropbtn">Your home</div>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="your-home">Your Home</router-link>
+          </div>
             <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >News</div>
+            <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+              <router-link to="news">News</router-link>
+            </div>
         </nav>
       </div> 
 
