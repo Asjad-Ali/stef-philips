@@ -1,13 +1,21 @@
 <template>
-  <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+  <div class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent">
     <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
-      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="home">Home</router-link>
+      </div>
       <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px] dropbtn">About us</div>
-        <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">News</div>
-        <i class="pi pi-angle-right text-white"></i>
-        <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]" >News article</div>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="about-us">About us</router-link>
+      </div>
+      <i class="pi pi-angle-right text-white"></i>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="news">News</router-link>
+      </div>
+      <i class="pi pi-angle-right text-white"></i>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="news-article">News article</router-link>
+      </div>
     </nav>
   </div> 
   
@@ -290,6 +298,16 @@ const navigation = {
 </script>
 
 <style  scoped>
+
+.nav-bar-tranparent{
+  position: absolute;
+  opacity: 0.50;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
 .bgImg {
   background-image: url("../assets/Svg/Background4.svg");
   background-repeat: no-repeat;

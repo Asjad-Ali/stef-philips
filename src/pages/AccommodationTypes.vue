@@ -1,12 +1,18 @@
 <template>
     <div class>
-        <div class="h-[40px] w-full bg-[#707070] bl flex justify-center ">
+        <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
             <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
-                <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Home</div>
-                <i class="pi pi-angle-right text-white"></i>
-                <div active-class="active" class="text-white font-bold-custom text-[14px]">Housing partners</div>
-                <i class="pi pi-angle-right text-white"></i>
-                <div active-class="active" class="text-white font-bold-custom text-[14px]">Accommodation Types</div> 
+              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="home">Home</router-link>
+              </div>
+              <i class="pi pi-angle-right text-white"></i>
+              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="housing-partners">Housing partners</router-link>
+              </div>
+              <i class="pi pi-angle-right text-white"></i>
+              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="accommodation-types">Accommodation Types</router-link>
+              </div> 
             </nav>
         </div>
     
@@ -254,6 +260,16 @@
   </script>
   
   <style  scoped>
+
+
+.nav-bar-tranparent{
+  position: absolute;
+  opacity: 0.50;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
   .bcrumbs {
     background-color: rgba(29, 29, 51, 0.5)
   }
@@ -273,7 +289,6 @@
     background-size: cover;
     background-position: center;  
     opacity: 100%;
-    margin-left: 1%;
   }
   .groupImg {
     background-image: url("../assets/Group\ 96.png");

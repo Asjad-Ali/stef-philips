@@ -32,7 +32,7 @@
         <h1 class="text-[#20407C] font-light-custom text-[36px]">Reason they may  need to <span class="font-black-custom">enter your home</span></h1>
         <div class="grid md:grid-cols-3 gap-12 grid-cols-1 sm:grid-cols-2 mt-10">
           <div class>
-            <img src="../assets/Svg/pinkHouseM.svg" alt />
+            <!-- <img src="../assets/Svg/pinkHouseM.svg" alt /> -->
             <h1 class="py-4 text-[#20407C] font-black-custom text-[20px]">Icon feature</h1>
             <p
               class="text-[#1D1D33] font-regular-custom text-[18px]"
@@ -49,7 +49,7 @@
          
           </div>
           <div class>
-            <img src="../assets/Svg/PinkHouseM.svg" alt />
+            <!-- <img src="../assets/Svg/PinkHouseM.svg" alt /> -->
             <h1 class="py-4 text-[#20407C] font-black-custom text-[20px]">Icon feature</h1>
              <p
               class="text-[#1D1D33] font-regular-custom text-[18px]"
@@ -90,8 +90,9 @@
 <script setup>
 import HorizontalCardVue from "../components/HorizontalCard.vue"
 import YourCard from "../components/YourCard.vue"
+
     const card= { header:'The role of a',boldheader:'Field Worker', 
-    img:new URL('../assets/Svg/LeftUpCard.svg', import.meta.url).href,
+    img:new URL('../assets/Svg/RectangularFlex.svg', import.meta.url).href,
     paragraph:`Find out how to report a repair, how long it will`,
     paragraph2:"take and whether its your resposibility or ours"}
 

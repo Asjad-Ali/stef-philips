@@ -1,93 +1,159 @@
 <template>
-    <div class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center ">
-        <nav class="w-[70%] h-full mx-auto flex items-center justify-start gap-3 inner  ">
-            <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                Home</div>
-            <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Your home</div>
-            <i class="pi pi-angle-right text-white"></i>
-            <div active-class="active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">Tenant services
-            </div>
-        </nav>
-    </div>
-    <!-- section 1 -->
-    <div class="w-full min-h-[460px] bg-[url('src/assets/Svg/Image2.svg')] bg-cover bg-center bg-no-repeat  ">
-        <div class="w-full px-8 h-full py-40 mx-auto flex justify-center items-center">
-            <!-- <div class="contentImg">
-                <div class=" w-full h-[600px] flex justify-center items-center">
-                    <h1 class="text-[42px] text-white font-[300] mt-16">Tenant services</h1>
-                    <p class="text-[18px] text-white font-[400]">Short introductory summary for the page <br> goes here like
-                        so</p>
-                </div>
-            </div> -->
-            <div class="contentImg">
-      <div class="w-full h-[600px] flex justify-center items-center">
-        <div class="mx-auto w-[70%] mb-8">
-          <h1 class="text-white w-[100%]">
-            <div class="font-light-custom text-[32px]">Tenant <strong>Services</strong></div>
-          </h1>
-          <p class="text-white font-regular-custom text-[18px] ">
-            Short introductory summary for the page goes here like
-                        so
-          </p>
-        </div>
+  <div
+    class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center nav-bar-tranparent"
+  >
+    <nav
+      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+    >
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="home">Home</router-link>
+      </div>
+      <i class="pi pi-angle-right text-white"></i>
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="your-home">Your Home</router-link>
+      </div>
+      <i class="pi pi-angle-right text-white"></i>
+      <div
+        exact-active-class="exact-active"
+        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+      >
+        <router-link to="tenant-services">Tenant services</router-link>
+      </div>
+    </nav>
+  </div>
+  <!-- section 1 -->
+  <div class="w-full min-h-[460px] bgImg">
+    <div
+      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[93%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
+    >
+      <!-- mx-auto p-3 -->
+      <div
+        class="lg:w-[365px] xxs:w-[250px] h-[auto] lg:ml-14px xxs:ml-[7px] p-10 contentImg"
+      >
+        <!-- <h1 class="lg:text-[36px] xxs:text-[18px] text-white font-[300]">
+          Tenant services
+        </h1> -->
+        <h1
+          class="font-light-custom lg:text-[36px] xxs:text-[18px] leading-none text-white content mb-4"
+        >
+          <span>Tenant </span>
+          <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
+            >services</span
+          >
+        </h1>
+        <p class="text-[18px] text-white font-[400]">
+          Short introductory summary for the page <br />
+          goes here like so
+        </p>
       </div>
     </div>
-        </div>
+  </div>
+  <!-- section 2 -->
+  <div class="w-full min-h-[400px] p-3">
+    <div
+      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
+    >
+      <div class="card flex items-start justify-content-between gap-5 w-full">
+        <Card :message="card1" style="background-color: white" />
+      </div>
     </div>
-    <!-- section 2 -->
-    <div class="w-full min-h-[400px] p-3">
-        <div class=" w-[70%]  mx-auto py-14 flex flex-col justify-center">
-            <div class="card flex items-start justify-content-between gap-5 w-full ">
-                <Card :message="card1" style="background-color:white;" />
-            </div>
-        </div>
-        <div class=" w-[70%]  mx-auto py-14 flex flex-col justify-center">
-            <div class="card flex items-start justify-start mx-auto flex-wrap gap-2 w-full ">
-                <TenantCard :message="card2" />
-            </div>
-        </div>
-
-
-        <HorizontalCardVue :message="card3" />
-
-
-
-        <NeedHelp />
-
+    <div
+      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
+    >
+      <!--  -->
+      <div
+        class="card flex items-start justify-start mx-auto flex-wrap lg:gap-16 xxxs:gap-5 w-full"
+      >
+        <TenantCard :message="card2" />
+      </div>
     </div>
+
+    <HorizontalCardVue :message="card3" />
+
+    <NeedHelp />
+  </div>
 </template>
 <script setup>
-import Card from '../components/VerticalGreyCard.vue'
+import Card from "../components/VerticalGreyCard.vue";
 import NeedHelp from "../components/NeedHelp.vue";
-import TenantCard from '../components/TenantCard.vue';
-import HorizontalCardVue from '../components/HorizontalCard.vue';
-const card1 = [{ heading: 'Temporary accommodation', img: 'src/assets/CardImage2.png', bgclass: 'bg-[#ededee]' }, { heading: 'Private rented sector', img: 'src/assets/Svg/CardImage2.svg', bgclass: 'bg-[#ededee]' }]
-const card2 = [{ header: 'Managing your ', bold: 'utility bills', img: 'src/assets/Icon3.png' }, { header: 'Paying your ', bold: 'concil tax', img: 'src/assets/Icon4.png' }, { header: 'Paying your ', bold: 'rent', img: 'src/assets/Icon5.png' }]
-const card3 = { direction: 'rtl', img: 'src/assets/Svg/CardImage4.svg', header: 'Was your tenancy', boldheader: ' ? cancelled ', bgclass: 'bg-[#f0f7fe]', btn: ['Find my concil'], paragraph: '(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.', btnimg: 'src/assets/Svg/Path51.svg', b: true, flex: 'items-end' }
+import TenantCard from "../components/TenantCard.vue";
+import HorizontalCardVue from "../components/HorizontalCard.vue";
+const card1 = [
+  {
+    heading: "Temporary accommodation",
+    img: new URL("../assets/Svg/CardImage2.svg", import.meta.url).href,
+    bgclass: "bg-[#ededee]",
+  },
+  {
+    heading: "Private rented sector",
+    img: new URL("../assets/Svg/CardImage2.svg", import.meta.url).href,
+    bgclass: "bg-[#ededee]",
+  },
+];
+const card2 = [
+  {
+    header: "Managing your ",
+    bold: "utility bills",
+    img: new URL("../assets/Svg/Icon3.svg", import.meta.url).href,
+  },
+  {
+    header: "Paying your ",
+    bold: "concil tax",
+    img: new URL("../assets/Svg/Icon4.svg", import.meta.url).href,
+  },
+  { header: "Paying your ", bold: "rent", img: "src/assets/Svg/Icon5.svg" },
+];
+const card3 = {
+  direction: "rtl",
+
+  img: new URL("../assets/Svg/CardImage4.svg", import.meta.url).href,
+  header: "Was your tenancy",
+  boldheader: " ? cancelled ",
+  bgclass: "bg-[#f0f7fe]",
+  btn: ["Find my concil"],
+  paragraph:
+    "(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.",
+  btnimg: "src/assets/Svg/Path51.svg",
+  b: true,
+  flex: "items-end",
+};
 </script>
 <style>
-@media(max-width:750px) {
-    .card {
-        flex-wrap: wrap;
-    }
+.contentImg {
+  /* background-image: url("../assets/outline-house@4.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 100%;
+  /* height: 40%; */
+  background-color: #000126;
+  background-image: linear-gradient(-48deg, #000000 20%, #422418 55%);
+}
+@media (max-width: 750px) {
+  .card {
+    flex-wrap: wrap;
+  }
 }
 
-.contentImg {
-    background-image: url("../assets/outline-house@4.png");
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    /* background-position: center; */
-    /* Path 543 */
-
-    /* position: absolute; */
-    width: 434px;
-    height: 452px;
-    margin-left: -40%;
-    /* margin-top: 5%; */
-    opacity: 90%;
+.nav-bar-tranparent {
+  position: absolute;
+  opacity: 1.5;
+  background: #1d1d33;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+.bgImg {
+  background-image: url("../assets/overlay-image-l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 </style>
-Footer
-© 2023 GitHub, Inc.
+Footer © 2023 GitHub, Inc.

@@ -20,18 +20,18 @@
       <div class="w-[70%]">
         <div class="py-20">
           <div class=" flex gap-20 md:flex-nowrap flex-wrap items-center justify-center">
-            <div class="md:w-[45%] w-full ">
+            <div class="md:w-[35%] w-full ">
               <h1 class="leading-none text-trisec">
-                <span class="font-light-custom lg:text-[36px] text-[25px]">Our vision is to see<br><span
-                    class="font-black-custom lg:text-[36px] text-[25px]">a world without<br>homelessness</span></span>
+                <span class="font-light-custom text-[32px]">Our vision is to see<br><span
+                    class="font-black-custom text-[32px]">a world without<br>homelessness</span></span>
 
               </h1>
-              <p class="mt-3 font-regular-custom lg:text-[18px] text-[12px]">
+              <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
                 For over a decade, we have been working with local authorities, housing associations and charitable
                 organisations to help people all around the country get the housing help they need.</p>
-              <button type="button"
-                class="bg-[#20407C] h-[50x] w-[164px] py-4 px-12 font-xbold-custom text-[16px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">About
-                us</button>
+              <button type="button" class="bg-[#20407C] h-[50x] w-[154px] py-4 px-5 font-[400] text-[16px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+                <router-link to="/about-us">Hear our story</router-link>
+              </button>
             </div>
             <div class="flex justify-center md:w-[55%] w-full">
               <img src="../assets/Card_Image.png" alt>
@@ -46,75 +46,83 @@
 
     <!--  -->
 
-    <div class="bg-third min-h-[600px]  w-full ">
-    <div class="mx-auto w-[70%] position ">
-      <div class="w-full flex justify-center">
-        <div class="py-20 mt-8">
-          <div class=" grid md:grid-cols-2 grid-cols-1 gap-12 margin">
-            <div class="flex justify-center ">
-              <img src="../assets/copy1.png" alt />
-            <div class="houseflex-n">
-            <img src="../assets/copy2.png" alt />
-          </div>
+    <div class="min-h-[400px]  w-full bg-[#20407C]">
+        <div class="mx-auto w-[60%] ">
+            <div class="lg:py-26 xxxs:py-20">
+                <div class="lg:flex xl:flex">
+                    <div class="lg:w-[50%]">
+                        <!-- <img src="../assets/copy.png" alt /> -->
+                    </div>
+                    <div class="lg:w-[50%] pt-[11rem] ml-10">
+                        <h1 class="px-10 text-[32px] lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
+                        <span class="font-light-custom text-[36px] text-white">[Copy section - <br>what we do!]</span> 
+                        </h1>
+                        <p class="text-[18px] font-regular-custom mt-4 px-10 text-white">
+                          Really clear, you’re in the right place.
+                        </p>
+                    </div>
+                </div> 
             </div>
-            <div class="top-margin">
-              <!-- <h1 class=" mt-12 text-trisec leading-none ">
-                <span class="font-light-custom xl:text-[36px] text-[25px] ">Creating impact on<br>multiple levels,
-                  <strong>every</strong></span>
-                <span class="font-light-custom xl:text-[36px] text-[25px]"><br><strong>single day</strong></span>
-              </h1> -->
-              <h1 class="leading-none text-white top-margin ">
-                <span class="font-light-custom lg:text-[40px] text-[30px]">[Copy section -<br><span
-                    class="font-light-custom lg:text-[40px] text-[30px]"> what we do!]</span></span>
-
-              </h1>
-              <p class="mt-4 font-regular-custom xl:text-[18px] text-[15px] text-white left">
-                Really clear, you’re in the right place. </p>
-            </div>
-            
-          </div>
         </div>
-      </div>
     </div>
 
-  </div>
-    
-
-    <div class="flex justify-center bg-third py-48">
-      <div class="">
-        <div class="grid md:grid-cols-4 gap-12 grid-cols-1 sm:grid-cols-2 ">
-          <div class>
-            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">00 years</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            ><strong>Experience</strong> lorem ipsum <br> dolor sit amet, consectetur <br> adipiscing elit.</p>
-          </div>
-          <div class="top1">
-            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">000+</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            ><strong>Properties managed</strong> <br> lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
-          </div>
-          <div class>
-            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">60</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            ><strong>Local authorities</strong> lorem <br> ipsum dolor sit amet, <br> consectetur adipiscing <br>elitconsectetur adipisc.</p>
-          </div>
-          <div class="top2">
-            <h1 class="font-light-custom lg:text-[40px] text-[30px] text-white">00,000+</h1>
-            <p
-              class="text-white font-regular-custom text-[18px]"
-            ><strong>People housed</strong> lorem <br> ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
-          </div>
+    <div class="min-h-[600px]  w-full bg-image">
+        <div class="mx-auto w-[70%] ">
+            <div class="lg:py-26 xxxs:py-20 px-20">
+                <div class="lg:flex">
+                    <div class="lg:w-[50%]">
+                      <div class="lg:flex">
+                        <div class="lg:w-[50%] mt-[5rem]">
+                          <h1 class="px-5 text-[42px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
+                            <span class="font-light-custom text-[42px] text-white">00 years</span> 
+                          </h1>
+                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
+                            <span class="font-black-custom">Experience </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          </p>
+                          <img class="px-5" src="../assets/Keyline.png" alt />
+                        </div>
+                        <div class="lg:w-[50%] mt-[2rem]">
+                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
+                            <span class="font-light-custom text-[36px] text-white">000+</span> 
+                          </h1>
+                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
+                            <span class="font-black-custom">Properties managed </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          </p>
+                          <img class="px-5" src="../assets/Keyline.png" alt />
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="lg:w-[50%]">
+                      <div class="lg:flex">
+                        <div class="lg:w-[50%] mt-[3rem]">
+                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
+                            <span class="font-light-custom text-[36px] text-white">60</span> 
+                          </h1>
+                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
+                            <span class="font-black-custom">Local authorities  </span>lorem ipsum dolor sit amet, consectetur adipiscing elitconsectetur adipisc.
+                          </p>
+                          <img class="px-5" src="../assets/Keyline.png" alt />
+                        </div>
+                        <div class="lg:w-[50%]">
+                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
+                            <span class="font-light-custom text-[36px] text-white">00,000+</span> 
+                          </h1>
+                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
+                            <span class="font-black-custom">People housed </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          </p>
+                          <img class="px-5" src="../assets/Keyline.png" alt />
+                        </div>
+                      </div>
+                    </div>
+                </div> 
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="py-20 w-[70%] mx-auto">
-      <div class="grid bg-second md:grid-cols-2 grid-cols-1 ">
-        <div>
-          <img src="../assets/Background8.png" alt />
+    <div class="py-20 w-[960px] mx-auto h-[440px] mt-[3rem] mb-[12rem]">
+      <div class="grid bg-second md:grid-cols-2 grid-cols-1">
+        <div >
+          <img class="w-full"  src="../assets/Background8.png" alt />
         </div>
         <div class="flex items-center justify-center ">
           <div class="w-4/5 mt-6 md:mt-0 ">
@@ -137,28 +145,28 @@
     <div class="happyG w-full min-h-[700px] relative overflow-hidden ">
       <div class="absolute top-0 w-full h-full flex items-center justify-center left-0 happyS">
         <div class="w-[70%] mx-auto grid grid-cols-1">
-          <div class="max-w-lg">
-            <div class="">
+          <div class="ml-[3.5rem] w-full">
+            <div class="w-[50%] pr-10">
               <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white leading-none">
-                Striving to make the lives of vulnerable people
-                <span class="font-black-custom sm:text-[36px] text-[30px]">safer</span> and
+                Striving to make the lives<br>of vulnerable people
+                <span class="font-black-custom sm:text-[36px] text-[30px]">safer</span><br> and
                 <span class="font-black-custom sm:text-[36px] text-[30px]">more secure</span>
               </h1>
-              <p class="mt-4 text-white font-regular-custom sm:text-[18px] text-[12px]">We construct and manage
+              <p class="pr-5 mt-4 text-white font-regular-custom sm:text-[18px] text-[12px]">We construct and manage
                 fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing
                 crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
 
             <div class="flex xxs:flex-wrap xs:flex-nowrap items-center justify-center sm:justify-start gap-4">
-              <button type="button"
-                class="bg-transparent whitespace-nowrap ring-2 ring-white py-3.5 px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Tenants</button>
-              <button type="button"
-                class="bg-transparent ring-2 ring-white py-3.5 px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Housing
-                partners
+              <button type="button" class="h-[50px] w-[150px] mt-8 ring-2 ring-white text-[16px] text-white"> 
+                <router-link to="/tenant-services">Tenants</router-link>
               </button>
-              <button type="button"
-                class="bg-transparent ring-2 ring-white py-3.5 px-8 font-xbold-custom text-[16px] mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">For
-                Investors</button>
+              <button type="button" class="h-[50px] w-[200px] mt-8 ring-2 ring-white text-[16px] text-white">
+                <router-link to="/housing-partners">Housing partners </router-link>
+              </button>
+              <button type="button" class="h-[50px] w-[180px] mt-8 ring-2 ring-white text-[16px] text-white">
+                <router-link to="/investors">For Investors</router-link>
+              </button>
             </div>
           </div>
         </div>
@@ -172,7 +180,15 @@
 
     <NeedHelp />
 
-    <Cards :message="peopleM" />
+  <div class="pb-20 pt-3 w-[60%] mx-auto mt-20">
+    <div class="justify-center">
+      <div class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"> 
+        <Cards :message="peopleM"/>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <Cards :message="peopleM" /> -->
 
   </div>
 </template>
@@ -223,11 +239,16 @@ const peopleM = [
   {
     name: "Career",
     role: "Keen to join our team?",
-    imageUrl:
-      new URL("../assets/career.png", import.meta.url).href,
+    imageUrl: new URL("../assets/career.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#",
-    btnName: "Find out more"
+    btnName: "Find out more",
+    button_url: "/careers",
+    height: "h-auto",
+    width: "w-auto",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding:"pb-[2rem]"
   },
   {
     name: "News",
@@ -236,7 +257,13 @@ const peopleM = [
       new URL("../assets/news.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#",
-    btnName: "Report an issue"
+    btnName: "Report an issue",
+    button_url: "/news",
+    height: "h-auto",
+width: "w-auto",
+button_url: "",
+color: "bg-sky-50",
+buttonPadding:"pb-[2rem]"
 
   },
   {
@@ -246,22 +273,34 @@ const peopleM = [
       new URL("../assets/faqs.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#",
-    btnName: "Report now"
+    btnName: "Report now",
+    button_url: "/faqs",
+    height: "h-auto",
+width: "w-auto",
+button_url: "",
+color: "bg-sky-50",
+buttonPadding:"pb-[2rem]"
+
   }
   // More people...
 ];
 </script>
 
 <style  scoped>
+.bg-image {
+    background-image: url("../assets/bg-image-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
 .bcrumbs {
   background-color: rgba(29, 29, 51, 0.5)
 }
 
-.left{
-  margin-left: 10%;
-}
 .bgImg {
-  background-image: url("../assets/overlay-image-s.jpg");
+  background-image: url("../assets/home-bg-slider.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -269,35 +308,6 @@ const peopleM = [
 /* height: 600px; */
 }
 
-.top-margin{
-  margin-top: 15%;
-  margin-left: 10%;
-}
-
-.top1{
-  top: 10%;
-}
-
-.h3-margin{
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.margin{
-  margin-right: 95px;
-}
-
-.houseflex-n{
-  position: absolute;
-width: 430.9px;
-height: 480px;
-margin-left: 5%;
-    /* margin-bottom: 38%; */
-    top: 70px
-}
-
-.position{
-  position: relative;
-}
 .contentImg {
   background-image: url("../assets/sliderlogo.png");
   background-repeat: no-repeat;
@@ -308,9 +318,9 @@ margin-left: 5%;
 
   /* position: absolute; */
   width: 419.3px;
-  height: 437.9px;
-  opacity: 40%;
-  margin-left: 1%;
+  height: 456px;
+  opacity: 50%;
+  margin-left: 4rem;
 }
 .groupImg {
   background-image: url("../assets/Group\ 96.png");
@@ -322,6 +332,8 @@ margin-left: 5%;
   position: absolute;
 width: 409px;
 height: 425px;
+margin-left: 5rem;
+margin-top: 2rem;
 
   /* background: #2a8cff */
 }
