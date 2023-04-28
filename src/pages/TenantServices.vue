@@ -48,8 +48,7 @@
           >
         </h1>
         <p class="text-[18px] text-white font-[400]">
-          Short introductory summary for the page <br />
-          goes here like so
+          High-quality temporary, emergency and PRS accommodation across the UK.
         </p>
       </div>
     </div>
@@ -87,11 +86,14 @@ import HorizontalCardVue from "../components/HorizontalCard.vue";
 const card1 = [
   {
     heading: "Temporary accommodation",
-    img: new URL("../assets/Svg/CardImage2.svg", import.meta.url).href,
+    description: "Quality short-term accommodation for singles and families.",
+    img: new URL("../assets/YourHome/tenantkid.png", import.meta.url).href,
     bgclass: "bg-[#ededee]",
   },
   {
     heading: "Private rented sector",
+    description:
+      "Affordable, long-term housing solutions covering a wide range of needs.",
     img: new URL("../assets/Svg/CardImage2.svg", import.meta.url).href,
     bgclass: "bg-[#ededee]",
   },
@@ -100,25 +102,35 @@ const card2 = [
   {
     header: "Managing your ",
     bold: "utility bills",
-    img: new URL("../assets/Svg/Icon3.svg", import.meta.url).href,
+    description:
+      "Do you need help understanding or managing your utility bills?",
+    img: new URL("../assets/YourHome/tenantTap.png", import.meta.url).href,
   },
   {
     header: "Paying your ",
     bold: "concil tax",
-    img: new URL("../assets/Svg/Icon4.svg", import.meta.url).href,
+    description:
+      "Do you need help understanding your council tax responsibilities?",
+    img: new URL("../assets/YourHome/tenantBuildong.png", import.meta.url).href,
   },
-  { header: "Paying your ", bold: "rent", img: "src/assets/Svg/Icon5.svg" },
+  {
+    header: "Paying your ",
+    bold: "rent",
+    description:
+      "Do you need to pay rent? This may depend on the type of accommodation you’re in.",
+    img: new URL("../assets/YourHome/tenantReferal.png", import.meta.url).href,
+  },
 ];
 const card3 = {
   direction: "rtl",
 
-  img: new URL("../assets/Svg/CardImage4.svg", import.meta.url).href,
+  img: new URL("../assets/YourHome/tenacyCancelled.png", import.meta.url).href,
   header: "Was your tenancy",
   boldheader: " ? cancelled ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
-    "(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.",
+    "Housing partners are responsible for all tenancy cancellations. If you have any questions about this, you should contact them directly.",
   btnimg: "src/assets/Svg/Path51.svg",
   b: true,
   flex: "items-end",
@@ -150,7 +162,7 @@ const card3 = {
   color: #ffffff;
 }
 .bgImg {
-  background-image: url("../assets/overlay-image-l.jpg");
+  background-image: url("../assets/YourHome/tenantbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -18,9 +18,9 @@
             >
           </h1>
           <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
-            Simply click the link below and fill in the online form –
-            <span class="font-bold-custom">
-              this is the fastest way to get things sorted.</span
+            Use our quick online form.
+            <span class="font-bold-custom"
+              >The quickest way to report an issue and get it fixed.</span
             >
           </p>
           <div class="flex items-center gap-6 flex-wrap">
@@ -82,7 +82,7 @@
 
 <style scoped>
 .card-background {
-  background-color: pink;
+  /* background-color: pink; */
   padding: 20px 50px 20px 50px;
 }
 </style>

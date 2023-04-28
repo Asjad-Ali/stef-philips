@@ -37,7 +37,11 @@
       <p
         class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3"
       >
-        Short introductory summary for the page goes here like so
+        Are you having trouble understanding your council tax or utility bills
+        and/or applying for support? <br />Do you need to alert us to an issue
+        with a bill you’ve received? <br />
+        Our dedicated team is here to help you manage your bills – simply fill
+        in the form below.
       </p>
     </div>
   </div>

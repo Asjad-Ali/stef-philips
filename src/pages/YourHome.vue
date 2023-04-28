@@ -44,7 +44,8 @@
           >
         </h1>
         <p class="text-white mt-4 font-regular-custom text-[18px]">
-          Short Introductory summary for the page<br />goes here lilke so
+          Information and resources to ensure you feel happy and supported in
+          your home
         </p>
       </div>
     </div>
@@ -55,7 +56,9 @@
   <div class="lg:pt-8 sm:pt-8 ml-[0.5rem] bg-[#F6F6F6]">
     <div class="pb-10 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto">
       <div class="text-center">
-        <div class="min-h-[230px] w-full px-1 text-left text-[#20407C]">
+        <div
+          class="min-h-[230px] w-full px-1 text-left text-[#20407C] lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]"
+        >
           <h1
             class="pt-4 lg:text-[36px] xxs:text-[18px] font-black-custom text-[#20407C]"
           >
@@ -64,11 +67,11 @@
           <p
             class="xxxs:text-[12px] md:text-[18px] lg:text-[18px] font-regular-custom text-[#20407C] mt-4 mb-4"
           >
-            Introduction around the types of accommodation, to get more detail,
-            please click<br />on whether you’re on temporary or PRS.. Copy to
-            include: we care about your<br />well-being, comfort etc. Find out
-            everything from check-in to check out, how to<br />manage your home,
-            utilities etc.
+            At Stef & Philips, we want to help you thrive in your new home.
+            That’s why we have dedicated teams in place to provide all the
+            support you might need, whenever you need it. Scroll down to find
+            out more.
+            <br />
           </p>
         </div>
         <div
@@ -94,7 +97,7 @@
   <div class="bg-image-update min-h-[450px] w-full">
     <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-full">
+        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
           <h1
             class="lg:text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]"
           >
@@ -106,7 +109,8 @@
           <p
             class="text-[18px] text-white font-regular-custom mt-4pr-[8rem] mb-[18px]"
           >
-            Different areas of the business<br />Colloborative etc
+            We know moving into a new home can be stressful; our team is here to
+            help make things run as smoothly as possible.
           </p>
         </div>
         <div class="min-h-[300px] text-white w-full">
@@ -139,8 +143,8 @@ const state = computed(() => {
 });
 const people = [
   {
-    name: "Temporary accommodation",
-    role: "Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Temporary and Emergency accommodation",
+    role: "If you have become homeless or urgently need somewhere to live, you may be offered the opportunity to stay in temporary or emergency accommodation.",
     imageUrl: new URL("../assets/temp-card-1.png", import.meta.url).href,
     twitterUrl: "#",
     linkedinUrl: "#",
@@ -151,8 +155,8 @@ const people = [
     buttonPadding: "pb-[2rem]",
   },
   {
-    name: "Private rented sector",
-    role: "Excerpt for the page goes in here like so loren ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "Private rented sector (PRS) accommodation",
+    role: "PRS accommodation is affordable housing leased on an assured shorthold tenancy agreement, giving tenants the stability of knowing they will be living there for a longer period of time.",
     imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
     btnName: "Find out more",
     height: "h-auto",
@@ -166,8 +170,9 @@ const people = [
 const peoplecards = [
   {
     name: "Report a repair or maintenance",
-    role: "Short description excerpt here",
-    imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    // role: "Short description excerpt here",
+    imageUrl: new URL("../assets/YourHome/ReportRepair.png", import.meta.url)
+      .href,
     twitterUrl: "#",
     linkedinUrl: "#",
     btnName: "Report now",
@@ -179,7 +184,7 @@ const peoplecards = [
   },
   {
     name: "Report anti-social behaviour",
-    role: "Short description excerpt here",
+    // role: "Short description excerpt here",
     imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
     btnName: "Report now",
     height: "h-auto",
@@ -190,8 +195,9 @@ const peoplecards = [
   },
   {
     name: "Need support with anything else",
-    role: "Short description excerpt here",
-    imageUrl: new URL("../assets/Card-Image-2.png", import.meta.url).href,
+    // role: "Short description excerpt here",
+    imageUrl: new URL("../assets/YourHome/NeedSupport.png", import.meta.url)
+      .href,
     btnName: "Report now",
     height: "h-auto",
     width: "w-[340]",
@@ -205,8 +211,9 @@ const peoplecards = [
 const yourValueCards = [
   {
     name: "Meet your team",
-    role: "Short description excerpt here",
-    imageUrl: new URL("../assets/temp-card-1.png", import.meta.url).href,
+    role: "Every property has a team dedicated to making sure you feel safe and comfortable in your home.",
+    imageUrl: new URL("../assets/YourHome/SupportedCard1.png", import.meta.url)
+      .href,
     twitterUrl: "#",
     linkedinUrl: "#",
     btnName: "Find out more",
@@ -218,8 +225,9 @@ const yourValueCards = [
   },
   {
     name: "FAQs",
-    role: "Short description excerpt here",
-    imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
+    role: "Here’s where you can find answers to some of the most commonly asked questions.",
+    imageUrl: new URL("../assets/YourHome/SupportedCard2.png", import.meta.url)
+      .href,
     btnName: "Find out more",
     height: "h-auto",
     width: "w-auto",
@@ -228,9 +236,10 @@ const yourValueCards = [
     buttonPadding: "pb-[2rem]",
   },
   {
-    name: "Help in your home",
-    role: "Short description excerpt here",
-    imageUrl: new URL("../assets/temp-card-2.png", import.meta.url).href,
+    name: "Council tax & utilities",
+    role: "Need help understanding or managing your utility bills?",
+    imageUrl: new URL("../assets/YourHome/SupportedCard3.png", import.meta.url)
+      .href,
     btnName: "Find out more",
     height: "h-auto",
     width: "w-auto",
@@ -244,7 +253,7 @@ const yourValueCards = [
 
 <style scoped>
 .bgImg {
-  background-image: url("../assets/overlay-image-l.jpg");
+  background-image: url("../assets/YourHome/YourHomeBG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -255,9 +264,11 @@ const yourValueCards = [
   background-size: cover;
   background-position: center;
   opacity: 100%;
+  background: #1d1d33;
+  background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%);
   /* height: 40%; */
-  background-color: #000126;
-  background-image: linear-gradient(-48deg, #000000 20%, #422418 55%);
+  /* background-color: #000126;
+  background-image: linear-gradient(-48deg, #000000 20%, #422418 55%); */
 }
 
 .groupImg {

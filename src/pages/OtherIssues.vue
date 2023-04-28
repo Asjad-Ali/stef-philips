@@ -38,7 +38,9 @@
       <p
         class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3"
       >
-        Short introductory summary for the page goes here like so
+        Is there an issue with your home that doesn’t come under Repairs &
+        Maintenance <br />or Anti-Social Behaviour? Please provide as much
+        detail as possible in the <br />form below and we will look into it.
       </p>
     </div>
   </div>

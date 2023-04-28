@@ -37,7 +37,8 @@
         Out of hours emergencies
       </h1>
       <p class="text-[18px] text-[#1d1d33] font-regular-custom">
-        Short introductory summary for the page goes here like so
+        All emergencies will be fixed within 72 hours. Please report your <br />
+        emergency using the relevant section below.
       </p>
     </div>
   </div>
@@ -78,7 +79,7 @@
   </div>
 
   <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-20 xxs:py-10 bg-[#EC254E]/10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
+    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-20 xxs:py-10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
   >
     <div class="mx-auto">
       <h1
@@ -90,24 +91,23 @@
         >
       </h1>
       <p class="font-regular-custom text-[18px]">
-        Little into here, out of hours are Weekends, Bank Holidays and between
-        6pm - 7am daily
-      </p>
-      <br />
-      <p class="font-regular-custom text-[18px]">
-        If it’s not urgent, the quickest way to report an issue and get it
-        fixed, is using
+        If you are experiencing an emergency during out of hours (Weekends, Bank
+        Holidays and between 6pm-7am daily) and need assistance - the quickest
+        way to report and issue and get it fixed, is by using
         <span class="text-primary font-bold-custom text-[18px]"
           >our online form
         </span>
-        now
+        here
       </p>
       <div class="flex flex-wrap md:gap-5 xxs:gap-1 pt-4">
         <img class="lg:max-w-sm" src="../assets/phone.png" alt />
         <div
           class="mt-8 text-third font-semibold font lg:text-4xl sm:text-2xl xxxs:text-md"
         >
-          <pre class="font-black-custom text-[24px]">020 00000 000</pre>
+          <pre class="font-black-custom text-[24px]">
++44 (0) 20 8882 8372
+</pre
+          >
         </div>
       </div>
       <button
