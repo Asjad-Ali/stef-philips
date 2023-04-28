@@ -1,4 +1,5 @@
 <template>
+  <!-- breadCrum -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
       class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
@@ -35,6 +36,8 @@
       </div>
     </nav>
   </div>
+  <!-- breadCrum end -->
+  <!-- bg-image with card -->
   <div class="w-full min-h-[460px] bgImg">
     <div
       class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
@@ -44,102 +47,102 @@
         class="lg:w-[365px] xxs:w-[250px] h-[auto] lg:ml-14px xxs:ml-[7px] p-10 contentImg"
       >
         <h1 class="lg:text-[36px] xxs:text-[18px] text-white font-[300]">
-          Tenant services
+          <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
+            >Temporary and emergency
+          </span>
+          accommodation
         </h1>
         <p class="text-[18px] text-white font-[400]">
-          Short introductory summary for the page <br />
-          goes here like so
+          Quality short-term accommodation for singles and families
         </p>
       </div>
     </div>
   </div>
-  <!-- component -->
-  <HorizontalCardVue :message="card" />
-  <HorizontalCardVue :message="card2" />
-  <!-- component -->
-  <!-- step-3 -->
-  <div class="min-h-[400px] w-full bg-[#1d1d33] lg:py-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
-      <p class="text-white text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">Your</span> responsibility
-      </p>
+  <!-- bg-image with card end -->
 
-      <Accordion :message="message" />
-    </div>
+  <!-- component left right image section-->
+  <div class="w-full min-h-[400px] p-3">
+    <ImageCard :message="card" />
+    <ImageCard :message="card2" />
+    <ImageCard :message="card3" />
   </div>
+  <!-- component left right image section end-->
 
-  <!-- step-4 -->
-  <div class="w-full min-h-[400px] bg-[#20407C] lg:py-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
-      <p class="text-white text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">Stef & Philips’</span>
-        responsibility
-      </p>
-      <Accordion :message="nmessage" />
-    </div>
-  </div>
-
-  <!-- step 5 -->
-  <div class="min-h-[400px] w-full bg-[#1d1d33] lg:pt-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
-      <p class="text-white text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">Your local council’s</span>
-        responsibility
-      </p>
-      <Accordion :message="omessage" />
-    </div>
-  </div>
-  <!-- step 6 -->
-  <div class="min-h-[600px] w-full">
-    <div class="mx-auto lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
-      <div class="w-full flex justify-center">
-        <div class="lg:py-20 xxxs:py-10">
-          <div class="grid md:grid-cols-2 grid-cols-1 gap-12">
-            <div class="font-black lg:px-6 lg:py-40">
-              <h1 class="text-[36px] text-trisec">
-                <span class="font-light">During </span>your stay
-              </h1>
-              <p
-                class="text-[18] font-regular mt-4 leading-loose tracking-wide"
-              >
-                Paragraph style fusce laoreet lorem id consequat rhoncus.
-                Curabitur ultrices condimentum enim, id fringilla libero rutrum
-                vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus
-                odio. Quisque mauris nisi, cursus id dictum id, laoreet quis
-                libero.
-              </p>
-              <div class="w-full">
-                <button
-                  type="button"
-                  class="bg-[#2A8CFB] py-4 lg:px-11 xxxs:px-2 sm:px-1 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-                >
-                  Report a repair
-                </button>
-                <button
-                  type="button"
-                  class="bg-[#20407C] ml-5 py-4 px-11 text-sm font-semibold mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
-                >
-                  Your team
-                </button>
-              </div>
-            </div>
-            <div class="lg:py-20 xxxs:py-10 px-6">
-              <!-- svg image -->
-              <img src="../assets/Svg/ManHouseCard.svg" alt="" />
-              <!-- svg image -->
+  <!-- three cards without bg-image -->
+  <div class="min-h-[450px] w-full">
+    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+      <div class="lg:py-20 xxxs:py-10">
+        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+          <h1
+            class="mt-12 mb-6 text-trisec leading-[50px] font-semibold text-left"
+          >
+            <span
+              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              >Your responsibilities
+            </span>
+            <span
+              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              >as a service user</span
+            >
+          </h1>
+        </div>
+        <div class="min-h-[300px] text-white w-full">
+          <div class="mx-auto w-full lg:py-10">
+            <div
+              class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
+            >
+              <ThreeCard :message="ResponCard" />
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- step 7 -->
+  <!-- three cards without bg-image end-->
+
+  <!-- bg-image-with-threeCard -->
+  <div class="bg-image-update min-h-[450px] w-full">
+    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+      <div class="lg:py-20 xxxs:py-10">
+        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+          <h1
+            class="mt-12 mb-6 text-white leading-[50px] font-semibold text-left"
+          >
+            <span
+              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              >Support provided by your
+            </span>
+            <span
+              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              >housing partner
+            </span>
+          </h1>
+        </div>
+        <div class="min-h-[300px] text-white w-full">
+          <div class="mx-auto w-full lg:py-10">
+            <div
+              class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
+            >
+              <ThreeCard :message="ResponCard" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg-image-with-threeCard end -->
+
+  <!-- component left right image section-->
+
+  <div class="w-full min-h-[400px] p-3">
+    <ImageCard :message="sectionFourCard1" />
+    <ImageCard :message="sectionFourCard2" />
+    <ImageCard :message="sectionFourCard3" />
+  </div>
+  <!-- component left right image section end-->
+
+  <NeedHelp />
+  <!-- faq -->
   <div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-28 xxxs:py-16">
     <div
       class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
@@ -150,31 +153,105 @@
       <Accordion :message="pmessage" />
     </div>
   </div>
-  <!-- step 8 -->
-  <HorizontalCardVue :message="card3" />
-
-  <NeedHelp />
+  <!-- faq end -->
+  <HorizontalCardVue :message="card4" />
 </template>
 
 <script setup>
 import Accordion from "../components/Accordion.vue";
+import ThreeCard from "../components/TemoraryAccomdThreeCard.vue";
 import NeedHelp from "../components/NeedHelp.vue";
-
+import ImageCard from "../components/ImageCardTempAccom.vue";
 import HorizontalCardVue from "../components/HorizontalCard.vue";
+
+const ResponCard = [
+  {
+    name: "Paying council tax",
+    role: "Some service users are responsible for paying council tax, for the duration of time they spend in temporary or emergency accommodation. If this applies to you, the team at Stef & Philips can help advise you on how to pay your council tax bill and any discounts you may be eligible for.",
+    imageUrl: new URL(
+      "../assets/YourHome/YourResponsCard1.png",
+      import.meta.url
+    ).href,
+    height: "h-auto",
+    width: "w-auto",
+    color: "bg-[#F0F7FE]",
+  },
+  {
+    name: "Paying utility bills",
+    role: "Service users may be responsible for paying for utilities such as gas, water and electricity bills while staying in temporary or emergency accommodation. However, this varies depending on the property. When you move in, the Stef & Philips team will explain what your responsibilities are.",
+    imageUrl: new URL(
+      "../assets/YourHome/YourResponsCard2.png",
+      import.meta.url
+    ).href,
+    height: "h-auto",
+    width: "w-auto",
+    color: "bg-[#F0F7FE]",
+  },
+  {
+    name: "Paying rent",
+    role: "Service users may be responsible for paying for utilities such as gas, water and electricity bills while staying in temporary or emergency accommodation. However, this varies depending on the property. When you move in, the Stef & Philips team will explain what your responsibilities are.",
+    imageUrl: new URL(
+      "../assets/YourHome/YourResponsCard3.png",
+      import.meta.url
+    ).href,
+    btnName: "Find out more",
+    height: "h-auto",
+    width: "w-auto",
+    button_url: "",
+    color: "bg-[#F0F7FE]",
+    buttonPadding: "pb-[2rem]",
+  },
+  // More people...
+];
+const card = {
+  header: "What is",
+  boldheader: "temporary and emergency accommodation?",
+  img: new URL("../assets/YourHome/TempAcdCard1.png", import.meta.url).href,
+  paragraph:
+    " If you have become homeless or urgently need somewhere to live, you may be offered the opportunity to stay in temporary or emergency accommodation.",
+};
 const card2 = {
   direction: "rtl",
   header: "Moving in or out of",
   boldheader: " temporary accommodation",
-
-  img: new URL("../assets/Svg/LeftUpCard.svg", import.meta.url).href,
+  img: new URL("../assets/YourHome/TempAcdCard2.png", import.meta.url).href,
   paragraph:
-    " Everyone deserves to have a safe place to call home. Yet, the UK’shousing crisis is getting worse: homelessness in England is forecast to continue to grow – and almost double – over the next 25 years.",
+    "The team at Stef & Philips is there to make your move as easy as possible. Once your housing partner has allocated a place for you, we’ll show you around the property and make sure you understand where everything is and how it works: Paying particular attention to important matters, such as the smoke alarms and where you can find fire blankets in the event of an emergency. We’ll also explain your responsibilities as a service user.",
 };
-
-// const card3={direction:'rtl', img:new URL('../assets/Background.png', import.meta.url).href, header:'Was your tenancy', boldheader:' cancelled ?', bgclass:'bg-[#f0f7fe]',btn:['Find my concil'], paragraph:'(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.'}
 const card3 = {
+  header: "What is a",
+  boldheader: "housing partner?",
+  img: new URL("../assets/YourHome/TempAcdCard3.png", import.meta.url).href,
+  paragraph:
+    "This is the organisation responsible for finding you your accommodation; a housing partner could be your local authority/council, a housing association or a charity.",
+  btn: ["Report a repair"],
+  btn2: ["Your team"],
+};
+const sectionFourCard1 = {
+  header2: "and maintaining the property",
+  boldheader2: " Upkeeping",
+  img: new URL("../assets/YourHome/sectionFourImg1.png", import.meta.url).href,
+  paragraph:
+    " Stef & Philips’ team ensures properties are kept in good order. This includes fortnightly cleaning of communal areas inside properties, monthly upkeep of communal gardens, and annual gas and electrical safety checks.",
+};
+const sectionFourCard2 = {
   direction: "rtl",
-  img: new URL("../assets/Svg/CardImage4.svg", import.meta.url).href,
+  header2: "at the properties",
+  boldheader2: " Fixing issues",
+  img: new URL("../assets/YourHome/sectionFourImg2.png", import.meta.url).href,
+  paragraph:
+    "Our experienced maintenance team is always on hand to respond to emergency repairs and ongoing work. Issues will be fixed within 72 hours, routine work within 5 working days, and planned work within 5-10 days.",
+};
+const sectionFourCard3 = {
+  header: "Regular",
+  boldheader: " occupancy checks",
+  img: new URL("../assets/YourHome/sectionFourImg3.png", import.meta.url).href,
+  paragraph:
+    "This is the organisation responsible for finding you your accommodation; a housing partner could be your local authority/council, a housing association or a charity.",
+};
+const card4 = {
+  direction: "rtl",
+  img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
   header: "Was your tenancy",
   boldheader: " ? cancelled ",
   bgclass: "bg-[#f0f7fe]",
@@ -185,107 +262,6 @@ const card3 = {
   b: true,
   flex: "items-end",
 };
-
-const card = {
-  header: "What is",
-  boldheader: " temporary / emergency accommodation",
-  img: new URL("../assets/Svg/RightUpCard.svg", import.meta.url).href,
-  paragraph:
-    " Everyone deserves to have a safe place to call home. Yet, the UK’shousing crisis is getting worse: homelessness in England is forecast to continue to grow – and almost double – over the next 25 years.",
-};
-const message = [
-  {
-    index: 0,
-    header: "Our Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 1,
-    header: "Our Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 2,
-    header: "Our Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2: "Report an issue (if not urgent)",
-  },
-  {
-    index: 3,
-    header: "Our Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 4,
-    header: "Our Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-];
-const nmessage = [
-  {
-    index: 0,
-    header: "Your Respondibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 1,
-    header: "Your Respondibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 2,
-    header: "Your Respondibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2: "Report an issue (if not urgent)",
-  },
-  {
-    index: 3,
-    header: "Your Respondibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 4,
-    header: "Your Respondibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-];
-
-const omessage = [
-  {
-    index: 0,
-    header: "Council responsibility",
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 1,
-    header: "Council responsibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 2,
-    header: "Council responsibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-    text2: "Report an issue (if not urgent)",
-  },
-  {
-    index: 3,
-    header: "Council responsibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-  {
-    index: 4,
-    header: "Council responsibility",
-
-    text: " Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.",
-  },
-];
 const pmessage = [
   {
     index: 0,
@@ -321,12 +297,26 @@ const pmessage = [
 </script>
 
 <style scoped>
-.bgImg {
-  background-image: url("../assets/Svg/HeaderBackground.svg");
+.bg-image-update {
+  background-image: url("../assets/YourHome/housingPartnerBg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+.contentImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 100%;
+  background: #1d1d33;
+  background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%);
+}
+/* .bgImg {
+  background-image: url("../assets/Svg/HeaderBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
 
 .nav-bar-tranparent {
   position: absolute;
@@ -337,7 +327,7 @@ const pmessage = [
   color: #ffffff;
 }
 .bgImg {
-  background-image: url("../assets/overlay-image-l.jpg");
+  background-image: url("../assets/YourHome/tenantkid.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

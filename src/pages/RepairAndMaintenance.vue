@@ -40,7 +40,10 @@
       <p
         class="pt-4 lg:text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom"
       >
-        Short introductory summary for the page goes here like so
+        Need to report a repair or maintenance issue? Simply click on the
+        relevant picture below <br />
+        and complete the form underneath – it’s the fastest way to get things
+        fixed.
       </p>
     </div>
   </div>

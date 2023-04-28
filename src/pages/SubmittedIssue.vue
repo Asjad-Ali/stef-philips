@@ -40,6 +40,9 @@
       >
         Report submitted
       </h1>
+      <h3 class="font-bold-custom text-[18px] py-4 text-[#20407C]">
+        Ref: [S-FORCE ID]
+      </h3>
       <span class="font-bold-custom text-[18px] text-[#1D1D33]"
         >Thank you for submitting your report.</span
       >
