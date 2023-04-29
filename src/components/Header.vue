@@ -6,7 +6,7 @@
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5); /*Adds a drop shadow*/
   z-index: 1;
-  border-radius: 2%;
+  /* border-radius: 2%; */
 }
 
 .dropdown-content:after {
@@ -184,17 +184,17 @@
     </div>
 
     <div
-      class="h-[5rem] w-full bg-gradient-to-r from-[#20407c] to-[#20407c] bl"
+      class="h-[5rem] w-full bg-gradient-to-r from-[#20407c] to-[#20407c] bl hidden sm:block"
     >
       <nav
-        class="lg:w-[70%] xxxs:w-[98%] sm:w-[96%] h-full mx-auto flex items-center justify-right inner"
+        class="lg:w-[70%] xxxs:w-[98%] sm:w-[96%] h-full mx-auto flex items-center justify-around inner pr-[35px]"
       >
         <router-link
           active-class="active"
-          class="lg:ml-[0px] lg:mr-[10px] sm:ml-[10px] sm:mr-[8px] xxxs:ml-[7px] xxxs:mr-[7px] text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
+          class="lg:ml-[0px] lg:mr-[10px] sm:ml-[10px] sm:mr-[8px] xxxs:ml-[7px] xxxs:mr-[7px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
           to="/about-us"
         >
-          <span>
+          <span class="font-bold-custom">
             About us
             <nav class="about-dropdown dropdown-content">
               <router-link
@@ -232,10 +232,10 @@
 
         <router-link
           exact-active-class="exact-active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm dropdown-h h-full flex justify-center items-center font-x-bold"
+          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm dropdown-h h-full flex justify-center items-center font-x-bold lg:text-[18px] sm:text-[16px]"
           to="/your-home"
         >
-          <span
+          <span class="font-bold-custom"
             >Your home
             <nav class="home-dropdown dropdown-content">
               <!-- <router-link
@@ -318,10 +318,10 @@
         </router-link>
         <router-link
           active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
+          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
           to="/help-and-advice"
         >
-          <span
+          <span class="font-bold-custom"
             >Help & advice
             <nav class="about-dropdown help-dropdown dropdown-content">
               <router-link
@@ -336,10 +336,10 @@
 
         <router-link
           active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
+          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
           to="/housing-partners"
         >
-          <span
+          <span class="font-bold-custom"
             >Housing partners
             <nav class="about-dropdown housing-dropdown dropdown-content">
               <router-link
@@ -390,10 +390,10 @@
 
         <router-link
           active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
+          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
           to="/investors"
         >
-          <span
+          <span class="font-bold-custom"
             >Investors
             <nav class="about-dropdown investor-dropdown dropdown-content">
               <router-link
@@ -420,17 +420,17 @@
 
         <router-link
           active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold"
+          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] font-bold-custom"
           to="careers"
           >Careers</router-link
         >
 
         <router-link
           active-class="active"
-          class="lg:mx-[15px] sm:mx-[5px] text-white text-sm font-x-bold dropdown h-full flex justify-center items-center"
+          class="lg:mx-[15px] sm:mx-[5px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
           to="/contact"
         >
-          <span
+          <span class="font-bold-custom"
             >Contact
             <nav class="about-dropdown contact-dropdown dropdown-content">
               <router-link
@@ -536,11 +536,13 @@ label #open,
 #cancel {
   float: right;
 }
-
+.font-bold-custom {
+  font-weight: bold !important;
+}
 .font-x-bold {
   font-family: "aktiv-grotesk-std", sans-serif;
   src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-XBold.ttf");
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 .dropdown-h:hover .home-dropdown {
   display: block;
@@ -828,6 +830,22 @@ label #open,
 @media (max-width: 400px) {
   .inner a {
     font-size: 9px;
+  }
+}
+/* .container{
+   margin-left:auto;
+   margin-right:auto;
+   position:relative;
+} */
+@media (min-width: 1200px) {
+  .nav-large-screen {
+    /* background-color: red; */
+    /* max-width: 1060px !important; */
+    /* justify-content: space-evenly; */
+    /* max-width: 1065px !important; */
+  }
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
   }
 }
 </style>

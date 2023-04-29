@@ -136,7 +136,12 @@ const card3 = {
   flex: "items-end",
 };
 </script>
-<style>
+<style scoped>
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 .contentImg {
   /* background-image: url("../assets/outline-house@4.png"); */
   background-repeat: no-repeat;

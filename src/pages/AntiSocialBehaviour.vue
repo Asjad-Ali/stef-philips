@@ -62,6 +62,11 @@
 </template>
 
 <style>
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 .p-dropdown.p-component.p-inputwrapper.w-full {
   border-radius: 6px;
 }

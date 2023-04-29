@@ -252,6 +252,11 @@ const yourValueCards = [
 </script>
 
 <style scoped>
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 .bgImg {
   background-image: url("../assets/YourHome/YourHomeBG.png");
   background-repeat: no-repeat;

@@ -297,6 +297,11 @@ const pmessage = [
 </script>
 
 <style scoped>
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 .bg-image-update {
   background-image: url("../assets/YourHome/housingPartnerBg.png");
   background-repeat: no-repeat;
