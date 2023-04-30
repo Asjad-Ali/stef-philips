@@ -4,10 +4,10 @@
       <Accordion :activeIndex="2" v-for="items in props.message" :key="items">
         <AccordionTab
           :header="items.header"
-          class="font-black-custom lg:text-[18px] text-[#20407c]"
+          class="font-black-custom font-bold lg:text-[18px] text-[#20407c]"
           color="white"
         >
-          <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+          <p class="text-[18px] font-regular-custom text-custom-color">
             {{ items.text }}
           </p>
           <p class="font-black-custom text-[18px] text-[#2a8cfb] py-8">
@@ -25,10 +25,14 @@ let count = 0;
 const props = defineProps(["message"]);
 </script>
 <style>
+.text-custom-color {
+  color: #1d1d33;
+}
 .p-accordion-header-text {
   color: #20407c;
   font-size: 18px;
   font-weight: 900;
+  font-family: "Black", sans-serif;
 }
 .p-accordion-toggle-icon {
   position: absolute;
@@ -39,6 +43,14 @@ const props = defineProps(["message"]);
 .p-accordion .p-accordion-header .p-accordion-header-link {
   background-color: white !important;
   height: 60px;
+  padding: 1rem 1rem 1rem 2rem;
+  border: 1px solid #dee2e6;
+  color: #495057;
+  background: #f8f9fa;
+  font-weight: 900 !important;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  font-size: 18px;
 }
 .p-accordion .pi {
   color: #2a8cfb;

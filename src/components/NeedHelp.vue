@@ -1,6 +1,6 @@
 <template>
   <div
-    class="py-20 lg:w-[70%] xxxs:w-[100%] sm:w-[65%] lg:h-[230px] xxxs:h-[420px] sm:h-[200px] mt-[3rem] mb-[15rem] mx-auto"
+    class="lg:w-[70%] xxxs:w-[100%] sm:w-[65%] lg:h-[230px] xxxs:h-[420px] sm:h-[200px] mt-[3rem] mb-[15rem] mx-auto"
   >
     <div class="md:grid-cols-2 grid-cols-2">
       <div class=""></div>

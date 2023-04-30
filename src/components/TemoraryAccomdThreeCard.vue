@@ -12,7 +12,7 @@
     <div class="flex flex-col justify-between">
       <div class="py-4 px-6">
         <h3
-          class="mt-0 lg:text-[18px] font-black-custom text-left text-[#20407C]"
+          class="mt-0 lg:text-[20px] font-black-custom text-left text-[#20407C]"
         >
           {{ person.name }}
         </h3>

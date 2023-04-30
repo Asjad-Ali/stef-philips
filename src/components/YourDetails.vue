@@ -1,7 +1,7 @@
 <template>
   <div class="pt-11 pb-24 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
     <h1
-      class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom"
+      class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom mb-5"
     >
       Your details
     </h1>
@@ -11,7 +11,10 @@
           <label
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-            >Your full name <sup style="color: red">*</sup></label
+            >Your full name
+            <sup style="color: red; position: inherit; margin-left: 3px"
+              >*</sup
+            ></label
           >
         </div>
         <InputText
@@ -25,7 +28,10 @@
           <label
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-            >Property address line 1<sup style="color: red">*</sup></label
+            >Property address line 1<sup
+              style="color: red; position: inherit; margin-left: 3px"
+              >*</sup
+            ></label
           >
         </div>
         <InputText
@@ -39,7 +45,10 @@
           <label
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-            >Property address line 2 <sup style="color: red">*</sup></label
+            >Property address line 2
+            <sup style="color: red; position: inherit; margin-left: 3px"
+              >*</sup
+            ></label
           >
         </div>
         <InputText
@@ -54,7 +63,10 @@
             <label
               for="username"
               class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-              >Town / city <sup style="color: red">*</sup></label
+              >Town / city
+              <sup style="color: red; position: inherit; margin-left: 3px"
+                >*</sup
+              ></label
             >
           </div>
           <InputText
@@ -68,7 +80,10 @@
             <label
               for="username"
               class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-              >Postcode<sup style="color: red">*</sup></label
+              >Postcode<sup
+                style="color: red; position: inherit; margin-left: 3px"
+                >*</sup
+              ></label
             >
           </div>
           <InputText
@@ -83,7 +98,10 @@
           <label
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-            >Email address<sup style="color: red">*</sup></label
+            >Email address<sup
+              style="color: red; position: inherit; margin-left: 3px"
+              >*</sup
+            ></label
           >
         </div>
         <InputText
@@ -95,7 +113,10 @@
       <div>
         <label
           class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-          >Contact Number <sup style="color: red">*</sup></label
+          >Contact Number
+          <sup style="color: red; position: inherit; margin-left: 3px"
+            >*</sup
+          ></label
         >
       </div>
       <InputText

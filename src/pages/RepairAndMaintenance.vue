@@ -1,27 +1,27 @@
 <template>
   <div
-    class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent"
+    class="h-[40px] w-full breadCrum-bg bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="home">Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="your-home">Your Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="repairs-and-maintenance"
           >Repairs & maintenance</router-link
@@ -30,7 +30,7 @@
     </nav>
   </div>
   <!-- -->
-  <div class="w-full leading-snug">
+  <div class="w-full leading-snug lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]">
     <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] min-h-[100px] mx-auto">
       <h1
         class="lg:text-[42px] xxs:text-[20px] text-[#20407c] font-black-custom mt-16"
@@ -38,7 +38,7 @@
         Repairs & maintenance
       </h1>
       <p
-        class="pt-4 lg:text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom"
+        class="pt-4 lg:text-[18px] xxs:text-[16px] font-custom-color font-regular-custom font-custom-color"
       >
         Need to report a repair or maintenance issue? Simply click on the
         relevant picture below <br />
@@ -54,7 +54,7 @@
     <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] flex flex-col">
       <div class="flex">
         <h1
-          class="font-black-custom lg:text-[30px] xxs:text-[20px] mt-12 text-trisec"
+          class="font-black-custom lg:text-[30px] xxs:text-[20px] mt-12 text-[#20407C]"
         >
           Please click on the relevant picture
         </h1>
@@ -62,7 +62,7 @@
       <div class="pt-2">
         <span class="p-input-icon-right">
           <InputText
-            class="p-inputtext lg:text-[18px] xxs:text-[14px] font-xbold-custom text-[#1D1D33]"
+            class="p-inputtext lg:text-[18px] xxs:text-[14px]"
             v-model="value1"
             placeholder="What is the issue?"
           />
@@ -99,7 +99,7 @@
           class="font-black-custom text-[18px] text-[#20407c]"
           color="white"
         >
-          <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+          <p class="text-[18px] font-regular-custom font-custom-color">
             Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur
             ultrices condimentum enim, id fringilla libero rutrum vel. Sed
             efficitur risus eu imperdiet auctor. Mauris non dapibus odio.
@@ -110,7 +110,7 @@
           header="Emergency out of hours repairs"
           class="font-black-custom text-[18px] text-[#20407c]"
         >
-          <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+          <p class="text-[18px] font-regular-custom font-custom-color">
             Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur
             ultrices condimentum enim, id fringilla libero rutrum vel. Sed
             efficitur risus eu imperdiet auctor. Mauris non dapibus odio.
@@ -121,7 +121,7 @@
           header="Repair responsibilities"
           class="font-black-custom text-[18px] text-[#20407c]"
         >
-          <p class="text-[18px] font-regular-custom text-[#1d1d33]">
+          <p class="text-[18px] font-regular-custom font-custom-color">
             Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur
             ultrices condimentum enim, id fringilla libero rutrum vel. Sed
             efficitur risus eu imperdiet auctor. Mauris non dapibus odio.
@@ -196,10 +196,12 @@ const message = [
 ];
 </script>
 <style>
-@media (min-width: 1200px) {
-  .lg\:w-\[70\%\] {
-    max-width: 1140px;
-  }
+.font-custom-color {
+  color: #1d1d33 !important;
+}
+
+.breadCrum-bg {
+  background-color: #1d1d33 !important;
 }
 .nav-bar-tranparent {
   position: absolute;
@@ -211,12 +213,19 @@ const message = [
 }
 .p-inputtext {
   background-color: #f0f7fe;
-  border: 2px solid #4d6896;
+  border: 2px;
+  border-color: rgba(34, 66, 122, 0.8);
   border-radius: 25px;
   padding-left: 10px;
 }
 .p-inputtext::placeholder {
-  color: #1d1d33;
+  font-size: 18px;
+  font-weight: normal;
+  /* line-height: 26px; */
+  /* font-style: normal; */
+  /* text-align: left; */
+  color: lightgrey !important;
+  /* color: red !important; */
 }
 .pi::before {
   padding-right: 8px;
@@ -237,6 +246,11 @@ const message = [
 }
 .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link {
   margin-top: 8px;
+}
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
 }
 @media (max-width: 500px) {
   .emergency {

@@ -18,12 +18,12 @@
               v-if="props.message.header"
             >
               <span
-                class="font-light-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px] mr-2"
+                class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mr-2"
                 >{{ props.message.header }}</span
               >
               <br v-if="props.message.b == true" />
               <span
-                class="font-black-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px]"
+                class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
                 >{{ props.message.boldheader }}</span
               >
             </h1>
@@ -32,11 +32,11 @@
               v-if="props.message.header2"
             >
               <span
-                class="font-black-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px] mr-2"
+                class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mr-2"
                 >{{ props.message.boldheader2 }}</span
               >
               <span
-                class="font-light-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px]"
+                class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
                 >{{ props.message.header2 }}</span
               >
             </h1>

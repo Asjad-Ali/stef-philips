@@ -18,12 +18,12 @@
               v-if="props.message.header"
             >
               <span
-                class="font-light-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px]"
+                class="font-light-custom lg:text-[24px] xxxs:text-[18px] sm:text-[20px]"
                 >{{ props.message.header }}</span
               >
               <br v-if="props.message.b == true" />
               <span
-                class="font-black-custom lg:text-[42px] xxxs:text-[23px] sm:text-[30px]"
+                class="font-black-custom lg:text-[24px] xxxs:text-[18px] sm:text-[20px]"
                 >{{ props.message.boldheader }}</span
               >
             </h1>

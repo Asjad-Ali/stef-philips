@@ -56,7 +56,7 @@
     <div class="w-full flex justify-center upper-nav">
       <div class="h-[6.25rem] lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] nav">
         <div class="h-full flex items-center justify-between wrap">
-          <router-link class="nav-link" to="/home">
+          <router-link class="nav-link pl-[10px]" to="/home">
             <img
               class="LogoM"
               src="../assets/Svg/HeaderLogo.svg"
@@ -268,12 +268,12 @@
                 to="/tax-council"
                 >Council tax and utilities</router-link
               >
-              <router-link
+              <!-- <router-link
                 active-class="active"
                 class="font-semibold text-sm"
                 to="/submitted-issue"
                 >Submitted</router-link
-              >
+              > -->
 
               <router-link
                 active-class="active"
@@ -718,7 +718,7 @@ label #open,
     display: none;
   }
   .upper-nav {
-    background: #1d1d33;
+    background: #1d1d33 !important;
     height: 5.5rem;
   }
   .mobile-search-icon {

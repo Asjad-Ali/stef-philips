@@ -1,7 +1,7 @@
 <template>
   <div class="pt-11 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
     <h1
-      class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom"
+      class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom mb-[2rem]"
     >
       More Information
     </h1>
@@ -11,7 +11,7 @@
       Select the option that best describes your issue
     </p>
     <p
-      class="lg:text-[18px] xxxs:text-[15px] text-[#1D1D33] font-regular-custom lg:mt-3 lg:mb-3 xxxs:mt-1 xxxs:mb-1"
+      class="lg:text-[18px] xxxs:text-[15px] text-custom-color font-regular-custom lg:mt-3 lg:mb-3 xxxs:mt-1 xxxs:mb-1"
     >
       Select one
     </p>
@@ -20,17 +20,17 @@
       inputId="dd-city"
       :options="cities"
       optionLabel="name"
-      placeholder="select..."
+      placeholder="Select..."
       class="w-full lg:max-w-[632px] min-h-[50px]"
     />
 
     <p
-      class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] font-black-custom mt-11"
+      class="lg:text-[18px] xxxs:text-[16px] text-[#20407C] font-black-custom mt-16"
     >
       Please describe the issue
     </p>
     <p
-      class="lg:text-[18px] xxxs:text-[16px] text-[#1D1D33] font-regular-custom mt-3"
+      class="lg:text-[18px] xxxs:text-[16px] text-custom-color font-regular-custom mt-2"
     >
       Be as detailed as possible
     </p>
@@ -46,7 +46,7 @@
       Upload any supporting images or documents that may be helpful
     </p>
     <p
-      class="lg:text-[18px] xxxs:text-[16px] text-[#1D1D33] font-regular-custom mt-3"
+      class="lg:text-[18px] xxxs:text-[16px] text-custom-color font-regular-custom mt-3"
     >
       Maximum file size 3MB
     </p>
@@ -134,6 +134,9 @@ const chooseFile = [
 <style>
 .p-dropdown {
   border: 0.16rem solid #20407c;
+  border-radius: 0px !important;
+  border-color: rgba(34, 66, 122, 0.8) !important;
+  border-radius: 0px;
 }
 .p-dropdown .p-dropdown-trigger {
   background-color: #20407c;
@@ -143,9 +146,12 @@ const chooseFile = [
 .p-dropdown .pi {
   display: inline-block;
   color: white;
+  margin-left: 8px;
+  font-weight: bold;
 }
 .p-dropdown .p-dropdown-label.p-placeholder {
-  color: #20407c;
+  padding-top: 9px !important;
+  color: black !important;
   border-color: #20407c;
   background: #e1efff;
   font-size: 18px;
@@ -157,5 +163,8 @@ const chooseFile = [
 }
 .p-button.p-fileupload-choose .pi {
   display: none;
+}
+.text-custom-color {
+  color: #1d1d33 !important;
 }
 </style>

@@ -8,12 +8,12 @@
     <div class="flex flex-col justify-between h-[288px]">
       <div class="py-4 px-6">
         <h3
-          class="mt-0 lg:text-[18px] font-black-custom text-left text-[#20407C]"
+          class="mt-0 lg:text-[20px] font-black-custom text-left text-[#20407C]"
         >
           {{ person.name }}
         </h3>
         <p
-          class="text-[18px] font-regular-custom text-[#20407C] text-left mt-2"
+          class="text-[18px] font-regular-custom custom-text-color text-left mt-2"
         >
           {{ person.role }}
         </p>
@@ -57,3 +57,8 @@
 <script setup>
 const props = defineProps(["message"]);
 </script>
+<style scoped>
+.custom-text-color {
+  color: #1d1d33 !important;
+}
+</style>

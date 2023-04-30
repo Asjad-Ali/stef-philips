@@ -1,33 +1,35 @@
 <template>
   <div
-    class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent"
+    class="h-[40px] w-full breadCrum-bg bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="home">Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="your-home">Your home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="tax-council">Tax Council and Utilities</router-link>
       </div>
     </nav>
   </div>
-  <div class="w-full flex justify-center items-center mt-20">
+  <div
+    class="w-full flex justify-center items-center lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]"
+  >
     <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
       <div
         class="lg:text-[42px] xxs:text-[20px] xxxs:text-[38px] text-[#20407c] font-black-custom"
@@ -35,7 +37,7 @@
         Council tax and utilities
       </div>
       <p
-        class="text-[18px] xxs:text-[16px] text-[#1d1d33] font-regular-custom mt-3"
+        class="lg:text-[18px] xxs:text-[16px] font-custom-color font-regular-custom mt-3"
       >
         Are you having trouble understanding your council tax or utility bills
         and/or applying for support? <br />Do you need to alert us to an issue
@@ -50,7 +52,7 @@
   <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
     <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
       <p class="text-[#20407C] pb-6">
-        <span class="text-[25px] font-black-custom">Other ways to report</span>
+        <span class="text-[30px] font-black-custom">Other ways to report</span>
       </p>
       <Accordion :message="message" />
     </div>
@@ -84,10 +86,8 @@ const message = [
 </script>
 
 <style>
-@media (min-width: 1200px) {
-  .lg\:w-\[70\%\] {
-    max-width: 1140px;
-  }
+.breadCrum-bg {
+  background-color: #1d1d33 !important;
 }
 .nav-bar-tranparent {
   position: absolute;
@@ -96,5 +96,13 @@ const message = [
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+}
+.font-custom-color {
+  color: #1d1d33 !important;
+}
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
 }
 </style>
