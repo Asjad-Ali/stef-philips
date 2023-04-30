@@ -2,7 +2,9 @@
 
 
 <div v-for="person in props.message" :key="person.name"  :class="[person.height, person.width, person.color]">
-        <img class="h-50 w-full object-cover" :src="person.imageUrl" alt />
+        <div class="card-img h-[170px]">
+          <img class="h-full w-full object-cover" :src="person.imageUrl" alt />
+        </div>
         <div class="flex flex-col justify-between h-[288px]">
           <div class="py-4 px-6 ">
             <h3 class=" mt-0 text-[18px] font-black-custom text-left text-[#20407C]" >{{ person.name }}</h3>

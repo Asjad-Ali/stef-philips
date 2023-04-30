@@ -129,15 +129,22 @@
 
 
 .wrapper {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-  html {
-    font-size: 14px;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
 }
+html {
+  font-size: 14px;
+}
+
+.containaer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* 
 body {
     font-family: var(--font-family);

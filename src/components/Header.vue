@@ -24,8 +24,7 @@
   border-right: solid 15px transparent; /* Creates triangle effect */
 }
 
-.dropdown-content a {
-  float: none;
+.navbar-menu .nav-link a .dropdown-content a {
   color: #333;
   padding: 12px 16px;
   text-decoration: none;
@@ -49,14 +48,42 @@
 .shiftx-leave-to {
   transform: translateX(100px);
 }
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu .nav-link a {
+  display: inline-block;
+}
+
+.navbar-menu .nav-link:not(:last-child) {
+  margin-right: 8px;
+}
+
+.navbar-menu .nav-link:not(:first-child) {
+  margin-left: 8px;
+}
+
+@media (min-width: 1199px) {
+  .navbar-menu .nav-link:not(:last-child) {
+    margin-right: 22px;
+  }
+
+  .navbar-menu .nav-link:not(:first-child) {
+    margin-left: 22px;
+  }
+}
+
 </style>
 
 <template>
   <div>
     <div class="w-full flex justify-center upper-nav">
-      <div class="h-[6.25rem] lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] nav">
+      <div class="container h-[6.25rem] nav">
         <div class="h-full flex items-center justify-between wrap">
-          <router-link class="nav-link pl-[10px]" to="/home">
+          <router-link class="nav-link" to="/home">
             <img
               class="LogoM"
               src="../assets/Svg/HeaderLogo.svg"
@@ -183,307 +210,320 @@
       </div>
     </div>
 
-    <div
-      class="h-[5rem] w-full bg-gradient-to-r from-[#20407c] to-[#20407c] bl hidden sm:block"
-    >
-      <nav
-        class="lg:w-[70%] xxxs:w-[98%] sm:w-[96%] h-full mx-auto flex items-center justify-around inner pr-[35px]"
-      >
-        <router-link
-          active-class="active"
-          class="lg:ml-[0px] lg:mr-[10px] sm:ml-[10px] sm:mr-[8px] xxxs:ml-[7px] xxxs:mr-[7px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
-          to="/about-us"
-        >
-          <span class="font-bold-custom">
-            About us
-            <nav class="about-dropdown dropdown-content">
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/community"
-                >Community</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/meet-the-team"
-                >Meet The Team
-              </router-link>
-              <div class="dropdown-1 p-splitbutton cutom">
-                <router-link
-                  class="p-button-label font-semibold text-sm"
-                  to="/news"
-                  >News</router-link
-                >
-                <div class="pi pi-chevron-right">
-                  <nav class="news-dropdown">
+    <div class="w-full bg-gradient-to-r from-[#20407c] to-[#20407c] bl hidden sm:block">
+      <nav class="container">
+        <div class="navbar-menu">
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm py-9 lg:text-[18px] sm:text-[16px] dropdown"
+              to="/about-us">
+              <span class="font-Medium-custom">
+                About us
+                <nav class="about-dropdown dropdown-content">
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/community"
+                    >Community</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/meet-the-team"
+                    >Meet The Team
+                  </router-link>
+                  <div class="dropdown-1 p-splitbutton cutom">
                     <router-link
-                      active-class="active"
-                      class="font-semibold text-sm"
-                      to="/news-article"
-                      >News Article
-                    </router-link>
-                  </nav>
-                </div>
-              </div>
-            </nav>
-          </span>
-        </router-link>
-
-        <router-link
-          exact-active-class="exact-active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm dropdown-h h-full flex justify-center items-center font-x-bold lg:text-[18px] sm:text-[16px]"
-          to="/your-home"
-        >
-          <span class="font-bold-custom"
-            >Your home
-            <nav class="home-dropdown dropdown-content">
-              <!-- <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/quick-report"
-                >Quick report</router-link
-              > -->
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/repair-and-maintenance"
-                >Repair & maintenance</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/anti-social-behaviour"
-                >Anti-social behaviour</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/other-issues"
-                >Other issues</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/tax-council"
-                >Council tax and utilities</router-link
-              >
-              <!-- <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/submitted-issue"
-                >Submitted</router-link
-              > -->
-
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/hours-emergency"
-                >Out of hours emergencies</router-link
-              >
-              <div class="dropdown-1 p-splitbutton cutom">
-                <router-link
-                  active-class="active"
-                  class="p-button-label font-semibold text-sm"
-                  to="tenant-services"
-                  >Tenant services</router-link
-                >
-                <div class="pi pi-chevron-right dropdown-1">
-                  <nav class="news-dropdown">
-                    <div class="dropdown-2 p-splitbutton cutom">
-                      <router-link
-                        active-class="active"
-                        class="p-button-label font-semibold text-sm"
-                        to="/temporary-accomodation"
-                        >Temporary accomodation</router-link
-                      >
+                      class="p-button-label font-semibold text-sm"
+                      to="/news"
+                      >News</router-link
+                    >
+                    <div class="pi pi-chevron-right">
+                      <nav class="news-dropdown">
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="/news-article"
+                          >News Article
+                        </router-link>
+                      </nav>
                     </div>
+                  </div>
+                </nav>
+              </span>
+            </router-link>
+          </div>
+
+          <div class="nav-link">
+            <router-link
+              exact-active-class="exact-active"
+              class="text-white text-sm dropdown-h py-9 lg:text-[18px] sm:text-[16px]"
+              to="/your-home"
+            >
+              <span class="font-Medium-custom"
+                >Your home
+                <nav class="home-dropdown dropdown-content">
+                  <!-- <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/quick-report"
+                    >Quick report</router-link
+                  > -->
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/repair-and-maintenance"
+                    >Repair & maintenance</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/anti-social-behaviour"
+                    >Anti-social behaviour</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/other-issues"
+                    >Other issues</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/tax-council"
+                    >Council tax and utilities</router-link
+                  >
+                  <!-- <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/submitted-issue"
+                    >Submitted</router-link
+                  > -->
+
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/hours-emergency"
+                    >Out of hours emergencies</router-link
+                  >
+                  <div class="dropdown-1 p-splitbutton cutom">
                     <router-link
                       active-class="active"
-                      class="font-semibold text-sm"
-                      to="prs"
-                      >PRS</router-link
+                      class="p-button-label font-semibold text-sm"
+                      to="tenant-services"
+                      >Tenant services</router-link
                     >
-                  </nav>
-                </div>
-              </div>
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="home-meetTheTeam"
-                >Meet your team</router-link
-              >
-            </nav>
-          </span>
-        </router-link>
-        <router-link
-          active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
-          to="/help-and-advice"
-        >
-          <span class="font-bold-custom"
-            >Help & advice
-            <nav class="about-dropdown help-dropdown dropdown-content">
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/national-helplines"
-                >National helplines</router-link
-              >
-            </nav>
-          </span>
-        </router-link>
+                    <div class="pi pi-chevron-right dropdown-1">
+                      <nav class="news-dropdown">
+                        <div class="dropdown-2 p-splitbutton cutom">
+                          <router-link
+                            active-class="active"
+                            class="p-button-label font-semibold text-sm"
+                            to="/temporary-accomodation"
+                            >Temporary accomodation</router-link
+                          >
+                        </div>
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="prs"
+                          >PRS</router-link
+                        >
+                      </nav>
+                    </div>
+                  </div>
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="home-meetTheTeam"
+                    >Meet your team</router-link
+                  >
+                </nav>
+              </span>
+            </router-link>
+          </div>
 
-        <router-link
-          active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
-          to="/housing-partners"
-        >
-          <span class="font-bold-custom"
-            >Housing partners
-            <nav class="about-dropdown housing-dropdown dropdown-content">
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/temporary-accommodation"
-                >Temporary accommodation</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/housing-partners-prs"
-                >PRS</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/accommodation-types"
-                >Accommodation types</router-link
-              >
-              <div class="dropdown-1 p-splitbutton cutom">
-                <router-link
-                  active-class="active"
-                  class="p-button-label font-semibold text-sm"
-                  to="our-projects"
-                  >Our Projects</router-link
-                >
-                <div class="pi pi-chevron-right dropdown-1">
-                  <nav class="news-dropdown">
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown py-9"
+              to="/help-and-advice"
+            >
+              <span class="font-Medium-custom"
+                >Help & advice
+                <nav class="about-dropdown help-dropdown dropdown-content">
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/national-helplines"
+                    >National helplines</router-link
+                  >
+                </nav>
+              </span>
+            </router-link>
+          </div>
+
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown py-9"
+              to="/housing-partners"
+            >
+              <span class="font-Medium-custom"
+                >Housing partners
+                <nav class="about-dropdown housing-dropdown dropdown-content">
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/temporary-accommodation"
+                    >Temporary accommodation</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/housing-partners-prs"
+                    >PRS</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/accommodation-types"
+                    >Accommodation types</router-link
+                  >
+                  <div class="dropdown-1 p-splitbutton cutom">
                     <router-link
                       active-class="active"
-                      class="font-semibold text-sm"
-                      to="project-template"
-                      >Project Template</router-link
+                      class="p-button-label font-semibold text-sm"
+                      to="our-projects"
+                      >Our Projects</router-link
                     >
-                    <router-link
-                      active-class="active"
-                      class="font-semibold text-sm"
-                      to="where-we-operate"
-                      >Where we Operate</router-link
-                    >
-                  </nav>
-                </div>
-              </div>
-            </nav>
-          </span>
-        </router-link>
+                    <div class="pi pi-chevron-right dropdown-1">
+                      <nav class="news-dropdown">
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="project-template"
+                          >Project Template</router-link
+                        >
+                        <router-link
+                          active-class="active"
+                          class="font-semibold text-sm"
+                          to="where-we-operate"
+                          >Where we Operate</router-link
+                        >
+                      </nav>
+                    </div>
+                  </div>
+                </nav>
+              </span>
+            </router-link>
+          </div>
 
-        <router-link
-          active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
-          to="/investors"
-        >
-          <span class="font-bold-custom"
-            >Investors
-            <nav class="about-dropdown investor-dropdown dropdown-content">
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/corporate-investors"
-                >Corporate investors
-              </router-link>
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/private-investors"
-                >Private Investor</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/landlords"
-                >Landlords
-              </router-link>
-            </nav>
-          </span>
-        </router-link>
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm lg:text-[18px] sm:text-[16px] dropdown py-9"
+              to="/investors"
+            >
+              <span class="font-Medium-custom"
+                >Investors
+                <nav class="about-dropdown investor-dropdown dropdown-content">
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/corporate-investors"
+                    >Corporate investors
+                  </router-link>
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/private-investors"
+                    >Private Investor</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/landlords"
+                    >Landlords
+                  </router-link>
+                </nav>
+              </span>
+            </router-link>
+          </div>
 
-        <router-link
-          active-class="active"
-          class="lg:mx-[15px] sm:mx-[8px] xxxs:mx-[3px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] font-bold-custom"
-          to="careers"
-          >Careers</router-link
-        >
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm lg:text-[18px] sm:text-[16px] font-Medium-custom py-9"
+              to="careers"
+              >Careers
+            </router-link>
+          </div>
 
-        <router-link
-          active-class="active"
-          class="lg:mx-[15px] sm:mx-[5px] text-white text-sm font-x-bold lg:text-[18px] sm:text-[16px] dropdown h-full flex justify-center items-center"
-          to="/contact"
-        >
-          <span class="font-bold-custom"
-            >Contact
-            <nav class="about-dropdown contact-dropdown dropdown-content">
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/faqs"
-                >FAQs</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm"
-                to="/press-&-media"
-                >Press & media</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/contact-community"
-                >Community</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/contact-housing-partners"
-                >Housing partners</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/investors"
-                >Investors</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/general"
-                >General</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/lettings-valuation"
-                >Lettings valuation</router-link
-              >
-              <router-link
-                active-class="active"
-                class="font-semibold text-sm text-[20px]"
-                to="/contact-submitted"
-                >Submitted</router-link
-              >
-            </nav>
-          </span>
-        </router-link>
+          <div class="nav-link">
+            <router-link
+              active-class="active"
+              class="text-white text-sm lg:text-[18px] sm:text-[16px] dropdown py-9"
+              to="/contact"
+            >
+              <span class="font-Medium-custom"
+                >Contact
+                <nav class="about-dropdown contact-dropdown dropdown-content">
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/faqs"
+                    >FAQs</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm"
+                    to="/press-&-media"
+                    >Press & media</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/contact-community"
+                    >Community</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/contact-housing-partners"
+                    >Housing partners</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/investors"
+                    >Investors</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/general"
+                    >General</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/lettings-valuation"
+                    >Lettings valuation</router-link
+                  >
+                  <router-link
+                    active-class="active"
+                    class="font-semibold text-sm text-[20px]"
+                    to="/contact-submitted"
+                    >Submitted</router-link
+                  >
+                </nav>
+              </span>
+            </router-link>
+          </div>
+        </div>
+        
       </nav>
     </div>
   </div>
@@ -536,14 +576,7 @@ label #open,
 #cancel {
   float: right;
 }
-.font-bold-custom {
-  font-weight: bold !important;
-}
-.font-x-bold {
-  font-family: "aktiv-grotesk-std", sans-serif;
-  src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-XBold.ttf");
-  /* font-size: 18px; */
-}
+
 .dropdown-h:hover .home-dropdown {
   display: block;
   margin-top: 27px;

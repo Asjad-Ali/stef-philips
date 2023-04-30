@@ -1,10 +1,7 @@
 <template>
-  <footer
-    class="bg-second flex justify-center"
-    aria-labelledby="footer-heading"
-  >
+  <footer class="bg-second flex justify-center" aria-labelledby="footer-heading" >
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] px-2 py-8 lg:px-4 lg:pt-16">
+    <div class="container px-2 py-8 lg:px-4 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <img src="../assets/Svg/Logo.svg" />
         <div class="mt-16 grid gap-8 xl:col-span-2 xl:mt-0">
