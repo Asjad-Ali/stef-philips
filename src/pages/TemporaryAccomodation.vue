@@ -121,7 +121,7 @@
             <div
               class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
             >
-              <!-- <ThreeCard :message="ResponCard" /> -->
+              <ThreeCard :message="ResponCard" />
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@ const card4 = {
   direction: "rtl",
   img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
   header: "?Was your tenancy",
-  boldheader: " cancelled ",
+  boldheader: " cancelled  ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
