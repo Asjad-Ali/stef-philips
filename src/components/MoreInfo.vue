@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-11 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+  <div class="pt-11 container mx-auto">
     <h1
       class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom mb-[2rem]"
     >

@@ -3,7 +3,7 @@
     class="h-[40px] w-full breadCrum-bg bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -31,7 +31,7 @@
   </div>
   <!-- -->
   <div class="w-full leading-snug lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]">
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] min-h-[100px] mx-auto">
+    <div class="container min-h-[100px] mx-auto">
       <h1
         class="lg:text-[42px] xxs:text-[20px] text-[#20407c] font-black-custom mt-16"
       >
@@ -51,7 +51,7 @@
   <!-- -->
 
   <div class="w-full mx-auto flex justify-center">
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] flex flex-col">
+    <div class="container flex flex-col">
       <div class="flex">
         <h1
           class="font-black-custom lg:text-[30px] xxs:text-[20px] mt-12 text-[#20407C]"
@@ -87,7 +87,7 @@
 
   <!-- -->
   <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
+    <div class="container">
       <h1
         class="lg:text-[30px] xxs:text-[20px] text-[#20407c] font-black-custom pb-10"
       >
@@ -224,6 +224,8 @@ const message = [
   border-color: rgba(34, 66, 122, 0.8);
   border-radius: 25px;
   padding-left: 10px;
+  color: #1d1d33 !important;
+  opacity: 0.5;
 }
 .p-inputtext::placeholder {
   font-size: 18px;
@@ -231,7 +233,7 @@ const message = [
   /* line-height: 26px; */
   /* font-style: normal; */
   /* text-align: left; */
-  color: rgb(185, 176, 176) !important;
+  /* color: rgb(185, 176, 176) !important; */
   /* color: red !important; */
 }
 .pi::before {
@@ -254,11 +256,11 @@ const message = [
 .p-accordion .p-accordion-tab .p-accordion-header .p-accordion-header-link {
   margin-top: 8px;
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .lg\:w-\[70\%\] {
     max-width: 1140px;
   }
-}
+} */
 @media (max-width: 500px) {
   .emergency {
     font-size: 26px;

@@ -1,7 +1,7 @@
 <template>
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent bg-nav">
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%]] mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -27,9 +27,7 @@
   </div>
 
   <div class="w-full min-h-[460px] bgImg-custom">
-    <div
-      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <!-- mx-auto p-3 -->
       <div
         class="lg:w-[480px] xxs:w-[250px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[2rem] sm:p-[2rem] xxs:p-[2rem] contentImg"
@@ -51,7 +49,7 @@
     <HorizontalCardVue :message="card2" />
     <HorizontalCardVue :message="card3" />
   </div>
-  <div class="pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto mt-7">
+  <div class="pt-3 container mx-auto mt-7">
     <h1 class="text-trisec leading-[50px] font-semibold text-left mb-[4rem]">
       <span
         class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mr-2"

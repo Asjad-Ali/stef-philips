@@ -2,7 +2,7 @@
   <!-- breadCrum -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -39,9 +39,7 @@
   <!-- breadCrum end -->
   <!-- bg-image with card -->
   <div class="w-full min-h-[460px] bgImg">
-    <div
-      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <!-- mx-auto p-3 -->
       <div
         class="lg:w-[480px] xxs:w-[250px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[2rem] sm:p-[2rem] xxs:p-[2rem] contentImg"
@@ -70,9 +68,9 @@
 
   <!-- three cards without bg-image -->
   <div class="min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="mt-12 mb-6 text-trisec leading-[50px] font-semibold text-left"
           >
@@ -102,9 +100,9 @@
 
   <!-- bg-image-with-threeCard -->
   <div class="bg-image-update min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[69%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="mt-12 mb-6 text-white leading-[50px] font-semibold text-left"
           >
@@ -123,7 +121,7 @@
             <div
               class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
             >
-              <ThreeCard :message="ResponCard" />
+              <!-- <ThreeCard :message="ResponCard" /> -->
             </div>
           </div>
         </div>
@@ -144,9 +142,7 @@
   <NeedHelp />
   <!-- faq -->
   <div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
+    <div class="container mx-auto flex flex-wrap items-center">
       <p class="text-[#20407C] lg:text-[30px] font-light pb-6">
         <span class="text-[30px] font-black">During your stay FAQs</span>
       </p>
@@ -254,8 +250,8 @@ const sectionFourCard3 = {
 const card4 = {
   direction: "rtl",
   img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " cancelled ? ",
+  header: "?Was your tenancy",
+  boldheader: " cancelled ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:

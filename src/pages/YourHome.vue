@@ -2,7 +2,7 @@
   <!-- Step 1 -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[92%] mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -24,9 +24,7 @@
   <!-- 360 breakpoint last working check less than -->
   <div class="w-full min-h-[500px] bg-red-400 bgImg">
     <!-- class="w-full h-[460px] flex justify-center items-center"  -->
-    <div
-      class="lg:w-[70%] xxxs:w-[95%] sm:w-[75%] md:w-[93%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <div
         class="lg:w-[480px] xxs:w-[300px] sm:w-[400px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[5rem] sm:p-[3rem] xxs:p-[2rem] contentImg"
       >
@@ -54,7 +52,7 @@
 
   <!-- Step 3 -->
   <div class="lg:pt-8 sm:pt-8 ml-[0.5rem] bg-[#F6F6F6]">
-    <div class="pb-10 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto">
+    <div class="pb-10 pt-3 container mx-auto">
       <div class="text-center">
         <div
           class="min-h-[230px] w-full px-1 text-left text-[#20407C] lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]"
@@ -84,7 +82,7 @@
   </div>
 
   <!-- Step 3 end -->
-  <div class="pb-20 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto mt-20">
+  <div class="pb-20 pt-3 container mx-auto mt-20">
     <div class="justify-center">
       <div
         class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
@@ -97,7 +95,7 @@
   <div class="bg-image-update min-h-[450px] w-full">
     <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="lg:text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]"
           >
@@ -114,7 +112,7 @@
           </p>
         </div>
         <div class="min-h-[300px] text-white w-full">
-          <div class="mx-auto w-full lg:py-10">
+          <div class="container mx-auto w-full lg:py-10">
             <div
               class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
             >
@@ -253,11 +251,11 @@ const yourValueCards = [
 </script>
 
 <style scoped>
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .lg\:w-\[70\%\] {
     max-width: 1140px;
   }
-}
+} */
 .bgImg {
   background-image: url("../assets/YourHome/YourHomeBG.png");
   background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:max-w-[313px] sm:max-w-[275px] md:max-w-[245px] w-full bg-[#f0f7fe] p-8 h-[436px] grid justify-between"
+    class="lg:max-w-[310px] sm:max-w-[275px] md:max-w-[245px] w-full bg-[#f0f7fe] p-8 h-[436px] grid justify-between"
     v-for="items in props.message"
     :key="items.name"
   >

@@ -3,7 +3,7 @@
     class="h-[40px] w-full breadCrum-bg bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -31,7 +31,7 @@
   <div
     class="w-full flex justify-center items-center lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]"
   >
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+    <div class="container mx-auto">
       <div
         class="lg:text-[42px] xxs:text-[20px] xxxs:text-[38px] text-[#20407c] font-black-custom w-[60%]"
       >
@@ -46,7 +46,7 @@
       </p>
     </div>
   </div>
-  <div class="pt-11 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+  <div class="pt-11 container mx-auto">
     <h1
       class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom"
     >
@@ -119,7 +119,7 @@
   </div>
   <YourDetails />
   <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
+    <div class="container">
       <p class="text-[#20407C] text-[30px] font-light pb-6">
         <span class="text-[28px] font-black-custom">Other ways to report</span>
       </p>

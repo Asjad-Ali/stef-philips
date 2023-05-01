@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
-  >
+  <div class="container mx-auto py-14 flex flex-col justify-center">
     <div class="w-full flex justify-end flex-row-reverse">
       <div class="py-3">
         <div
@@ -22,6 +20,7 @@
                 >{{ props.message.header }}</span
               >
               <br v-if="props.message.b == true" />
+
               <span
                 class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
                 >{{ props.message.boldheader }}</span

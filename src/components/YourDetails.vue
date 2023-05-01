@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-11 pb-24 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+  <div class="pt-11 pb-24 container mx-auto">
     <h1
       class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom mb-5"
     >
@@ -34,7 +34,8 @@
           <label
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
-            >Property address line 1<sup
+            >Property address line 1
+            <sup
               style="
                 color: red;
                 position: inherit;
@@ -42,8 +43,8 @@
                 font-size: 18px;
               "
               >*</sup
-            ></label
-          >
+            >
+          </label>
         </div>
         <InputText
           type="text"
@@ -57,7 +58,7 @@
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
             >Property address line 2
-            <sup
+            <!-- <sup
               style="
                 color: red;
                 position: inherit;
@@ -65,8 +66,8 @@
                 font-size: 18px;
               "
               >*</sup
-            ></label
-          >
+            > -->
+          </label>
         </div>
         <InputText
           type="text"
