@@ -1,7 +1,8 @@
 <template>
   <div class="w-full flex justify-center items-center mx-auto">
     <div class="w-full mx-auto">
-      <Accordion :activeIndex="2" v-for="items in props.message" :key="items">
+      <!-- to open or expand accordio :activeIndex="2" -->
+      <Accordion v-for="items in props.message" :key="items">
         <AccordionTab
           :header="items.header"
           class="font-black-custom font-bold lg:text-[18px] text-[#20407c]"
@@ -39,6 +40,9 @@ const props = defineProps(["message"]);
   right: 0%;
   padding: 2px;
   color: #20407c;
+}
+.p-accordion .p-accordion-content {
+  padding-left: 2rem !important;
 }
 .p-accordion .p-accordion-header .p-accordion-header-link {
   background-color: white !important;

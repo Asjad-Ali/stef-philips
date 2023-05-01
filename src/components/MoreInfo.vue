@@ -132,6 +132,9 @@ const chooseFile = [
 </script>
 
 <style>
+.p-dropdown.p-component.p-inputwrapper.w-full {
+  border-radius: 0px !important;
+}
 .p-dropdown {
   border: 0.16rem solid #20407c;
   border-radius: 0px !important;
@@ -142,6 +145,7 @@ const chooseFile = [
   background-color: #20407c;
   color: white;
   width: 50px;
+  border-radius: 0px !important;
 }
 .p-dropdown .pi {
   display: inline-block;

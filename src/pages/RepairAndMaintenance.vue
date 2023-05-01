@@ -66,7 +66,7 @@
             v-model="value1"
             placeholder="What is the issue?"
           />
-          <i class="pi pi-search" />
+          <i class="pi pi-search custom-search" />
         </span>
       </div>
       <div class="flex justify-start gap-5 flex-wrap py-10">
@@ -93,7 +93,8 @@
       >
         Other ways to report
       </h1>
-      <Accordion :activeIndex="2">
+      <!-- :activeIndex="2" for active accordion -->
+      <Accordion>
         <AccordionTab
           header="Call us"
           class="font-black-custom text-[18px] text-[#20407c]"
@@ -196,6 +197,12 @@ const message = [
 ];
 </script>
 <style>
+.p-accordion .p-accordion-content {
+  padding-left: 2rem !important;
+}
+.custom-search {
+  color: #2a3441 !important;
+}
 .font-custom-color {
   color: #1d1d33 !important;
 }
@@ -224,7 +231,7 @@ const message = [
   /* line-height: 26px; */
   /* font-style: normal; */
   /* text-align: left; */
-  color: lightgrey !important;
+  color: rgb(185, 176, 176) !important;
   /* color: red !important; */
 }
 .pi::before {

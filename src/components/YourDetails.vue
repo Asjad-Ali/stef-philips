@@ -12,7 +12,13 @@
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
             >Your full name
-            <sup style="color: red; position: inherit; margin-left: 3px"
+            <sup
+              style="
+                color: red;
+                position: inherit;
+                margin-left: 3px;
+                font-size: 18px;
+              "
               >*</sup
             ></label
           >
@@ -29,7 +35,12 @@
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
             >Property address line 1<sup
-              style="color: red; position: inherit; margin-left: 3px"
+              style="
+                color: red;
+                position: inherit;
+                margin-left: 3px;
+                font-size: 18px;
+              "
               >*</sup
             ></label
           >
@@ -46,7 +57,13 @@
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
             >Property address line 2
-            <sup style="color: red; position: inherit; margin-left: 3px"
+            <sup
+              style="
+                color: red;
+                position: inherit;
+                margin-left: 3px;
+                font-size: 18px;
+              "
               >*</sup
             ></label
           >
@@ -64,7 +81,13 @@
               for="username"
               class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
               >Town / city
-              <sup style="color: red; position: inherit; margin-left: 3px"
+              <sup
+                style="
+                  color: red;
+                  position: inherit;
+                  margin-left: 3px;
+                  font-size: 18px;
+                "
                 >*</sup
               ></label
             >
@@ -81,7 +104,12 @@
               for="username"
               class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
               >Postcode<sup
-                style="color: red; position: inherit; margin-left: 3px"
+                style="
+                  color: red;
+                  position: inherit;
+                  margin-left: 3px;
+                  font-size: 18px;
+                "
                 >*</sup
               ></label
             >
@@ -99,7 +127,12 @@
             for="username"
             class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
             >Email address<sup
-              style="color: red; position: inherit; margin-left: 3px"
+              style="
+                color: red;
+                position: inherit;
+                margin-left: 3px;
+                font-size: 18px;
+              "
               >*</sup
             ></label
           >
@@ -114,7 +147,13 @@
         <label
           class="text-[#20407C] lg:text-[18px] xxxs:text-[14px] font-black-custom"
           >Contact Number
-          <sup style="color: red; position: inherit; margin-left: 3px"
+          <sup
+            style="
+              color: red;
+              position: inherit;
+              margin-left: 3px;
+              font-size: 18px;
+            "
             >*</sup
           ></label
         >

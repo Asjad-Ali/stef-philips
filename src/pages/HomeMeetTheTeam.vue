@@ -51,6 +51,25 @@
     <HorizontalCardVue :message="card2" />
     <HorizontalCardVue :message="card3" />
   </div>
+  <div class="pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto mt-7">
+    <h1 class="text-trisec leading-[50px] font-semibold text-left mb-[4rem]">
+      <span
+        class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mr-2"
+        >Reasons they may need to
+      </span>
+      <span
+        class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
+        >enter your home:</span
+      >
+    </h1>
+    <div class="justify-center">
+      <div
+        class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
+      >
+        <HomeMeetTeamCard :message="peoplecards" />
+      </div>
+    </div>
+  </div>
   <div class="mb-2">
     <NeedHelp />
   </div>
@@ -58,6 +77,8 @@
 <script setup>
 import HorizontalCardVue from "../components/HorizontalCard.vue";
 import NeedHelp from "../components/NeedHelp.vue";
+import HomeMeetTeamCard from "../components/HomeMeetTeamCard.vue";
+
 const card1 = {
   bgclass: " white ",
   header: "Meet your",
@@ -90,6 +111,47 @@ const card3 = {
     "At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.",
   b: true,
 };
+const peoplecards = [
+  {
+    name: "Cleaning services",
+    // role: "Short description excerpt here",
+    imageUrl: new URL("../assets/need-help-Shape-G.png", import.meta.url).href,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    // btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340px]",
+    button_url: "",
+    // color: "bg-sky-50",
+    // buttonPadding: "pb-[2rem]",
+  },
+  {
+    name: "Occupancy checks",
+    // role: "Short description excerpt here",
+    imageUrl: new URL(
+      "../assets/YourHome/OccupancyCheckShape.png",
+      import.meta.url
+    ).href,
+    // btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340px]",
+    button_url: "",
+    // color: "bg-sky-50",
+    // buttonPadding: "pb-[2rem]",
+  },
+  {
+    name: "Weekly house officer visits",
+    // role: "Short description excerpt here",
+    imageUrl: new URL("../assets/need-help-Shape-G.png", import.meta.url).href,
+    // btnName: "Report now",
+    height: "h-auto",
+    width: "w-[340px]",
+    button_url: "",
+    // color: "bg-sky-50",
+    // buttonPadding: "pb-[2rem]",
+  },
+  // More people...
+];
 </script>
 
 <style scoped>

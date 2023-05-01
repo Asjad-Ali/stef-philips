@@ -37,6 +37,11 @@
               v-for="items in props.message.btn"
               :key="items.name"
             >
+              <i
+                v-if="props.message.buttonIcon == true"
+                class="pi pi-arrow-up-right font-bold text-[dark-grey]"
+              ></i>
+
               <img :src="props.message.btnimg" alt="" />
               {{ items }}
             </button>

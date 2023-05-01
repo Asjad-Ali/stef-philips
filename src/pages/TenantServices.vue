@@ -56,7 +56,7 @@
   <!-- section 2 -->
   <!-- <div class="w-full min-h-[400px] p-3"> -->
   <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
+    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center my-[4rem]"
   >
     <div class="card flex items-start justify-content-between gap-5 w-full">
       <Card :message="card1" style="background-color: white" />
@@ -67,7 +67,7 @@
   >
     <!--  -->
     <div
-      class="card flex items-start justify-start mx-auto flex-wrap lg:gap-16 xxxs:gap-5 w-full"
+      class="card flex items-start justify-start mx-auto flex-wrap lg:gap-[1rem] xxxs:gap-5 w-full"
     >
       <TenantCard :message="card2" />
     </div>
@@ -125,15 +125,15 @@ const card2 = [
 const card3 = {
   direction: "rtl",
 
-  img: new URL("../assets/YourHome/tenacyCancelled.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " ? cancelled ",
+  img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
+  header: "? Was your tenancy ",
+  boldheader: " cancelled  ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
     "Housing partners are responsible for all tenancy cancellations. If you have any questions about this, you should contact them directly.",
   btnimg: "src/assets/Svg/Path51.svg",
-  // b: true,
+  buttonIcon: true,
   flex: "items-end",
 };
 </script>

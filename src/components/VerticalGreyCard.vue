@@ -30,8 +30,8 @@
       <Button
         icon="pi pi-check"
         class="bg-[#2A8CFB] h-[50px] text-white xxs:py-3 md:py-3 xxs:px-6 md:px-8 text-[14px] font-xbold-custom"
-        >Read more</Button
-      >
+        >Find out more
+      </Button>
     </template>
   </Card>
 </template>

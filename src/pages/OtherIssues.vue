@@ -116,22 +116,6 @@
         {{ chooseFile.name }}
       </div>
     </div>
-    <div
-      class="mt-3 flex flex-wrap justify-start"
-      v-for="item in chooseFile"
-      :key="item.name"
-    >
-      <FileUpload
-        mode="basic"
-        name="demo[]"
-        url="./upload.php"
-        chooseLabel="Choose file"
-        class="bg-[#2A8CFB] lg:w-[140px] font-xbold-custom text-[14px] lg:h-[44px]"
-      />
-      <div class="font-regular-custom text-[18px] ml-6 mt-3">
-        {{ item.name }}
-      </div>
-    </div>
   </div>
   <YourDetails />
   <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">

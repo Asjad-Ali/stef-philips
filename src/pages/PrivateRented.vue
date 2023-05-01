@@ -103,7 +103,7 @@
   <div class="bg-image-update min-h-[450px] w-full">
     <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="lg:w-[69%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
           <h1
             class="mt-12 mb-6 text-white leading-[50px] font-semibold text-left"
           >
@@ -296,14 +296,14 @@ const sectionFourCard3 = {
 const card4 = {
   direction: "rtl",
   img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " ? cancelled ",
+  header: "? Was your tenancy",
+  boldheader: " cancelled ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
     "(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.",
   btnimg: "src/assets/Svg/Path51.svg",
-  // b: true,
+  buttonIcon: true,
   flex: "items-end",
 };
 const pmessage = [

@@ -82,4 +82,7 @@ const noption = ref("");
   font-size: 18px;
   font-family: "XBold", sans-serif;
 }
+.p-radiobutton .p-radiobutton-box {
+  border: 2px solid RGBA(34, 66, 122, 0.8) !important;
+}
 </style>

@@ -44,7 +44,7 @@
             type="button"
             class="bg-trisec py-4 px-6 xxxs:px-2 lg:px-6 lg:text-[16px] xxxs:text-[11px] h-[50px] lg:mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
           >
-            Anything else
+            Any other queries
           </button>
         </div>
       </div>

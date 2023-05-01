@@ -3,7 +3,7 @@
     class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
   >
     <div class="w-full flex justify-end flex-row-reverse">
-      <div class="py-20">
+      <div class="py-3">
         <div
           class="grid lg:grid-cols-2 xxxs:grid-cols-1 gap-12 min-h-[441px]"
           :dir="props.message.direction"
