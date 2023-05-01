@@ -1,30 +1,32 @@
 <template>
   <div class>
-    <div class="w-full min-h-[600px] bg-red-400 bgImg">
-      <div class="w-[70%] h-[600px] mx-auto flex items-center">
-        <div class="contentImg"></div>
-        <div class="max-w-sm groupImg">
-          <h1 class="font-light-custom text-[40px] leading-none text-white content">
-            <span>Foundations for</span>
-            <br />
-            <span class="font-black-custom text-[40px]">better lives</span>
-          </h1>
-          <p class="text-white mt-4 font-regular-custom text-[18px] content2">Safe, suitable homes and vital services for tenants,
-            authorities and partners, backed by investors who care.</p>
+    <div class="w-full bg-red-400 bgImg">
+      <div class="container">
+        <div class="columns-1 pt-[70px] pb-[90px]">
+          <div class="bannerContent">            
+            <div class="contentSec">
+              <h1 class="font-light-custom text-[40px] leading-none text-white content">
+                <span>Foundations for</span>
+                <br />
+                <span class="font-black-custom text-[40px]">better lives</span>
+              </h1>
+              <p class="text-white mt-4 font-regular-custom text-[18px]">Safe, suitable homes and vital services for tenants,
+                authorities and partners, backed by investors who care.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Step 2 -->
     <div class="w-full flex justify-center">
-      <div class="w-[70%]">
+      <div class="container">
         <div class="py-20">
-          <div class=" flex gap-20 md:flex-nowrap flex-wrap items-center justify-center">
-            <div class="md:w-[35%] w-full ">
-              <h1 class="leading-none text-trisec">
-                <span class="font-light-custom text-[32px]">Our vision is to see<br><span
-                    class="font-black-custom text-[32px]">a world without<br>homelessness</span></span>
-
+          <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+            <div class="">
+              <h1 class="leading-none text-trisec font-light-custom text-[32px]">
+                Our vision is to see
+                <strong class="font-black-custom">a world without<br>homelessness</strong>
               </h1>
               <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
                 For over a decade, we have been working with local authorities, housing associations and charitable
@@ -33,126 +35,115 @@
                 <router-link to="/about-us">Hear our story</router-link>
               </button>
             </div>
-            <div class="flex justify-center md:w-[55%] w-full">
+            <div class="">
               <img src="../assets/Card_Image.png" alt>
-
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
-    <!--  -->
 
     <div class="min-h-[400px]  w-full bg-[#20407C]">
-        <div class="mx-auto w-[60%] ">
-            <div class="lg:py-26 xxxs:py-20">
-                <div class="lg:flex xl:flex">
-                    <div class="lg:w-[50%]">
-                        <!-- <img src="../assets/copy.png" alt /> -->
-                    </div>
-                    <div class="lg:w-[50%] pt-[11rem] ml-10">
-                        <h1 class="px-10 text-[32px] lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                        <span class="font-light-custom text-[36px] text-white">[Copy section - <br>what we do!]</span> 
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-10 text-white">
-                          Really clear, you’re in the right place.
-                        </p>
-                    </div>
-                </div> 
+      <div class="container">
+        <div class="lg:py-26 xxxs:py-20">
+          <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+            <div class="">
+              <img src="../assets/Card_Image-1.png" alt>
             </div>
-        </div>
-    </div>
-
-    <div class="min-h-[600px]  w-full bg-image">
-        <div class="mx-auto w-[70%] ">
-            <div class="lg:py-26 xxxs:py-20 px-20">
-                <div class="lg:flex">
-                    <div class="lg:w-[50%]">
-                      <div class="lg:flex">
-                        <div class="lg:w-[50%] mt-[5rem]">
-                          <h1 class="px-5 text-[42px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-light-custom text-[42px] text-white">00 years</span> 
-                          </h1>
-                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
-                            <span class="font-black-custom">Experience </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          </p>
-                          <img class="px-5" src="../assets/Keyline.png" alt />
-                        </div>
-                        <div class="lg:w-[50%] mt-[2rem]">
-                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-light-custom text-[36px] text-white">000+</span> 
-                          </h1>
-                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
-                            <span class="font-black-custom">Properties managed </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          </p>
-                          <img class="px-5" src="../assets/Keyline.png" alt />
-                        </div>
-                      </div>
-                    </div> 
-                    <div class="lg:w-[50%]">
-                      <div class="lg:flex">
-                        <div class="lg:w-[50%] mt-[3rem]">
-                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-light-custom text-[36px] text-white">60</span> 
-                          </h1>
-                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
-                            <span class="font-black-custom">Local authorities  </span>lorem ipsum dolor sit amet, consectetur adipiscing elitconsectetur adipisc.
-                          </p>
-                          <img class="px-5" src="../assets/Keyline.png" alt />
-                        </div>
-                        <div class="lg:w-[50%]">
-                          <h1 class="px-5 text-[38px] lg:font-[500] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-light-custom text-[36px] text-white">00,000+</span> 
-                          </h1>
-                          <p class="text-[18px] font-regular-custom mt-4 text-white px-5">
-                            <span class="font-black-custom">People housed </span>lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          </p>
-                          <img class="px-5" src="../assets/Keyline.png" alt />
-                        </div>
-                      </div>
-                    </div>
-                </div> 
+            <div class="text-white">
+              <h1 class="leading-none font-black-custom lg:text-[42px] text-[24px]">
+                Stef & Philips at a glance
+              </h1>
+              <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
+                We pride ourselves on building trusted relationships with tenants, housing partners and investors alike. The value we deliver goes beyond bricks and mortar: we ensure tenants’ ongoing support and care, for the duration of their lease; we provide housing partners with a wide range of much-needed accommodation solutions; and we offer private investors and corporate entities a unique approach to social impact investing.  
+              </p>
+              <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
+                Since first opening our doors in 2006, we have grown from being a small, family-run lettings agency into a one of the UK’s leading social housing providers. We are proud of what we have achieved to date, but our ambition is to do much more.
+              </p>
             </div>
-        </div>
-    </div>
-
-    <div class="py-20 w-[960px] mx-auto h-[440px] mt-[3rem] mb-[12rem]">
-      <div class="grid bg-second md:grid-cols-2 grid-cols-1">
-        <div >
-          <img class="w-full"  src="../assets/Background8.png" alt />
-        </div>
-        <div class="flex items-center justify-center ">
-          <div class="w-4/5 mt-6 md:mt-0 ">
-            <span class="text-2xl    text-primary">
-              <Icon icon="ooui:quotes-ltr" />
-            </span>
-            <h1 class="font-light-custom text-[20px] text-white mt-5">Stef & Philips have been short quote goes here like
-              so in this featured element element lore ipsum short quote goes here like so in this featured element
-              element lore ipsum short quote goes here like so in this.</h1>
-            <div class="my-5">
-              <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
-              <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
-            </div>
-          </div>
+          </div> 
         </div>
       </div>
+    </div>
+
+    <div class="min-h-[600px]  w-full fnf-image">
+      <div class="container pt-20">
+        <div class="grid grid-cols-5">
+          <div class="single-point">
+            <div class="mt-[5rem] text-white">
+              <h1 class="font-light-custom text-[36px] px-5 text-[38px] lg:font-[500] xxxs:font-[200] text-ellipsis leading-[40px]">
+                17 years
+              </h1>
+              <p class="text-[18px] font-regular-custom mt-4 px-5">
+                <strong class="font-black-custom">Leading private provider </strong>for social housing across the UK since 2006.
+              </p>
+              <img class="px-5" src="../assets/Keyline.png" alt />
+            </div>
+          </div>
+          <div class="single-point">
+            <div class="mt-[2rem] text-white">
+              <h1 class="font-light-custom text-[36px] px-5 text-[38px] lg:font-[500] xxxs:font-[200] text-ellipsis leading-[40px]">
+                9,500
+              </h1>
+              <p class="text-[18px] font-regular-custom mt-4 px-5">
+                <strong class="font-black-custom">Delivered homes </strong>to 9,500 tenants
+              </p>
+              <img class="px-5" src="../assets/Keyline.png" alt />
+            </div>
+          </div>
+          <div class="single-point">
+            <div class="mt-[5rem] text-white">
+              <h1 class="font-light-custom text-[36px] px-5 text-[38px] lg:font-[500] xxxs:font-[200] text-ellipsis leading-[40px]">
+                60
+              </h1>
+              <p class="text-[18px] font-regular-custom mt-4 px-5">
+                <strong class="font-black-custom">Trusted provider </strong>to 60+ local authorities
+              </p>
+              <img class="px-5" src="../assets/Keyline.png" alt />
+            </div>
+          </div>
+          <div class="single-point">
+            <div class="mt-[4rem] text-white">
+              <h1 class="font-light-custom text-[36px] px-5 text-[38px] lg:font-[500] xxxs:font-[200] text-ellipsis leading-[40px]">
+                200+
+              </h1>
+              <p class="text-[18px] font-regular-custom mt-4 px-5">
+                <strong class="font-black-custom">Investors </strong>to date
+              </p>
+              <img class="px-5" src="../assets/Keyline.png" alt />
+            </div>
+          </div>
+          <div class="single-point">
+            <div class="mt-[2rem] text-white">
+              <h1 class="font-light-custom text-[36px] px-5 text-[38px] lg:font-[500] xxxs:font-[200] text-ellipsis leading-[40px]">
+                3717
+              </h1>
+              <p class="text-[18px] font-regular-custom mt-4 px-5">
+                <strong class="font-black-custom">Units</strong> in our portfolio
+              </p>
+              <img class="px-5" src="../assets/Keyline.png" alt />
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <div class="py-20 container mt-[3rem] mb-[12rem]">      
+      <Testimonial />
     </div>
 
     <!-- image -->
-    <div class="happyG w-full min-h-[700px] relative overflow-hidden ">
-      <div class="absolute top-0 w-full h-full flex items-center justify-center left-0 happyS">
-        <div class="w-[70%] mx-auto grid grid-cols-1">
-          <div class="ml-[3.5rem] w-full">
-            <div class="w-[50%] pr-10">
-              <h1 class="font-light-custom sm:text-[36px] text-[30px]  text-white leading-none">
+    <div class="happyG">
+      <div class="min-h-[640px] flex items-center justify-center happyS">
+        <div class="container">
+          <div class="w-full">
+            <div class="w-[50%] pr-10 text-white">
+              <h1 class="font-light-custom sm:text-[36px] text-[30px] leading-none">
                 Striving to make the lives<br>of vulnerable people
-                <span class="font-black-custom sm:text-[36px] text-[30px]">safer</span><br> and
-                <span class="font-black-custom sm:text-[36px] text-[30px]">more secure</span>
+                <span class="font-black-custom">safer</span><br> and
+                <span class="font-black-custom">more secure</span>
               </h1>
-              <p class="pr-5 mt-4 text-white font-regular-custom sm:text-[18px] text-[12px]">We construct and manage
+              <p class="mt-4  font-regular-custom sm:text-[18px] text-[12px]">We construct and manage
                 fit-for-purpose properties in areas of high demand, providing tangible solutions to the current housing
                 crisis and giving vulnerable people a lifeline and an opportunity to get back on their feet.</p>
             </div>
@@ -174,31 +165,26 @@
     </div>
     <!-- <Cards :message="people"/> -->
 
-
-    <!--  -->
-    <!--  -->
-
     <NeedHelp />
 
-  <div class="pb-20 pt-3 w-[60%] mx-auto mt-20">
-    <div class="justify-center">
-      <div class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"> 
-        <Cards :message="peopleM"/>
+    <div class="pb-20 pt-3 mt-20">
+      <div class="container">
+        <div class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"> 
+          <Cards :message="peopleM"/>
+        </div>
       </div>
     </div>
-  </div>
   
-  <!-- <Cards :message="peopleM" /> -->
-
+    <!-- <Cards :message="peopleM" /> -->
   </div>
 </template>
 
 <script setup>
 import Cards from "../components/Cards.vue";
-import { Icon } from "@iconify/vue";
 import { useAppStore } from "../store/index"
 import { computed } from "vue";
 import NeedHelp from "../components/NeedHelp.vue";
+import Testimonial from "../components/Testimonial.vue";
 import BackgroundSVG from "../assets/Background-1.svg"
 const hover = useAppStore();
 const state = computed(() => {
@@ -287,13 +273,16 @@ buttonPadding:"pb-[2rem]"
 </script>
 
 <style  scoped>
-.bg-image {
-    background-image: url("../assets/bg-image-home.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+.fnf-image {
+  background-image: url("../assets/bg-image-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.fnf-image .container {
+  max-width: 1180px;
+}
 
 .bcrumbs {
   background-color: rgba(29, 29, 51, 0.5)
@@ -308,38 +297,20 @@ buttonPadding:"pb-[2rem]"
 /* height: 600px; */
 }
 
-.contentImg {
+.bannerContent {
   background-image: url("../assets/sliderlogo.png");
   background-repeat: no-repeat;
-  
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
-  /* Path 543 */
-
-  /* position: absolute; */
-  width: 419.3px;
-  height: 456px;
-  opacity: 50%;
-  margin-left: 4rem;
+  max-width: 420px;
+  padding: 160px 16px 75px 50px;
 }
-.groupImg {
-  background-image: url("../assets/Group\ 96.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* Path 543 */
-
-  position: absolute;
-width: 409px;
-height: 425px;
-margin-left: 5rem;
-margin-top: 2rem;
-
-  /* background: #2a8cff */
+.bannerContent .contentSec {
+  padding: 15px;
 }
 
 .happyG {
-  background-image: url("../assets/Svg/MiddleBackground.svg");
+  background-image: url("../assets/MiddleBackground.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -350,12 +321,6 @@ margin-top: 2rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.content {
-  margin-top: 35%;
-  margin-left: 10%;
-  opacity: 100%;
 }
 
 .content2 {

@@ -1,119 +1,95 @@
 <template>
-    <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
-        <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner">
-          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-            <router-link to="home">Home</router-link>
-          </div>
-          <i class="pi pi-angle-right text-white"></i>
-          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-            <router-link to="about-us">About us</router-link>
-          </div>
-          <i class="pi pi-angle-right text-white"></i>
-          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-            <router-link to="community">Community</router-link>
-          </div>
-        </nav>
-      </div> 
-    <!-- section 1 -->
- <div class="w-full min-h-[250px] "> 
-<div  class=" w-[70%] h-[250px] mx-auto p-3">
-<h1  class="text-[42px] text-[#20407c] font-light-custom mt-16">Community</h1> 
-<p class="text-[18px] text-[#1d1d33] font-regular-custom">Short introductory summary for the page goes here like so</p>
-</div>
-</div>
-
-
-<!-- section 2 -->
-
-
-<div class="w-full  bg-[#1d1d33]">
-<div class=" w-full flex justify-center items-center min-h-[760px] mx-auto ">
-<div  class=" w-[50%] mx-auto flex  items-center p-3 relative text1" >
-    <div  class="  w-[70%] min-h-[250px] p-3 absolute  right-0 my-40 text  ">
-<h1  class="text-[18px] text-white font-black-custom">Upcoming event</h1> 
-<h1 class="text-[42px] text-white font-light-custom leading-1">Tough Mudder</h1>
-<p class="text-[18px] text-white font-light-custom">15 April 2023, Finsbury Park.</p> <br>
-<p class="text-[18px] text-white font-regular-custom">Want to join our team? We’re raising<br> funds for XXXXX (tbc).</p>
-<button class="w-40 p-2 my-3 border border-white font-xbold-custom text-[16px] text-white ">Read more</button>
-</div>
-</div>
-<div  class=" w-[50%] min-h-[760px] mx-auto  bg-[url('src/assets/community.png')] bg-no-repeat bg-cover bg-center hidden sm:flex" >
- </div>
- </div>
-</div>
-
-
-<!-- section 3 -->
-<div class="w-full min-h-[600px] pt-8"> 
-<div  class=" w-[70%] mx-auto p-3">
-<h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Past events</h1>
-  
-    <div class="card flex items-start justify-content-between gap-5 w-full " >
-        <Card :message="card1" />
+  <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
+    <nav class="container  mx-auto flex items-center justify-start gap-3 inner">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="home">Home</router-link>
+      </div> <i class="pi pi-angle-right text-white"></i>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="about-us">About us</router-link>
+      </div> <i class="pi pi-angle-right text-white"></i>
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+        <router-link to="community">Community</router-link>
+      </div>
+    </nav>
+  </div>
+  <!-- section 1 -->
+  <div class="w-full">
+    <div class=" container pt-[100px] py-[47px]">
+      <h1 class="text-[42px] text-[#20407c] font-light-custom mt-16">Community</h1>
+      <p class="text-[18px] text-[#1d1d33] font-regular-custom text-[#1D1D33]"> We are always in it together. Working together to build foundations for better lives – from participating in obstacle courses, and team-building activities to charitable events, we are driven individuals determined to make a difference. </p>
     </div>
-
-</div>
-</div>
-
-<!-- section 4  -->
-<div class="w-full h-auto bg-[#1d1d33] flex items-center relative" style="margin-top: 100px;"> 
-  <!-- <div class="contentImg"></div> -->
-  <div  class=" w-[70%] h-[315px] mx-auto p-3 ml">
-  <h1  class="text-[36px] text-white font-light-custom mt-16"> <span class="font-black-custom">Community</span> is what we all <br> have in common</h1> 
-  <!-- <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor<br> sit amet, consectetur adipiscing elit.</p> -->
-  <div class="flex flex-wrap gap-4">
-    <button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Careers</button>
-    <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Meet the team</button></div>
   </div>
-  <div class="contentImg"></div>
-  </div>
-
-<!-- section 5 -->
-<div class="py-20 w-[70%] mx-auto">
-      <div class="grid bg-second md:grid-cols-2 grid-cols-1 mx-auto">
-        <div class>
-          <img src="..\assets\Background8.png" class="z-50 h-full w-full object-cover" alt />
-        </div>
-        <div class="flex items-center justify-center">
-          <div class="w-4/5 mt-6 md:mt-0 ">
-            <span class="text-2xl    text-primary">
-              <Icon icon="ooui:quotes-ltr" />
-            </span>
-            <h1
-              class="font-light-custom text-[20px] text-white mt-5"
-            >Stef & Philips have been short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this featured element element lore ipsum short quote goes here like so in this.</h1>
-            <div class="my-5">
-              <h1 class="font-regular-custom text-[18px] text-white">Name here</h1>
-              <h1 class="font-black-custom text-[18px] text-white">Title here</h1>
-            </div>
-          </div>
+  <!-- section 2 -->
+  <div class="w-full bg-[#1d1d33] relative">
+    <div class="container flex items-center min-h-[760px] ">
+      <div class="w-[50%] mx-auto flex items-center p-3 relative text1">
+        <div class="min-h-[250px] p-3 my-40 text  ">
+          <h1 class="text-[18px] text-white font-black-custom">Upcoming event</h1>
+          <h1 class="text-[42px] text-white font-light-custom leading-1">Tough Mudder</h1>
+          <p class="text-[18px] text-white font-light-custom">15 April 2023, Finsbury Park.</p>
+          <br>
+          <p class="text-[18px] text-white font-regular-custom">Want to join our team? We’re raising
+            <br> funds for XXXXX (tbc).</p>
+          <button class="w-40 p-2 my-3 border border-white font-xbold-custom text-[16px] text-white ">Read more</button>
         </div>
       </div>
-  
+      <div class="w-[50%]"></div>
     </div>
-  
-    
-<!-- section 6 -->
-<div class="w-full min-h-[600px] "> 
-<div  class="w-[70%]  mx-auto p-3">
- <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Latest community news</h1>
-  
-    <div class="card flex items-start justify-content-between gap-5 w-full mb-8 ">
+    <div class=" w-[50%] min-h-[760px] mx-auto  bg-[url('src/assets/community.png')] bg-no-repeat bg-cover bg-center hidden sm:flex absolute right-0 top-0 bottom-0"> </div>
+  </div>
+  <!-- section 3 -->
+  <div class="w-full min-h-[600px] pt-8">
+    <div class="container p-3">
+      <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Past events</h1>
+      <div class="grid grid-cols-2">
+        <Card :message="card1" /> 
+      </div>
+        
+    </div>
+  </div>
+  <!-- section 4  -->
+  <div class="w-full h-auto bg-[#1d1d33] flex items-center relative mt-[200px]">
+    <!-- <div class="contentImg"></div> -->
+    <div class="container h-[315px] mx-auto p-3">
+      <div class="grid grid-cols-2">
+        <div class="">
+          <h1 class="text-[36px] text-white font-light-custom mt-16"> <strong class="font-black-custom">Community</strong> is what we all <br> have in common</h1>
+          <!-- <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor<br> sit amet, consectetur adipiscing elit.</p> -->
+          <div class="flex flex-wrap gap-4">
+            <button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Careers</button>
+            <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Meet the team</button>
+          </div>
+        </div>
+        <div class="-translate-y-[30%]">
+          <div class="contentImg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 5 -->
+  <div class="py-20 container">      
+    <Testimonial />
+  </div>
+  <!-- section 6 -->
+  <div class="w-full min-h-[600px] ">
+    <div class="container p-3">
+      <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Latest community news</h1>
+      <div class="card flex items-start justify-content-between gap-5 w-full mb-8 ">
         <Card :message="card2" />
+      </div>
     </div>
-
-</div>
-</div>
+  </div>
 </template>
 
 <script setup>
 // import Card from 'primevue/card';
 import { Icon } from "@iconify/vue";
 import Card from '../components/VerticalGreyCard.vue'
+import Testimonial from "../components/Testimonial.vue";
 
 
-const card1=[{bgclass:'bg-[#ededee]', heading:'Bowling', img: new URL("../assets/CardImagek.png", import.meta.url).href},{ bgclass:'bg-[#ededee]',heading:'Christmas Jumper Day',img:new URL("../assets/CardImagen.png", import.meta.url).href}]
-const card2=[{ heading:'Media title here', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href, subButton:'Commmunity'},{ heading:'Media title here', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href,subButton:'Commmunity'}]
+const card1=[{bgclass:'bg-[#F4F9FF]', heading:'Bowling', description: 'Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.', img: new URL("../assets/CardImagek.png", import.meta.url).href},{ bgclass:'bg-[#F4F9FF]',heading:'Christmas Jumper Day', description: 'Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.',img:new URL("../assets/CardImagen.png", import.meta.url).href}]
+const card2=[{ heading:'Media title here',description: 'Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href, subButton:'Commmunity'},{ heading:'Media title here', img:new URL("../assets/Svg/Background3.svg", import.meta.url).href,subButton:'Commmunity',description: 'Excerpt for the page goes in here like so lorem ipsum dolor sit amet, consectetur adipiscing elit.',}]
 
 </script>
 <style scoped> 
@@ -151,17 +127,9 @@ const card2=[{ heading:'Media title here', img:new URL("../assets/Svg/Background
 }
 .contentImg {
   background-image: url("../assets/footimage.png");
-  right: 16%;
-    /* background-image: url(/src/assets/footimage.png); */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: right;
-    position: absolute;
-    width: 100%;
-    height: 434.7px;
-    /* margin-left: 40%; */
-    /* margin-top: 5%; */
-    opacity: 90%;
-    top: -38%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 434.7px;
 }
 </style>

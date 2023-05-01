@@ -1,20 +1,20 @@
 <template>
   <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
+    class="container py-14 flex flex-col justify-center"
   >
     <div class="w-full flex justify-end flex-row-reverse">
       <div class="py-20">
         <div
-          class="grid lg:grid-cols-2 xxxs:grid-cols-1 gap-12 min-h-[441px]"
+          class="grid lg:grid-cols-2 xxxs:grid-cols-1 gap-12"
           :dir="props.message.direction"
           :class="props.message.bgclass"
         >
           <div
-            class="p-8 flex flex-col justify-center"
+            class="flex flex-col justify-center"
             :class="props.message.flex"
           >
             <h1
-              class="mt-12 text-trisec leading-[50px] font-semibold text-left"
+              class="text-trisec leading-[50px] font-semibold text-left"
               v-if="props.message.header"
             >
               <span
@@ -46,9 +46,9 @@
               {{ items }}
             </button>
           </div>
-          <div class="flex justify-end">
+          <!-- <div class="flex justify-end">
             <img class="w-full h-full object-cover" :src="props.message.img" />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
