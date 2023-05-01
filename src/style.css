@@ -145,6 +145,56 @@ html {
 }
 
 
+
+.generic-slider {
+  position: relative;
+  padding-bottom: 40px;
+}
+.generic-slider .p-carousel .p-carousel-content .p-link {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.2) !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 0;
+}
+.generic-slider .p-carousel .p-carousel-content .p-link.p-carousel-next {
+  left: 58px;
+}
+.generic-slider .p-carousel .p-carousel-content .p-link .pi:before{
+  padding: 0;
+}
+
+.generic-slider .p-carousel .p-carousel-content .p-link:hover {
+  background: rgba(255,255,255,0.7) !important;
+  color: #fff;
+}
+
+.generic-slider .p-carousel .p-carousel-indicators {
+  justify-content: flex-start;
+  padding: 10px 0.5rem;
+  gap: 5px;
+}
+.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator {
+  background: rgba(255,255,255,0.3) !important;
+  width: 9px;
+  height: 9px;
+}
+.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight {
+  background: rgba(255,255,255,0.9) !important;
+}
+
+.p-card {
+  box-shadow: none;
+}
+
+
 /* 
 body {
     font-family: var(--font-family);

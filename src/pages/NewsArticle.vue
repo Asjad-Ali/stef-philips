@@ -1,6 +1,6 @@
 <template>
   <div class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent">
-    <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
+    <nav class="container  mx-auto flex items-center justify-start gap-3 inner ">
       <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
         <router-link to="home">Home</router-link>
       </div>
@@ -21,7 +21,7 @@
   
    <!-- -->
 
-  <div class=" w-[70%] mx-auto py-20">
+  <div class="container py-20">
       <h2 class="font-black-custom text-[18px] text-[#20407C]">6th March 2023</h2>
       <h1 class="pt-4 font-light-custom text-[42px] text-[#20407C]">
        Title of the new articles here
@@ -60,7 +60,7 @@
   </div>
 
   <!-- -->
-  <div class=" mx-auto pb-20 w-[70%]">
+  <div class="pb-20 container">
     <div class="flex items-center justify-center">
       <div class="w-4/5">
         <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
@@ -84,7 +84,7 @@
 
    <!-- -->
  
-    <div class=" mx-auto py-28 mb-10 w-[70%] bgImg">
+    <div class="container py-28 mb-10 bgImg">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <span class="text-2xl text-primary">
@@ -103,7 +103,7 @@
     
     <!-- -->
 
-    <div class=" mx-auto pb-10 w-[70%]">
+    <div class="container pb-10">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-black-custom text-[24px] text-[#20407C]">Sub titles here</h4>
@@ -126,7 +126,7 @@
     </div>
 
   <!-- -->
-    <div class="  mx-auto mb-10">
+    <div class="container mb-10">
       <div class=" flex justify-center items-center ">
        <div class="my-[60px]">
          <div class="flex items-center justify-center ">
@@ -138,7 +138,7 @@
 
      <!-- --> 
 
-    <div class=" mx-auto pb-20 w-[70%]">
+    <div class="container pb-20">
       <div class="flex items-center justify-center">
         <div class="w-4/5">
           <h4 class="font-black-custom text-[18px] text-[#20407C]">Sub titles here</h4>
@@ -154,7 +154,7 @@
 
     <!-- --> 
       <div class="w-full mx-auto flex justify-center border-[#EDEDEE]">
-        <div class="w-[70%] ">
+        <div class="container">
           <div class=" mx-auto grid md:grid-cols-2 grid-cols-1 gap-10 py-10 mb-20 border-y-2">
             <div class="flex items-center gap-5">
               <img src="../assets/Svg/CardBackground.svg" alt="">

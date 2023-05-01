@@ -1,10 +1,9 @@
 <template>
-    <div class="flex flex-col ">
-    <div class="bgImg h-[381px] w-[304px]">
-    </div>
+  <div class="flex flex-col ">
+    <div class="bgImg h-[381px] w-full"></div>
     <h1 class="text-[20px] font-black-custom text-[#20407C] mt-3">Firstname lastname</h1>
     <p class="mt-1 text-[18px] font-regular-custom text-[#1D1D33]">Job Title goes here</p>
-</div>
+  </div>
 </template>
 <script></script>
 <style scoped>

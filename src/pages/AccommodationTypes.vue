@@ -1,7 +1,7 @@
 <template>
     <div class>
         <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
-            <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
+            <nav class="container  mx-auto flex items-center justify-start gap-3 inner ">
               <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
                 <router-link to="home">Home</router-link>
               </div>

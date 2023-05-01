@@ -3,7 +3,7 @@
     class="h-[40px] w-full breadCrum-bg flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
