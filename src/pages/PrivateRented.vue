@@ -2,33 +2,33 @@
   <!-- breadCrum -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="home">Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[dark-grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="your-home">Your Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[dark-grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="tenant-services">Tenant services</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[dark-grey]"></i>
 
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="prs">PRS</router-link>
       </div>
@@ -37,12 +37,10 @@
   <!-- breadCrum end -->
   <!-- bg-image with card -->
   <div class="w-full min-h-[460px] bgImg">
-    <div
-      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <!-- mx-auto p-3 -->
       <div
-        class="lg:w-[365px] xxs:w-[250px] h-[auto] lg:ml-14px xxs:ml-[7px] p-10 contentImg"
+        class="lg:w-[480px] xxs:w-[250px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[2rem] sm:p-[2rem] xxs:p-[2rem] contentImg"
       >
         <h1 class="lg:text-[36px] xxs:text-[18px] text-white font-[300]">
           <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
@@ -69,18 +67,18 @@
 
   <!-- three cards without bg-image -->
   <div class="min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
         <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
           <h1
             class="mt-12 mb-6 text-trisec leading-[50px] font-semibold text-left"
           >
             <span
-              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >Stef & Philips’
             </span>
             <span
-              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >responsibilities
             </span>
           </h1>
@@ -101,18 +99,18 @@
 
   <!-- bg-image-with-threeCard -->
   <div class="bg-image-update min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="mt-12 mb-6 text-white leading-[50px] font-semibold text-left"
           >
             <span
-              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >Support provided by your
             </span>
             <span
-              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >housing partner
             </span>
           </h1>
@@ -143,17 +141,21 @@
   <NeedHelp />
   <!-- faq -->
   <div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
-      <p class="text-[#20407C] lg:text-[30px] font-light pb-6">
-        <span class="text-[30px] font-black">During your stay FAQs</span>
+    <div class="container mx-auto flex flex-wrap items-center">
+      <p
+        class="text-[#20407C] lg:text-[30px] font-black-custom pb-6 font-x-bold"
+      >
+        <span class="text-[30px] font-black-custom font-bold-[900]"
+          >During your stay FAQs</span
+        >
       </p>
       <Accordion :message="pmessage" />
     </div>
   </div>
   <!-- faq end -->
-  <HorizontalCardVue :message="card4" />
+  <div class="w-full bg-custom">
+    <HorizontalCardVue :message="card4" />
+  </div>
 </template>
 
 <script setup>
@@ -250,8 +252,9 @@ const card = {
 };
 const card2 = {
   direction: "rtl",
-  header: "Moving into ",
-  boldheader: " PRS accommodation?",
+  header: "Moving into",
+  boldheader: "PRS accommodation",
+  questionMark: true,
   img: new URL("../assets/YourHome/PrsCardImg2.png", import.meta.url).href,
   paragraph:
     "The team at Stef & Philips is here to make your move as easy as possible. Once your housing partner has found you your new home, we’ll manage your lease arrangement, show you around the property and make sure you understand where everything is and how it works – paying particular attention to important matters, such as the smoke alarms and where you can find fire blankets in the event of an emergency. We’ll also make sure you understand your responsibilities and provide additional support and advice when you need it.",
@@ -290,14 +293,14 @@ const sectionFourCard3 = {
 const card4 = {
   direction: "rtl",
   img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " ? cancelled ",
+  header: "?Was your tenancy",
+  boldheader: " cancelled ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
     "(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.",
   btnimg: "src/assets/Svg/Path51.svg",
-  b: true,
+  buttonIcon: true,
   flex: "items-end",
 };
 const pmessage = [
@@ -335,6 +338,15 @@ const pmessage = [
 </script>
 
 <style scoped>
+.font-x-bold {
+  font-family: "Black", sans-serif;
+  /* font-family: "aktiv-grotesk-std", sans-serif;
+  src: url("./assets/Aktiv Grotesk/TTF/AktivGrotesk-XBold.ttf"); */
+  /* font-size: 18px; */
+}
+.bg-custom {
+  background-color: #f0f7fe;
+}
 .bg-image-update {
   background-image: url("../assets/YourHome/housingPartnerBg.png");
   background-repeat: no-repeat;
@@ -346,6 +358,8 @@ const pmessage = [
   background-size: cover;
   background-position: center;
   opacity: 100%;
+  /* background: #1d1d33;
+  background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%); */
   background: #1d1d33;
   background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%);
 }
@@ -370,4 +384,9 @@ const pmessage = [
   background-size: cover;
   background-position: center;
 } */
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 </style>

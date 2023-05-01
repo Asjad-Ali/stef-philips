@@ -2,6 +2,15 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      padding: '15px',
+      center: true,
+      screens: {
+        sm: '600px',
+        md: '728px',
+        lg: '990px',
+      },
+    },
     screens: {
       xxxs: "320px",
       xxs: "360px",

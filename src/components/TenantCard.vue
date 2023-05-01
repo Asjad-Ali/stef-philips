@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:max-w-[304px] sm:max-w-[275px] md:max-w-[245px] w-full bg-[#f0f7fe] p-8 h-[436px] grid justify-between"
+    class="lg:max-w-[310px] sm:max-w-[275px] md:max-w-[245px] w-full bg-[#f0f7fe] p-8 h-[436px] grid justify-between"
     v-for="items in props.message"
     :key="items.name"
   >
@@ -13,7 +13,7 @@
     </p>
     <Button
       class="bg-[#2a8cfb] h-[44px] text-white w-[140px] p-2 text-[16px] font-[400]"
-      >Read out more</Button
+      >Find out more</Button
     >
   </div>
 </template>

@@ -2,18 +2,18 @@
   <!-- Step 1 -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
-      class="lg:w-[70%] xxxs:w-[75%] sm:w-[92%] mx-auto flex items-center justify-start gap-3 inner"
+      class="container mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="home">Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="your-home">Your Home</router-link>
       </div>
@@ -24,11 +24,9 @@
   <!-- 360 breakpoint last working check less than -->
   <div class="w-full min-h-[500px] bg-red-400 bgImg">
     <!-- class="w-full h-[460px] flex justify-center items-center"  -->
-    <div
-      class="lg:w-[70%] xxxs:w-[95%] sm:w-[75%] md:w-[93%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <div
-        class="lg:w-[365px] xxs:w-[300px] sm:w-[400px] h-[auto] lg:ml-14px xxs:ml-[35px] sm:ml-[7px] p-10 contentImg"
+        class="lg:w-[480px] xxs:w-[300px] sm:w-[400px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[5rem] sm:p-[3rem] xxs:p-[2rem] contentImg"
       >
         <!-- <h1 class="text-white">
           <div class="font-light-custom lg:text-[36px] xxs:text-[18px]">
@@ -36,10 +34,10 @@
           </div>
         </h1> -->
         <h1
-          class="font-light-custom lg:text-[36px] xxs:text-[18px] leading-none text-white content"
+          class="font-light-custom lg:text-[38px] xxs:text-[18px] leading-none text-white content"
         >
           <span>Your </span>
-          <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
+          <span class="font-black-custom lg:text-[38px] xxs:text-[18px]"
             >home</span
           >
         </h1>
@@ -54,18 +52,18 @@
 
   <!-- Step 3 -->
   <div class="lg:pt-8 sm:pt-8 ml-[0.5rem] bg-[#F6F6F6]">
-    <div class="pb-10 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto">
+    <div class="pb-10 pt-3 container mx-auto">
       <div class="text-center">
         <div
           class="min-h-[230px] w-full px-1 text-left text-[#20407C] lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]"
         >
           <h1
-            class="pt-4 lg:text-[36px] xxs:text-[18px] font-black-custom text-[#20407C]"
+            class="pt-4 lg:text-[30px] xxs:text-[18px] font-black-custom text-[#20407C]"
           >
             About your home
           </h1>
           <p
-            class="xxxs:text-[12px] md:text-[18px] lg:text-[18px] font-regular-custom text-[#20407C] mt-4 mb-4"
+            class="xxxs:text-[12px] md:text-[18px] lg:text-[18px] font-regular-custom font-custom-color mt-4 mb-4"
           >
             At Stef & Philips, we want to help you thrive in your new home.
             That’s why we have dedicated teams in place to provide all the
@@ -84,12 +82,12 @@
   </div>
 
   <!-- Step 3 end -->
-  <div class="pb-20 pt-3 lg:w-[70%] sm:w-[90%] xxxs:w-[75%] mx-auto mt-20">
+  <div class="pb-20 pt-3 container mx-auto mt-20">
     <div class="justify-center">
       <div
         class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
       >
-        <Yourhome :message="peoplecards" />
+        <YourhomeButtonCard :message="peoplecards" />
       </div>
     </div>
   </div>
@@ -97,11 +95,11 @@
   <div class="bg-image-update min-h-[450px] w-full">
     <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="lg:text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]"
           >
-            <span class="font-black-custom lg:text-[32px] xxxs:text-[18px]"
+            <span class="font-black-custom lg:text-[30px] xxxs:text-[18px]"
               >You’re always fully supported
             </span>
           </h1>
@@ -114,7 +112,7 @@
           </p>
         </div>
         <div class="min-h-[300px] text-white w-full">
-          <div class="mx-auto w-full lg:py-10">
+          <div class="container mx-auto w-full lg:py-10">
             <div
               class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
             >
@@ -133,6 +131,7 @@
 
 <script setup>
 import Yourhome from "../components/YourHomeCards.vue";
+import YourhomeButtonCard from "../components/YourHomeCardButtonOnly.vue";
 import HourEmergencies from "../components/HourEmergencies.vue";
 import { useAppStore } from "../store/index";
 import { computed } from "vue";
@@ -252,6 +251,11 @@ const yourValueCards = [
 </script>
 
 <style scoped>
+/* @media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+} */
 .bgImg {
   background-image: url("../assets/YourHome/YourHomeBG.png");
   background-repeat: no-repeat;
@@ -293,5 +297,8 @@ const yourValueCards = [
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.font-custom-color {
+  color: #1d1d33 !important;
 }
 </style>

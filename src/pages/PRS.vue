@@ -323,6 +323,11 @@ const peopleM = [
 </script>
 
 <style scoped>
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
+}
 .nav-bar-tranparent {
   position: absolute;
   opacity: 1.5;

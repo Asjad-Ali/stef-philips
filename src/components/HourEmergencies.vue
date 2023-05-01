@@ -11,11 +11,15 @@
           >emergencies</span
         >
       </h1>
-      <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
+      <p
+        class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom p-text-color"
+      >
         Little into here, out of hours are Weekends, Bank Holidays and between
         6pm - 7am daily
       </p>
-      <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
+      <p
+        class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom p-text-color"
+      >
         If you are experiencing an emergency during out of hours (Weekends, Bank
         Holidays and between 6pm-7am daily) and need assistance - the quickest
         way to report and issue and get it fixed, is by using
@@ -36,7 +40,7 @@
           type="button"
           class="bg-[#20407C] py-4 px-6 lg:text-[16px] xxxs:text-[14px] h-50px lg:mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
-          What is an emergencey
+          What is an emergency
         </button>
       </div>
     </div>
@@ -46,4 +50,7 @@
 /* .card-background {
   background-color: pink;
 } */
+.p-text-color {
+  color: #1d1d33 !important;
+}
 </style>

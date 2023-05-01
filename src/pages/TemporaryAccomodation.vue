@@ -2,33 +2,33 @@
   <!-- breadCrum -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
     <nav
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="home">Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="your-home">Your Home</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="tenant-services">Tenant services</router-link>
       </div>
-      <i class="pi pi-angle-right text-white"></i>
+      <i class="pi pi-angle-right font-bold text-[grey]"></i>
 
       <div
         exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
+        class="text-white font-bold text-sm font-bold-custom text-[14px]"
       >
         <router-link to="temporary-accomodation"
           >Temporary accomodation</router-link
@@ -39,15 +39,13 @@
   <!-- breadCrum end -->
   <!-- bg-image with card -->
   <div class="w-full min-h-[460px] bgImg">
-    <div
-      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[94%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <!-- mx-auto p-3 -->
       <div
-        class="lg:w-[365px] xxs:w-[250px] h-[auto] lg:ml-14px xxs:ml-[7px] p-10 contentImg"
+        class="lg:w-[480px] xxs:w-[250px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[2rem] sm:p-[2rem] xxs:p-[2rem] contentImg"
       >
-        <h1 class="lg:text-[36px] xxs:text-[18px] text-white font-[300]">
-          <span class="font-black-custom lg:text-[36px] xxs:text-[18px]"
+        <h1 class="lg:text-[38px] xxs:text-[18px] text-white font-[300]">
+          <span class="font-black-custom lg:text-[38px] xxs:text-[18px]"
             >Temporary and emergency
           </span>
           accommodation
@@ -70,18 +68,18 @@
 
   <!-- three cards without bg-image -->
   <div class="min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="mt-12 mb-6 text-trisec leading-[50px] font-semibold text-left"
           >
             <span
-              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >Your responsibilities
             </span>
             <span
-              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >as a service user</span
             >
           </h1>
@@ -102,18 +100,18 @@
 
   <!-- bg-image-with-threeCard -->
   <div class="bg-image-update min-h-[450px] w-full">
-    <div class="mx-auto lg:w-[70%] sm:w-[90%] xxxs:w-[75%]">
+    <div class="mx-auto container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-[63%] xxxs:w-[100%] sm:w-[75%] md:w-[75%]">
+        <div class="container">
           <h1
             class="mt-12 mb-6 text-white leading-[50px] font-semibold text-left"
           >
             <span
-              class="font-light-custom lg:text-[30px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >Support provided by your
             </span>
             <span
-              class="font-black-custom lg:text-[38px] xxxs:text-[23px] sm:text-[30px]"
+              class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
               >housing partner
             </span>
           </h1>
@@ -123,7 +121,7 @@
             <div
               class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
             >
-              <ThreeCard :message="ResponCard" />
+              <!-- <ThreeCard :message="ResponCard" /> -->
             </div>
           </div>
         </div>
@@ -144,9 +142,7 @@
   <NeedHelp />
   <!-- faq -->
   <div class="min-h-[400px] w-full bg-[#EDEDEE] lg:pt-28 xxxs:py-16">
-    <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto flex flex-wrap items-center"
-    >
+    <div class="container mx-auto flex flex-wrap items-center">
       <p class="text-[#20407C] lg:text-[30px] font-light pb-6">
         <span class="text-[30px] font-black">During your stay FAQs</span>
       </p>
@@ -154,7 +150,9 @@
     </div>
   </div>
   <!-- faq end -->
-  <HorizontalCardVue :message="card4" />
+  <div class="w-full bg-custom">
+    <HorizontalCardVue :message="card4" />
+  </div>
 </template>
 
 <script setup>
@@ -252,14 +250,14 @@ const sectionFourCard3 = {
 const card4 = {
   direction: "rtl",
   img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " ? cancelled ",
+  header: "?Was your tenancy",
+  boldheader: " cancelled ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
     "(Look at wording), we have a clear process of managing your belongings, anything to do with the tenancy contact the council.",
   btnimg: "src/assets/Svg/Path51.svg",
-  b: true,
+  buttonIcon: true,
   flex: "items-end",
 };
 const pmessage = [
@@ -297,6 +295,9 @@ const pmessage = [
 </script>
 
 <style scoped>
+.bg-custom {
+  background-color: #f0f7fe;
+}
 .bg-image-update {
   background-image: url("../assets/YourHome/housingPartnerBg.png");
   background-repeat: no-repeat;
@@ -308,6 +309,12 @@ const pmessage = [
   background-size: cover;
   background-position: center;
   opacity: 100%;
+  /* background: #1d1d33;
+  background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%); */
+  border-color: #000000;
+  /* border-width: 1px; */
+  /* border-style: dashed; */
+
   background: #1d1d33;
   background: linear-gradient(161deg, #1d1d33 0%, rgba(29, 29, 51, 0.44) 100%);
 }
@@ -331,5 +338,10 @@ const pmessage = [
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media (min-width: 1200px) {
+  .lg\:w-\[70\%\] {
+    max-width: 1140px;
+  }
 }
 </style>

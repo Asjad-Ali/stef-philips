@@ -1458,43 +1458,48 @@ export const ProductService = {
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-1.png",
+        image: "../src/assets/S&P Icons 2023_Value - leading.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-2.png",
+        image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-3.png",
+        image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-4.png",
+        image: "../src/assets/S&P Icons 2023_Value - leading.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-5.png",
+        image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-6.png",
+        image: "../src/assets/S&P Icons 2023_Value - leading.png",
+      },
+      {
+        name: "Step here",
+        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
         name: "Step here",
         description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-7.png",
+        image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
-      {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
-        image: "../src/assets/S&P-priveate-7.png",
-      }
     ];
   },
 };
