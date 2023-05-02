@@ -28,14 +28,8 @@
       </h1>
      <div class="flex flex-wrap justify-between items-center py-6 gap-5">
       <div class="flex flex-wrap items-center gap-6">
-        <button
-          type="button"
-          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-[12px] font-black-custom text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
-        >Category</button>
-        <button
-          type="button"
-          class="bg-[#ebe4f9] hover:bg-[#DDD1FA] py-3 px-8 text-[12px] font-black-custom text-[#886BFF] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]"
-        >Category</button>
+        <button type="button" class="bg-[#D2D9E5] hover:bg-[#DDD1FA] py-3 px-6 text-[12px] font-black-custom text-[#20407C] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Category</button>
+        <button type="button" class="bg-[#D2D9E5] hover:bg-[#DDD1FA] py-3 px-6 text-[12px] font-black-custom text-[#20407C] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Category</button>
       </div>
           <div class="flex mt-3 space-x-4 md:order-2">
             <!-- <a

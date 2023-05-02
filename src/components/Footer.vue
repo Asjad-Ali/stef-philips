@@ -14,7 +14,7 @@
                   v-for="item in navigation.solutions"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                  <a :href="item.href" class="font-regular leading-5">{{
                     item.name
                   }}</a>
                 </li>
@@ -30,7 +30,7 @@
                   v-for="item in navigation.support"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                  <a :href="item.href" class="font-regular leading-5">{{
                     item.name
                   }}</a>
                 </li>
@@ -45,7 +45,7 @@
                   v-for="item in navigation.legal"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-xbold-custom leading-5">{{
+                  <a :href="item.href" class="font-regular leading-5">{{
                     item.name
                   }}</a>
                 </li>

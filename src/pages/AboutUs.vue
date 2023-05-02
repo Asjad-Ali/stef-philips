@@ -26,7 +26,7 @@
           <div class="groupImg">
             <h1 class="font-light-custom text-[40px] leading-none text-white content px-14">
               <div class="font-light-custom text-[42px]">
-                Our <strong>story</strong>
+                Our <strong class="font-black-custom">story</strong>
               </div>
             </h1>
             <p class="text-white mt-4 font-regular-custom text-[18px] content2 px-14">
@@ -81,10 +81,6 @@
             <img src="../assets/ContentSide.png" alt>
           </div>
           <div class="">
-            <h1 class="leading-none text-trisec font-light-custom text-[32px]">
-              Creating impact on <br />multiple levels,
-                <strong class="font-black-custom text-[36px]">every<br />single day</strong>
-            </h1>
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
               From temporary to permanent tenants, our care reaches beyond
               bricks and mortar to include specialised accommodation and
@@ -92,7 +88,7 @@
               adults living on their own for the first time
             </p>
             <p class="mt-8 font-regular-custom lg:text-[18px] text-[12px]">
-              Our aim is to have a positive impact in everything we do.
+              <strong class="font-black-custom">Our aim is to have a positive impact in everything we do.</strong>
             </p>
           </div>
         </div>
@@ -117,7 +113,7 @@
               to help people all around the country get the housing help
               they need.
             </p>
-            <p>
+            <p class="mt-4">
               Much has changed since we first opened our doors in 2006 –
               back then we were a traditional estate agency; we are now a
               leading provider of accommodation services around the UK.
@@ -130,7 +126,7 @@
               housing crisis and giving vulnerable people a lifeline and an
               opportunity to get back on their feet.
             </p>
-            <p>
+            <p class="mt-4">
               Everyone who works here shares the same mission: to make the
               lives of vulnerable people safer and more secure. Watch the
               interview with Philip to find out more about why we do what we
@@ -153,7 +149,7 @@
           <div class="">
             <h1 class="leading-none text-trisec font-light-custom text-[32px]">
               The
-              <strong class="font-black-custom text-[36px]">unacceptable</strong>
+              <strong class="font-black-custom text-[36px]">unacceptable</strong> <br/>
               scale of homelessness
             </h1>
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
@@ -192,13 +188,13 @@
   <div class="bg-image-update min-h-[450px] w-full">
     <div class="container">
       <div class="lg:py-20 xxxs:py-10">
-        <div class="lg:w-full ml-10">
-          <h1 class="px-4 text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]">
-            <span class="font-black-custom">Our </span>values
+        <div class="lg:w-full">
+          <h1 class="px-2 text-[32px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]">
+            <span class="font-black-custom">Our </span>Values
           </h1>
-          <p class="text-[18px] text-white font-regular-custom mt-4 px-5 pr-[8rem]">
+          <p class="text-[18px] text-white font-regular-custom mt-4 px-2 pr-[8rem]">
             At Stef & Philips, our values are central to our ethos. They<br />guide
-            everything we do
+            everything we do.
           </p>
         </div>
         <div class="min-h-[300px] text-white w-full">
@@ -211,15 +207,15 @@
                 :responsiveOptions="responsiveOptions"
               >
                 <template #item="slotProps">
-                  <div class="m-2 px-10 lg:h-[320px] bg-white">
+                  <div class="m-2 px-[30px] pt-[40px] pb-3 lg:h-[380px] bg-white">
                     <div class="text-[#20407C]">
-                      <img class="w-[55px] py-5 pt-[3rem]" :src="slotProps.data.image" alt />
-                      <h4 class="mb-3 font-black-custom">
+                      <img class="w-[55px] pb-5" :src="slotProps.data.image" alt />
+                      <h4 class="mb-3 font-black-custom text-[18px]">
                         {{ slotProps.data.name }}
                       </h4>
-                      <h6 class="mt-0 mb-3">
+                      <p class="mt-0 mb-3 text-[16px]">
                         {{ slotProps.data.description }}
-                      </h6>
+                      </p>
                     </div>
                   </div>
                 </template>
@@ -287,14 +283,11 @@
   <!-- slider -->
   <div class="bg-second min-h-[600px] text-white w-full">
     <div class="container lg:py-20">
-      <div class="flex justify-between">
-        <h1 class="py-8 text-white font-light-custom text-[36px]">
+      <div class="flex justify-between items-center py-8 mx-[0.6rem]">
+        <h1 class="text-white font-light-custom text-[36px]">
           Our Senior Team
         </h1>
-        <button
-          type="button"
-          class="justify-right h-[50px] md:px-8 mt-10 ring-2 ring-white shadow-sm text-[16px] text-white xxs:px-4 xxs:py-3"
-        >
+        <button class="justify-right h-[50px] ring-2 ring-white shadow-sm text-[16px] text-white px-4 md:px-[35px] py-3">
           Meet the full team
         </button>
       </div>
@@ -306,19 +299,19 @@
           :responsiveOptions="responsiveOptions"
         >
           <template #item="slotProps">
-            <div
-              class="border-1surface-border border border-round m-[0.6rem] text-center text-black py-20 px-10 lg:h-[15rem] bg-slate-200"
-            >
-              <div class="">
-                <h4 class="mb-1">{{ slotProps.data.name }}</h4>
-                <h6 class="mt-0 mb-3">${{ slotProps.data.price }}</h6>
+            <div class="m-[0.6rem]">
+              <div class="border-1surface-border border border-round text-center text-black py-20 px-10 lg:h-[300px] mb-[20px] bg-slate-200">
+                <!-- <div class="">
+                  <h4 class="mb-1">{{ slotProps.data.name }}</h4>
+                  <h6 class="mt-0 mb-3">${{ slotProps.data.price }}</h6>
+                </div> -->
               </div>
-            </div>
-            <div class="font-black-custom text-[18px] m-[0.6rem]">
-              First Name Last Name
-            </div>
-            <div class="font-regular-custom text-[18px] m-[0.6rem]">
-              Job title goes here
+              <h3 class="font-black-custom text-[18px]">
+                First Name Last Name
+              </h3>
+              <p class="font-regular-custom text-[16px]">
+                Job title goes here
+              </p>
             </div>
           </template>
         </Carousel>

@@ -92,7 +92,7 @@
     </div>
   </div>
 
-  <div class="w-full h-auto bg-[#1d1d33] flex items-center relative mt-[200px]">
+  <div class="w-full h-auto bg-[#1d1d33] flex items-center relative mt-[200px] border-b border-[#fff]">
     <!-- <div class="contentImg"></div> -->
     <div class="container h-[315px] mx-auto p-3">
       <div class="grid grid-cols-2">
@@ -103,7 +103,7 @@
             <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Meet the team</button>
           </div>
         </div>
-        <div class="-translate-y-[30%]">
+        <div class="-translate-y-[131px]">
           <div class="contentImg"></div>
         </div>
       </div>

@@ -1456,48 +1456,48 @@ export const ProductService = {
   getsevenstepprocesss() {
     return [
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Leading with integrity",
+        description: "Honesty and transparency are at the heart of all our relationships.",
         image: "../src/assets/S&P Icons 2023_Value - leading.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        name: "Motivated to understand",
+        description: "We do our utmost to understand each individual’s needs, so we can deliver the best solution. ",
         image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Determined to make a difference",
+        description: "Our goal is to reduce homelessness and create positive change in many people’s lives. ",
         image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Leading with integrity",
+        description: "Honesty and transparency are at the heart of all our relationships.",
         image: "../src/assets/S&P Icons 2023_Value - leading.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        name: "Motivated to understand",
+        description: "We do our utmost to understand each individual’s needs, so we can deliver the best solution. ",
         image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Determined to make a difference",
+        description: "Our goal is to reduce homelessness and create positive change in many people’s lives. ",
         image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Leading with integrity",
+        description: "Honesty and transparency are at the heart of all our relationships.",
         image: "../src/assets/S&P Icons 2023_Value - leading.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum short description goes here like so in this featured icon element lore ipsum.",
+        name: "Motivated to understand",
+        description: "We do our utmost to understand each individual’s needs, so we can deliver the best solution. ",
         image: "../src/assets/S&P Icons 2023_Value - motivated.png",
       },
       {
-        name: "Step here",
-        description: "Short description goes here like so in this featured icon element lore ipsum.",
+        name: "Determined to make a difference",
+        description: "Our goal is to reduce homelessness and create positive change in many people’s lives. ",
         image: "../src/assets/S&P Icons 2023_Value - determined.png",
       },
     ];
