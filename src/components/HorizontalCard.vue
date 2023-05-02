@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="container py-14 flex flex-col justify-center"
-  >
+  <div class="container py-14 flex flex-col justify-center">
     <div class="w-full flex justify-end flex-row-reverse">
       <div class="py-20">
         <div
@@ -9,10 +7,7 @@
           :dir="props.message.direction"
           :class="props.message.bgclass"
         >
-          <div
-            class="flex flex-col justify-center"
-            :class="props.message.flex"
-          >
+          <div class="flex flex-col justify-center" :class="props.message.flex">
             <h1
               class="text-trisec leading-[50px] font-semibold text-left"
               v-if="props.message.header"
@@ -37,13 +32,18 @@
               v-for="items in props.message.btn"
               :key="items.name"
             >
+              <i
+                v-if="props.message.buttonIcon == true"
+                class="pi pi-arrow-up-right font-bold text-[dark-grey]"
+              ></i>
+
               <img :src="props.message.btnimg" alt="" />
               {{ items }}
             </button>
           </div>
-          <!-- <div class="flex justify-end">
+          <div class="flex justify-end">
             <img class="w-full h-full object-cover" :src="props.message.img" />
-          </div> -->
+          </div>
         </div>
       </div>
     </div>

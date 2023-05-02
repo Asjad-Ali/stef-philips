@@ -3,7 +3,7 @@
     class="h-[40px] w-full breadCrum-bg bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -31,7 +31,7 @@
   </div>
   <div class="w-full min-h-[150px]">
     <div
-      class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] min-h-[100px] mx-auto lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]"
+      class="container sm:w-[93%] min-h-[100px] mx-auto lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem]"
     >
       <h1
         class="lg:text-[42px] xxs:text-[20px] xxxs:text-[38px] text-[#20407c] font-black-custom mt-16"
@@ -47,7 +47,7 @@
   <div
     class="w-full mx-auto flex justify-center lg:mt-[5rem] sm:mt-[3rem] xxs:mt-[3rem] bg-custom"
   >
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] flex flex-col">
+    <div class="container flex flex-col">
       <div class="flex">
         <h1
           class="lg:text-[30px] xxs:text-[17px] xxxs:text-[25px] mt-12 text-trisec font-black-custom"
@@ -83,7 +83,7 @@
   </div>
 
   <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-20 xxs:py-10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
+    class="container mx-auto py-20 xxs:py-10 my-20 xxs:my-10 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7"
   >
     <div class="mx-auto">
       <h1
@@ -116,9 +116,9 @@
       </div>
       <button
         type="button"
-        class="bg-trisec font-xbold-custom md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+        class="bg-trisec md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
       >
-        What is an emergencey
+        What is an emergency
       </button>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-16">
+  <div class="container mx-auto py-16">
     <h1
       class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom"
     >
@@ -81,5 +81,8 @@ const noption = ref("");
   color: #20407c;
   font-size: 18px;
   font-family: "XBold", sans-serif;
+}
+.p-radiobutton .p-radiobutton-box {
+  border: 2px solid RGBA(34, 66, 122, 0.8) !important;
 }
 </style>

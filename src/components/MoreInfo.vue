@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-11 lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+  <div class="pt-11 container mx-auto">
     <h1
       class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] font-black-custom mb-[2rem]"
     >
@@ -132,6 +132,9 @@ const chooseFile = [
 </script>
 
 <style>
+.p-dropdown.p-component.p-inputwrapper.w-full {
+  border-radius: 0px !important;
+}
 .p-dropdown {
   border: 0.16rem solid #20407c;
   border-radius: 0px !important;
@@ -142,6 +145,7 @@ const chooseFile = [
   background-color: #20407c;
   color: white;
   width: 50px;
+  border-radius: 0px !important;
 }
 .p-dropdown .pi {
   display: inline-block;

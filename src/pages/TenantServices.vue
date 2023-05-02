@@ -3,7 +3,7 @@
     class="h-[40px] w-full bg-[#1D1D33] opacity-50 bl flex justify-center nav-bar-tranparent"
   >
     <nav
-      class="lg:w-[70%] xxxs:w-[80%] sm:w-[93%] h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
+      class="container h-full mx-auto flex items-center justify-start gap-3 inner lg:pl-[15px]"
     >
       <div
         exact-active-class="exact-active"
@@ -29,9 +29,7 @@
   </div>
   <!-- section 1 -->
   <div class="w-full min-h-[460px] bgImg">
-    <div
-      class="lg:w-[70%] xxs:w-[95%] sm:w-[75%] md:w-[93%] lg:h-[500px] xxs:h-[500px] mx-auto flex items-center"
-    >
+    <div class="container lg:h-[500px] xxs:h-[500px] mx-auto flex items-center">
       <!-- mx-auto p-3 -->
       <div
         class="lg:w-[480px] xxs:w-[250px] h-[auto] lg:ml-[14px] xxs:ml-[35px] sm:ml-[7px] lg:p-[5rem] sm:p-[3rem] xxs:p-[2rem] contentImg"
@@ -56,18 +54,16 @@
   <!-- section 2 -->
   <!-- <div class="w-full min-h-[400px] p-3"> -->
   <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
+    class="container sm:w-[93%] mx-auto py-14 flex flex-col justify-center my-[4rem]"
   >
     <div class="card flex items-start justify-content-between gap-5 w-full">
       <Card :message="card1" style="background-color: white" />
     </div>
   </div>
-  <div
-    class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto py-14 flex flex-col justify-center"
-  >
+  <div class="container mx-auto py-14 flex flex-col justify-center">
     <!--  -->
     <div
-      class="card flex items-start justify-start mx-auto flex-wrap lg:gap-16 xxxs:gap-5 w-full"
+      class="card flex items-start justify-start mx-auto flex-wrap lg:gap-[1rem] xxxs:gap-5 w-full"
     >
       <TenantCard :message="card2" />
     </div>
@@ -125,15 +121,15 @@ const card2 = [
 const card3 = {
   direction: "rtl",
 
-  img: new URL("../assets/YourHome/tenacyCancelled.png", import.meta.url).href,
-  header: "Was your tenancy",
-  boldheader: " ? cancelled ",
+  img: new URL("../assets/YourHome/headicPerson.png", import.meta.url).href,
+  header: "?Was your tenancy ",
+  boldheader: " cancelled  ",
   bgclass: "bg-[#f0f7fe]",
   btn: ["Find my concil"],
   paragraph:
     "Housing partners are responsible for all tenancy cancellations. If you have any questions about this, you should contact them directly.",
   btnimg: "src/assets/Svg/Path51.svg",
-  // b: true,
+  buttonIcon: true,
   flex: "items-end",
 };
 </script>

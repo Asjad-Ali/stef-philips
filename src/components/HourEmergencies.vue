@@ -40,7 +40,7 @@
           type="button"
           class="bg-[#20407C] py-4 px-6 lg:text-[16px] xxxs:text-[14px] h-50px lg:mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
-          What is an emergencey
+          What is an emergency
         </button>
       </div>
     </div>

@@ -33,7 +33,7 @@
   <div
     class="mx-auto w-full flex justify-center items-center lg:mt-[10rem] sm:mt-[8rem] xxs:mt-[5rem] pb-10"
   >
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%] mx-auto">
+    <div class="container mx-auto">
       <div
         class="lg:text-[42px] xxs:text-[20px] xxxs:text-[38px] text-[#20407c] font-black-custom"
       >
@@ -54,7 +54,7 @@
   <MoreInfo />
   <YourDetails />
   <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-    <div class="lg:w-[70%] xxxs:w-[90%] sm:w-[93%]">
+    <div class="container">
       <p class="text-[#20407C] text-[30px] font-light pb-6">
         <span class="text-[30px] font-black-custom">Other way to report</span>
       </p>
@@ -64,11 +64,11 @@
 </template>
 
 <style>
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .lg\:w-\[70\%\] {
     max-width: 1140px;
   }
-}
+} */
 .p-dropdown.p-component.p-inputwrapper.w-full {
   border-radius: 6px;
 }

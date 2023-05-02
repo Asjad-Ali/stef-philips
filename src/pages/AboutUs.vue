@@ -24,16 +24,22 @@
       <div class="grid grid-cols-2">
         <div class="contentImg">
           <div class="groupImg">
-            <h1 class="font-light-custom text-[40px] leading-none text-white content px-14">
+            <h1
+              class="font-light-custom text-[40px] leading-none text-white content px-14"
+            >
               <div class="font-light-custom text-[42px]">
                 Our <strong class="font-black-custom">story</strong>
               </div>
             </h1>
-            <p class="text-white mt-4 font-regular-custom text-[18px] content2 px-14">
+            <p
+              class="text-white mt-4 font-regular-custom text-[18px] content2 px-14"
+            >
               “We are really proud to have become a leading provider of safe,
               secure accommodation for those who need it the most.”
             </p>
-            <p class="text-white mt-[1rem] font-regular-custom text-[18px] content2 px-14">
+            <p
+              class="text-white mt-[1rem] font-regular-custom text-[18px] content2 px-14"
+            >
               <strong>- Philip Philippou, Chairman</strong>
             </p>
           </div>
@@ -46,11 +52,15 @@
   <div class="w-full flex justify-center">
     <div class="container">
       <div class="py-20">
-        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+        <div
+          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
+        >
           <div class="">
             <h1 class="leading-none text-trisec font-light-custom text-[32px]">
               Creating impact on <br />multiple levels,
-                <strong class="font-black-custom text-[36px]">every<br />single day</strong>
+              <strong class="font-black-custom text-[36px]"
+                >every<br />single day</strong
+              >
             </h1>
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
               We believe everyone deserves to have a safe place to call home.
@@ -66,7 +76,7 @@
             </p>
           </div>
           <div class="">
-            <img src="../assets/Card_Image.png" alt>
+            <img src="../assets/Card_Image.png" alt />
           </div>
         </div>
       </div>
@@ -76,9 +86,11 @@
   <div class="w-full flex justify-center">
     <div class="container">
       <div class="py-20">
-        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+        <div
+          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
+        >
           <div class="">
-            <img src="../assets/ContentSide.png" alt>
+            <img src="../assets/ContentSide.png" alt />
           </div>
           <div class="">
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
@@ -106,12 +118,13 @@
     <div class="min-h-[640px] flex items-center justify-center happyS">
       <div class="container py-10">
         <div class="grid md:grid-cols-2 gap-[24px]">
-          <div class="mt-4 text-white font-regular-custom xl:text-[18px] text-[15px]">
+          <div
+            class="mt-4 text-white font-regular-custom xl:text-[18px] text-[15px]"
+          >
             <p>
               For over a decade, Stef & Philips has been working with local
-              authorities, housing associations and charitable organisations
-              to help people all around the country get the housing help
-              they need.
+              authorities, housing associations and charitable organisations to
+              help people all around the country get the housing help they need.
             </p>
             <p class="mt-4">
               Much has changed since we first opened our doors in 2006 –
@@ -119,12 +132,14 @@
               leading provider of accommodation services around the UK.
             </p>
           </div>
-          <div class="mt-4 text-white font-regular-custom xl:text-[18px] text-[15px]">
+          <div
+            class="mt-4 text-white font-regular-custom xl:text-[18px] text-[15px]"
+          >
             <p>
               We construct and manage fit-for-purpose properties in areas of
-              high demand, providing tangible solutions to the current
-              housing crisis and giving vulnerable people a lifeline and an
-              opportunity to get back on their feet.
+              high demand, providing tangible solutions to the current housing
+              crisis and giving vulnerable people a lifeline and an opportunity
+              to get back on their feet.
             </p>
             <p class="mt-4">
               Everyone who works here shares the same mission: to make the
@@ -142,7 +157,9 @@
   <div class="w-full flex justify-center">
     <div class="container">
       <div class="py-20">
-        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+        <div
+          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
+        >
           <div class="">
             <img src="../assets/HouseFlexM.png" alt />
           </div>
@@ -168,13 +185,19 @@
   <div class="w-full flex justify-center">
     <div class="container">
       <div class="py-20">
-        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+        <div
+          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
+        >
           <div class="">
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
-              Alongside this, we are seeing a constant increase in rough sleeping and a dramatic rise in unsuitable temporary accommodation. It’s clear the most vulnerable members of our society need help.
+              Alongside this, we are seeing a constant increase in rough
+              sleeping and a dramatic rise in unsuitable temporary
+              accommodation. It’s clear the most vulnerable members of our
+              society need help.
             </p>
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
-              Stef & Philips’ unique approach to bridging the housing gap is helping create positive change across the UK.
+              Stef & Philips’ unique approach to bridging the housing gap is
+              helping create positive change across the UK.
             </p>
           </div>
           <div class="">
@@ -232,22 +255,24 @@
     <div class="bg-help">
       <div class="card-background">
         <img src="../assets/unique-approach-icon.png" />
-        <h1 class="block py-4 font-light-custom lg:text-[36px] xxxs:text-[30px] font-light text-[#00A8A8]">
+        <h1
+          class="block py-4 font-light-custom lg:text-[36px] xxxs:text-[30px] font-light text-[#00A8A8]"
+        >
           A
           <strong class="font-black-custom">unique approach</strong>
         </h1>
         <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
-            We are the only company with a truly full-service offering. We
-            identify investment<br />opportunities; source and purchase suitable
-            properties; construct and renovate properties to<br />ensure all
-            accommodation is fit-for-purpose; run the entire lettings and
-            management<br />process; and undertake all ongoing management,
-            service and maintenance duties.
-          </p>
-          <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
-            At all stages of this process, we put our tenants’ needs at the
-            heart of everything we do.
-          </p>
+          We are the only company with a truly full-service offering. We
+          identify investment<br />opportunities; source and purchase suitable
+          properties; construct and renovate properties to<br />ensure all
+          accommodation is fit-for-purpose; run the entire lettings and
+          management<br />process; and undertake all ongoing management, service
+          and maintenance duties.
+        </p>
+        <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom">
+          At all stages of this process, we put our tenants’ needs at the heart
+          of everything we do.
+        </p>
       </div>
     </div>
   </div>
@@ -255,7 +280,9 @@
   <div class="w-full">
     <div class="container">
       <div class="py-20">
-        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+        <div
+          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
+        >
           <div class="">
             <h1 class="leading-none text-trisec font-light-custom text-[32px]">
               Life at
@@ -272,10 +299,11 @@
             >
               <router-link to="/about-us">Find out more</router-link>
             </button>
-          </div><div class="">
+          </div>
+          <div class="">
             <img class="houseflex-img" src="../assets/HouseFlexV.png" alt />
           </div>
-        </div> 
+        </div>
       </div>
     </div>
   </div>
@@ -318,8 +346,8 @@
       </div>
     </div>
   </div>
-  
-  <div class="py-20 container mt-[3rem] mb-[2rem]">      
+
+  <div class="py-20 container mt-[3rem] mb-[2rem]">
     <Testimonial />
   </div>
 </template>
@@ -469,7 +497,11 @@ const getSeverity = (status) => {
 }
 
 .contentImg {
-  background: linear-gradient(158deg, rgba(2,0,36,1) 0%, rgba(29,29,51,0) 100%);
+  background: linear-gradient(
+    158deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 51, 0) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
