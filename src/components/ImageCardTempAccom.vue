@@ -16,15 +16,16 @@
               v-if="props.message.header"
             >
               <span
-                class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mr-2"
+                class="font-light-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] mx-2"
                 >{{ props.message.header }}</span
               >
               <br v-if="props.message.b == true" />
-
-              <span
-                class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px]"
-                >{{ props.message.boldheader }}</span
+              <ip
+                class="font-black-custom lg:text-[36px] xxxs:text-[23px] sm:text-[30px] text-left"
+                dir="ltr"
               >
+                {{ props.message.boldheader }}
+              </ip>
             </h1>
             <h1
               class="mt-12 text-trisec leading-[50px] font-semibold text-left"
@@ -44,8 +45,6 @@
             >
               {{ props.message.paragraph }}<br />{{ props.message.paragraph2 }}
             </p>
-            <!-- v-if="props.message.btn" -->
-            <!-- <p>fareeeeeeeeeeed{{ props.message }}</p> -->
 
             <div class="flex">
               <button

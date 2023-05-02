@@ -253,7 +253,7 @@ const card = {
 const card2 = {
   direction: "rtl",
   header: "Moving into",
-  boldheader: "PRS accommodation",
+  boldheader: "PRS accommodation?",
   questionMark: true,
   img: new URL("../assets/YourHome/PrsCardImg2.png", import.meta.url).href,
   paragraph:
@@ -278,7 +278,7 @@ const sectionFourCard1 = {
 const sectionFourCard2 = {
   direction: "rtl",
   header: "Paying your",
-  boldheader: "  council tax",
+  boldheader: "council tax  ",
   img: new URL("../assets/YourHome/PrsCardImg5.png", import.meta.url).href,
   paragraph:
     "You are responsible for paying council tax. If you need help understanding your council tax bill, or would like some advice on applying for discounts, the Stef & Philips team is on hand to help.",

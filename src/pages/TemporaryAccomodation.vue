@@ -211,10 +211,11 @@ const card = {
 const card2 = {
   direction: "rtl",
   header: "Moving in or out of",
-  boldheader: " temporary accommodation",
+  boldheader: " temporary accommodations ?",
   img: new URL("../assets/YourHome/TempAcdCard2.png", import.meta.url).href,
   paragraph:
     "The team at Stef & Philips is there to make your move as easy as possible. Once your housing partner has allocated a place for you, we’ll show you around the property and make sure you understand where everything is and how it works: Paying particular attention to important matters, such as the smoke alarms and where you can find fire blankets in the event of an emergency. We’ll also explain your responsibilities as a service user.",
+  flex: "items-end",
 };
 const card3 = {
   header: "What is a",
