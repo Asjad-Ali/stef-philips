@@ -135,6 +135,9 @@
   overflow: hidden;
   overflow-y: auto;
 }
+body.menu-active .wrapper {
+  overflow: hidden;
+}
 html {
   font-size: 14px;
 }

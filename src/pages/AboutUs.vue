@@ -21,24 +21,20 @@
 
   <div class="w-full min-h-[600px] bgImg">
     <div class="container h-[600px] mx-auto flex items-center">
-      <div class="grid grid-cols-2">
+      <div class="grid md:grid-cols-2">
         <div class="contentImg">
-          <div class="groupImg">
-            <h1
-              class="font-light-custom text-[40px] leading-none text-white content px-14"
-            >
+          <div class="groupImg md:px-14 px-5">
+            <h1 class="font-light-custom text-[40px] leading-none text-white content">
               <div class="font-light-custom text-[42px]">
                 Our <strong class="font-black-custom">story</strong>
               </div>
             </h1>
-            <p
-              class="text-white mt-4 font-regular-custom text-[18px] content2 px-14"
-            >
+            <p class="text-white mt-4 font-regular-custom text-[18px] content2">
               “We are really proud to have become a leading provider of safe,
               secure accommodation for those who need it the most.”
             </p>
             <p
-              class="text-white mt-[1rem] font-regular-custom text-[18px] content2 px-14"
+              class="text-white mt-[1rem] font-regular-custom text-[18px] content2"
             >
               <strong>- Philip Philippou, Chairman</strong>
             </p>
@@ -55,7 +51,7 @@
         <div
           class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
         >
-          <div class="">
+          <div class="md:mb-0 mb-9">
             <h1 class="leading-none text-trisec font-light-custom text-[32px]">
               Creating impact on <br />multiple levels,
               <strong class="font-black-custom text-[36px]"
@@ -86,10 +82,8 @@
   <div class="w-full flex justify-center">
     <div class="container">
       <div class="py-20">
-        <div
-          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
-        >
-          <div class="">
+        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+          <div class="md:mb-0 mb-9">
             <img src="../assets/ContentSide.png" alt />
           </div>
           <div class="">
@@ -160,7 +154,7 @@
         <div
           class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
         >
-          <div class="">
+          <div class="md:mb-0 mb-9">
             <img src="../assets/HouseFlexM.png" alt />
           </div>
           <div class="">
@@ -188,7 +182,7 @@
         <div
           class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
         >
-          <div class="">
+          <div class="md:mb-0 mb-9">
             <p class="mt-4 font-regular-custom lg:text-[18px] text-[12px]">
               Alongside this, we are seeing a constant increase in rough
               sleeping and a dramatic rise in unsuitable temporary
@@ -280,10 +274,8 @@
   <div class="w-full">
     <div class="container">
       <div class="py-20">
-        <div
-          class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]"
-        >
-          <div class="">
+        <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
+          <div class="md:mb-0 mb-9">
             <h1 class="leading-none text-trisec font-light-custom text-[32px]">
               Life at
               <span class="font-black-custom text-[32px]">Stef & Philips</span>
@@ -574,9 +566,9 @@ const getSeverity = (status) => {
   background-position: center;
 }
 
-.houseflex-img {
-  margin-right: 5rem;
-  margin-top: -23px;
-  margin-bottom: 35px;
+@media(max-width: 767px) {
+  .card-background {
+    padding: 50px 15px
+  }
 }
 </style>

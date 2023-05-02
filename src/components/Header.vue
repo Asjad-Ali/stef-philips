@@ -1,16 +1,22 @@
 <style scoped>
+.submenu-sec {
+    padding: 25px 0 0;
+    position: absolute;
+    margin-top: 26px;
+}
 .dropdown-content {
   display: none; /*Hides the content*/
-  position: absolute;
+  position: relative;
   background-color: #fff;
   min-width: 150px;
   box-shadow: 0px 4px 12px 0px rgba(29, 29, 51, 10%);
   z-index: 1;
-  margin-top: 26px;
+  padding: 6px 0;
 }
 
 .dropdown-content.subInner {
   display: none;
+  position: absolute;
   left: 100%;
   top: 0;
   margin: 0;
@@ -25,11 +31,19 @@
 
 .navbar-menu .nav-link a .dropdown-content a {
   color: #333;
-  padding: 12px 16px;
+  padding: 6px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
   white-space: nowrap
+}
+
+.navbar-menu .nav-link a .dropdown-content a:hover {
+  background-color: #F0F7FE
+}
+
+.navbar-menu .nav-link a .dropdown-content a.router-link-active {
+  color: #2A8CFB
 }
 
 .shiftx-enter-active,
@@ -54,6 +68,28 @@
 header {
   position: relative;
   z-index: 99
+}
+
+.search-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 70px;
+  background: #fff;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px 0 rgba(29,29,51,0.1);
+  display: none
+}
+
+.search-box .search-btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.search-box.active {
+  display: block
 }
 
 @media(min-width: 767px) {
@@ -100,6 +136,9 @@ header {
   }
   .burger-container {
     display: none;
+  }
+  .mobile-search-icon {
+    display: none
   }
 }
 
@@ -186,7 +225,10 @@ header {
   .burger-container.active .burger:before {
     opacity: 0;
   }
-  
+  .mobile-search-icon {
+    flex: 0 0 38px;
+    padding: 7px 10px
+  }
   .main-menu {
     height: calc(100svh - 70px);
     position: absolute;
@@ -259,6 +301,9 @@ header {
     justify-content: center;
     transform: translateY(-50%);
   }
+  .bannerContent {
+   padding: 110px 16px 45px 30px 
+  }
 }
 
 
@@ -276,7 +321,9 @@ header {
                 <Icon class="" icon="ic:round-search" />
               </span> 
             </div>
-            <img class="mobile-search-icon" src="../assets/Svg/MobileSearchIcon.svg" alt="" />
+            <button class="mobile-search-icon" @click="openSearchbar">
+              <img src="../assets/Svg/MobileSearchIcon.svg" alt="" />
+            </button>
             <div class="burger-container" :class="{active: state.menuActive}">
               <button class="burger" @click="openMainMenu">
                 <span class="bar topBar"></span>
@@ -284,7 +331,7 @@ header {
               </button>
             </div>
             <!-- <img class="burger" src="../assets/Svg/HeaderBurger.svg" alt="" /> -->
-            <div class="listbox">
+            <div class="listbox hidden md:inline-block">
               <Listbox as="div" v-model="selected">
                 <div class="relative">
                   <ListboxButton class="relative w-[220px] h-[44px]cursor-default rounded-full pt-2 ring-trisec pr-20 text-left text-gray-800 shadow-sm ring-2 ring-inset bg-blue-50 focus:outline-none focus:ring-2 focus:ring-second sm:text-[18px] sm:leading-6"> 
@@ -327,7 +374,22 @@ header {
         </div>
       </div>
     </div>
-		<div class="w-full bg-gradient-to-r from-[#20407c] to-[#20407c] main-menu" :class="{active: state.menuActive}">
+    <div class="search-box" :class="{active: state.isSearchbar}">
+      <form>
+        <div class="searchbar relative">
+          <input type="text" class="form-input px-4 py-3 pr-[50px] border-2 rounded-full w-full border-[#22427A]">
+          <button class="search-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.496" height="18.496" viewBox="0 0 18.496 18.496">
+              <g id="Search" transform="translate(-246.202 -25.459)">
+                <path id="Path_1" data-name="Path 1" d="M18.795,11.647A7.147,7.147,0,1,1,11.647,4.5a7.147,7.147,0,0,1,7.147,7.147Z" transform="translate(242.702 21.959)" fill="none" stroke="#22427A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                <path id="Path_2" data-name="Path 2" d="M28.861,28.861l-3.886-3.886" transform="translate(234.423 13.679)" fill="none" stroke="#22427A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div> 
+		<div class="w-full bg-gradient-to-r from-[#20407c] to-[#20407c] main-menu flex flex-col" :class="{active: state.menuActive}">
 			<nav class="container">
 				<div class="navbar-menu">
 					<div class="nav-link">
@@ -338,30 +400,32 @@ header {
                   <i class="pi pi-chevron-right"></i>
                 </div>
                 
-                <nav class="dropdown-content" :class="{active: state.activeId == 'aboutUs'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    About Us
-                  </button>
-                  <router-link class="font-semibold text-[18px]" to="/community">Community</router-link>
-                  <router-link class="font-semibold text-[18px]" to="/meet-the-team" >Meet The Team</router-link>
-                  <router-link class="sub-dropdown font-semibold text-[18px]" to="/news" >
-                    <span class="flex items-center justify-between">
-                      News
-                      <i class="pi pi-chevron-right hidden md:inline-block"></i>
-                      <div class="mobile-arrow" @click="openInnerSubMenu('news')">
-                        <i class="pi pi-chevron-right"></i>
-                      </div>
-                      <nav class="dropdown-content subInner" :class="{active: state.innerActiveId == 'news'}">
-                        <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
-                          <i class="pi pi-chevron-left"></i>
-                          News
-                        </button>
-                        <router-link class="font-semibold text-[18px]" to="/news-article" >News Article</router-link>
-                      </nav>
-                    </span>  
-                  </router-link>
-                </nav>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'aboutUs'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      About Us
+                    </button>
+                    <router-link class="font-Medium-custom text-[18px]" to="/community">Community</router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="/meet-the-team" >Meet The Team</router-link>
+                    <router-link class="sub-dropdown font-Medium-custom text-[18px]" to="/news" >
+                      <span class="font-Medium-custom flex items-center justify-between">
+                        News
+                        <i class="pi pi-chevron-right hidden md:inline-block"></i>
+                        <div class="mobile-arrow" @click="openInnerSubMenu('news')">
+                          <i class="pi pi-chevron-right"></i>
+                        </div>
+                        <nav class="dropdown-content subInner" :class="{active: state.innerActiveId == 'news'}">
+                          <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
+                            <i class="pi pi-chevron-left"></i>
+                            News
+                          </button>
+                          <router-link class="font-Medium-custom text-[18px]" to="/news-article" >News Article</router-link>
+                        </nav>
+                      </span>  
+                    </router-link>
+                  </nav>
+                </div>  
               </span> 
             </router-link>
 					</div>
@@ -372,35 +436,37 @@ header {
                 <div class="mobile-arrow" @click="openSubMenu('yourhome')">
                   <i class="pi pi-chevron-right"></i>
                 </div>
-                <nav class="dropdown-content" :class="{active: state.activeId == 'yourhome'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    Your home
-                  </button>
-                  <router-link class="font-semibold text-[18px]" to="/repair-and-maintenance" >Repair & maintenance</router-link>
-                  <router-link class="font-semibold text-[18px]" to="/anti-social-behaviour">Anti-social behaviour</router-link>
-                  <router-link class="font-semibold text-[18px]" to="/other-issues" >Other issues</router-link>
-                  <router-link class="font-semibold text-[18px]" to="/tax-council" >Council tax and utilities</router-link>
-                  <router-link class="font-semibold text-[18px]" to="/hours-emergency" >Out of hours emergencies</router-link>
-                  <router-link class="font-semibold text-[18px] sub-dropdown" to="tenant-services">
-                    <span class="flex items-center justify-between">
-                      Tenant services
-                      <i class="pi pi-chevron-right hidden md:inline-block"></i>
-                      <div class="mobile-arrow" @click="openInnerSubMenu('tenantservice')">
-                        <i class="pi pi-chevron-right"></i>
-                      </div>
-                      <nav class="subInner dropdown-content" :class="{active: state.innerActiveId == 'tenantservice'}">
-                        <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
-                          <i class="pi pi-chevron-left"></i>
-                          Tenant services
-                        </button>
-                        <router-link class="font-semibold text-[18px]" to="/temporary-accomodation" >Temporary accomodation</router-link>
-                        <router-link class="font-semibold text-[18px]" to="prs">PRS</router-link>
-                      </nav>
-                    </span>
-                  </router-link>
-                  <router-link class="font-semibold text-[18px]" to="home-meetTheTeam">Meet your team</router-link>
-                </nav>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'yourhome'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      Your home
+                    </button>
+                    <router-link class="font-Medium-custom text-[18px]" to="/repair-and-maintenance" >Repair & maintenance</router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="/anti-social-behaviour">Anti-social behaviour</router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="/other-issues" >Other issues</router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="/tax-council" >Council tax and utilities</router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="/hours-emergency" >Out of hours emergencies</router-link>
+                    <router-link class="font-Medium-custom text-[18px] sub-dropdown" to="tenant-services">
+                      <span class="font-Medium-custom flex items-center justify-between">
+                        Tenant services
+                        <i class="pi pi-chevron-right hidden md:inline-block"></i>
+                        <div class="mobile-arrow" @click="openInnerSubMenu('tenantservice')">
+                          <i class="pi pi-chevron-right"></i>
+                        </div>
+                        <nav class="subInner dropdown-content" :class="{active: state.innerActiveId == 'tenantservice'}">
+                          <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
+                            <i class="pi pi-chevron-left"></i>
+                            Tenant services
+                          </button>
+                          <router-link class="font-Medium-custom text-[18px]" to="/temporary-accomodation" >Temporary accomodation</router-link>
+                          <router-link class="font-Medium-custom text-[18px]" to="prs">PRS</router-link>
+                        </nav>
+                      </span>
+                    </router-link>
+                    <router-link class="font-Medium-custom text-[18px]" to="home-meetTheTeam">Meet your team</router-link>
+                  </nav>
+                </div>
               </span> 
             </router-link>
 					</div>
@@ -411,13 +477,15 @@ header {
                 <div class="mobile-arrow" @click="openSubMenu('helpAdvice')">
                   <i class="pi pi-chevron-right"></i>
                 </div>
-                <nav class="dropdown-content" :class="{active: state.activeId == 'helpAdvice'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    Help & advice
-                  </button>
-                  <router-link class="font-semibold text-[18px]" to="/national-helplines">National helplines</router-link>
-                </nav>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'helpAdvice'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      Help & advice
+                    </button>
+                    <router-link class="font-Medium-custom text-[18px]" to="/national-helplines">National helplines</router-link>
+                  </nav>
+                </div>
               </span> 
             </router-link>
 					</div>
@@ -428,32 +496,34 @@ header {
                 <div class="mobile-arrow" @click="openSubMenu('housingpartner')">
                   <i class="pi pi-chevron-right"></i>
                 </div>
-                <nav class="dropdown-content" :class="{active: state.activeId == 'housingpartner'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    Housing partners
-                  </button>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/temporary-accommodation">Temporary accommodation</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/housing-partners-prs">PRS</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/accommodation-types">Accommodation types</router-link>
-                  <router-link active-class="active" class="sub-dropdown font-semibold text-[18px]" to="our-projects">
-                    <span class="flex items-center justify-between">
-                      Our Projects
-                      <i class="pi pi-chevron-right hidden md:inline-block"></i>
-                      <div class="mobile-arrow" @click="openInnerSubMenu('ourProjects')">
-                        <i class="pi pi-chevron-right"></i>
-                      </div>
-                      <nav class="subInner dropdown-content" :class="{active: state.innerActiveId == 'ourProjects'}">
-                        <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
-                          <i class="pi pi-chevron-left"></i>
-                          Our Projects
-                        </button>
-                        <router-link active-class="active" class="font-semibold text-[18px]" to="project-template" >Project Template</router-link>
-                        <router-link active-class="active" class="font-semibold text-[18px]" to="where-we-operate">Where we Operate</router-link>
-                      </nav>
-                    </span>
-                  </router-link>
-                </nav>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'housingpartner'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      Housing partners
+                    </button>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/temporary-accommodation">Temporary accommodation</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/housing-partners-prs">PRS</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/accommodation-types">Accommodation types</router-link>
+                    <router-link active-class="active" class="sub-dropdown font-Medium-custom text-[18px]" to="our-projects">
+                      <span class="font-Medium-custom flex items-center justify-between">
+                        Our Projects
+                        <i class="pi pi-chevron-right hidden md:inline-block"></i>
+                        <div class="mobile-arrow" @click="openInnerSubMenu('ourProjects')">
+                          <i class="pi pi-chevron-right"></i>
+                        </div>
+                        <nav class="subInner dropdown-content" :class="{active: state.innerActiveId == 'ourProjects'}">
+                          <button class="px-[16px] py-[16px] block w-full text-left mobile-back font-regular text-[18px]" @click="openInnerSubMenu">
+                            <i class="pi pi-chevron-left"></i>
+                            Our Projects
+                          </button>
+                          <router-link active-class="active" class="font-Medium-custom text-[18px]" to="project-template" >Project Template</router-link>
+                          <router-link active-class="active" class="font-Medium-custom text-[18px]" to="where-we-operate">Where we Operate</router-link>
+                        </nav>
+                      </span>
+                    </router-link>
+                  </nav>
+                </div>
               </span> 
             </router-link>
 					</div>
@@ -464,15 +534,17 @@ header {
                 <div class="mobile-arrow" @click="openSubMenu('investors')">
                   <i class="pi pi-chevron-right"></i>
                 </div>
-                <nav class="dropdown-content" :class="{active: state.activeId == 'investors'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    Investors
-                  </button>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/corporate-investors">Corporate investors</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/private-investors">Private Investor</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/landlords">Landlords</router-link>
-                </nav>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'investors'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      Investors
+                    </button>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/corporate-investors">Corporate investors</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/private-investors">Private Investor</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/landlords">Landlords</router-link>
+                  </nav>
+                </div>
               </span> 
             </router-link>
 					</div>
@@ -486,24 +558,65 @@ header {
                 <div class="mobile-arrow" @click="openSubMenu('contacts')">
                   <i class="pi pi-chevron-right"></i>
                 </div>
-                <nav class="dropdown-content" :class="{active: state.activeId == 'contacts'}">
-                  <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
-                    <i class="pi pi-chevron-left"></i>
-                    Contact
-                  </button>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/faqs">FAQs</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/press-&-media">Press & media</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/contact-community">Community</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/contact-housing-partners">Housing partners</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/investors">Investors</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/general">General</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/lettings-valuation" >Lettings valuation</router-link>
-                  <router-link active-class="active" class="font-semibold text-[18px]" to="/contact-submitted">Submitted</router-link>
-                </nav>
-              </span> </router-link>
+                <div class="submenu-sec">
+                  <nav class="dropdown-content" :class="{active: state.activeId == 'contacts'}">
+                    <button class="p-[16px] w-full text-left mobile-back font-regular text-[18px]" @click="openSubMenu">
+                      <i class="pi pi-chevron-left"></i>
+                      Contact
+                    </button>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/faqs">FAQs</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/press-&-media">Press & media</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-community">Community</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-housing-partners">Housing partners</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/investors">Investors</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/general">General</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/lettings-valuation" >Lettings valuation</router-link>
+                    <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-submitted">Submitted</router-link>
+                  </nav>
+                </div>
+              </span> 
+            </router-link>
 					</div>
 				</div>
 			</nav>
+      <div class="md:hidden flex-auto bg-[#1D1D33]">
+        <div class="listbox px-[16px] py-[30px]">
+          <Listbox as="div" v-model="selected">
+            <div class="relative">
+              <ListboxButton class="relative w-full h-[44px]cursor-default pt-2 ring-[#1D1D33] pr-20 text-left text-white ring-2 sm:text-[16px] sm:leading-6"> 
+                <span class="inline-flex w-full items-center pl-3 truncate">
+                  <span class="truncate">
+                    <Icon class="w-[25px] h-[25px]" :icon="selected.name" />
+                  </span> 
+                  <span class="ml-2 truncate font-xbold-custom text-[14px]">
+                    {{ selected.username }}
+                  </span> 
+                </span> 
+                <span class="text-[25px] pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+                  <Icon icon="material-symbols:keyboard-arrow-down-rounded"/>
+                </span>
+              </ListboxButton>
+              <transition leave-active-class="transition ease-in duration-100" leave-from-class="opacity-100" leave-to-class="opacity-0">
+                <ListboxOptions class="absolute z-10 mt-1 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-[18px]">
+                  <ListboxOption as="template" v-for="person in people" :key="person.username" :value="person" class="w-full h-[44px]" v-slot="{ active, selected }">
+                    <li :class="[active ? 'bg-sky-600 text-white' : 'text-gray-900', 'relative cursor-default select-none py-2 pl-3 pr-9',]">
+                      <div class="flex items-center"> 
+                        <span :class="[selected ? 'font-semibold' : 'font-normal', 'truncate',]">
+                          <Icon :icon="person.name" />
+                        </span>
+                        <span :class="[active ? 'text-sky-200' : 'text-gray-500', 'ml-2 truncate',]">{{ person.username }}</span>
+                      </div>
+                      <span v-if="selected" :class="[ active ? 'text-white' : 'text-sky-600', 'absolute inset-y-0 right-0 flex items-center pr-4',]">
+                        <CheckIcon class="h-5 w-5" aria-hidden="true" />
+                        </span> 
+                    </li>
+                  </ListboxOption>
+                </ListboxOptions>
+              </transition>
+            </div>
+          </Listbox>
+        </div>
+      </div>
 		</div>
 	</header>
 </template>
@@ -554,6 +667,7 @@ const state = ref({
   activeId: null,
   innerActiveId: null,
   menuActive: false,
+  isSearchbar: false,
 })
 const openSubMenu = (linkId) => {
   state.value.activeId = state.value.activeId === linkId ? null : linkId
@@ -564,8 +678,19 @@ const openInnerSubMenu = (linkId) => {
 const openMainMenu = () => {
   state.value.activeId = null
   state.value.innerActiveId = null
-  state.value.menuActive = !state.value.menuActive
+  if(!state.value.menuActive) {
+    state.value.menuActive = true
+    document.body.classList.add('menu-active')
+  } else {
+    state.value.menuActive = false
+    document.body.classList.remove('menu-active')
+  }
 };
+
+const openSearchbar =() => {
+  console.log('ji', state.value.isSearchbar)
+  state.value.isSearchbar = !state.value.isSearchbar
+}
 
 </script>
 
@@ -713,9 +838,6 @@ label #open,
 .LogoN {
   display: none;
 }
-.mobile-search-icon {
-  display: none;
-}
 .burger {
   display: none;
 }
@@ -741,20 +863,13 @@ label #open,
     background: #1d1d33 !important;
     height: 5.5rem;
   }
-  .mobile-search-icon {
-    display: inline;
-    margin-bottom: 5px;
-    margin-right: -22px;
-  }
+  
   .header-search {
     display: none;
   }
   .burger {
     display: inline;
     margin-bottom: 5px;
-  }
-  .listbox {
-    display: none;
   }
   .contact-btn {
     display: none;
@@ -777,10 +892,7 @@ label #open,
   .upper-nav {
     height: 5rem;
   }
-  .mobile-search-icon {
-    margin-bottom: 5px;
-    margin-right: -16px;
-  }
+  
   .burger {
     margin-bottom: 5px;
   }
@@ -789,10 +901,6 @@ label #open,
 @media (max-width: 565px) {
   .upper-nav {
     height: 5rem;
-  }
-  .mobile-search-icon {
-    margin-bottom: 5px;
-    margin-right: 3px;
   }
   .burger {
     margin-bottom: 5px;
@@ -808,10 +916,6 @@ label #open,
   .upper-nav {
     height: 5rem;
   }
-  .mobile-search-icon {
-    margin-bottom: 5px;
-    margin-right: -20px;
-  }
   .burger {
     margin-bottom: 5px;
   }
@@ -819,10 +923,6 @@ label #open,
 @media (max-width: 460px) {
   .search {
     gap: 1rem;
-  }
-  .mobile-search-icon {
-    margin-bottom: 5px;
-    margin-right: 1px;
   }
   .burger {
     margin-bottom: 5px;

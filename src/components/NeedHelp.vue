@@ -54,4 +54,10 @@
 .card-background {
   padding: 100px 80px;
 }
+
+@media(max-width: 767px) {
+  .card-background {
+    padding: 50px 15px
+  }
+}
 </style>

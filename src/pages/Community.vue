@@ -41,7 +41,7 @@
   <div class="w-full min-h-[600px] pt-8">
     <div class="container p-3">
       <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Past events</h1>
-      <div class="grid grid-cols-2">
+      <div class="grid md:grid-cols-2 gap-y-8">
         <Card :message="card1" /> 
       </div>
         
@@ -50,8 +50,8 @@
   <!-- section 4  -->
   <div class="w-full h-auto bg-[#1d1d33] flex items-center relative mt-[200px]">
     <!-- <div class="contentImg"></div> -->
-    <div class="container h-[315px] mx-auto p-3">
-      <div class="grid grid-cols-2">
+    <div class="container md:h-[315px] mx-auto p-3">
+      <div class="grid md:grid-cols-2">
         <div class="">
           <h1 class="text-[36px] text-white font-light-custom mt-16"> <strong class="font-black-custom">Community</strong> is what we all <br> have in common</h1>
           <!-- <p class="text-[18px] py-2 text-white font-regular-custom">Excerpt for the page goes in here like so lorem ipsum dolor<br> sit amet, consectetur adipiscing elit.</p> -->
@@ -60,7 +60,7 @@
             <button class="xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 border border-white font-bold-custom text-[16px] text-white ">Meet the team</button>
           </div>
         </div>
-        <div class="-translate-y-[30%]">
+        <div class="md:-translate-y-[30%] md:mt-0 mt-8">
           <div class="contentImg"></div>
         </div>
       </div>
@@ -74,7 +74,7 @@
   <div class="w-full min-h-[600px] ">
     <div class="container p-3">
       <h1 class="text-[36px] font-light-custom text-[#20407c] my-4">Latest community news</h1>
-      <div class="card flex items-start justify-content-between gap-5 w-full mb-8 ">
+      <div class="card grid md:grid-cols-2 gap-y-8 w-full mb-8 ">
         <Card :message="card2" />
       </div>
     </div>

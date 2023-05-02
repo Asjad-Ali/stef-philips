@@ -2,7 +2,7 @@
   <div class>
     <div class="w-full bg-red-400 bgImg">
       <div class="container">
-        <div class="columns-1 pt-[70px] pb-[90px]">
+        <div class="columns-1 md:pt-[70px] md:pb-[90px] py-[40px]">
           <div class="bannerContent">            
             <div class="contentSec">
               <h1 class="font-light-custom text-[40px] leading-none text-white content">
@@ -23,7 +23,7 @@
       <div class="container">
         <div class="py-20">
           <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
-            <div class="">
+            <div class="md:mb-0 mb-9">
               <h1 class="leading-none text-trisec font-light-custom text-[32px]">
                 Our vision is to see
                 <strong class="font-black-custom">a world without<br>homelessness</strong>
@@ -47,7 +47,7 @@
       <div class="container">
         <div class="lg:py-26 xxxs:py-20">
           <div class="grid md:grid-cols-2 items-center lg:gap-[110px] md:gap-[70px]">
-            <div class="">
+            <div class="md:mb-0 mb-9">
               <img src="../assets/Card_Image-1.png" alt>
             </div>
             <div class="text-white">
@@ -137,7 +137,7 @@
       <div class="min-h-[640px] flex items-center justify-center happyS">
         <div class="container">
           <div class="w-full">
-            <div class="w-[50%] pr-10 text-white">
+            <div class="w-full md:w-[50%] md:pr-10 text-white">
               <h1 class="font-light-custom sm:text-[36px] text-[30px] leading-none">
                 Striving to make the lives<br>of vulnerable people
                 <span class="font-black-custom">safer</span><br> and
@@ -335,5 +335,10 @@ buttonPadding:"pb-[2rem]"
 .px-8 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+@media(max-width: 767px) {
+  .bannerContent {
+    padding: 110px 16px 55px 16px
+  }
 }
 </style>
