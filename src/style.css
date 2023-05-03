@@ -122,20 +122,7 @@
 }
 
 
-
-
-
-
-
-
-.wrapper {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  overflow-y: auto;
-}
-body.menu-active .wrapper {
+body.menu-active {
   overflow: hidden;
 }
 html {
