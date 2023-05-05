@@ -155,11 +155,12 @@ const chooseFile = [
 }
 .p-dropdown .p-dropdown-label.p-placeholder {
   padding-top: 9px !important;
-  color: black !important;
+  color: #1d1d33 !important;
   border-color: #20407c;
   background: #e1efff;
   font-size: 18px;
   font-family: "Black", sans-serif;
+  opacity: inherit;
 }
 .p-inputtext {
   border: 0.16rem solid #20407c;
