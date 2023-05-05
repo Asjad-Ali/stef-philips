@@ -140,7 +140,7 @@ html {
   position: relative;
   padding-bottom: 40px;
 }
-.generic-slider .p-carousel .p-carousel-content .p-link {
+.generic-slider .p-carousel .p-carousel-container .p-link {
   position: absolute;
   left: 0.5rem;
   bottom: 0;
@@ -153,17 +153,22 @@ html {
   justify-content: center;
   margin: 0;
   border-radius: 0;
+  opacity: 1;
 }
-.generic-slider .p-carousel .p-carousel-content .p-link.p-carousel-next {
+.generic-slider .p-carousel .p-carousel-container .p-link.p-carousel-next {
   left: 58px;
 }
-.generic-slider .p-carousel .p-carousel-content .p-link .pi:before{
+.generic-slider .p-carousel .p-carousel-container .p-link .pi:before{
   padding: 0;
 }
 
-.generic-slider .p-carousel .p-carousel-content .p-link:hover {
+.generic-slider .p-carousel .p-carousel-container .p-link:hover {
   background: rgba(255,255,255,0.7) !important;
   color: #fff;
+}
+
+.generic-slider .p-carousel .p-carousel-container .p-link.p-disabled {
+  background: rgba(0,0,0,0.2) !important;
 }
 
 .generic-slider .p-carousel .p-carousel-indicators {
@@ -171,12 +176,12 @@ html {
   padding: 10px 0.5rem;
   gap: 5px;
 }
-.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator {
+.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator .p-link {
   background: rgba(255,255,255,0.3) !important;
   width: 9px;
   height: 9px;
 }
-.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight {
+.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight .p-link {
   background: rgba(255,255,255,0.9) !important;
 }
 
