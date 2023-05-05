@@ -128,15 +128,6 @@ const people = [
 <style scoped>
 
 
-.nav-bar-tranparent{
-  position: absolute;
-  opacity: 0.50;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
-
 .bgImg {
 background-image: url("../assets/our-project-img.png");
 background-repeat: no-repeat;

@@ -283,15 +283,6 @@ const yourValueCards = [
   position: absolute;
 }
 
-.nav-bar-tranparent {
-  position: absolute;
-  opacity: 1.5;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
-
 .bg-image-update {
   background-image: url("../assets/you-always-Background.png");
   background-repeat: no-repeat;

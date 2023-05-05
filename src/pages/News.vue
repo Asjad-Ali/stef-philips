@@ -26,14 +26,14 @@
       <div class="flex flex-row flex-wrap justify-between items-start py-20 gap-8">
         <div class="flex flex-col flex-wrap items-start gap-4">
           <div class="flex gap-2">
-            <button type="button" class="bg-[#2A8CFB] hover:bg-[#71aff5] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Show all</button>
-            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag here</button>
+            <button type="button" class="bg-[#2A8CFB] hover:bg-[#71aff5] xxs:py-3 md:py-3 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Show all</button>
+            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-3 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag here</button>
           </div>
           <div class="flex gap-2">
-            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag roll</button>
-            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag live</button>
+            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-3 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag roll</button>
+            <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-3 xxs:px-5 md:px-9 border-2 border-[#22427A] rounded-full lg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag live</button>
           </div>
-          <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-4 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full tlg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag here</button>
+          <button type="button" class="bg-[#F0F7FE] hover:bg-[#b7daff] xxs:py-3 md:py-3 xxs:px-4 md:px-8 border-2 border-[#22427A] rounded-full tlg:text-[14px] xxs:text-[12px] font-regular text-[#1D1D33] shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#DDD1FA]">Tag here</button>
         </div>
         <div class="flex flex-col gap-[60px]">
           <div class="flex flex-wrap gap-5">
@@ -90,13 +90,6 @@
 <script></script>
 <style>
 
-.nav-bar-tranparent{
-  position: absolute;
-  opacity: 0.50;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
+
 
 </style>

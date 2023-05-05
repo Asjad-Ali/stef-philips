@@ -30,7 +30,7 @@
           <br>
           <p class="text-[18px] text-white font-regular-custom">Want to join our team? We’re raising
             <br> funds for XXXXX (tbc).</p>
-          <button class="w-40 p-2 my-3 border border-white font-xbold-custom text-[16px] text-white ">Read more</button>
+          <button class="w-40 p-2 my-3 border border-white text-[16px] text-white ">Read more</button>
         </div>
       </div>
       <div class="w-[50%]"></div>
@@ -84,7 +84,7 @@
 <script setup>
 // import Card from 'primevue/card';
 import { Icon } from "@iconify/vue";
-import Card from '../components/VerticalGreyCard.vue'
+import Card from '../components/EventCard.vue'
 import Testimonial from "../components/Testimonial.vue";
 
 
@@ -98,14 +98,7 @@ const card2=[{ heading:'Media title here',description: 'Excerpt for the page goe
   background-color: rgba(29, 29, 51, 0.5);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-.nav-bar-tranparent{
-  position: absolute;
-  opacity: 0.50;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
+
 @media (max-width:650px){
 .bgImg{
  display:none;

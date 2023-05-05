@@ -1,19 +1,11 @@
 <template>
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
-    <nav
-      class="container h-full mx-auto flex items-center justify-start gap-3 inner"
-    >
-      <div
-        exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
-      >
+    <nav class="container h-full mx-auto flex items-center justify-start gap-3 inner">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
         <router-link to="home">Home</router-link>
       </div>
       <i class="pi pi-angle-right text-white"></i>
-      <div
-        exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
-      >
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
         <router-link to="about-us">About us</router-link>
       </div>
     </nav>
@@ -36,7 +28,7 @@
             <p
               class="text-white mt-[1rem] font-regular-custom text-[18px] content2"
             >
-              <strong>- Philip Philippou, Chairman</strong>
+              <strong class="font-black-custom">- Philip Philippou, Chairman</strong>
             </p>
           </div>
         </div>
@@ -305,7 +297,7 @@
     <div class="container lg:py-20">
       <div class="flex justify-between items-center py-8 mx-[0.6rem]">
         <h1 class="text-white font-light-custom text-[36px]">
-          Our Senior Team
+          Our senior team
         </h1>
         <button class="justify-right h-[50px] ring-2 ring-white shadow-sm text-[16px] text-white px-4 md:px-[35px] py-3">
           Meet the full team
@@ -327,7 +319,7 @@
                 </div> -->
               </div>
               <h3 class="font-black-custom text-[18px]">
-                First Name Last Name
+                Firstname Lastname
               </h3>
               <p class="font-regular-custom text-[16px]">
                 Job title goes here
@@ -538,15 +530,6 @@ const getSeverity = (status) => {
   height: 480px;
   margin-right: 3%;
   margin-bottom: 5%;
-}
-
-.nav-bar-tranparent {
-  position: absolute;
-  opacity: 0.5;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
 }
 
 .groupImg {

@@ -156,14 +156,7 @@ const peoplecards = [
 .bg-nav {
   background-color: #1d1d33 !important;
 }
-.nav-bar-tranparent {
-  position: absolute;
-  opacity: 1.5;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
+
 .bgImg-custom {
   /* background-image: url("../assets/overlay-image-l.jpg"); */
   background-repeat: no-repeat;

@@ -20,7 +20,7 @@
   content: none
 }
 
-.sub-inner-menu .sub-dropdown:hover ~ .dropdown-content.subInner{
+.sub-inner-menu:hover .dropdown-content.subInner{
   display: block
  }
 
@@ -33,7 +33,7 @@
   white-space: nowrap
 }
 
-.navbar-menu .nav-link .dropdown-content a:hover {
+.navbar-menu .nav-link .dropdown-content .sub-inner-menu:hover {
   background-color: #F0F7FE
 }
 
@@ -541,11 +541,11 @@ header {
                   <i class="pi pi-chevron-left"></i>
                   Housing partners
                 </button>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/temporary-accommodation">Temporary accommodation</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/housing-partners-prs">PRS</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/accommodation-types">Accommodation types</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/temporary-accommodation">Temporary accommodation</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/housing-partners-prs">PRS</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/accommodation-types">Accommodation types</router-link>
                 <div class="sub-inner-menu">
-                  <router-link active-class="active" class="sub-dropdown font-Medium-custom text-[18px]" to="our-projects">
+                  <router-link class="sub-dropdown font-Medium-custom text-[18px]" to="our-projects">
                     <span class="font-Medium-custom flex items-center justify-between">
                       Our Projects
                       <i class="pi pi-chevron-right hidden md:inline-block"></i>
@@ -579,9 +579,9 @@ header {
                   <i class="pi pi-chevron-left"></i>
                   Investors
                 </button>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/corporate-investors">Corporate investors</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/private-investors">Private Investor</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/landlords">Landlords</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/corporate-investors">Corporate investors</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/private-investors">Private Investor</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/landlords">Landlords</router-link>
               </nav>
             </div>
 					</div>
@@ -601,14 +601,14 @@ header {
                   <i class="pi pi-chevron-left"></i>
                   Contact
                 </button>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/faqs">FAQs</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/press-&-media">Press & media</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-community">Community</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-housing-partners">Housing partners</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/investors">Investors</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/general">General</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/lettings-valuation" >Lettings valuation</router-link>
-                <router-link active-class="active" class="font-Medium-custom text-[18px]" to="/contact-submitted">Submitted</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/faqs">FAQs</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/press-&-media">Press & media</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/contact-community">Community</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/contact-housing-partners">Housing partners</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/investors">Investors</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/general">General</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/lettings-valuation" >Lettings valuation</router-link>
+                <router-link class="font-Medium-custom text-[18px]" to="/contact-submitted">Submitted</router-link>
               </nav>
             </div>
 					</div>

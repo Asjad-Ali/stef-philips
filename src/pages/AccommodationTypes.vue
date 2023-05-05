@@ -1,169 +1,70 @@
 <template>
     <div class>
-        <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
-            <nav class="container  mx-auto flex items-center justify-start gap-3 inner ">
-              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                <router-link to="home">Home</router-link>
-              </div>
-              <i class="pi pi-angle-right text-white"></i>
-              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                <router-link to="housing-partners">Housing partners</router-link>
-              </div>
-              <i class="pi pi-angle-right text-white"></i>
-              <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                <router-link to="accommodation-types">Accommodation Types</router-link>
-              </div> 
-            </nav>
-        </div>
+    <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
+        <nav class="container mx-auto flex items-center justify-start gap-3 inner ">
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="home">Home</router-link>
+          </div>
+          <i class="pi pi-angle-right text-white"></i>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="housing-partners">Housing partners</router-link>
+          </div>
+          <i class="pi pi-angle-right text-white"></i>
+          <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+            <router-link to="accommodation-types">Accommodation Types</router-link>
+          </div> 
+        </nav>
+    </div>
     
      <!-- section 1 -->
-    <div class="w-full min-h-[500px] bg-red-400 bgImg">
-      <div class="w-[60%] h-[500px] mx-auto flex items-center">
-        <div class="w-[365px] h-[380px] contentImg lg:ml-14"></div>
-        <div class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-[4rem] lg:mt-[5rem]">
-          <h1 class="font-light-custom text-[34px] leading-none text-white content">
-            <span>Accommodation <br><span class="font-black-custom text-[34px]">Types</span></span>
-          </h1>
-          <p class="text-white mt-4 font-regular-custom text-[15px] content2">Short Introductory summary for the page<br />goes here lilke so</p>
-        </div>
-      </div>
+     <div class="w-full min-h-[500px] mb-[100px]">
+      <PageBanner/>
     </div>
   
-    <div class="min-h-[600px]  w-full ">
-        <div class="mx-auto w-[70%] ">
-            <div class="lg:py-36 xxxs:py-20">
-                <div class="lg:flex">
-                    <div class="lg:w-[50%] pt-40">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]">Adapted units</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                    <div class="lg:w-[50%] flex-auto">
-                        <img src="../assets/acctype-right-1.png" alt />
-                    </div>
-                </div>
-                <div class="flex">
-                    <div class="lg:w-[45%]  flex-auto">
-                        <img src="../assets/acctype-left-1.png" alt />
-                    </div>
-                    <div class="lg:w-[50%] pt-[15rem] ml-15">
-                        <h1 class="px-10 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]"> Care Homes</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pl-[3rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                </div>          
-            </div>
-        </div>
-    </div> 
-
-    <div class="min-h-[600px]  w-full ">
-        <div class="mx-auto w-[70%] ">
-            <div class="">
-                <div class="lg:flex">
-                    <div class="lg:w-[50%] pt-40">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]">Flats</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                    <div class="lg:w-[50%] flex-auto">
-                        <img src="../assets/acctype-right-2.png" alt />
-                    </div>
-                </div>
-                <div class="flex lg:pt-36 xxxs:py-20">
-                    <div class="lg:w-[45%]  flex-auto">
-                        <img src="../assets/acctype-left-2.png" alt />
-                    </div>
-                    <div class="lg:w-[50%] pt-[15rem] ml-15">
-                        <h1 class="px-10 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]">Gender specific unit</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pl-[3rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                </div>          
-            </div>
-        </div>
+    <div class="container py-[30px]">
+      <SectionContentImage direction="image-last"/>
     </div>
 
-    <div class="min-h-[600px]  w-full ">
-        <div class="mx-auto w-[70%] ">
-            <div class="">
-                <div class="lg:flex">
-                    <div class="lg:w-[50%] pt-40">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]">Hotels</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                    <div class="lg:w-[50%] flex-auto">
-                        <img src="../assets/acctype-right-3.png" alt />
-                    </div>
-                </div>
-                <div class="flex lg:py-36 xxxs:py-20">
-                    <div class="lg:w-[45%]  flex-auto">
-                        <img src="../assets/acctype-left-3.png" alt />
-                    </div>
-                    <div class="lg:w-[50%] pt-[15rem] ml-15">
-                        <h1 class="px-10 text-[32px]  lg:font-[400] xxxs:font-[200]  text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]"> Houses in multiple occupation (HMOs)</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pl-[3rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                </div>          
-            </div>
-        </div>
+    <div class="container py-[30px]">
+      <SectionContentImage/>
+    </div>
+    
+    <div class="container py-[30px]">
+      <SectionContentImage direction="image-last"/>
     </div>
 
-    <div class="min-h-[600px]  w-full ">
-        <div class="mx-auto w-[70%] ">
-            <div class="">
-                <div class="lg:flex">
-                    <div class="lg:w-[50%] pt-40">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-black-custom text-[36px]">Supported housing</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                        </p>
-                    </div>
-                    <div class="lg:w-[50%] flex-auto">
-                        <img src="../assets/acctype-right-4.png" alt />
-                    </div>
-                </div>    
-            </div>
-        </div>
+    <div class="container py-[30px]">
+      <SectionContentImage/>
+    </div>
+    
+    <div class="container py-[30px]">
+      <SectionContentImage direction="image-last"/>
+    </div>
+
+    <div class="container py-[30px]">
+      <SectionContentImage/>
+    </div>
+
+    <div class="container py-[30px]">
+      <SectionContentImage direction="image-last"/>
     </div>
    
-    <div class="w-[70%] mx-auto py-20 xxs:py-10 bg-[#FFD600]/10 my-20 lg:px-20 sm:px-16 xxs: px-12 xxxs:px-7 ">
-        <div class="mx-auto w-[10%]">
-            <img class="lg:max-w-sm" src="../assets/IconYell.png" alt />
-        </div>
-        <div class="mx-auto text-center">
-            <h1 class="block py-4 font-weight-medium md:text-[36px] xxs:text-[30px] text-[#20407C]">
-            Out of hours
-            <span class="font-black-custom md:text-[36px] xxs:text-[28px]">emergencies</span>
+    <div class="container py-[100px] bg-[#FFFBE5] my-[80px] mb-[245px]">
+      <div class="w-4/6 mx-auto">
+        <img class="block mx-auto" src="../assets/IconYell.png" alt />
+        <div class="text-center">
+          <h1 class="block py-[12px] m-0 font-weight-medium md:text-[36px] text-[24px] text-[#20407C]">
+            <span class="font-black-custom">Where we operate</span>
           </h1>
-          <p class="font-regular-custom text-[18px] px-[4.2rem]">
-            Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
+          <p class="font-regular-custom text-[18px]">
+            Stef & Philips provides temporary, emergency and PRS accommodation to 
+            housing partners across the UK.
           </p>
-          <button  type="button" class="bg-trisec font-xbold-custom md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
+          <button  type="button" class="mt-[30px] bg-trisec font-xbold-custom md:text-[16px] xxs:text-[14px] xxs:py-3 md:py-4 xxs:px-4 md:px-8 mt-8 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
             Find out more
           </button>
         </div>
+      </div>
     </div>
       
     <div class="w-full h-auto bg-[#20407C] flex items-center relative" style="margin-top: 200px;"> 
@@ -191,6 +92,8 @@
   import { computed } from "vue";
   import NeedHelp from "../components/NeedHelp.vue";
   import BackgroundSVG from "../assets/Background-1.svg"
+  import PageBanner from "../components/PageBanner.vue";
+  import SectionContentImage from "../components/SectionContentImage.vue";
   const hover = useAppStore();
   const state = computed(() => {
     return hover.hover;
@@ -262,14 +165,7 @@
   <style  scoped>
 
 
-.nav-bar-tranparent{
-  position: absolute;
-  opacity: 0.50;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
+
   .bcrumbs {
     background-color: rgba(29, 29, 51, 0.5)
   }

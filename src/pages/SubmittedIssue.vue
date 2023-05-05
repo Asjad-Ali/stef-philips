@@ -64,12 +64,5 @@
     max-width: 1140px;
   }
 }
-.nav-bar-tranparent {
-  position: absolute;
-  opacity: 0.5;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
+
 </style>

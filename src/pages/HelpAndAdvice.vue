@@ -1,50 +1,27 @@
 <template>
   <!-- Step 1 -->
   <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
-    <nav class="w-[70%] mx-auto flex items-center justify-start gap-3 inner">
-      <div
-        exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
-      >
+    <nav class="container mx-auto flex items-center justify-start gap-3 inner">
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
         <router-link to="home">Home</router-link>
       </div>
       <i class="pi pi-angle-right text-white"></i>
-      <div
-        exact-active-class="exact-active"
-        class="text-white font-semibold text-sm font-bold-custom text-[14px]"
-      >
+      <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
         <router-link to="help-and-advice">Help & advice</router-link>
       </div>
     </nav>
   </div>
-  <!-- Step 1 -->
-  <!-- Step 2 -->
-  <div class="w-full min-h-[500px] bg-red-400 bgImg">
-    <div class="w-[60%] h-[500px] mx-auto flex items-center">
-      <div class="w-[365px] h-[380px] contentImg lg:ml-14"></div>
-      <div
-        class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-[6rem]"
-      >
-        <h1
-          class="font-light-custom text-[40px] leading-none text-white content"
-        >
-          <span class="font-black-custom text-[40px]">Help </span>
-          <span>and advice</span>
-        </h1>
-        <p class="text-white mt-4 font-regular-custom text-[15px] content2">
-          Short Introductory summary for the page<br />goes here lilke so
-        </p>
-      </div>
-    </div>
+ 
+  
+  <div class="w-full min-h-[600px]">
+    <PageBanner />
   </div>
-  <!-- Step 2 -->
+  
 
   <!-- Step 3 -->
   <div class="pb-10 pt-3 w-[60%] mx-auto mt-[8rem] mb-10">
     <div class="justify-center">
-      <div
-        class="grid md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 gap-6"
-      >
+      <div class="grid md:grid-cols-3 grid-cols-1 gap-[24px]">
         <Cards :message="people" />
       </div>
     </div>
@@ -63,6 +40,7 @@
 
 <script setup>
 import Cards from "../components/YourHomeCards.vue";
+import PageBanner from "../components/PageBanner.vue";
 import HourEmergencies from "../components/HourEmergencies.vue";
 import NeedHelp from "../components/NeedHelp.vue";
 import { useAppStore } from "../store/index";
@@ -116,35 +94,4 @@ const people = [
   // More people...
 ];
 </script>
-<style scoped>
-.nav-bar-tranparent {
-  position: absolute;
-  opacity: 0.5;
-  background: #1d1d33;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-}
-.bgImg {
-  background-image: url("../assets/overlay-image-l.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.contentImg {
-  background-image: url("../assets/outline-house@4.png");
-  background-repeat: no-repeat;
 
-  background-size: cover;
-  background-position: center;
-  opacity: 100%;
-}
-
-.groupImg {
-  background-image: url("../assets/Group\ 96.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-}
-</style>
