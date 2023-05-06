@@ -1,318 +1,121 @@
 <template>
-    <div class>
-        <div class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent">
-            <nav class="w-[70%]  mx-auto flex items-center justify-start gap-3 inner ">
-                <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                    <router-link to="home">Home</router-link></div>
-                <i class="pi pi-angle-right text-white"></i>
-                <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                    <router-link to="investors">Investors</router-link>
-                </div> 
-                <i class="pi pi-angle-right text-white"></i>
-                <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
-                    <router-link to="corporate-investors">Corporate Investors</router-link>
-                </div> 
-            </nav>
-        </div>
-    
-        <!-- section 1 -->
-        <div class="w-full min-h-[500px] bg-red-400 bgImg">
-            <div class="w-[60%] h-[500px] mx-auto flex items-center">
-                <div class="w-[365px] h-[380px] contentImg lg:ml-14"></div>
-                <div class="w-[409px] h-[45px] min-h-[60px] max-w-sm groupImg lg:ml-[4rem] lg:mt-[6rem]">
-                    <h1 class="font-light-custom text-[34px] leading-none text-white content">
-                        <span> <span class="font-black-custom text-[34px]">Corporate </span> investors</span>
-                    </h1>
-                    <p class="text-white mt-4 font-regular-custom text-[15px] content2">
-                        Short introductory summary for the page goes here like so
-                    </p>
-                </div>
-            </div>
-        </div>
-  
-        <div class="min-h-[600px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class="lg:py-36 xxxs:py-10">           
-                    <div class="flex">
-                        <div class="lg:w-[50%] pt-10">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                            <span class="font-light-custom text-[36px]">Our mission through the</span>
-                            <span class="font-black-custom text-[36px]"> investor </span>
-                            <span class="font-light-custom text-[36px]">prism</span>
-                        </h1>
-                        <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                            At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.
-                        </p>
-                        <button type="button" class="bg-[#2A8CFB] h-[50x] w-[230px] py-4 px-14 ml-5 text-[15px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
-                            Speak to our team
-                        </button>
-                        </div>
-                        <div class="lg:w-[50%] flex-auto">
-                            <img src="../assets/corporate-left-img.png" alt />
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="happyG2 min-h-[600px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class="lg:py-16 xxxs:py-10">           
-                    <div class="flex">
-                        <div class="lg:w-[50%]">
-                            <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-white leading-[40px]">
-                                <span class="font-black-custom text-[36px]">Why invest </span>with <br>Stef & Philips
-                            </h1>
-                            <p class="text-[18px] text-white font-regular-custom mt-4 px-5 pr-[8rem]">
-                                Stef & Philips has been a leading provider of quality accommodation for over 15 years. We manage a property portfolio worth over £600m on behalf of more than 200 investors, have contracts with 60+ UK councils and currently house close to 10,000 tenants.
-                            </p>
-                        </div>
-                        <div class="lg:w-[50%] grid md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 xxs:grid-cols-1">
-                            <div class="lg:w-[70%] flex-auto">
-                                <img class="w-[50px]" src="../assets/icon-1.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    No management & maintenance costs 
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%]">
-                                <img class="w-[38px]" src="../assets/icon-2.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Capital & investment yields protected 
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%] flex-auto mt-5">
-                                <img class="w-[50px]" src="../assets/icon-3.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Stability of income 
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%] flex-auto mt-5">
-                                <img class="w-[38px]" src="../assets/icon-4.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Profit with purpose
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%] flex-auto mt-5">
-                                <img class="w-[50px]" src="../assets/icon-5.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Capital appreciation
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%] flex-auto mt-5">
-                                <img class="w-[38px]" src="../assets/icon-6.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Highest standards maintained, right across the board 
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                            <div class="lg:w-[70%] flex-auto mt-5">
-                                <img class="w-[50px]" src="../assets/icon-7.png" alt />
-                                <h1 class="text-[16px] text-white font-black-custom ">
-                                    Guaranteed returns 
-                                </h1>
-                                <p class="text-[14px] text-white mt-1">
-                                    Lorem
-                                </p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-        
-        <div class="global-impact min-h-[300px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class="lg:py-16 xxxs:py-10">           
-                    <div class="">
-                        <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-white leading-[40px]">
-                            For investors who want to make a <span class="font-black-custom text-[36px]">global impact</span> 
-                        </h1>
-                        <p class="text-[18px] text-white font-regular-custom mt-4 px-5 pr-[8rem]">
-                            Stress-free property ownership delivering a guaranteed<br>income stream and tangible social impact.
-                        </p>
-                        <button class=" xxs:py-3 md:py-3 xxs:px-4 md:px-8 my-3 ml-5 border border-white font-bold-custom text-[16px] text-white ">Get in touch</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-         
-
-        <div class="bg-[#1D1D33] min-h-[650px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class="lg:py-20 xxxs:py-10">           
-                    <div class="lg:w-full">
-                        <h1 class="px-8 text-[24px] lg:font-[400] xxxs:font-[200] text-white leading-[40px]">
-                            The Stef & Philips difference<br><span class="font-black-custom text-[24px]">Our full-service solution</span> 
-                        </h1>
-                    </div>                        
-                    <div class="flex">
-                        <div class="lg:w-[50%]">
-                            <p class="text-[18px] text-white font-regular-custom mt-4 px-5 pr-[8rem]">
-                                We are the only company with an end-to-end, full-service offering. This includes sourcing, constructing/renovating, managing and maintaining each property, all overseen by our dedicated in-house teams.
-                            </p>
-                        </div>
-                        <div class="lg:w-[50%]">
-                            <p class="text-[18px] text-white font-regular-custom mt-4 px-5 pr-[8rem]">
-                                We are the only company with an end-to-end, full-service offering. This includes sourcing, constructing/renovating, managing and maintaining each property, all overseen by our dedicated in-house teams.
-                            </p>
-                        </div> 
-                    </div>
-
-                    <div class="min-h-[300px] text-white w-full">
-                        <div class="mx-auto w-full  lg:py-10">
-                            <div class="card">
-                                <Carousel :value="products" :numVisible="6" :numScroll="6" :responsiveOptions="responsiveOptions">
-                                    <template #item="slotProps">
-                                        <div class="m-2 px-10  lg:w-[22rem] lg:h-[330px] bg-[#886BFF]">
-                                            <div>
-                                                <img class="w-[50px] py-5" :src= slotProps.data.image alt />
-                                                <h4 class="mb-3 font-black-custom">{{ slotProps.data.name }}</h4>
-                                                <h6 class="mt-0 mb-3">{{ slotProps.data.description }}</h6>
-                                            </div>
-                                        </div>  
-                                    </template>
-                                </Carousel> 
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="min-h-[350px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class=""> 
-                    <div class="min-h-[300px] text-white w-full">
-                        <div class="mx-auto w-[70%]]  lg:py-10">
-                            <h1 class="lg:text-[30px] xxxs:text-[25px] text-[#20407c] mt-[2rem] ml-[4rem]">Appliances/Facilities</h1>
-                            <div class="card">
-                                <Carousel :value="getcorporateInvestor" :numVisible="6" :numScroll="6" :responsiveOptions="responsiveOptions">
-                                    <template #item="slotProps">
-                                        <div class="border-1surface-border border border-round m-2 text-center text-black m-2 bg-[#EDEDEE] lg:w-[21rem] lg:h-65  bg-slate-200">
-                                            <div>
-                                                <img :src= slotProps.data.image alt />
-                                                <!-- <h4 class="mb-3 font-black-custom text-[#20407C]">{{ slotProps.data.name }}</h4>
-                                                <h6 class="mt-0 mb-3 text-[#1D1D33]">{{ slotProps.data.description }}</h6> -->
-                                            </div>
-                                        </div>
-                                        <div class="font-black-custom text-[20px] text-black ml-3">{{ slotProps.data.name }}</div>
-                                        <div class="font-regular-custom text-[18px] text-black ml-3">{{ slotProps.data.description }}</div>  
-                                    </template>
-                                </Carousel> 
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="lg:flex justify-center mx-auto max-w-[70%] my-16">
-            <div class="bg-sky-50 flex flex-col xl:w-[840px] justify-center px-[7rem] py-4" >
-                <h2 class="font-black-custom text-[24px] text-[#20407C]">Download brochure</h2>
-                <p class="my-4 font-regular-custom text-[18px]">
-                    Excerpt for the page goes in here like so lorem ipsum dolor sit amet,
-                    consectetur.
-                </p>
-                <button class="backgroundButton1  text-[16px]">Download</button>
-            </div>
-            <img class="w-[100%] lg:w-[50%]" src="../assets/broucher-card.png" alt="" />
-        </div>
-        
-        
-        <div class="flex justify-center">
-            <div class="bgColor1 text-white w-[70%] lg:p-16 xxs:p-8 m-10">
-            <span class="text-[42px] font-black-custom text-[#2a8cfb]">"</span>
-            <p class="font-light-custom text-[20px]">
-                Stef & Philips have been short quote goes here like so in this featured
-                element element lore ipsum short quote goes here like so in this
-                featured element element lore ipsum short quote goes here like so in
-                this.
-            </p>
-            <p class="mt-5 font-regular-custom text-[18px]">Name here</p>
-            <p class="font-black-custom text-[18px]">Title here</p>
-            </div>
-        </div>
-
-  
-        <div class="min-h-[500px]  w-full ">
-            <div class="mx-auto w-[70%] ">
-                <div class="lg:py-16 xxxs:py-10">           
-                    <div class="flex">
-                        <div class="lg:w-[50%] pt-10 mt-[5rem]">
-                            <h1 class="px-8 text-[32px]  lg:font-[400] xxxs:font-[200] text-trisec text-ellipsis leading-[40px]">
-                                <span class="font-light-custom text-[36px]">Working towards a<br>world</span>
-                                <span class="font-black-custom text-[36px]"> without<br>homelessness</span>
-                            </h1>
-                            <p class="text-[18px] font-regular-custom mt-4 px-5 pr-[8rem]">
-                                At Stef & Philips, we strive to make the lives of vulnerable people safer and more secure. We do this by delivering safe, suitable homes and vital services for tenants, authorities and partners, while providing secure investments for private and corporate investors.
-                            </p>
-                            <button type="button" class="bg-[#20407C] h-[50x] w-[170px] py-4 px-14 ml-5 text-[15px] mt-5 text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
-                                About us
-                            </button>
-                        </div>
-                        <div class="lg:w-[50%] flex-auto">
-                            <img src="../assets/corporate-right-img.png" alt />
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="w-full flex justify-center mx-auto py-20 bg-[#ededee]">
-            <div class="w-[70%]">
-            <h1   class="text-[30px] text-[#20407c] font-black-custom pb-10">Corporate investors FAQs</h1>
-            <Accordion :activeIndex="2" >
-                <AccordionTab header="Frequently asked question goes here?" class="font-black-custom text-[18px] text-[#20407c]" color="white">
-                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
-                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                    </p>
-                </AccordionTab>
-                <AccordionTab header="Frequently asked question goes here?" class="font-black-custom text-[18px] text-[#20407c]">
-                <p class="text-[18px] font-regular-custom text-[#1d1d33]">
-                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                    </p>
-                </AccordionTab>
-                <AccordionTab header="Frequently asked question goes here?" class="font-black-custom text-[18px] text-[#20407c]">
-                    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
-                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                    </p>
-                    <p class="text-[18px] font-black-custom text-[#2a8cfb] py-8">Link call to action</p>
-                </AccordionTab>
-                <AccordionTab header="Frequently asked question goes here?" class="font-black-custom text-[18px] text-[#20407c]">
-                    <p class="text-[18px] font-regular-custom text-[#1d1d33]">
-                    Paragraph style fusce laoreet lorem id consequat rhoncus. Curabitur ultrices condimentum enim, id fringilla libero rutrum vel. Sed efficitur risus eu imperdiet auctor. Mauris non dapibus odio. Quisque mauris nisi, cursus id dictum id, laoreet quis libero.
-                    </p> 
-                </AccordionTab>
-            </Accordion>
-            </div>
-        </div>
-        
-        <InvestorSelectOneCard /> 
-  
+  <div class>
+    <div class="h-[40px] w-full bg-[#707070] bl flex justify-center nav-bar-tranparent">
+        <nav class="container flex items-center justify-start gap-3 inner ">
+            <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="home">Home</router-link></div>
+            <i class="pi pi-angle-right text-white"></i>
+            <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="investors">Investors</router-link>
+            </div> 
+            <i class="pi pi-angle-right text-white"></i>
+            <div exact-active-class="exact-active" class="text-white font-semibold text-sm font-bold-custom text-[14px]">
+                <router-link to="corporate-investors">Corporate Investors</router-link>
+            </div> 
+        </nav>
     </div>
+
+    <!-- section 1 -->
+    <div class="w-full min-h-[500px] mb-[50px]">
+      <PageBanner/>
+    </div>
+
+    <div class="container py-[50px]">
+      <SectionContentImage direction="image-last"/>
+    </div>
+
+    <div class="mt-[80px]">
+      <WhyInvest /> 
+    </div>
+
+    <ImpactSection />
+
+    <div class="bg-[#1D1D33]">
+      <div class="container pt-[125px] pb-[80px]">
+        <h1 class="text-[36px] font-light-custom text-white leading-[40px]">
+          <span class="font-black-custom">Our full-service solution</span> 
+        </h1>
+        <div class="grid md:grid-cols-2 gap-[24px] text-white text-[18px] mt-[24px]">
+          <p>
+            We are the only company with an end-to-end, full-service offering. This includes sourcing, constructing/renovating, managing and maintaining each property, all overseen by our dedicated in-house teams.
+          </p>
+          <p>
+            Our unique approach gives investors security and peace of mind that their capital investments and yields are protected, and the reassurance that Stef & Philips’ high standards of quality and social responsibility will be managed, monitored and always delivered.
+          </p>
+        </div>
+        <div class="card generic-slider mt-[35px]">
+          <Carousel :value="products" :numVisible="2" :numScroll="2" :responsiveOptions="responsiveOptions">
+            <template #item="slotProps">
+                <div class="m-2 p-[30px] bg-white h-full">
+                    <div class="text-[#20407C]">
+                        <img class="w-[50px] py-5" :src= slotProps.data.image alt />
+                        <h4 class="font-black-custom mb-[10px] text-[20px]">{{ slotProps.data.name }}</h4>
+                        <h6 class="mt-0 text-[18px]">{{ slotProps.data.description }}</h6>
+                    </div>
+                </div>  
+            </template>
+          </Carousel> 
+        </div> 
+      </div>
+    </div>
+
+    <div class="py-[100px]">
+      <div class="container">
+        <h1 class="text-[36px] font-light-custom text-[#20407c]">
+          Appliances/Facilities
+        </h1>
+        <div class="card generic-slider carousel-btn-colored mt-[28px]">
+          <Carousel :value="getcorporateInvestor" :numVisible="2" :numScroll="2" :responsiveOptions="responsiveOptions">
+            <template #item="slotProps">
+              <div class="border-1surface-border border border-round m-2 text-center text-black m-2 bg-[#EDEDEE] bg-slate-200">
+                <div>
+                  <img :src= slotProps.data.image alt />
+                </div>
+              </div>
+              <div class="font-black-custom text-[20px] text-[#1D1D33] ml-3">{{ slotProps.data.name }}</div>
+              <div class="font-regular-custom text-[18px] text-black ml-3">{{ slotProps.data.description }}</div>  
+            </template>
+            
+          </Carousel> 
+        </div> 
+      </div>
+    </div>
+
+    <div class="my-16">
+      <div class="container">
+        <div class="grid md:grid-cols-2">
+          <div class="bg-sky-50 flex flex-col justify-center p-[50px]" >
+            <h2 class="font-black-custom text-[24px] text-[#20407C]">Download brochure</h2>
+            <p class="mt-[10px] font-regular-custom text-[18px]">
+              Excerpt for the page goes in here like so lorem ipsum dolor sit amet,
+              consectetur.
+            </p>
+            <button class="backgroundButton1 text-[16px] mt-[30px]">Download</button>
+          </div>
+          <div class="img-section">
+            <img class="w-full" src="../assets/broucher-card.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container mt-[75px] mb-[60px]">
+      <Quotes/>
+    </div>
+
+
+    <div class="container pb-[60px]">
+      <SectionContentImage direction="image-last"/>
+    </div>
+    
+    <div class="py-[100px] bg-[#ededee] mb-[100px]">
+      <Faq />
+    </div>
+    
+    <InvestorSelectOneCard /> 
+
+  </div>
   </template>
   
 <script setup>
@@ -323,6 +126,12 @@ import AccordionTab from 'primevue/accordiontab';
 import { useAppStore } from "../store/index"
 import { computed } from "vue"; 
 import InvestorSelectOneCard from '../components/InvestorSelectOneCard.vue'
+import PageBanner from '../components/PageBanner.vue'
+import SectionContentImage from '../components/SectionContentImage.vue'
+import WhyInvest from '../components/WhyInvest.vue'
+import ImpactSection from '../components/ImpactSection.vue'
+import Quotes from "../components/Quotes.vue";
+import Faq from "../components/Faq.vue";
 
 const hover = useAppStore();
     const state = computed(() => {

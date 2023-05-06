@@ -185,6 +185,28 @@ html {
   background: rgba(255,255,255,0.9) !important;
 }
 
+.carousel-btn-colored.generic-slider .p-carousel .p-carousel-container .p-link {
+  background: rgba(32,64,124,0.1) !important;
+  color: #20407C;
+}
+.carousel-btn-colored.generic-slider .p-carousel .p-carousel-container .p-link:hover {
+  background: rgba(32,64,124,0.5) !important;
+  color: #20407C;
+}
+
+.carousel-btn-colored.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator .p-link {
+  background: rgba(32,64,124,0.1) !important;
+}
+
+.carousel-btn-colored.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator .p-link:hover {
+  background: rgba(32,64,124,0.5) !important;
+}
+
+.carousel-btn-colored.generic-slider .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight .p-link {
+  background: #20407C !important;
+}
+
+
 .p-card {
   box-shadow: none;
 }
