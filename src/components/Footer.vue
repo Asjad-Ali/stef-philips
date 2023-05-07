@@ -14,9 +14,7 @@
                   v-for="item in navigation.solutions"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-regular leading-5">{{
-                    item.name
-                  }}</a>
+                  <a :href="item.href" class="font-bold-custom leading-5 hover:text-[#BBBBC2] transition-colors">{{item.name}}</a>
                 </li>
               </ul>
             </div>
@@ -30,9 +28,7 @@
                   v-for="item in navigation.support"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-regular leading-5">{{
-                    item.name
-                  }}</a>
+                  <a :href="item.href" class="font-bold-custom leading-5 transition-colors hover:text-[#BBBBC2]">{{item.name}}</a>
                 </li>
               </ul>
             </div>
@@ -45,9 +41,7 @@
                   v-for="item in navigation.legal"
                   :key="item.name"
                 >
-                  <a :href="item.href" class="font-regular leading-5">{{
-                    item.name
-                  }}</a>
+                  <a :href="item.href" class="font-bold-custom leading-5 hover:text-[#BBBBC2] transition-colors">{{item.name}}</a>
                 </li>
               </ul>
             </div>
@@ -55,14 +49,14 @@
         </div>
       </div>
       <div
-        class="mt-3 border-t border-white/10 pt-4 md:flex md:items-center md:justify-between"
+        class="mt-[36px] border-t border-white/10 pt-[20px] md:flex md:items-center md:justify-between"
       >
         <div class="flex space-x-4 md:order-2 mt-6">
           <a
             v-for="item in navigation.social"
             :key="item.name"
             :href="item.href"
-            class="text-gray-500 hover:text-gray-400"
+            class="text-gray-500 hover:text-[#BBBBC2]"
           >
             <span class="sr-only">{{ item.name }}</span>
             <!-- <component :is="item.icon" class="h-6 w-6 " aria-hidden="true" /> -->
@@ -70,7 +64,7 @@
           </a>
         </div>
         <div
-          class="flex items-center gap-4 flex-wrap md:top-0 mt-6 font-regular-custom text-[13px]"
+          class="flex items-center gap-4 flex-wrap md:top-0 mt-6 font-regular-custom-custom text-[13px]"
         >
           <a href="#" class="text-[13px] text-white whitespace-nowrap"
             >Privacy policy</a

@@ -234,7 +234,7 @@ const peopleM = [
     width: "w-auto",
     button_url: "",
     color: "bg-sky-50",
-    buttonPadding:"pb-[2rem]"
+    buttonPadding:""
   },
   {
     name: "News",
@@ -246,10 +246,10 @@ const peopleM = [
     btnName: "Report an issue",
     button_url: "/news",
     height: "h-auto",
-width: "w-auto",
-button_url: "",
-color: "bg-sky-50",
-buttonPadding:"pb-[2rem]"
+    width: "w-auto",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding:""
 
   },
   {
@@ -262,10 +262,10 @@ buttonPadding:"pb-[2rem]"
     btnName: "Report now",
     button_url: "/faqs",
     height: "h-auto",
-width: "w-auto",
-button_url: "",
-color: "bg-sky-50",
-buttonPadding:"pb-[2rem]"
+    width: "w-auto",
+    button_url: "",
+    color: "bg-sky-50",
+    buttonPadding:""
 
   }
   // More people...
