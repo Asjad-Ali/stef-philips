@@ -1,4 +1,5 @@
 <template>
+  <loader v-if="store.loader" />
   <div class>
     <div class="h-[40px] w-full bl flex justify-center nav-bar-tranparent">
       <nav class="container flex items-center justify-start gap-3 inner">
@@ -27,26 +28,28 @@
       </nav>
     </div>
 
-    <!-- section 1 -->
-    <div class="w-full min-h-[600px] mb-[30px]">
-      <PageBanner />
-    </div>
-
-    <div class="container py-[70px]">
-      <SectionContentImage/>
-    </div>
-
-    
-    <ArcContent/>
-
-    <div class="container py-[50px] md:pb-[100px]">
-      <SectionContentImage direction="image-last"/>
-    </div>
-
-    <ArcContent/>
-
-    <div class="container mt-[100px] mb-[200px]">
-      <Testimonial />
+    <div v-if="Object.keys(store.temporary_accommodations).length">      
+      <!-- section 1 -->
+      <div class="w-full min-h-[600px] mb-[30px]">
+        <PageBanner :Banner="store.temporary_accommodations" />
+      </div>
+  
+      <div class="container py-[70px]">
+        <SectionContentImage/>
+      </div>
+  
+      
+      <!-- <ArcContent/> -->
+  
+      <div class="container py-[50px] md:pb-[100px]">
+        <SectionContentImage direction="image-last"/>
+      </div>
+  
+      <!-- <ArcContent/> -->
+  
+      <div class="container mt-[100px] mb-[200px]">
+        <Testimonial />
+      </div>
     </div>
 
     <PartnerUs/>
@@ -54,21 +57,19 @@
 </template>
 
 <script setup>
-import Cards from "../components/Cards.vue";
-import { Icon } from "@iconify/vue";
 import { useAppStore } from "../store/index";
-import { computed } from "vue";
-import NeedHelp from "../components/NeedHelp.vue";
-import BackgroundSVG from "../assets/Background-1.svg";
+import { computed, onMounted } from "vue";
 import PageBanner from "../components/PageBanner.vue";
 import SectionContentImage from "../components/SectionContentImage.vue";
 import ArcContent from "../components/ArcContent.vue";
 import Testimonial from "../components/Testimonial.vue";
 import PartnerUs from "../components/PartnerUs.vue";
-const hover = useAppStore();
-const state = computed(() => {
-  return hover.hover;
-});
+import loader from "../components/loader.vue";
+
+
+const store = useAppStore();
+
+
 const people = [
   {
     name: "Help in your home",
@@ -124,6 +125,12 @@ const peopleM = [
   },
   // More people...
 ];
+
+onMounted(() => {  
+  if(!Object.keys(store.temporary_accommodations).length)
+    store.temporaryAccommodations()
+})
+
 </script>
 
 <style scoped>

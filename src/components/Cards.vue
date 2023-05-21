@@ -1,15 +1,14 @@
 <template>
 
 
-  <div v-for="person in props.message" :key="person.name"  :class="[person.height, person.width, person.color]" class="bg-[#F0F7FE]">
+  <div v-for="Card in props.Cards" :key="Card"  :class="[person.height, person.width, person.color]" class="bg-[#F0F7FE]">
     <div class="card-img h-[170px]">
-      <img class="h-full w-full object-cover" :src="person.imageUrl" alt />
+      <img class="h-full w-full object-cover" :src="Card.attributes.image.data.attributes.url" alt />
     </div>
     <div class="flex flex-col justify-between min-h-[288px] p-[30px]">
       <div class="pb-[30px]">
-        <h3 class=" mt-0 text-[18px] font-black-custom text-left text-[#20407C]" >{{ person.name }}</h3>
-        <p class="text-[18px] font-regular-custom  text-[#1D1D33] text-left mt-2">{{ person.role }}</p>
-      
+        <h3 class=" mt-0 text-[18px] font-black-custom text-left text-[#20407C]" >{{ Card.attributes.title }}</h3>
+        <p class="text-[18px] font-regular-custom  text-[#1D1D33] text-left mt-2">{{ Card.attributes.description }}</p>
       </div>
       <div class="text-left" :class="person.buttonPadding">
         <button type="button" class="bg-[#2A8CFB] flex justify-center align-center items-center gap-2 h-[50px] w-[164px] text-[16px} text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
@@ -68,10 +67,15 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
- const props = defineProps(["message"]);
- 
- onMounted(() => {
-    console.log(props)
-  });
+const props = defineProps(["Cards"]);
+const person = {
+    name: "Our projects",
+    role: "Short description excerpt here",
+    imageUrl: new URL("../assets/projects.png", import.meta.url).href,
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    btnIcon: "",
+    button_url: "",
+    btnName: "Find out more",
+  }
 </script>

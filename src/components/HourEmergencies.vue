@@ -3,12 +3,11 @@
     <div class="bg-help">
       <div class="card-background py-[30px]">
         <h1 class="block mb-[18px] font-light-custom lg:text-[36px] xxxs:text-[30px] font-light text-[#EC254E]">
-          Out of hours
-          <span class="font-black-custom lg:text-[36px] xxs:text-[30px]">emergencies</span>
+          {{ props.data.title }}
+          <!-- <span class="font-black-custom lg:text-[36px] xxs:text-[30px]">emergencies</span> -->
         </h1>
         <p class="pb-4 lg:text-[18px] xxxs:text-[16px] font-regular-custom text-[#1D1D33]">
-          If you are experiencing an emergency during out of hours (Weekends, Bank Holidays and between 6pm-7am daily) and need assistance - 
-          the quickest way to report and issue and get it fixed, is by using our <router-link to="/">online form</router-link> here
+          {{ props.data.description }} <router-link to="/">online form</router-link> here
         </p>
 
         <div class="flex flex-wrap md:gap-5 xxs:gap-1 pt-4 pb-4">
@@ -29,6 +28,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+const props = defineProps(["data"]);
+
+</script>
+
 <style scoped>
   .bg-help {
     background: url("../assets/emergencies.png") no-repeat;
